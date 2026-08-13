@@ -1,0 +1,349 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - link "MB PYRAMID MagicBox Next" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: MB
+        - generic [ref=e6]:
+          - generic [ref=e7]: PYRAMID
+          - generic [ref=e8]: MagicBox Next
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /
+      - group [ref=e10]:
+        - generic "Staffing & Recruitment" [ref=e11] [cursor=pointer]
+        - link "Start Pre-Placement" [ref=e12] [cursor=pointer]:
+          - /url: /ui/onboarding/start
+        - link "Onboarding Dashboard" [ref=e13] [cursor=pointer]:
+          - /url: /ui/onboarding/dashboard
+        - link "Change Requests stub" [ref=e14] [cursor=pointer]:
+          - /url: /ui/onboarding/change-requests
+        - link "Placement List stub" [ref=e15] [cursor=pointer]:
+          - /url: /ui/onboarding/placements
+        - link "Approval Queue stub" [ref=e16] [cursor=pointer]:
+          - /url: /ui/onboarding/approvals
+        - link "HR Onboarding Queue stub" [ref=e17] [cursor=pointer]:
+          - /url: /ui/onboarding/hr-queue
+        - link "Requisitions stub" [ref=e18] [cursor=pointer]:
+          - /url: /ui/recruiting/requisitions
+        - link "Candidate Pipeline stub" [ref=e19] [cursor=pointer]:
+          - /url: /ui/recruiting/pipeline
+      - group [ref=e20]:
+        - generic "Sales & CRM" [ref=e21] [cursor=pointer]
+      - group [ref=e22]:
+        - generic "Finance & Payroll" [ref=e23] [cursor=pointer]
+      - group [ref=e24]:
+        - generic "Employee & HR" [ref=e25] [cursor=pointer]
+      - group [ref=e26]:
+        - generic "Vendor & MSP" [ref=e27] [cursor=pointer]
+      - group [ref=e28]:
+        - generic "External Access" [ref=e29] [cursor=pointer]
+      - group [ref=e30]:
+        - generic "Other generated screens" [ref=e31] [cursor=pointer]
+    - main [ref=e152]:
+      - link "Back to placements" [ref=e153] [cursor=pointer]:
+        - /url: /ui/onboarding/placements
+        - img [ref=e154]
+        - text: Back to placements
+      - heading "Pre-Placement Onboarding" [level=1] [ref=e156]
+      - paragraph [ref=e157]: Step 8 of 8
+      - heading "Review & Submit" [level=2] [ref=e726]
+      - generic [ref=e727]:
+        - paragraph [ref=e728]: Review the information collected across all steps. Submitting finalizes the pre-placement.
+        - generic [ref=e729]:
+          - generic [ref=e730]:
+            - term [ref=e731]: creation_mode
+            - definition [ref=e732]: jobdiva_sync
+          - generic [ref=e733]:
+            - term [ref=e734]: jd_id
+            - definition [ref=e735]: JD-10231
+          - generic [ref=e736]:
+            - term [ref=e737]: c_id
+            - definition [ref=e738]: C-88421
+          - generic [ref=e739]:
+            - term [ref=e740]: JobDiva Ref.
+            - definition [ref=e741]: JD-10231
+          - generic [ref=e742]:
+            - term [ref=e743]: Consultant First Name
+            - definition [ref=e744]: Priyas
+          - generic [ref=e745]:
+            - term [ref=e746]: Consultant Middle Name
+            - definition [ref=e747]: Si
+          - generic [ref=e748]:
+            - term [ref=e749]: Consultant Last Name
+            - definition [ref=e750]: Nairs
+          - generic [ref=e751]:
+            - term [ref=e752]: firstname
+            - definition [ref=e753]: Priya
+          - generic [ref=e754]:
+            - term [ref=e755]: mi
+            - definition [ref=e756]: S
+          - generic [ref=e757]:
+            - term [ref=e758]: lastname
+            - definition [ref=e759]: Nair
+          - generic [ref=e760]:
+            - term [ref=e761]: Email
+            - definition [ref=e762]: priya.nair@example.com
+          - generic [ref=e763]:
+            - term [ref=e764]: Confirm Email
+            - definition [ref=e765]: priya.nair@example.com
+          - generic [ref=e766]:
+            - term [ref=e767]: Contact Phone Number
+            - definition [ref=e768]: "5464646465"
+          - generic [ref=e769]:
+            - term [ref=e770]: phone_c
+            - definition [ref=e771]: +91-98200-14253
+          - generic [ref=e772]:
+            - term [ref=e773]: country_id
+            - definition [ref=e774]: "2"
+          - generic [ref=e775]:
+            - term [ref=e776]: Country
+            - definition [ref=e777]: India
+          - generic [ref=e778]:
+            - term [ref=e779]: customer_id
+            - definition [ref=e780]: "10"
+          - generic [ref=e781]:
+            - term [ref=e782]: customer
+            - definition [ref=e783]: Acme Corp
+          - generic [ref=e784]:
+            - term [ref=e785]: Job Title
+            - definition [ref=e786]: "7322"
+          - generic [ref=e787]:
+            - term [ref=e788]: Work Authorization
+            - definition [ref=e789]: H-1B Transfer
+          - generic [ref=e790]:
+            - term [ref=e791]: primarySkill
+            - definition [ref=e792]: Java / Spring Boot
+          - generic [ref=e793]:
+            - term [ref=e794]: Start Date
+            - definition [ref=e795]: Jul 14, 2026
+          - generic [ref=e796]:
+            - term [ref=e797]: Division
+            - definition [ref=e798]: Celsior
+          - generic [ref=e799]:
+            - term [ref=e800]: Contract Type
+            - definition [ref=e801]: Corp-to-Corp (C2C)
+          - generic [ref=e802]:
+            - term [ref=e803]: Category
+            - definition [ref=e804]: Contract-to-Hire
+          - generic [ref=e805]:
+            - term [ref=e806]: Client Name
+            - definition [ref=e807]: "2"
+          - generic [ref=e808]:
+            - term [ref=e809]: End Client Name
+            - definition [ref=e810]: "2"
+          - generic [ref=e811]:
+            - term [ref=e812]: Consultant Address
+            - definition [ref=e813]: dwdww
+          - generic [ref=e814]:
+            - term [ref=e815]: City
+            - definition [ref=e816]: Banglore
+          - generic [ref=e817]:
+            - term [ref=e818]: Zip
+            - definition [ref=e819]: "560001"
+          - generic [ref=e820]:
+            - term [ref=e821]: Different Mailing Address
+            - definition [ref=e822]: "No"
+          - generic [ref=e823]:
+            - term [ref=e824]: Is Rehire
+            - definition [ref=e825]: "Yes"
+          - generic [ref=e826]:
+            - term [ref=e827]: Job Description
+            - definition [ref=e828]: vfddddf
+          - generic [ref=e829]:
+            - term [ref=e830]: SOW?
+            - definition [ref=e831]: "N"
+          - generic [ref=e832]:
+            - term [ref=e833]: Hours to be Worked
+            - definition [ref=e834]: "8"
+          - generic [ref=e835]:
+            - term [ref=e836]: Work State
+            - definition [ref=e837]: Karnataka
+          - generic [ref=e838]:
+            - term [ref=e839]: Candidate Source
+            - definition [ref=e840]: LinkedIn General
+          - generic [ref=e841]:
+            - term [ref=e842]: Resume
+            - definition [ref=e843]: "[object Object]"
+          - generic [ref=e844]:
+            - term [ref=e845]: Interview Prep Call Screenshot
+            - definition [ref=e846]: "[object Object]"
+          - generic [ref=e847]:
+            - term [ref=e848]: Skills and Experience
+            - definition [ref=e849]: MID
+          - generic [ref=e850]:
+            - term [ref=e851]: Years of Experience
+            - definition [ref=e852]: "5"
+          - generic [ref=e853]:
+            - term [ref=e854]: Experience
+            - definition [ref=e855]: JR
+          - generic [ref=e856]:
+            - term [ref=e857]: Skills
+            - definition [ref=e858]: tester, wdsd, vsvddx
+          - generic [ref=e859]:
+            - term [ref=e860]: Anticipated End Date
+            - definition [ref=e861]: Dec 31, 2026
+          - generic [ref=e862]:
+            - term [ref=e863]: Project Address Line 1
+            - definition [ref=e864]: dssdfd
+          - generic [ref=e865]:
+            - term [ref=e866]: Project City
+            - definition [ref=e867]: Delhi
+          - generic [ref=e868]:
+            - term [ref=e869]: Project Zip
+            - definition [ref=e870]: fdsfdsffdfd
+          - generic [ref=e871]:
+            - term [ref=e872]: Work from Home
+            - definition [ref=e873]: "Yes"
+          - generic [ref=e874]:
+            - term [ref=e875]: Federal ID Number
+            - definition [ref=e876]: dsffdssfsf
+          - generic [ref=e877]:
+            - term [ref=e878]: Rate Type
+            - definition [ref=e879]: "10"
+          - generic [ref=e880]:
+            - term [ref=e881]: Job Category
+            - definition [ref=e882]: "2"
+          - generic [ref=e883]:
+            - term [ref=e884]: Pass-Thru/Payrolling
+            - definition [ref=e885]: "Y"
+          - generic [ref=e886]:
+            - term [ref=e887]: Project Location
+            - definition [ref=e888]: HY
+          - generic [ref=e889]:
+            - term [ref=e890]: Project State
+            - definition [ref=e891]: Karnataka
+          - generic [ref=e892]:
+            - term [ref=e893]: Client Reporting Manager
+            - definition [ref=e894]: "12113"
+          - generic [ref=e895]:
+            - term [ref=e896]: Client Hiring Manager
+            - definition [ref=e897]: "12113"
+          - generic [ref=e898]:
+            - term [ref=e899]: Client Billing Manager
+            - definition [ref=e900]: "12113"
+          - generic [ref=e901]:
+            - term [ref=e902]: Branch (Primary)
+            - definition [ref=e903]: Atlanta Branch
+          - generic [ref=e904]:
+            - term [ref=e905]: Vertical (Primary)
+            - definition [ref=e906]: Banking, Financial Services & Insurance Delivery
+          - generic [ref=e907]:
+            - term [ref=e908]: Human Resource Associate (HRA)
+            - definition [ref=e909]: "8212"
+          - generic [ref=e910]:
+            - term [ref=e911]: Consultant Care Associate (CCA)
+            - definition [ref=e912]: "4104"
+          - generic [ref=e913]:
+            - term [ref=e914]: Recruiter — Role (Primary)
+            - definition [ref=e915]: "12113"
+          - generic [ref=e916]:
+            - term [ref=e917]: Recruiter — Role (Secondary)
+            - definition [ref=e918]: "12815"
+          - generic [ref=e919]:
+            - term [ref=e920]: STEP Recruiter — Role (Primary)
+            - definition [ref=e921]: "12113"
+          - generic [ref=e922]:
+            - term [ref=e923]: STEP Recruiter — Role (Secondary)
+            - definition [ref=e924]: "12113"
+          - generic [ref=e925]:
+            - term [ref=e926]: Delivery Manager — Role (Primary)
+            - definition [ref=e927]: "8920"
+          - generic [ref=e928]:
+            - term [ref=e929]: Delivery Manager — Role (Secondary)
+            - definition [ref=e930]: "8920"
+          - generic [ref=e931]:
+            - term [ref=e932]: Branch Delivery Manager — Role (Primary)
+            - definition [ref=e933]: "8920"
+          - generic [ref=e934]:
+            - term [ref=e935]: Branch Delivery Manager — Role (Secondary)
+            - definition [ref=e936]: "8920"
+          - generic [ref=e937]:
+            - term [ref=e938]: Resource Manager — Role (Primary)
+            - definition [ref=e939]: "13096"
+          - generic [ref=e940]:
+            - term [ref=e941]: Resource Manager — Employee (Primary)
+            - definition [ref=e942]: "6214"
+          - generic [ref=e943]:
+            - term [ref=e944]: Resource Manager — Role (Secondary)
+            - definition [ref=e945]: "13096"
+          - generic [ref=e946]:
+            - term [ref=e947]: Resource Manager — Employee (Secondary)
+            - definition [ref=e948]: "6214"
+          - generic [ref=e949]:
+            - term [ref=e950]: Account Delivery Manager — Role (Primary)
+            - definition [ref=e951]: "8920"
+          - generic [ref=e952]:
+            - term [ref=e953]: Account Delivery Manager — Role (Secondary)
+            - definition [ref=e954]: "8920"
+          - generic [ref=e955]:
+            - term [ref=e956]: Director Delivery — Role (Primary)
+            - definition [ref=e957]: "1848"
+          - generic [ref=e958]:
+            - term [ref=e959]: Director Delivery — Role (Secondary)
+            - definition [ref=e960]: "1848"
+          - generic [ref=e961]:
+            - term [ref=e962]: Primary Branch
+            - definition [ref=e963]: "11"
+          - generic [ref=e964]:
+            - term [ref=e965]: Operations Manager
+            - definition [ref=e966]: "11832"
+          - generic [ref=e967]:
+            - term [ref=e968]: Regional Sales Director
+            - definition [ref=e969]: "1848"
+          - generic [ref=e970]:
+            - term [ref=e971]: Primary Vertical
+            - definition [ref=e972]: "2"
+          - generic [ref=e973]:
+            - term [ref=e974]: Pay Rate Currency
+            - definition [ref=e975]: "75"
+          - generic [ref=e976]:
+            - term [ref=e977]: Pay Rate
+            - definition [ref=e978]: "75.00"
+          - generic [ref=e979]:
+            - term [ref=e980]: Pay Rate Unit
+            - definition [ref=e981]: "1"
+          - generic [ref=e982]:
+            - term [ref=e983]: Overtime Pay Rate
+            - definition [ref=e984]: "0"
+          - generic [ref=e985]:
+            - term [ref=e986]: Bill Rate
+            - definition [ref=e987]: "90.00"
+          - generic [ref=e988]:
+            - term [ref=e989]: Bill Rate Unit
+            - definition [ref=e990]: "1"
+          - generic [ref=e991]:
+            - term [ref=e992]: Overtime Billing Factor
+            - definition [ref=e993]: "1.5"
+          - generic [ref=e994]:
+            - term [ref=e995]: Bill Rate (Over Time)
+            - definition [ref=e996]: "135"
+          - generic [ref=e997]:
+            - term [ref=e998]: Overtime Eligibility
+            - definition [ref=e999]: "N"
+          - generic [ref=e1000]:
+            - term [ref=e1001]: HR Checklist · I-9 · Not Required
+            - definition [ref=e1002]: "No"
+          - generic [ref=e1003]:
+            - term [ref=e1004]: HR Checklist · E-Verify · Not Required
+            - definition [ref=e1005]: "No"
+          - generic [ref=e1006]:
+            - term [ref=e1007]: HR Checklist · Uploaded Documents in ADP · Not Required
+            - definition [ref=e1008]: "No"
+          - generic [ref=e1009]:
+            - term [ref=e1010]: HR Checklist · Background Check · Not Required
+            - definition [ref=e1011]: "No"
+          - generic [ref=e1012]:
+            - term [ref=e1013]: HR Checklist · Drug Test · Not Required
+            - definition [ref=e1014]: "No"
+          - generic [ref=e1015]:
+            - term [ref=e1016]: HR Checklist · Veriff Identity Verification · Required
+            - definition [ref=e1017]: "No"
+          - generic [ref=e1018]:
+            - term [ref=e1019]: Department
+            - definition [ref=e1020]: Administration
+        - paragraph [ref=e1021]: "Completed steps: entry, SCR-ONB-02, SCR-ONB-03, SCR-ONB-04, SCR-ONB-05, SCR-ONB-06, SCR-ONB-07, SCR-ONB-08"
+        - generic [ref=e1023]: Pre-placement submitted.
+      - generic [ref=e199]:
+        - button "Back" [ref=e200] [cursor=pointer]
+        - button "Submit" [ref=e1022] [cursor=pointer]
+  - alert [ref=e59]

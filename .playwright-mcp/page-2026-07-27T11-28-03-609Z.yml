@@ -1,0 +1,34 @@
+- generic [ref=e5]:
+  - generic [ref=e6]:
+    - img [ref=e7]
+    - generic [ref=e8]:
+      - text: Please click
+      - emphasis [ref=e9]:
+        - strong [ref=e10]:
+          - link "here" [ref=e11] [cursor=pointer]:
+            - /url: mailto:oms-pyramid@pyramidconsultinginc.com
+      - text: to send mail to support team @
+      - emphasis [ref=e12]:
+        - strong [ref=e13]:
+          - link "oms-pyramid@pyramidconsultinginc.com" [ref=e14] [cursor=pointer]:
+            - /url: mailto:oms-pyramid@pyramidconsultinginc.com
+  - generic [ref=e20]:
+    - generic [ref=e21]:
+      - textbox "User Id / Official Email Id" [ref=e23]: invalid_user@test.com
+      - textbox "Password" [ref=e25]
+      - generic [ref=e26]:
+        - button "Submit" [ref=e28] [cursor=pointer]
+        - button "Submit" [ref=e30] [cursor=pointer]
+      - generic [ref=e31]: "* User not found"
+    - table [ref=e32]:
+      - rowgroup [ref=e33]:
+        - row:
+          - cell:
+            - link:
+              - /url: javascript:popup_Register(1);
+        - row "Forgot Password" [ref=e34]:
+          - cell "Forgot Password" [ref=e35]:
+            - link "Forgot Password" [ref=e36] [cursor=pointer]:
+              - /url: javascript:popup_Forgetpassword(1);
+        - row:
+          - cell

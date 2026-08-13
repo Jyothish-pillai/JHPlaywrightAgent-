@@ -1,0 +1,111 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - link "MB PYRAMID MagicBox Next" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: MB
+        - generic [ref=e6]:
+          - generic [ref=e7]: PYRAMID
+          - generic [ref=e8]: MagicBox Next
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /
+      - group [ref=e10]:
+        - generic "Staffing & Recruitment" [ref=e11] [cursor=pointer]
+        - link "Onboarding Dashboard" [ref=e12] [cursor=pointer]:
+          - /url: /ui/onboarding/dashboard
+        - link "Start New Placement" [ref=e13] [cursor=pointer]:
+          - /url: /ui/onboarding/start
+        - link "Create Pre-Placements" [ref=e14] [cursor=pointer]:
+          - /url: /ui/onboarding/placement-new
+        - link "Change Requests stub" [ref=e15] [cursor=pointer]:
+          - /url: /ui/onboarding/change-requests
+        - link "Placement List stub" [ref=e16] [cursor=pointer]:
+          - /url: /ui/onboarding/placements
+        - link "Approval Queue stub" [ref=e17] [cursor=pointer]:
+          - /url: /ui/onboarding/approvals
+        - link "HR Onboarding Queue stub" [ref=e18] [cursor=pointer]:
+          - /url: /ui/onboarding/hr-queue
+        - link "Requisitions stub" [ref=e19] [cursor=pointer]:
+          - /url: /ui/recruiting/requisitions
+        - link "Candidate Pipeline stub" [ref=e20] [cursor=pointer]:
+          - /url: /ui/recruiting/pipeline
+      - group [ref=e21]:
+        - generic "Sales & CRM" [ref=e22] [cursor=pointer]
+      - group [ref=e23]:
+        - generic "Finance & Payroll" [ref=e24] [cursor=pointer]
+      - group [ref=e25]:
+        - generic "Employee & HR" [ref=e26] [cursor=pointer]
+      - group [ref=e27]:
+        - generic "Vendor & MSP" [ref=e28] [cursor=pointer]
+      - group [ref=e29]:
+        - generic "External Access" [ref=e30] [cursor=pointer]
+      - group [ref=e31]:
+        - generic "Other generated screens" [ref=e32] [cursor=pointer]
+    - main [ref=e146]:
+      - navigation [ref=e147]:
+        - link "Onboarding" [ref=e148] [cursor=pointer]:
+          - /url: /ui/onboarding/dashboard
+        - text: ·
+        - link "Start Pre-Placement" [ref=e149] [cursor=pointer]:
+          - /url: /ui/onboarding/start
+        - text: ·Wizard
+      - heading "Pre-Placement Onboarding" [level=1] [ref=e150]
+      - paragraph [ref=e151]: Step 3 of 8
+      - heading "Skills" [level=2] [ref=e259]
+      - 'button "Net GM Regular : ₹0.00 / hr (0.0%) indicative" [ref=e163] [cursor=pointer]':
+        - generic [ref=e164]: "Net GM Regular : ₹0.00 / hr (0.0%)"
+        - generic [ref=e165]:
+          - generic "No burden reference data matched this placement - margin is unburdened and reads high." [ref=e166]: indicative
+          - generic [ref=e167]: +
+      - generic [ref=e261]:
+        - generic [ref=e262]:
+          - generic [ref=e263]: Skills *
+          - generic [ref=e264]:
+            - generic [ref=e265]:
+              - combobox "Skill" [ref=e266]
+              - combobox [ref=e267]:
+                - option "Experience…" [selected]
+                - option "0-1 Years"
+                - option "1-2 Years"
+                - option "3-5 Years"
+                - option "6-9 Years"
+                - option "10 or above Years"
+              - button "Add skill" [disabled] [ref=e268]
+            - paragraph [ref=e269]: 0 added — at least 3 required
+        - generic [ref=e270]:
+          - text: Document (Upload)
+          - generic [ref=e272]:
+            - combobox [ref=e273]:
+              - option "Document type…" [selected]
+              - option "Addendum"
+              - option "Additional Document"
+              - option "Approval Document"
+              - option "Background Check"
+              - option "Bank Account Including Clabe Account And Swift Code"
+              - option "Birth Certificate"
+              - option "Certificate"
+              - option "CURP"
+              - option "Drug Test"
+              - option "Emergency Contacts"
+              - option "ID CARD"
+              - option "ID Verification"
+              - option "Ids"
+              - option "Interview Prep Call Screenshot"
+              - option "Onboard HTML"
+              - option "Onboard PDF"
+              - option "OT Approval Document"
+              - option "Others"
+              - option "Proof Of Address (3months)"
+              - option "Proof Of Studies Degree"
+              - option "Resume"
+              - option "SSN"
+              - option "TAX ID"
+              - option "Upload Video Call Screenshot"
+              - option "Vaccination Support Document"
+              - option "Vendor Rate Reduction Approval Document"
+            - button "Choose File" [ref=e274]
+            - button "Add document" [disabled] [ref=e275]
+      - generic [ref=e192]:
+        - button "Back" [ref=e193] [cursor=pointer]
+        - button "Save & Next" [ref=e194] [cursor=pointer]
+  - alert [ref=e60]

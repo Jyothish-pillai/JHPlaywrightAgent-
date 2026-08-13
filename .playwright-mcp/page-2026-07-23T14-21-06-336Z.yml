@@ -1,0 +1,124 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - link "MB PYRAMID MagicBox Next" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: MB
+        - generic [ref=e6]:
+          - generic [ref=e7]: PYRAMID
+          - generic [ref=e8]: MagicBox Next
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /
+      - group [ref=e10]:
+        - generic "Staffing & Recruitment" [ref=e11] [cursor=pointer]
+        - link "Onboarding Dashboard" [ref=e12] [cursor=pointer]:
+          - /url: /ui/onboarding/dashboard
+        - link "Start New Placement" [ref=e13] [cursor=pointer]:
+          - /url: /ui/onboarding/start
+        - link "Create Pre-Placements" [ref=e14] [cursor=pointer]:
+          - /url: /ui/onboarding/placement-new
+        - link "Change Requests stub" [ref=e15] [cursor=pointer]:
+          - /url: /ui/onboarding/change-requests
+        - link "Placement List stub" [ref=e16] [cursor=pointer]:
+          - /url: /ui/onboarding/placements
+        - link "Approval Queue stub" [ref=e17] [cursor=pointer]:
+          - /url: /ui/onboarding/approvals
+        - link "HR Onboarding Queue stub" [ref=e18] [cursor=pointer]:
+          - /url: /ui/onboarding/hr-queue
+        - link "Requisitions stub" [ref=e19] [cursor=pointer]:
+          - /url: /ui/recruiting/requisitions
+        - link "Candidate Pipeline stub" [ref=e20] [cursor=pointer]:
+          - /url: /ui/recruiting/pipeline
+      - group [ref=e21]:
+        - generic "Sales & CRM" [ref=e22] [cursor=pointer]
+      - group [ref=e23]:
+        - generic "Finance & Payroll" [ref=e24] [cursor=pointer]
+      - group [ref=e25]:
+        - generic "Employee & HR" [ref=e26] [cursor=pointer]
+      - group [ref=e27]:
+        - generic "Vendor & MSP" [ref=e28] [cursor=pointer]
+      - group [ref=e29]:
+        - generic "External Access" [ref=e30] [cursor=pointer]
+      - group [ref=e31]:
+        - generic "Other generated screens" [ref=e32] [cursor=pointer]
+    - main [ref=e61]:
+      - generic [ref=e62]:
+        - navigation [ref=e63]: Onboarding · Start Pre-Placement (JobDiva)
+        - heading "Start from JobDiva" [level=1] [ref=e64]
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - heading "JobDiva — contractors eligible for placement" [level=3] [ref=e69]:
+            - img [ref=e70]
+            - text: JobDiva — contractors eligible for placement
+          - paragraph [ref=e74]:
+            - text: Synced from JobDiva. Pick a contractor to start a pre-placement — their details (including
+            - strong [ref=e75]: country
+            - text: ", which drives the onboarding fields) pre-fill the wizard."
+        - table [ref=e78]:
+          - rowgroup [ref=e79]:
+            - row "Candidate Customer Title Offer Accepted Start Date Country Action" [ref=e80]:
+              - columnheader "Candidate" [ref=e81]
+              - columnheader "Customer" [ref=e82]
+              - columnheader "Title" [ref=e83]
+              - columnheader "Offer Accepted" [ref=e84]
+              - columnheader "Start Date" [ref=e85]
+              - columnheader "Country" [ref=e86]
+              - columnheader "Action" [ref=e87]
+          - rowgroup [ref=e88]:
+            - row "Priya S Nair JD-10231 · priya.nair@example.com Acme Corp Senior Java Developer Yes 06/01/2026 India" [ref=e144]:
+              - cell "Priya S Nair JD-10231 · priya.nair@example.com" [ref=e90]:
+                - generic [ref=e91]: Priya S Nair
+                - generic [ref=e92]: JD-10231 · priya.nair@example.com
+              - cell "Acme Corp" [ref=e93]
+              - cell "Senior Java Developer" [ref=e94]
+              - cell "Yes" [ref=e95]
+              - cell "06/01/2026" [ref=e96]
+              - cell "India" [ref=e97]
+              - cell [ref=e145]:
+                - button [disabled]:
+                  - img
+            - row "Marcus Reed JD-10477 · marcus.reed@example.com Globex DevOps Engineer Yes 06/01/2026 USA Start" [ref=e100]:
+              - cell "Marcus Reed JD-10477 · marcus.reed@example.com" [ref=e101]:
+                - generic [ref=e102]: Marcus Reed
+                - generic [ref=e103]: JD-10477 · marcus.reed@example.com
+              - cell "Globex" [ref=e104]
+              - cell "DevOps Engineer" [ref=e105]
+              - cell "Yes" [ref=e106]
+              - cell "06/01/2026" [ref=e107]
+              - cell "USA" [ref=e108]
+              - cell "Start" [ref=e109]:
+                - button "Start" [disabled]
+            - row "Olivia Tremblay JD-10512 · olivia.tremblay@example.com Initech Data Engineer Yes 06/01/2026 Canada Start" [ref=e111]:
+              - cell "Olivia Tremblay JD-10512 · olivia.tremblay@example.com" [ref=e112]:
+                - generic [ref=e113]: Olivia Tremblay
+                - generic [ref=e114]: JD-10512 · olivia.tremblay@example.com
+              - cell "Initech" [ref=e115]
+              - cell "Data Engineer" [ref=e116]
+              - cell "Yes" [ref=e117]
+              - cell "06/01/2026" [ref=e118]
+              - cell "Canada" [ref=e119]
+              - cell "Start" [ref=e120]:
+                - button "Start" [disabled]
+            - row "Mateo Alvarez JD-10588 · mateo.alvarez@example.com Hooli Cloud Architect Yes 06/01/2026 Mexico Start" [ref=e122]:
+              - cell "Mateo Alvarez JD-10588 · mateo.alvarez@example.com" [ref=e123]:
+                - generic [ref=e124]: Mateo Alvarez
+                - generic [ref=e125]: JD-10588 · mateo.alvarez@example.com
+              - cell "Hooli" [ref=e126]
+              - cell "Cloud Architect" [ref=e127]
+              - cell "Yes" [ref=e128]
+              - cell "06/01/2026" [ref=e129]
+              - cell "Mexico" [ref=e130]
+              - cell "Start" [ref=e131]:
+                - button "Start" [disabled]
+            - row "Valentina Rojas JD-10604 · valentina.rojas@example.com Acme Corp QA Lead Yes 06/01/2026 Costa Rica Start" [ref=e133]:
+              - cell "Valentina Rojas JD-10604 · valentina.rojas@example.com" [ref=e134]:
+                - generic [ref=e135]: Valentina Rojas
+                - generic [ref=e136]: JD-10604 · valentina.rojas@example.com
+              - cell "Acme Corp" [ref=e137]
+              - cell "QA Lead" [ref=e138]
+              - cell "Yes" [ref=e139]
+              - cell "06/01/2026" [ref=e140]
+              - cell "Costa Rica" [ref=e141]
+              - cell "Start" [ref=e142]:
+                - button "Start" [disabled]
+  - alert [ref=e60]

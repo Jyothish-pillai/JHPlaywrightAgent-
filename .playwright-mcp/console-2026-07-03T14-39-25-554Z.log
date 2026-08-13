@@ -1,0 +1,15 @@
+[    1198ms] [INFO] Connecting to 'wss://p47r3qkl5raepa5flsczs7khqq.appsync-realtime-api.eu-west-1.amazonaws.com/graphql?header=eyJob3N0IjoicDQ3cjNxa2w1cmFlcGE1ZmxzY3pzN2tocXEuYXBwc3luYy1hcGkuZXUtd2VzdC0xLmFtYXpvbmF3cy5jb20iLCJ4LWFwaS1rZXkiOiJkYTItYWFhbXp1NnRxbmV5M2tobHh1MjZvenJiMnEiLCJ4LWFtei1kYXRlIjoiMjAyNjA3MDNUMTQzOTI2NzQxWiJ9&payload=e30=' violates the following Content Security Policy directive: "default-src 'self' blob: https: data: mediastream: 'unsafe-eval' 'unsafe-inline'". Note that 'connect-src' was not explicitly set, so 'default-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://m.media-amazon.com/images/S/sash/GSV9V1kDrONssZN.js?name=vendors:38
+[    2029ms] [LOG] Amazon IVS Player SDK 1.19.0 @ https://player.live-video.net/1.19.0/amazon-ivs-wasmworker.min.js:1
+[    7480ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.amazon.in/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0:0
+[   40708ms] [WARNING] AbortFromContinueButtonClick @ https://m.media-amazon.com/images/I/71W-3FBdDbL.js?AUIClients/IdentityWebAuthnAssets:363
+[   40709ms] [ERROR] Unable to publish metrics Error: Expected field name to be a string, but it was a undefined
+    at c.default (https://m.media-amazon.com/images/I/71W-3FBdDbL.js?AUIClients/IdentityWebAuthnAssets:142:83)
+    at b.value (https://m.media-amazon.com/images/I/71W-3FBdDbL.js?AUIClients/IdentityWebAuthnAssets:162:216)
+    at b.value (https://m.media-amazon.com/images/I/71W-3FBdDbL.js?AUIClients/IdentityWebAuthnAssets:167:386)
+    at https://m.media-amazon.com/images/I/71W-3FBdDbL.js?AUIClients/IdentityWebAuthnAssets:135:303
+    at a.value (https://m.media-amazon.com/images/I/71W-3FBdDbL.js?AUIClients/IdentityWebAuthnAssets:134:161)
+    at a.value (https://m.media-amazon.com/images/I/71W-3FBdDbL.js?AUIClients/IdentityWebAuthnAssets:135:50)
+    at a.value (https://m.media-amazon.com/images/I/71W-3FBdDbL.js?AUIClients/IdentityWebAuthnAssets:138:169)
+    at a.value (https://m.media-amazon.com/images/I/71W-3FBdDbL.js?AUIClients/IdentityWebAuthnAssets:19:245)
+    at a.value (https://m.media-amazon.com/images/I/71W-3FBdDbL.js?AUIClients/IdentityWebAuthnAssets:441:232)
+    at a.value (https://m.media-amazon.com/images/I/71W-3FBdDbL.js?AUIClients/IdentityWebAuthnAssets:439:461) @ https://m.media-amazon.com/images/I/71W-3FBdDbL.js?AUIClients/IdentityWebAuthnAssets:15

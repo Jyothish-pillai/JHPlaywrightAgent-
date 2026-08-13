@@ -1,0 +1,90 @@
+- generic [ref=e2]:
+  - generic [ref=e67]:
+    - generic [ref=e70]:
+      - generic [ref=e72]:
+        - generic [ref=e74]:
+          - img [ref=e75]
+          - text: Store App
+        - list [ref=e81]:
+          - listitem [ref=e82]:
+            - link "Point of Sale 1" [ref=e227] [cursor=pointer]:
+              - /url: /
+              - img [ref=e84]
+              - generic [ref=e87]: Point of Sale
+              - generic [ref=e228]: "1"
+          - listitem [ref=e88]:
+            - link "Transactions" [ref=e89] [cursor=pointer]:
+              - /url: /transactions
+              - img [ref=e90]
+              - generic [ref=e93]: Transactions
+          - listitem [ref=e94]:
+            - link "Chaos Panel" [ref=e95] [cursor=pointer]:
+              - /url: /chaos
+              - img [ref=e96]
+              - generic [ref=e98]: Chaos Panel
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - generic [ref=e101]:
+            - img [ref=e102]
+            - generic [ref=e105]: "4444"
+          - generic [ref=e106]:
+            - img [ref=e107]
+            - generic [ref=e112]: STORE_101
+          - generic [ref=e113]:
+            - img [ref=e114]
+            - generic [ref=e116]: POS_01
+        - button "End Session" [ref=e117] [cursor=pointer]:
+          - img
+          - text: End Session
+    - generic [ref=e118]:
+      - banner [ref=e119]:
+        - button "Toggle Sidebar" [ref=e120] [cursor=pointer]:
+          - img
+          - generic [ref=e121]: Toggle Sidebar
+        - generic [ref=e123]: CID-1781863895861-WSJ7ZK
+      - main [ref=e124]:
+        - generic [ref=e264]:
+          - generic [ref=e265]:
+            - button [ref=e266] [cursor=pointer]:
+              - img
+            - generic [ref=e267]:
+              - heading "Payment" [level=2] [ref=e268]
+              - paragraph [ref=e269]: Select a payment method to complete
+          - generic [ref=e271]:
+            - generic [ref=e272]:
+              - generic [ref=e273]: Items
+              - generic [ref=e274]: 1 products
+            - generic [ref=e275]:
+              - generic [ref=e276]: Subtotal
+              - generic [ref=e277]: $12.99
+            - generic [ref=e278]:
+              - generic [ref=e279]: Tax (8.5%)
+              - generic [ref=e280]: $1.10
+            - generic [ref=e282]:
+              - generic [ref=e283]: Total Due
+              - generic [ref=e284]: $14.09
+          - generic [ref=e285]:
+            - generic [ref=e287] [cursor=pointer]:
+              - img [ref=e289]
+              - generic [ref=e291]:
+                - paragraph [ref=e292]: Credit / Debit Card
+                - paragraph [ref=e293]: Tap, insert, or swipe
+              - generic [ref=e294]: Selected
+            - generic [ref=e296] [cursor=pointer]:
+              - img [ref=e298]
+              - generic [ref=e301]:
+                - paragraph [ref=e302]: Digital Wallet
+                - paragraph [ref=e303]: Apple Pay, Google Pay
+            - generic [ref=e305] [cursor=pointer]:
+              - img [ref=e307]
+              - generic [ref=e310]:
+                - paragraph [ref=e311]: Cash
+                - paragraph [ref=e312]: Exact change preferred
+          - button "Submit Payment - $14.09" [ref=e313] [cursor=pointer]:
+            - img
+            - text: Submit Payment - $14.09
+          - generic [ref=e314]:
+            - generic [ref=e315]: "Store: STORE_101"
+            - generic [ref=e316]: "Terminal: POS_01"
+  - region "Notifications (F8)":
+    - list

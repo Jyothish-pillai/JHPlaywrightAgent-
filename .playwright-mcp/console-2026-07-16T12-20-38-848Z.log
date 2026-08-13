@@ -1,0 +1,4 @@
+[     710ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy No events to send to endpoint @ https://m.media-amazon.com/images/I/B1vOSXTLIBL.js:10
+[     734ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.amazon.in/HP-i5-1335U-Touchscreen-Processor-FQ2160TU/dp/B0CW7WHDXF/:0
+[     760ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy No events to send to endpoint @ https://m.media-amazon.com/images/I/B1vOSXTLIBL.js:10
+[     777ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy No events to send to endpoint @ https://m.media-amazon.com/images/I/B1vOSXTLIBL.js:10

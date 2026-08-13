@@ -1,0 +1,41 @@
+[     332ms] ReferenceError: _w is not defined
+    at https://www.bing.com/:4:3625
+[    2299ms] [ERROR] Permissions policy violation: unload is not allowed in this document. @ https://assets.msn.com/bundles/v1/bingHomepage/latest/microsoft.7745a211770b2836.js:1
+[    2299ms] [ERROR] Permissions policy violation: unload is not allowed in this document. @ https://assets.msn.com/bundles/v1/bingHomepage/latest/microsoft.7745a211770b2836.js:1
+[    2782ms] [ERROR] Mon Aug 03 2026 17:14:36 GMT+0530 (India Standard Time): 1785757476485 {"id":91005,"severity":0,"pb":{"build":"20260803.14","appType":"bingHomepage","pcsVersion":"20260730.4","pcsEnv":"prod","buildAlias":"latest","shouldDelayUntilLoadTime":false,"shouldSampleErrorsForTreatement1":false,"pcsMuid":"notfound","oneServiceMuid":"312b448587f160072bba532f86c961ad","pcsFlightBlobVersion":"53610559","oneServiceFlightBlobVersion":"53610559","oneServiceDebugId":"329218d5-dbbe-448b-837e-0221b1b16ba0|2026-08-03T11:44:36.3484647Z|fabric_msn|WUS2-A|News_764","w":1},"message":"Muid mismatch between PCS and 1S"} @ https://assets.msn.com/bundles/v1/bingHomepage/latest/common.47ab6270fc376c74.js:9706
+[    2785ms] [ERROR] Mon Aug 03 2026 17:14:36 GMT+0530 (India Standard Time): 1785757476488 {"id":91002,"severity":0,"pb":{"build":"20260803.14","appType":"bingHomepage","pcsVersion":"20260730.4","pcsEnv":"prod","buildAlias":"latest","shouldDelayUntilLoadTime":false,"shouldSampleErrorsForTreatement1":false,"missingIn1S":"prg-1sw-zonemid,prg-1sw-fnrcmetric,prg-1sw-gamecold50,prg-1sw-l1coldpop,prg-1sw-pop50,prg-1sw-rtscofe,prg-pr2-rm-boost,prg-ctr-pnpc,prg-1sw-samixv1-en-t,prg-sh-frnr,prg-1s-otel,prg-1sw-mtr-en,prg-1sw-artf1,prg-1sw-artrcnr,prg-pr2-lifecyclebac,prg-1sw-p2-txt3,prg-pr1-unpwxonly-c,prg-cg-game-exp-1,prg-pr2-climretry,prg-cg-vid-freq-inc,prg-sp-ai-ensum","missingInPCS":"prg-1sw-bref,prg-1sw-ntf-dedup,prg-1sw-ntf-dedup1,prg-1sw-ntf1-pdedup,prg-1sw-ntf2-pdedup,prg-1sw-ntf2-rdash,prg-1sw-ntp-dedup,prg-1sw-p2-txt3-c,prg-1sw-prong-dedup,prg-1sw-sagear4at1,prg-1sw-tv-c,prg-1sw-wpo-dedup,prg-ad-c-discmdq,prg-ad-ctanolen,prg-ad-title500,prg-cg-game-exp-3,prg-cg-notf-landing-t,prg-cg-notf-sub,prg-cg-notf-sub-btn,prg-e2e-compset,prg-pr1-unpwxonly,prg-pr2-grubondash,prg-pr2-hybrid,prg-pr2-lifecycleba,prg-pr2-limretry,prg-pr2-novidtel,prg-pr2-poclss,prg-pr2-rubifyrb,prg-pr2-rubondash,prg-pr2-spnohide2,prg-pr2-togglehybrid,prg-sh-frnrc,prg-sp-ai-ensum-c,prg-watch-ostream","commonProps":{"pcsMuid":"notfound","oneServiceMuid":"312b448587f160072bba532f86c961ad","pcsFlightBlobVersion":"53610559","oneServiceFlightBlobVersion":"53610559","oneServiceDebugId":"329218d5-dbbe-448b-837e-0221b1b16ba0|2026-08-03T11:44:36.3484647Z|fabric_msn|WUS2-A|News_764"},"w":1},"message":"Flight mismatch between PCS and 1S"} @ https://assets.msn.com/bundles/v1/bingHomepage/latest/common.47ab6270fc376c74.js:9706
+[    5064ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://www.bing.com/search?q=Latest+Android+version&form=QBLH&sp=-1&lq=0&pq=latest+android+version&sc=12-22&qs=n&sk=&cvid=389485B8C7A243F2B47DDA8520251792:8
+[    5065ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://www.bing.com/search?q=Latest+Android+version&form=QBLH&sp=-1&lq=0&pq=latest+android+version&sc=12-22&qs=n&sk=&cvid=389485B8C7A243F2B47DDA8520251792:8
+[    5065ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://www.bing.com/search?q=Latest+Android+version&form=QBLH&sp=-1&lq=0&pq=latest+android+version&sc=12-22&qs=n&sk=&cvid=389485B8C7A243F2B47DDA8520251792:8
+[    5065ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://www.bing.com/search?q=Latest+Android+version&form=QBLH&sp=-1&lq=0&pq=latest+android+version&sc=12-22&qs=n&sk=&cvid=389485B8C7A243F2B47DDA8520251792:8
+[    5065ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://www.bing.com/search?q=Latest+Android+version&form=QBLH&sp=-1&lq=0&pq=latest+android+version&sc=12-22&qs=n&sk=&cvid=389485B8C7A243F2B47DDA8520251792:8
+[    5088ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :392
+[    5088ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :397
+[    5088ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :392
+[    5088ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :397
+[    5088ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :392
+[    5088ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :397
+[    5089ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :392
+[    5089ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :397
+[    5089ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :392
+[    5089ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :397
+[    5089ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :392
+[    5089ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :397
+[    5090ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :392
+[    5090ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :397
+[    5090ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :392
+[    5090ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :397
+[    5090ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :392
+[    5091ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :397
+[    5091ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :392
+[    5091ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :397
+[    5091ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :392
+[    5091ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :397
+[    7764ms] [INFO] This document requires 'TrustedScript' assignment and no 'default' policy for 'TrustedScript' has been defined. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.googletagmanager.com/gtm.js?id=GTM-KZDPH9F:4
+[    7801ms] [INFO] This document requires 'TrustedScript' assignment and no 'default' policy for 'TrustedScript' has been defined. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.googletagmanager.com/gtm.js?id=GTM-KZDPH9F:4
+[    7802ms] [INFO] This document requires 'TrustedScript' assignment and no 'default' policy for 'TrustedScript' has been defined. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.googletagmanager.com/gtm.js?id=GTM-KZDPH9F:4
+[    7882ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://ad.doubleclick.net/ccm/s/collect?auid=837438715.1785757481&gtm=45He67t1v810972521za200zd810972521xea:0
+[    8421ms] [WARNING] [.WebGL-0x3e1400153c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ https://www.android.com/articles/android-16-features/:0
+[    8450ms] [WARNING] [.WebGL-0x3e1400153c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ https://www.android.com/articles/android-16-features/:0
+[    8477ms] [WARNING] [.WebGL-0x3e1400153c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ https://www.android.com/articles/android-16-features/:0
+[    8503ms] [WARNING] [.WebGL-0x3e1400153c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat) @ https://www.android.com/articles/android-16-features/:0

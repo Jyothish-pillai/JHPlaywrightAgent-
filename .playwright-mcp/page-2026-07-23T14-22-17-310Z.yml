@@ -1,0 +1,179 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - link "MB PYRAMID MagicBox Next" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: MB
+        - generic [ref=e6]:
+          - generic [ref=e7]: PYRAMID
+          - generic [ref=e8]: MagicBox Next
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /
+      - group [ref=e10]:
+        - generic "Staffing & Recruitment" [ref=e11] [cursor=pointer]
+        - link "Onboarding Dashboard" [ref=e12] [cursor=pointer]:
+          - /url: /ui/onboarding/dashboard
+        - link "Start New Placement" [ref=e13] [cursor=pointer]:
+          - /url: /ui/onboarding/start
+        - link "Create Pre-Placements" [ref=e14] [cursor=pointer]:
+          - /url: /ui/onboarding/placement-new
+        - link "Change Requests stub" [ref=e15] [cursor=pointer]:
+          - /url: /ui/onboarding/change-requests
+        - link "Placement List stub" [ref=e16] [cursor=pointer]:
+          - /url: /ui/onboarding/placements
+        - link "Approval Queue stub" [ref=e17] [cursor=pointer]:
+          - /url: /ui/onboarding/approvals
+        - link "HR Onboarding Queue stub" [ref=e18] [cursor=pointer]:
+          - /url: /ui/onboarding/hr-queue
+        - link "Requisitions stub" [ref=e19] [cursor=pointer]:
+          - /url: /ui/recruiting/requisitions
+        - link "Candidate Pipeline stub" [ref=e20] [cursor=pointer]:
+          - /url: /ui/recruiting/pipeline
+      - group [ref=e21]:
+        - generic "Sales & CRM" [ref=e22] [cursor=pointer]
+      - group [ref=e23]:
+        - generic "Finance & Payroll" [ref=e24] [cursor=pointer]
+      - group [ref=e25]:
+        - generic "Employee & HR" [ref=e26] [cursor=pointer]
+      - group [ref=e27]:
+        - generic "Vendor & MSP" [ref=e28] [cursor=pointer]
+      - group [ref=e29]:
+        - generic "External Access" [ref=e30] [cursor=pointer]
+      - group [ref=e31]:
+        - generic "Other generated screens" [ref=e32] [cursor=pointer]
+    - main [ref=e146]:
+      - navigation [ref=e147]:
+        - link "Onboarding" [ref=e148] [cursor=pointer]:
+          - /url: /ui/onboarding/dashboard
+        - text: ·
+        - link "Start Pre-Placement" [ref=e149] [cursor=pointer]:
+          - /url: /ui/onboarding/start
+        - text: ·Wizard
+      - heading "Pre-Placement Onboarding" [level=1] [ref=e150]
+      - paragraph [ref=e151]: Step 2 of 8
+      - heading "Consultant Information" [level=2] [ref=e205]
+      - 'button "Net GM Regular : ₹0.00 / hr (0.0%) indicative" [ref=e163] [cursor=pointer]':
+        - generic [ref=e164]: "Net GM Regular : ₹0.00 / hr (0.0%)"
+        - generic [ref=e165]:
+          - generic "No burden reference data matched this placement - margin is unburdened and reads high." [ref=e166]: indicative
+          - generic [ref=e167]: +
+      - generic [ref=e207]:
+        - generic [ref=e208]:
+          - generic [ref=e209]: Email *
+          - textbox "Email *" [ref=e210]: priya.nair@example.com
+        - generic [ref=e211]:
+          - generic [ref=e212]: Confirm Email *
+          - textbox "Confirm Email *" [ref=e213]: priya.nair@example.com
+        - generic [ref=e214]:
+          - generic [ref=e215]: Contact Phone Number *
+          - textbox "Contact Phone Number *" [ref=e216]: "9820014253"
+        - generic [ref=e217]:
+          - generic [ref=e218]:
+            - generic [ref=e219]: Consultant Address *
+            - textbox "Consultant Address *" [ref=e220]:
+              - /placeholder: Apartment, street, locality, city (do not include PO box address)
+          - generic [ref=e221]:
+            - text: Address Line 2
+            - textbox "Address Line 2" [ref=e222]:
+              - /placeholder: Do not include PO box address
+        - generic [ref=e223]:
+          - generic [ref=e224]: City *
+          - textbox "City *" [disabled] [ref=e225]
+        - generic [ref=e226]:
+          - generic [ref=e227]: State *
+          - combobox "State *" [ref=e228]:
+            - option "Select…" [disabled] [selected]
+        - generic [ref=e229]:
+          - generic [ref=e230]: Zip *
+          - textbox "Zip *" [disabled] [ref=e231]
+        - generic [ref=e232]:
+          - text: Different Mailing Address
+          - checkbox "Different Mailing Address" [ref=e233]
+        - generic [ref=e234]:
+          - generic [ref=e235]: Work Authorization *
+          - combobox "Work Authorization *" [ref=e236]:
+            - option "Select…" [disabled] [selected]
+        - generic [ref=e237]:
+          - generic [ref=e238]: SOW? *
+          - combobox "SOW? *" [ref=e239]:
+            - option "Select…" [disabled] [selected]
+        - generic [ref=e240]:
+          - generic [ref=e241]: Hours to be Worked *
+          - combobox "Hours to be Worked *" [ref=e242]:
+            - option "Select…" [disabled] [selected]
+            - option "30 or more"
+            - option "Less than 30"
+        - generic [ref=e243]:
+          - generic [ref=e244]: Candidate Source *
+          - combobox "Candidate Source *" [ref=e245]:
+            - option "Select…" [disabled] [selected]
+            - option "CareerBuilder Job Applicant"
+            - option "CareerBuilder Resume Database"
+            - option "Client Referral"
+            - option "Contractor Referral"
+            - option "Current Contractor/Employee Referral"
+            - option "Current Contractor/Employment terms updated"
+            - option "Dice Job Applicant"
+            - option "Dice Resume Database"
+            - option "Indeed Job Applicant"
+            - option "Indeed Resume Database"
+            - option "Jobfair/Event applicant"
+            - option "LinkedIn General"
+            - option "LinkedIn - General"
+            - option "LinkedIn - RPS"
+            - option "LinkedIn - Sales Navigator"
+            - option "LinkedIn â€“ General"
+            - option "LinkedIn-Job Applicant"
+            - option "Monster Canada Job Applicant"
+            - option "Monster Canada Resume Database"
+            - option "Monster Canada - Job Applicant"
+            - option "Monster Canada - Resume Database"
+            - option "Monster US Job Applicant"
+            - option "Monster US Resume Database"
+            - option "Monster US - Job Applicant"
+            - option "Monster US - Resume Database"
+            - option "Not Specified"
+            - option "OCC"
+            - option "Past Contractor Job Referral"
+            - option "Prior Contractor/Employee"
+            - option "Prior Contractor/Employee Referral"
+            - option "Pyramid Website Resume Upload"
+            - option "Pyramid Website - Job Applicant"
+            - option "Pyramid Website - Resume Upload"
+            - option "Simplyhired - Job Applicant"
+            - option "Simplyhired - Resume Database"
+            - option "Sologig (CB) Job Applicant"
+            - option "Sologig (CB) Resume Database"
+            - option "Sologig (CB) - Job Applicant"
+            - option "Sologig (CB) - Resume Database"
+            - option "TechFetch Job Applicant"
+            - option "TechFetch Resume Database"
+            - option "TechFetch - Job Applicant"
+            - option "TechFetch - Resume Database"
+            - option "Vivian"
+            - option "Workopolis Job Applicant"
+            - option "Workopolis Resume Database"
+            - option "Workopolis - Job Applicant"
+            - option "Workopolis - Resume Database"
+            - option "ZipRecruiter"
+        - generic [ref=e246]:
+          - generic [ref=e247]: Job Title *
+          - generic [ref=e248]:
+            - combobox "Job Title *" [ref=e249]:
+              - option "Select…" [disabled] [selected]
+            - button "+" [ref=e250] [cursor=pointer]
+        - generic [ref=e251]:
+          - text: JobDiva Ref.
+          - textbox "JobDiva Ref." [disabled] [ref=e252]:
+            - /placeholder: auto-populated
+            - text: JD-10231
+        - generic [ref=e253]:
+          - text: Is Rehire
+          - checkbox "Is Rehire" [ref=e254]
+        - generic [ref=e255]:
+          - generic [ref=e256]: Job Description *
+          - textbox "Job Description *" [ref=e257]
+      - generic [ref=e192]:
+        - button "Back" [ref=e193] [cursor=pointer]
+        - button "Save & Next" [ref=e194] [cursor=pointer]
+  - alert [ref=e60]

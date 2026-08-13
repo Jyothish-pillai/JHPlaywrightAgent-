@@ -1,0 +1,106 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - link "MB PYRAMID MagicBox Next" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: MB
+        - generic [ref=e6]:
+          - generic [ref=e7]: PYRAMID
+          - generic [ref=e8]: MagicBox Next
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /
+      - group [ref=e10]:
+        - generic "Staffing & Recruitment" [ref=e11] [cursor=pointer]
+        - link "Start Pre-Placement" [ref=e12] [cursor=pointer]:
+          - /url: /ui/onboarding/start
+        - link "Onboarding Dashboard" [ref=e13] [cursor=pointer]:
+          - /url: /ui/onboarding/dashboard
+        - link "Change Requests stub" [ref=e14] [cursor=pointer]:
+          - /url: /ui/onboarding/change-requests
+        - link "Placement List stub" [ref=e15] [cursor=pointer]:
+          - /url: /ui/onboarding/placements
+        - link "Approval Queue stub" [ref=e16] [cursor=pointer]:
+          - /url: /ui/onboarding/approvals
+        - link "HR Onboarding Queue stub" [ref=e17] [cursor=pointer]:
+          - /url: /ui/onboarding/hr-queue
+        - link "Requisitions stub" [ref=e18] [cursor=pointer]:
+          - /url: /ui/recruiting/requisitions
+        - link "Candidate Pipeline stub" [ref=e19] [cursor=pointer]:
+          - /url: /ui/recruiting/pipeline
+      - group [ref=e20]:
+        - generic "Sales & CRM" [ref=e21] [cursor=pointer]
+      - group [ref=e22]:
+        - generic "Finance & Payroll" [ref=e23] [cursor=pointer]
+      - group [ref=e24]:
+        - generic "Employee & HR" [ref=e25] [cursor=pointer]
+      - group [ref=e26]:
+        - generic "Vendor & MSP" [ref=e27] [cursor=pointer]
+      - group [ref=e28]:
+        - generic "External Access" [ref=e29] [cursor=pointer]
+      - group [ref=e30]:
+        - generic "Other generated screens" [ref=e31] [cursor=pointer]
+    - main [ref=e33]:
+      - heading "Pre-Placement Onboarding" [level=1] [ref=e34]
+      - paragraph [ref=e35]: Step 1 of 8 · Step 1
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - text: Country
+          - textbox "Country" [disabled] [ref=e49]:
+            - /placeholder: auto-populated
+        - generic [ref=e50]:
+          - generic [ref=e51]: Consultant First Name *
+          - textbox "Consultant First Name *" [ref=e52]: Priyas
+        - generic [ref=e53]:
+          - text: Consultant Middle Name
+          - textbox "Consultant Middle Name" [ref=e54]: Si
+        - generic [ref=e55]:
+          - generic [ref=e56]: Consultant Last Name *
+          - textbox "Consultant Last Name *" [ref=e57]: Nairs
+        - generic [ref=e58]:
+          - text: Suffix
+          - combobox "Suffix" [ref=e59]:
+            - option "Select…" [selected]
+            - option "II"
+            - option "III"
+            - option "IV"
+            - option "Jr."
+            - option "Sr."
+        - generic [ref=e60]:
+          - generic [ref=e61]: Division *
+          - combobox "Division *" [ref=e62]:
+            - option "Select…"
+            - option "Celsior" [selected]
+            - option "Corporate"
+            - option "GenSpark"
+            - option "Staffing"
+        - generic [ref=e63]:
+          - generic [ref=e64]: Contract Type *
+          - combobox "Contract Type *" [ref=e65]:
+            - option "Select…"
+            - option "1099 Contractor" [selected]
+            - option "Corp-to-Corp (C2C)"
+            - option "Independent Contractor"
+            - option "W2 - Hourly"
+        - generic [ref=e66]:
+          - generic [ref=e67]: Client Name *
+          - generic [ref=e68]:
+            - textbox "Client Name *" [active] [ref=e69]:
+              - /placeholder: Type to search…
+              - text: Aaron
+            - list [ref=e80]:
+              - listitem [ref=e82] [cursor=pointer]: Aaron's, Inc.
+        - generic [ref=e70]:
+          - text: End Client Name
+          - textbox "End Client Name" [ref=e72]:
+            - /placeholder: Type to search…
+        - generic [ref=e73]:
+          - generic [ref=e74]: Category *
+          - combobox "Category *" [ref=e75]:
+            - option "Select…" [selected]
+            - option "Contract"
+            - option "Contract-to-Hire"
+            - option "Direct Placement"
+      - generic [ref=e76]:
+        - button "Back" [disabled] [ref=e77]
+        - button "Save & Next" [ref=e78] [cursor=pointer]
+  - alert [ref=e79]

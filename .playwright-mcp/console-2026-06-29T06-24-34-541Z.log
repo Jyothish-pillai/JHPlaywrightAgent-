@@ -1,0 +1,2 @@
+[     401ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://pyramidcore.pyramidci.com/security/PCILoginNew.aspx:0
+[     966ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://pyramidcore.pyramidci.com/favicon.ico:0

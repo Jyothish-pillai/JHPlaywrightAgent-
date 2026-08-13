@@ -1,0 +1,84 @@
+- generic [ref=e2]:
+  - generic [ref=e67]:
+    - generic [ref=e70]:
+      - generic [ref=e72]:
+        - generic [ref=e74]:
+          - img [ref=e75]
+          - text: Store App
+        - list [ref=e81]:
+          - listitem [ref=e82]:
+            - link "Point of Sale 1" [ref=e227] [cursor=pointer]:
+              - /url: /
+              - img [ref=e84]
+              - generic [ref=e87]: Point of Sale
+              - generic [ref=e228]: "1"
+          - listitem [ref=e88]:
+            - link "Transactions" [ref=e89] [cursor=pointer]:
+              - /url: /transactions
+              - img [ref=e90]
+              - generic [ref=e93]: Transactions
+          - listitem [ref=e94]:
+            - link "Chaos Panel" [ref=e95] [cursor=pointer]:
+              - /url: /chaos
+              - img [ref=e96]
+              - generic [ref=e98]: Chaos Panel
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - generic [ref=e101]:
+            - img [ref=e102]
+            - generic [ref=e105]: "4444"
+          - generic [ref=e106]:
+            - img [ref=e107]
+            - generic [ref=e112]: STORE_101
+          - generic [ref=e113]:
+            - img [ref=e114]
+            - generic [ref=e116]: POS_01
+        - button "End Session" [ref=e117] [cursor=pointer]:
+          - img
+          - text: End Session
+    - generic [ref=e118]:
+      - banner [ref=e119]:
+        - button "Toggle Sidebar" [ref=e120] [cursor=pointer]:
+          - img
+          - generic [ref=e121]: Toggle Sidebar
+        - generic [ref=e123]: CID-1781864043670-H56HJ1
+      - main [ref=e124]:
+        - generic [ref=e318]:
+          - generic [ref=e319]:
+            - img [ref=e321]
+            - heading "Transaction Complete" [level=2] [ref=e324]
+            - paragraph [ref=e325]: Payment processed successfully
+          - generic [ref=e326]:
+            - generic [ref=e327]:
+              - generic [ref=e328]:
+                - img [ref=e329]
+                - text: Receipt
+              - generic [ref=e332]: AUTHORIZED
+            - generic [ref=e334]:
+              - generic [ref=e335]:
+                - generic [ref=e336]: Order ID
+                - generic [ref=e337]: d607aae3-eb47-4fd9-9195-3955339bf8ec
+              - generic [ref=e338]:
+                - generic [ref=e339]: Store
+                - generic [ref=e340]: STORE_101
+              - generic [ref=e341]:
+                - generic [ref=e342]: Terminal
+                - generic [ref=e343]: POS_01
+              - generic [ref=e344]:
+                - generic [ref=e345]: Cashier
+                - generic [ref=e346]: "4444"
+              - generic [ref=e347]:
+                - generic [ref=e348]: Payment Latency
+                - generic [ref=e349]: 213ms
+            - generic [ref=e352]:
+              - generic [ref=e353]: EverPure Sulfate-Free Shampoo x1
+              - generic [ref=e354]: $12.99
+            - generic [ref=e356]:
+              - generic [ref=e357]: Total
+              - generic [ref=e358]: $14.09
+            - paragraph [ref=e360]: "Correlation ID: CID-1781864043670-H56HJ1"
+          - button "New Transaction" [ref=e362] [cursor=pointer]:
+            - img
+            - text: New Transaction
+  - region "Notifications (F8)":
+    - list

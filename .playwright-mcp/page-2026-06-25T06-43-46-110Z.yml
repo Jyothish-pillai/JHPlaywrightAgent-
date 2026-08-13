@@ -1,0 +1,138 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - link "MB PYRAMID MagicBox Next" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: MB
+        - generic [ref=e6]:
+          - generic [ref=e7]: PYRAMID
+          - generic [ref=e8]: MagicBox Next
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /
+      - group [ref=e10]:
+        - generic "Staffing & Recruitment" [ref=e11] [cursor=pointer]
+        - link "Start Pre-Placement" [ref=e12] [cursor=pointer]:
+          - /url: /ui/onboarding/start
+        - link "Onboarding Dashboard" [ref=e13] [cursor=pointer]:
+          - /url: /ui/onboarding/dashboard
+        - link "Change Requests stub" [ref=e14] [cursor=pointer]:
+          - /url: /ui/onboarding/change-requests
+        - link "Placement List stub" [ref=e15] [cursor=pointer]:
+          - /url: /ui/onboarding/placements
+        - link "Approval Queue stub" [ref=e16] [cursor=pointer]:
+          - /url: /ui/onboarding/approvals
+        - link "HR Onboarding Queue stub" [ref=e17] [cursor=pointer]:
+          - /url: /ui/onboarding/hr-queue
+        - link "Requisitions stub" [ref=e18] [cursor=pointer]:
+          - /url: /ui/recruiting/requisitions
+        - link "Candidate Pipeline stub" [ref=e19] [cursor=pointer]:
+          - /url: /ui/recruiting/pipeline
+      - group [ref=e20]:
+        - generic "Sales & CRM" [ref=e21] [cursor=pointer]
+      - group [ref=e22]:
+        - generic "Finance & Payroll" [ref=e23] [cursor=pointer]
+      - group [ref=e24]:
+        - generic "Employee & HR" [ref=e25] [cursor=pointer]
+      - group [ref=e26]:
+        - generic "Vendor & MSP" [ref=e27] [cursor=pointer]
+      - group [ref=e28]:
+        - generic "External Access" [ref=e29] [cursor=pointer]
+      - group [ref=e30]:
+        - generic "Other generated screens" [ref=e31] [cursor=pointer]
+    - main [ref=e152]:
+      - link "Back to placements" [ref=e153] [cursor=pointer]:
+        - /url: /ui/onboarding/placements
+        - img [ref=e154]
+        - text: Back to placements
+      - heading "Pre-Placement Onboarding" [level=1] [ref=e156]
+      - paragraph [ref=e157]: Step 4 of 8
+      - heading "Project Details" [level=2] [ref=e295]
+      - generic [ref=e296]:
+        - generic [ref=e297]:
+          - generic [ref=e298]:
+            - generic [ref=e299]: Start Date *
+            - textbox "Start Date *" [ref=e300]: 2026-07-14
+          - generic [ref=e301]:
+            - generic [ref=e302]: Anticipated End Date *
+            - textbox "Anticipated End Date *" [ref=e303]: 2026-06-26
+          - generic [ref=e304]:
+            - text: Rate Type
+            - combobox "Rate Type" [ref=e305]:
+              - option "Select…"
+              - option "Callback Hours"
+              - option "Doubletime Hours" [selected]
+              - option "Holiday Hours"
+              - option "Hours"
+              - option "Leave Hours"
+              - option "OT Hours"
+              - option "Other Hours"
+              - option "Personal Hours"
+              - option "Sick Hours"
+              - option "Timeoff Hours"
+              - option "Vacation Hours"
+          - generic [ref=e306]:
+            - generic [ref=e307]: Job Category *
+            - combobox "Job Category *" [ref=e308]:
+              - option "Select…"
+              - option "Non-Tech" [selected]
+              - option "Tech"
+          - generic [ref=e309]:
+            - generic [ref=e310]: Client Reporting Manager *
+            - textbox "Client Reporting Manager *" [ref=e312]:
+              - /placeholder: Type to search…
+          - generic [ref=e313]:
+            - generic [ref=e314]: Client Hiring Manager *
+            - textbox "Client Hiring Manager *" [ref=e316]:
+              - /placeholder: Type to search…
+          - generic [ref=e317]:
+            - generic [ref=e318]: Client Billing Manager *
+            - textbox "Client Billing Manager *" [ref=e320]:
+              - /placeholder: Type to search…
+          - generic [ref=e321]:
+            - generic [ref=e322]: Pass-Thru/Payrolling *
+            - combobox "Pass-Thru/Payrolling *" [ref=e323]:
+              - option "Select…"
+              - option "No"
+              - option "Yes" [selected]
+          - generic [ref=e324]:
+            - text: Special Instructions
+            - textbox "Special Instructions" [ref=e325]
+          - generic [ref=e326]:
+            - generic [ref=e327]: Project Location *
+            - combobox "Project Location *" [ref=e328]:
+              - option "Select…"
+              - option "Hybrid" [selected]
+              - option "Onsite"
+              - option "Remote"
+          - generic [ref=e329]:
+            - generic [ref=e330]: Project Address Line 1 *
+            - textbox "Project Address Line 1 *" [ref=e331]: dssdfd
+          - generic [ref=e332]:
+            - text: Project Address Line 2
+            - textbox "Project Address Line 2" [ref=e333]
+          - generic [ref=e334]:
+            - generic [ref=e335]: Project City *
+            - textbox "Project City *" [ref=e336]: Delhi
+          - generic [ref=e337]:
+            - generic [ref=e338]: Project State *
+            - combobox "Project State *" [ref=e339]:
+              - option "Select…"
+              - option "Delhi"
+              - option "Karnataka" [selected]
+              - option "Maharashtra"
+              - option "Tamil Nadu"
+              - option "Telangana"
+          - generic [ref=e340]:
+            - generic [ref=e341]: Project Zip *
+            - textbox "Project Zip *" [ref=e342]: fdsfdsffdfd
+          - generic [ref=e343]:
+            - text: Work from Home
+            - checkbox "Work from Home" [checked] [ref=e344]
+          - generic [ref=e345]:
+            - generic [ref=e346]: Federal ID Number *
+            - textbox "Federal ID Number *" [ref=e347]: dsffdssfsf
+        - generic [ref=e348]: Client Reporting Manager is required; Client Hiring Manager is required; Client Billing Manager is required
+      - generic [ref=e199]:
+        - button "Back" [ref=e200] [cursor=pointer]
+        - button "Save & Next" [ref=e201] [cursor=pointer]
+  - alert [ref=e59]

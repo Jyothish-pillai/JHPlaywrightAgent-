@@ -1,0 +1,130 @@
+- generic [ref=e2]:
+  - generic [ref=e67]:
+    - generic [ref=e70]:
+      - generic [ref=e72]:
+        - generic [ref=e74]:
+          - img [ref=e75]
+          - text: Store App
+        - list [ref=e81]:
+          - listitem [ref=e82]:
+            - link "Point of Sale" [ref=e83] [cursor=pointer]:
+              - /url: /
+              - img [ref=e84]
+              - generic [ref=e87]: Point of Sale
+          - listitem [ref=e88]:
+            - link "Transactions" [ref=e89] [cursor=pointer]:
+              - /url: /transactions
+              - img [ref=e90]
+              - generic [ref=e93]: Transactions
+          - listitem [ref=e94]:
+            - link "Chaos Panel" [ref=e95] [cursor=pointer]:
+              - /url: /chaos
+              - img [ref=e96]
+              - generic [ref=e98]: Chaos Panel
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - generic [ref=e101]:
+            - img [ref=e102]
+            - generic [ref=e105]: "4444"
+          - generic [ref=e106]:
+            - img [ref=e107]
+            - generic [ref=e112]: STORE_101
+          - generic [ref=e113]:
+            - img [ref=e114]
+            - generic [ref=e116]: POS_01
+        - button "End Session" [ref=e117] [cursor=pointer]:
+          - img
+          - text: End Session
+    - generic [ref=e118]:
+      - banner [ref=e119]:
+        - button "Toggle Sidebar" [ref=e120] [cursor=pointer]:
+          - img
+          - generic [ref=e121]: Toggle Sidebar
+        - generic [ref=e123]: CID-1781863703419-GL13SU
+      - main [ref=e124]:
+        - generic [ref=e125]:
+          - generic [ref=e126]:
+            - generic [ref=e127]:
+              - generic [ref=e128]:
+                - img [ref=e129]
+                - textbox "Search products by name or SKU..." [ref=e132]
+              - generic [ref=e133]:
+                - button "All" [ref=e134] [cursor=pointer]
+                - button "Face" [ref=e135] [cursor=pointer]
+                - button "Skincare" [ref=e136] [cursor=pointer]
+                - button "Haircare" [ref=e137] [cursor=pointer]
+                - button "Eyes" [ref=e138] [cursor=pointer]
+                - button "Lips" [ref=e139] [cursor=pointer]
+                - button "Fragrance" [ref=e140] [cursor=pointer]
+            - generic [ref=e144]:
+              - generic [ref=e145] [cursor=pointer]:
+                - img "True Match Super-Blendable Foundation" [ref=e147]
+                - generic [ref=e148]:
+                  - paragraph [ref=e149]: True Match Super-Blendable Foundation
+                  - generic [ref=e150]:
+                    - generic [ref=e151]: Face
+                    - generic [ref=e152]: $15.99
+                  - paragraph [ref=e153]: "Stock: 90"
+              - generic [ref=e154] [cursor=pointer]:
+                - img "Age Perfect Cell Renewal Moisturizer" [ref=e156]
+                - generic [ref=e157]:
+                  - paragraph [ref=e158]: Age Perfect Cell Renewal Moisturizer
+                  - generic [ref=e159]:
+                    - generic [ref=e160]: Skincare
+                    - generic [ref=e161]: $42.50
+                  - paragraph [ref=e162]: "Stock: 46"
+              - generic [ref=e163] [cursor=pointer]:
+                - img "EverPure Sulfate-Free Shampoo" [ref=e165]
+                - generic [ref=e166]:
+                  - paragraph [ref=e167]: EverPure Sulfate-Free Shampoo
+                  - generic [ref=e168]:
+                    - generic [ref=e169]: Haircare
+                    - generic [ref=e170]: $12.99
+                  - paragraph [ref=e171]: "Stock: 168"
+              - generic [ref=e172] [cursor=pointer]:
+                - img "Revitalift Hyaluronic Acid Serum" [ref=e174]
+                - generic [ref=e175]:
+                  - paragraph [ref=e176]: Revitalift Hyaluronic Acid Serum
+                  - generic [ref=e177]:
+                    - generic [ref=e178]: Skincare
+                    - generic [ref=e179]: $34.99
+                  - paragraph [ref=e180]: "Stock: 79"
+              - generic [ref=e181] [cursor=pointer]:
+                - img "Colour Riche La Palette Eye Shadow" [ref=e183]
+                - generic [ref=e184]:
+                  - paragraph [ref=e185]: Colour Riche La Palette Eye Shadow
+                  - generic [ref=e186]:
+                    - generic [ref=e187]: Eyes
+                    - generic [ref=e188]: $19.99
+                  - paragraph [ref=e189]: "Stock: 91"
+              - generic [ref=e190] [cursor=pointer]:
+                - img "Color Riche Satin Lipstick - Rouge Signature" [ref=e192]
+                - generic [ref=e193]:
+                  - paragraph [ref=e194]: Color Riche Satin Lipstick - Rouge Signature
+                  - generic [ref=e195]:
+                    - generic [ref=e196]: Lips
+                    - generic [ref=e197]: $28.99
+                  - paragraph [ref=e198]: "Stock: 145"
+              - generic [ref=e199] [cursor=pointer]:
+                - img "Voluminous Lash Paradise Mascara" [ref=e201]
+                - generic [ref=e202]:
+                  - paragraph [ref=e203]: Voluminous Lash Paradise Mascara
+                  - generic [ref=e204]:
+                    - generic [ref=e205]: Eyes
+                    - generic [ref=e206]: $14.99
+                  - paragraph [ref=e207]: "Stock: 194"
+              - generic [ref=e208] [cursor=pointer]:
+                - img "La Vie Est Belle Eau de Parfum" [ref=e210]
+                - generic [ref=e211]:
+                  - paragraph [ref=e212]: La Vie Est Belle Eau de Parfum
+                  - generic [ref=e213]:
+                    - generic [ref=e214]: Fragrance
+                    - generic [ref=e215]: $89.99
+                  - paragraph [ref=e216]: "Stock: 41"
+          - generic [ref=e218]:
+            - img [ref=e220]
+            - generic [ref=e224]:
+              - paragraph [ref=e225]: Cart is empty
+              - paragraph [ref=e226]: Tap products to add them
+  - region "Notifications (F8)":
+    - list

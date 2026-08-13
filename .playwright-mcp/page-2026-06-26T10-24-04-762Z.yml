@@ -1,0 +1,907 @@
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=e8]:
+        - link "Shopping cart" [ref=e9] [cursor=pointer]:
+          - /url: "#sc-active-cart"
+          - text: Your Amazon Cart
+      - listitem [ref=e10]:
+        - link "Saved for later" [ref=e11] [cursor=pointer]:
+          - /url: "#sc-saved-cart-caption"
+          - text: Saved for Later
+      - listitem [ref=e12]:
+        - link "Buy it again" [ref=e13] [cursor=pointer]:
+          - /url: "#sc-buy-it-again-caption"
+          - text: Buy it Again
+    - separator [ref=e14]
+    - heading "Keyboard shortcuts" [level=2] [ref=e15]
+    - list "Keyboard shortcuts" [ref=e16]:
+      - listitem [ref=e17]:
+        - link "Search, alt, forward slash" [ref=e18] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e19]:
+            - generic [ref=e20]: Search
+            - generic [ref=e21]:
+              - generic [ref=e22]: alt
+              - generic [ref=e23]: +
+              - generic [ref=e24]: /
+      - listitem [ref=e25]:
+        - link "Cart, shift, alt, c" [ref=e26] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e27]:
+            - generic [ref=e28]: Cart
+            - generic [ref=e29]:
+              - generic [ref=e30]: shift
+              - generic [ref=e31]: +
+              - generic [ref=e32]: alt
+              - generic [ref=e33]: +
+              - generic [ref=e34]: C
+      - listitem [ref=e35]:
+        - link "Home, shift, alt, h" [ref=e36] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e37]:
+            - generic [ref=e38]: Home
+            - generic [ref=e39]:
+              - generic [ref=e40]: shift
+              - generic [ref=e41]: +
+              - generic [ref=e42]: alt
+              - generic [ref=e43]: +
+              - generic [ref=e44]: H
+      - listitem [ref=e45]:
+        - link "Your orders, shift, alt, o" [ref=e46] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e47]:
+            - generic [ref=e48]: Orders
+            - generic [ref=e49]:
+              - generic [ref=e50]: shift
+              - generic [ref=e51]: +
+              - generic [ref=e52]: alt
+              - generic [ref=e53]: +
+              - generic [ref=e54]: O
+      - listitem [ref=e55]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]:
+            - generic [ref=e58]: Show/Hide shortcuts
+            - generic [ref=e59]:
+              - generic [ref=e60]: shift
+              - generic [ref=e61]: +
+              - generic [ref=e62]: alt
+              - generic [ref=e63]: +
+              - generic [ref=e64]: Z
+    - generic [ref=e70]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e71]:
+    - navigation "Primary" [ref=e72]:
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - link "Amazon.in" [ref=e76] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Deliver to New Noida 201301‌" [ref=e79] [cursor=pointer]:
+            - generic [ref=e81]:
+              - generic [ref=e82]: Deliver to New
+              - generic [ref=e83]: Noida 201301‌
+        - search [ref=e86]:
+          - generic [ref=e89]:
+            - generic [ref=e91]: All
+            - combobox "Select the department you want to search in" [ref=e93] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh"
+              - option "Amazon Fresh Meat"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=e96]
+          - generic "Go" [ref=e99] [cursor=pointer]:
+            - button "Go" [ref=e100]
+        - generic [ref=e102]:
+          - generic [ref=e103]:
+            - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=e104] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e107]:
+                - img "India" [ref=e108]
+                - generic [ref=e109]: EN
+            - button "Expand to Change Language or Country" [ref=e110] [cursor=pointer]
+          - generic [ref=e111]:
+            - link "Hello, Celsior Account & Lists" [ref=e112] [cursor=pointer]:
+              - /url: https://www.amazon.in/gp/css/homepage.html?ref_=nav_youraccount_btn
+              - generic [ref=e114]: Hello, Celsior
+              - generic [ref=e115]: Account & Lists
+            - button "Expand Account and Lists" [ref=e116] [cursor=pointer]
+          - link "Returns & Orders" [ref=e117] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e118]: Returns
+            - generic [ref=e119]: "& Orders"
+          - link "1 item in cart" [ref=e120] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e122]: "1"
+            - generic [ref=e125]: Cart
+      - generic [ref=e126]:
+        - generic [ref=e127]:
+          - button "Open All Categories Menu" [ref=e128] [cursor=pointer]:
+            - generic [ref=e130]: All
+          - button "Open Rufus panel" [ref=e131] [cursor=pointer]:
+            - generic [ref=e133]: Rufus
+        - list [ref=e137]:
+          - listitem [ref=e138]:
+            - generic [ref=e139]:
+              - link "Fresh" [ref=e140] [cursor=pointer]:
+                - /url: /tez/browse?qcbrand=ctnow&ref_=nav_cs_grocery
+              - button "Fresh Details" [ref=e141] [cursor=pointer]
+          - listitem [ref=e142]:
+            - generic [ref=e143]:
+              - link "Prime" [ref=e144] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=e145] [cursor=pointer]
+          - listitem [ref=e146]:
+            - link "MX Player" [ref=e148] [cursor=pointer]:
+              - /url: /minitv?ref_=nav_avod_desktop_topnav
+          - listitem [ref=e149]:
+            - link "Sell" [ref=e151] [cursor=pointer]:
+              - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+          - listitem [ref=e152]:
+            - link "Gift Cards" [ref=e154] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=e155]:
+            - link "Amazon Pay" [ref=e157] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=e158]:
+            - link "Buy Again" [ref=e160] [cursor=pointer]:
+              - /url: /gp/buyagain?ie=UTF8&ref_=nav_cs_buy_again
+          - listitem [ref=e161]:
+            - link "Gift Ideas" [ref=e163] [cursor=pointer]:
+              - /url: /gcx/-/gfhz/?ref_=nav_cs_giftfinder
+          - listitem [ref=e164]:
+            - link "AmazonBasics" [ref=e166] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=e167]:
+            - link "Health, Household & Personal Care" [ref=e169] [cursor=pointer]:
+              - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+          - listitem [ref=e170]:
+            - link "Home Improvement" [ref=e172] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=e173]:
+            - link "Subscribe & Save" [ref=e175] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e176]:
+            - link "Audible" [ref=e178] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=e179]:
+            - link "Today's Deals" [ref=e181] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e182]:
+            - generic [ref=e183]:
+              - link "Browsing History" [ref=e184] [cursor=pointer]:
+                - /url: /gp/history?ref_=nav_cs_timeline
+              - button "Browsing History Details" [ref=e185] [cursor=pointer]
+          - listitem [ref=e186]:
+            - link "Celsior 's Amazon.in" [ref=e188] [cursor=pointer]:
+              - /url: /gp/yourstore/home?ref_=nav_cs_ys
+              - generic [ref=e189]:
+                - generic [ref=e190]: Celsior
+                - text: "'s Amazon.in"
+          - listitem [ref=e191]:
+            - link "Books" [ref=e193] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=e194]:
+            - link "Customer Service" [ref=e196] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=e197]:
+            - link "Kindle eBooks" [ref=e199] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books
+          - listitem [ref=e200]:
+            - link "Pet Supplies" [ref=e202] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=e203]:
+            - link "Bestsellers" [ref=e205] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e206]:
+            - link "Sports, Fitness & Outdoors" [ref=e208] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=e209]:
+            - link "Beauty & Personal Care" [ref=e211] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=e212]:
+            - link "Home & Kitchen" [ref=e214] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=e215]:
+            - link "New Releases" [ref=e217] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e218]:
+            - link "Computers" [ref=e220] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=e221]:
+            - link "Toys & Games" [ref=e223] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=e224]:
+            - link "Fashion" [ref=e226] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=e227]:
+            - link "Car & Motorbike" [ref=e229] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=e230]:
+            - link "Electronics" [ref=e232] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=e233]:
+            - link "Baby" [ref=e235] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+          - listitem [ref=e236]:
+            - link "Video Games" [ref=e238] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=e239]:
+            - link "Mobiles" [ref=e241] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+        - link "PD26_Event" [ref=e245] [cursor=pointer]:
+          - /url: /events/primeday/?_encoding=UTF8&ref_=nav_swm_event&pf_rd_p=63a908bd-6cbd-4def-a079-3c7e9b6f3f3c&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A21TJRUUN4KGV&pf_rd_r=AJD6R75ENGTMAR0Y5PG9
+          - img "PD26_Event" [ref=e246]
+  - main [ref=e249]:
+    - heading "All Carts" [level=1] [ref=e250]
+    - generic [ref=e252]:
+      - generic [ref=e253]:
+        - generic [ref=e258]:
+          - 'heading "Amazon Subtotal (1 item): ₹229.00" [level=3] [ref=e259]':
+            - generic [ref=e260]: Amazon
+            - generic [ref=e261]:
+              - text: "Subtotal (1 item):"
+              - generic [ref=e262]: ₹229.00
+          - generic [ref=e266]:
+            - checkbox "This order contains a gift" [ref=e267]
+            - generic [ref=e269]: This order contains a gift
+          - generic [ref=e273] [cursor=pointer]:
+            - button "Proceed to Buy Buy Amazon items" [ref=e274]: Proceed to checkout
+            - generic [ref=e277]: Proceed to Buy
+        - generic [ref=e288]:
+          - paragraph [ref=e289]: Hurry! Limited Period Offer - get ₹100 off on Prime Shopping Edition!
+          - paragraph [ref=e290]: FREE delivery, offers and multiple benefits - all in ONE membership!
+          - generic [ref=e294] [cursor=pointer]:
+            - button "Join Prime Shopping Edition at ₹399 ₹299/year" [ref=e295]
+            - generic [ref=e296]:
+              - generic [ref=e297]: Join Prime Shopping Edition at
+              - text: ₹399 ₹299/year
+        - generic [ref=e303]:
+          - heading "Products related to items in your cart" [level=5] [ref=e304]
+          - button "Leave feedback on Sponsored ad" [ref=e310] [cursor=pointer]: Sponsored
+          - list [ref=e314]:
+            - listitem [ref=e315]:
+              - generic [ref=e319]:
+                - link [ref=e321] [cursor=pointer]:
+                  - /url: /dp/B09QWY7JYK/ref=pd_cart_sspa_dk_ct_pt_expsub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MToyNTI5OTQ4ODU2NjgzMzQ2OjE3ODI0Njk0NDM6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTYwNTM5NjI5MTMyOjowOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=esKkkOzyYl&pd_rd_w=b7cj8&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e323]
+                - generic [ref=e324]:
+                  - link "Logitech Signature M650 Wireless Mouse - for Small to Medium Sized Hands, 2-Year Battery, Silent Clicks, Customisable Side Buttons, Bluetooth -Graphite" [ref=e325] [cursor=pointer]:
+                    - /url: /dp/B09QWY7JYK/ref=pd_cart_sspa_dk_ct_pt_expsub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MToyNTI5OTQ4ODU2NjgzMzQ2OjE3ODI0Njk0NDM6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTYwNTM5NjI5MTMyOjowOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=esKkkOzyYl&pd_rd_w=b7cj8&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e327]:
+                      - generic [ref=e328]: Logitech Signature M650 Wireless Mouse - for Small to Medium Sized Hands, 2-Year Battery, Silent Clicks, Customisable Side Buttons, Bluetooth -Graphite
+                      - generic [ref=e329]: Logitech Signature M…
+                  - link "4.4 out of 5 stars 2,546 ratings" [ref=e331] [cursor=pointer]:
+                    - /url: /dp/B09QWY7JYK/ref=pd_cart_sspa_dk_ct_pt_expsub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MToyNTI5OTQ4ODU2NjgzMzQ2OjE3ODI0Njk0NDM6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTYwNTM5NjI5MTMyOjowOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=esKkkOzyYl&pd_rd_w=b7cj8&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e333]: 4.4 out of 5 stars
+                    - generic [ref=e334]: 2,546 ratings
+                  - link "₹2,599.00" [ref=e336] [cursor=pointer]:
+                    - /url: /dp/B09QWY7JYK/ref=pd_cart_sspa_dk_ct_pt_expsub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MToyNTI5OTQ4ODU2NjgzMzQ2OjE3ODI0Njk0NDM6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTYwNTM5NjI5MTMyOjowOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=esKkkOzyYl&pd_rd_w=b7cj8&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e338]:
+                      - generic [ref=e339]: ₹2,599.00
+                      - generic [ref=e340]:
+                        - text: ₹
+                        - generic [ref=e341]:
+                          - text: 2,599
+                          - generic [ref=e342]: .
+                        - text: "00"
+                  - link "See all buying options" [ref=e346] [cursor=pointer]:
+                    - /url: /dp/B09QWY7JYK/ref=pd_cart_sspa_dk_ct_pt_expsub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MToyNTI5OTQ4ODU2NjgzMzQ2OjE3ODI0Njk0NDM6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTYwNTM5NjI5MTMyOjowOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=esKkkOzyYl&pd_rd_w=b7cj8&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&ref_=pd_cart_sspa_dk_ct_pt_expsub
+            - listitem [ref=e347]:
+              - generic [ref=e351]:
+                - link [ref=e353] [cursor=pointer]:
+                  - /url: /dp/B0CGCZHGW1/ref=pd_cart_sspa_dk_ct_pt_expsub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MToyNTI5OTQ4ODU2NjgzMzQ2OjE3ODI0Njk0NDM6c3BfY2FydF9wZXJjb2xhdGU6MzAwNDU1NTg1MTQ4NjMyOjoxOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=GXxkmGBxhx&pd_rd_w=b7cj8&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e355]
+                - generic [ref=e356]:
+                  - link "Logitech Pebble Mouse 2 M350s Slim Bluetooth Wireless Mouse, Portable, Lightweight, Customisable Button, 4000 DPI, Quiet Clicks, Easy-Switch for Windows, macOS, iPadOS, Android - Tonal Graphite" [ref=e357] [cursor=pointer]:
+                    - /url: /dp/B0CGCZHGW1/ref=pd_cart_sspa_dk_ct_pt_expsub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MToyNTI5OTQ4ODU2NjgzMzQ2OjE3ODI0Njk0NDM6c3BfY2FydF9wZXJjb2xhdGU6MzAwNDU1NTg1MTQ4NjMyOjoxOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=GXxkmGBxhx&pd_rd_w=b7cj8&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e359]:
+                      - generic [ref=e360]: Logitech Pebble Mouse 2 M350s Slim Bluetooth Wireless Mouse, Portable, Lightweight, Customisable Button, 4000 DPI, Quiet Clicks, Easy-Switch for Windows, macOS, iPadOS, Android - Tonal Graphite
+                      - generic [ref=e361]: Logitech Pebble Mou…
+                  - link "4.4 out of 5 stars 1,788 ratings" [ref=e363] [cursor=pointer]:
+                    - /url: /dp/B0CGCZHGW1/ref=pd_cart_sspa_dk_ct_pt_expsub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MToyNTI5OTQ4ODU2NjgzMzQ2OjE3ODI0Njk0NDM6c3BfY2FydF9wZXJjb2xhdGU6MzAwNDU1NTg1MTQ4NjMyOjoxOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=GXxkmGBxhx&pd_rd_w=b7cj8&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e365]: 4.4 out of 5 stars
+                    - generic [ref=e366]: 1,788 ratings
+                  - link "₹1,595.00" [ref=e368] [cursor=pointer]:
+                    - /url: /dp/B0CGCZHGW1/ref=pd_cart_sspa_dk_ct_pt_expsub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MToyNTI5OTQ4ODU2NjgzMzQ2OjE3ODI0Njk0NDM6c3BfY2FydF9wZXJjb2xhdGU6MzAwNDU1NTg1MTQ4NjMyOjoxOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=GXxkmGBxhx&pd_rd_w=b7cj8&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e370]:
+                      - generic [ref=e371]: ₹1,595.00
+                      - generic [ref=e372]:
+                        - text: ₹
+                        - generic [ref=e373]:
+                          - text: 1,595
+                          - generic [ref=e374]: .
+                        - text: "00"
+                  - link "See all buying options" [ref=e378] [cursor=pointer]:
+                    - /url: /dp/B0CGCZHGW1/ref=pd_cart_sspa_dk_ct_pt_expsub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MToyNTI5OTQ4ODU2NjgzMzQ2OjE3ODI0Njk0NDM6c3BfY2FydF9wZXJjb2xhdGU6MzAwNDU1NTg1MTQ4NjMyOjoxOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=GXxkmGBxhx&pd_rd_w=b7cj8&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&ref_=pd_cart_sspa_dk_ct_pt_expsub
+            - listitem [ref=e379]:
+              - generic [ref=e383]:
+                - link [ref=e385] [cursor=pointer]:
+                  - /url: /dp/B0GWHPS34L/ref=pd_cart_sspa_dk_ct_pt_expsub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MToyNTI5OTQ4ODU2NjgzMzQ2OjE3ODI0Njk0NDM6c3BfY2FydF9wZXJjb2xhdGU6MzAxMDcxNzIyMjIxNzMyOjoyOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=LNgDDkV9ey&pd_rd_w=b7cj8&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e387]
+                - generic [ref=e388]:
+                  - link "iBall GLIDR Ai1 Smart AI Wireless Mouse, Powered by ChatGPT AI Voice & Text Translation, Voice Typing, Centralized AI Software, 100+ Languages, Dual Mode (BT + 2.4GHz), Rechargeable Battery (Black)" [ref=e389] [cursor=pointer]:
+                    - /url: /dp/B0GWHPS34L/ref=pd_cart_sspa_dk_ct_pt_expsub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MToyNTI5OTQ4ODU2NjgzMzQ2OjE3ODI0Njk0NDM6c3BfY2FydF9wZXJjb2xhdGU6MzAxMDcxNzIyMjIxNzMyOjoyOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=LNgDDkV9ey&pd_rd_w=b7cj8&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e391]:
+                      - generic [ref=e392]: iBall GLIDR Ai1 Smart AI Wireless Mouse, Powered by ChatGPT AI Voice & Text Translation, Voice Typing, Centralized AI Software, 100+ Languages, Dual Mode (BT + 2.4GHz), Rechargeable Battery (Black)
+                      - generic [ref=e393]: iBall GLIDR Ai1 Smar…
+                  - link "5.0 out of 5 stars 6 ratings" [ref=e395] [cursor=pointer]:
+                    - /url: /dp/B0GWHPS34L/ref=pd_cart_sspa_dk_ct_pt_expsub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MToyNTI5OTQ4ODU2NjgzMzQ2OjE3ODI0Njk0NDM6c3BfY2FydF9wZXJjb2xhdGU6MzAxMDcxNzIyMjIxNzMyOjoyOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=LNgDDkV9ey&pd_rd_w=b7cj8&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e397]: 5.0 out of 5 stars
+                    - generic [ref=e398]: 6 ratings
+                  - link "₹2,499.00" [ref=e400] [cursor=pointer]:
+                    - /url: /dp/B0GWHPS34L/ref=pd_cart_sspa_dk_ct_pt_expsub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MToyNTI5OTQ4ODU2NjgzMzQ2OjE3ODI0Njk0NDM6c3BfY2FydF9wZXJjb2xhdGU6MzAxMDcxNzIyMjIxNzMyOjoyOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=LNgDDkV9ey&pd_rd_w=b7cj8&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e402]:
+                      - generic [ref=e403]: ₹2,499.00
+                      - generic [ref=e404]:
+                        - text: ₹
+                        - generic [ref=e405]:
+                          - text: 2,499
+                          - generic [ref=e406]: .
+                        - text: "00"
+                  - link "See all buying options" [ref=e410] [cursor=pointer]:
+                    - /url: /dp/B0GWHPS34L/ref=pd_cart_sspa_dk_ct_pt_expsub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MToyNTI5OTQ4ODU2NjgzMzQ2OjE3ODI0Njk0NDM6c3BfY2FydF9wZXJjb2xhdGU6MzAxMDcxNzIyMjIxNzMyOjoyOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=LNgDDkV9ey&pd_rd_w=b7cj8&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&ref_=pd_cart_sspa_dk_ct_pt_expsub
+            - listitem [ref=e411]:
+              - generic [ref=e415]:
+                - link [ref=e417] [cursor=pointer]:
+                  - /url: /dp/B0C52ZF43S/ref=pd_cart_sspa_dk_ct_pt_expsub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MToyNTI5OTQ4ODU2NjgzMzQ2OjE3ODI0Njk0NDM6c3BfY2FydF9wZXJjb2xhdGU6MzAwNDU1NTg1MTQ4NDMyOjozOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=34jPnxeAWh&pd_rd_w=b7cj8&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e419]
+                - generic [ref=e420]:
+                  - link "Logitech M240 Silent Bluetooth Mouse, Compact, Portable, Smooth Tracking, 18-Month Battery, for Windows, macOS, ChromeOS, Compatible with PC, Mac, Laptop, Tablets - Graphite" [ref=e421] [cursor=pointer]:
+                    - /url: /dp/B0C52ZF43S/ref=pd_cart_sspa_dk_ct_pt_expsub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MToyNTI5OTQ4ODU2NjgzMzQ2OjE3ODI0Njk0NDM6c3BfY2FydF9wZXJjb2xhdGU6MzAwNDU1NTg1MTQ4NDMyOjozOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=34jPnxeAWh&pd_rd_w=b7cj8&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e423]:
+                      - generic [ref=e424]: Logitech M240 Silent Bluetooth Mouse, Compact, Portable, Smooth Tracking, 18-Month Battery, for Windows, macOS, ChromeOS, Compatible with PC, Mac, Laptop, Tablets - Graphite
+                      - generic [ref=e425]: Logitech M240 Silent…
+                  - link "4.3 out of 5 stars 2,202 ratings" [ref=e427] [cursor=pointer]:
+                    - /url: /dp/B0C52ZF43S/ref=pd_cart_sspa_dk_ct_pt_expsub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MToyNTI5OTQ4ODU2NjgzMzQ2OjE3ODI0Njk0NDM6c3BfY2FydF9wZXJjb2xhdGU6MzAwNDU1NTg1MTQ4NDMyOjozOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=34jPnxeAWh&pd_rd_w=b7cj8&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e429]: 4.3 out of 5 stars
+                    - generic [ref=e430]: 2,202 ratings
+                  - link "₹995.00" [ref=e432] [cursor=pointer]:
+                    - /url: /dp/B0C52ZF43S/ref=pd_cart_sspa_dk_ct_pt_expsub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MToyNTI5OTQ4ODU2NjgzMzQ2OjE3ODI0Njk0NDM6c3BfY2FydF9wZXJjb2xhdGU6MzAwNDU1NTg1MTQ4NDMyOjozOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=34jPnxeAWh&pd_rd_w=b7cj8&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e434]:
+                      - generic [ref=e435]: ₹995.00
+                      - generic [ref=e436]:
+                        - text: ₹
+                        - generic [ref=e437]:
+                          - text: "995"
+                          - generic [ref=e438]: .
+                        - text: "00"
+                  - link "See all buying options" [ref=e442] [cursor=pointer]:
+                    - /url: /dp/B0C52ZF43S/ref=pd_cart_sspa_dk_ct_pt_expsub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MToyNTI5OTQ4ODU2NjgzMzQ2OjE3ODI0Njk0NDM6c3BfY2FydF9wZXJjb2xhdGU6MzAwNDU1NTg1MTQ4NDMyOjozOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=34jPnxeAWh&pd_rd_w=b7cj8&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&ref_=pd_cart_sspa_dk_ct_pt_expsub
+      - generic [ref=e443]:
+        - generic [ref=e445]:
+          - generic [ref=e446]:
+            - heading "Shopping Cart" [level=2] [ref=e449]
+            - link "Deselect all items" [ref=e454] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e455]:
+            - generic [ref=e459]: Price
+            - list "Shopping Cart" [ref=e460]:
+              - listitem [ref=e461]:
+                - generic [ref=e463]:
+                  - checkbox "Select ZEBRONICS Wireless Mouse, 2.4GHz, 3200 DPI, 3 Buttons, Comfortable &amp;amp; Ergonomic, USB Nano Receiver, Power-Saving Mode, Works on Most Surfaces, for Mac | Laptop | Computer (Freego, Black) for checkout" [checked] [ref=e466]
+                  - link [ref=e469] [cursor=pointer]:
+                    - /url: /gp/product/B0FF4XBM5N/ref=ox_sc_act_image_1?smid=AJ6SIZC8YQDZX&psc=1
+                  - generic [ref=e470]:
+                    - link "ZEBRONICS Wireless Mouse, 2.4GHz, 3200 DPI, 3 Buttons, Comfortable & Ergonomic, USB Nano Receiver, Power-Saving Mode, Works on Most Surfaces, for Mac | Laptop | Computer (Freego, Black)" [ref=e472] [cursor=pointer]:
+                      - /url: /gp/product/B0FF4XBM5N/ref=ox_sc_act_title_1?smid=AJ6SIZC8YQDZX&psc=1
+                      - heading "ZEBRONICS Wireless Mouse, 2.4GHz, 3200 DPI, 3 Buttons, Comfortable & Ergonomic, USB Nano Receiver, Power-Saving Mode, Works on Most Surfaces, for Mac | Laptop | Computer (Freego, Black)" [level=3] [ref=e474]:
+                        - generic [ref=e475]:
+                          - generic [ref=e476]: ZEBRONICS Wireless Mouse, 2.4GHz, 3200 DPI, 3 Buttons, Comfortable & Ergonomic, USB Nano Receiver, Power-Saving Mode, Works on Most Surfaces, for Mac | Laptop | Computer (Freego, Black)
+                          - generic [ref=e477]: ZEBRONICS Wireless Mouse, 2.4GHz, 3200 DPI, 3 Buttons, Comfortable & Ergonomic, USB Nano Receiver, Power-Saving Mode, Works on Most Surfaces, for Mac | Laptop |…
+                    - generic [ref=e478]:
+                      - generic [ref=e482]:
+                        - generic [ref=e483]: ₹229.00
+                        - generic [ref=e484]:
+                          - text: ₹
+                          - generic [ref=e485]:
+                            - text: "229"
+                            - generic [ref=e486]: .
+                          - text: "00"
+                      - generic [ref=e491]:
+                        - text: Up to 5% back with Amazon Pay ICICI card
+                        - link "Terms" [ref=e494] [cursor=pointer]:
+                          - /url: "#"
+                          - generic [ref=e495]: Terms
+                    - generic [ref=e496]:
+                      - generic [ref=e497]: In stock
+                      - generic [ref=e501]: FREE delivery Mon, 29 Jun
+                      - paragraph [ref=e502]
+                      - generic [ref=e506]:
+                        - checkbox "This will be a gift This is a gift Learn more" [ref=e507]
+                        - generic [ref=e509]:
+                          - text: This will be a gift
+                          - link "This is a gift Learn more" [ref=e511] [cursor=pointer]:
+                            - /url: /gp/help/customer/display.html/ref=ord_cart_shr?pop-up=1&nodeId=200507630
+                            - generic [ref=e512]:
+                              - generic [ref=e513]: This is a gift
+                              - text: Learn more
+                      - generic [ref=e514]: "Colour: Black"
+                    - generic [ref=e515]:
+                      - group "Quantity is 1" [ref=e518]:
+                        - generic [ref=e519]: Quantity is 1
+                        - generic [ref=e521]:
+                          - button "Delete ZEBRONICS Wireless Mouse, 2.4GHz, 3200 DPI, 3 Buttons, Comfortable &amp; Ergonomic, USB Nano Receiver, Power-Saving Mode, Works on Most Surfaces, for Mac | Laptop | Computer (Freego, Black)" [ref=e522] [cursor=pointer]
+                          - generic [ref=e526]: "1"
+                          - generic [ref=e528]: "1"
+                          - button "Increase quantity by one ZEBRONICS Wireless Mouse, 2.4GHz, 3200 DPI, 3 Buttons, Comfortable &amp; Ergonomic, USB Nano Receiver, Power-Saving Mode, Works on Most Surfaces, for Mac | Laptop | Computer (Freego, Black)" [ref=e529] [cursor=pointer]
+                      - button "Delete ZEBRONICS Wireless Mouse, 2.4GHz, 3200 DPI, 3 Buttons, Comfortable &amp; Ergonomic, USB Nano Receiver, Power-Saving Mode, Works on Most Surfaces, for Mac | Laptop | Computer (Freego, Black)" [ref=e533] [cursor=pointer]: Delete
+                      - button "Save for later ZEBRONICS Wireless Mouse, 2.4GHz, 3200 DPI, 3 Buttons, Comfortable &amp; Ergonomic, USB Nano Receiver, Power-Saving Mode, Works on Most Surfaces, for Mac | Laptop | Computer (Freego, Black)" [ref=e536] [cursor=pointer]: Save for later
+                      - button "See more like this ZEBRONICS Wireless Mouse, 2.4GHz, 3200 DPI, 3 Buttons, Comfortable &amp; Ergonomic, USB Nano Receiver, Power-Saving Mode, Works on Most Surfaces, for Mac | Laptop | Computer (Freego, Black)" [ref=e539] [cursor=pointer]: See more like this
+                      - link "Share ZEBRONICS Wireless Mouse, 2.4GHz, 3200 DPI, 3 Buttons, Comfortable &amp;amp; Ergonomic, USB Nano Receiver, Power-Saving Mode, Works on Most Surfaces, for Mac | Laptop | Computer (Freego, Black)" [ref=e542] [cursor=pointer]:
+                        - /url: "#"
+                        - text: Share
+            - generic [ref=e544]:
+              - text: "Subtotal (1 item):"
+              - generic [ref=e545]: ₹229.00
+        - generic [ref=e547]:
+          - heading "Your Items" [level=3] [ref=e549]
+          - generic [ref=e550]:
+            - tablist [ref=e551]:
+              - tab "No items saved for later" [ref=e552] [cursor=pointer]:
+                - generic [ref=e553]: No items saved for later
+              - tab "Buy it again" [selected] [ref=e554] [cursor=pointer]:
+                - generic [ref=e555]: Buy it again
+            - tabpanel "Buy it again" [ref=e556]:
+              - generic [ref=e559]: No items
+        - generic [ref=e560]:
+          - paragraph [ref=e562]: The price and availability of items at Amazon.in are subject to change. The shopping cart is a temporary place to store a list of your items and reflects each item's most recent price.
+          - paragraph [ref=e563]: Do you have a gift card or promotional code? We'll ask you to enter your claim code when it's time to pay.
+  - group [ref=e571]:
+    - generic [ref=e573]:
+      - generic [ref=e574]:
+        - heading "Customers who bought items in your cart also bought" [level=2] [ref=e576]
+        - generic [ref=e579]: Page 1 of 3
+      - button "Not interested in specific items" [ref=e583] [cursor=pointer]
+    - generic [ref=e585]:
+      - button "Previous set of slides" [ref=e587] [cursor=pointer]:
+        - generic [ref=e590]: Previous set of slides
+      - group [ref=e592]:
+        - list [ref=e593]:
+          - listitem [ref=e594]:
+            - generic [ref=e596]:
+              - link [ref=e597] [cursor=pointer]:
+                - /url: /ZEBRONICS-Precision-Operation-Surface-Optimised/dp/B0D8KQK2CY/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_1/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0D8KQK2CY&psc=1
+                - img [ref=e599]
+              - generic [ref=e601]:
+                - link "ZEBRONICS MSP-X1 Mouse Pad, for Speed and Precision Operation, Smooth Cloth Surface, Roll and Go, Optimised for All Mouse Sensors, Anti Slip Rubber Base, Surface of 232 x 182 mm" [ref=e602] [cursor=pointer]:
+                  - /url: /ZEBRONICS-Precision-Operation-Surface-Optimised/dp/B0D8KQK2CY/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_1/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0D8KQK2CY&psc=1
+                  - generic [ref=e604]: ZEBRONICS MSP-X1 Mouse Pad, for Speed and Precision Operation, Smooth Cloth Surface, Roll and Go, Optimised for All Mouse Sensors, Anti Slip Rubber Base, Surface of 232 x 182 mm
+                - link "4.3 out of 5 stars, 3,729 ratings" [ref=e607] [cursor=pointer]:
+                  - /url: /product-reviews/B0D8KQK2CY/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_1_cr/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0D8KQK2CY
+                  - generic [ref=e609]: 4.3 out of 5 stars
+                  - text: 3,729
+                - generic [ref=e612]: 3K+ bought in past month
+                - generic [ref=e613]:
+                  - link "#1 Best Seller":
+                    - /url: /gp/bestsellers/computers/1375297031/ref=zg_b_bs_1375297031_1/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_1_bsb/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0D8KQK2CY
+                    - generic [ref=e617] [cursor=pointer]: "#1 Best Seller"
+                - generic [ref=e618]:
+                  - generic [ref=e620]:
+                    - generic [ref=e621]:
+                      - link "-67%" [ref=e622] [cursor=pointer]:
+                        - /url: /ZEBRONICS-Precision-Operation-Surface-Optimised/dp/B0D8KQK2CY/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_1/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0D8KQK2CY&psc=1
+                        - text: "-67%"
+                      - link "₹99.00" [ref=e623] [cursor=pointer]:
+                        - /url: /ZEBRONICS-Precision-Operation-Surface-Optimised/dp/B0D8KQK2CY/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_1/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0D8KQK2CY&psc=1
+                        - generic [ref=e624]:
+                          - generic [ref=e625]: ₹99.00
+                          - generic [ref=e626]:
+                            - text: ₹
+                            - generic [ref=e627]:
+                              - text: "99"
+                              - generic [ref=e628]: .
+                            - text: "00"
+                    - 'link "M.R.P: ₹299.00" [ref=e630] [cursor=pointer]':
+                      - /url: /ZEBRONICS-Precision-Operation-Surface-Optimised/dp/B0D8KQK2CY/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_1/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0D8KQK2CY&psc=1
+                      - generic [ref=e632]: "M.R.P: ₹299.00"
+                  - generic [ref=e634]: Get it by Monday, June 29
+                - text: FREE Delivery by Amazon
+              - generic [ref=e642] [cursor=pointer]:
+                - button "Add to cart, ZEBRONICS MSP-X1 Mouse Pad, for Speed and Precision Operation, Smooth Cloth Surface, Roll and Go, Optimised for All Mouse Sensors, Anti Slip Rubber Base, Surface of 232 x 182 mm" [ref=e643]
+                - generic [ref=e644]: Add to cart
+          - listitem [ref=e645]:
+            - generic [ref=e647]:
+              - link [ref=e648] [cursor=pointer]:
+                - /url: /ZEBRONICS-Multimedia-UV-Coated-Retractable-Companion/dp/B0G2GLPQ16/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_2/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0G2GLPQ16&psc=1
+                - img [ref=e650]
+              - generic [ref=e652]:
+                - link "Zebronics Wireless Keyboard, 2.4GHz, 104 Keys with 12 Multimedia Keys, UV-Coated Keycaps, Retractable Stand, On/Off Switch, Power Saving Mode, Plug & Play (Companion 116-K)" [ref=e653] [cursor=pointer]:
+                  - /url: /ZEBRONICS-Multimedia-UV-Coated-Retractable-Companion/dp/B0G2GLPQ16/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_2/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0G2GLPQ16&psc=1
+                  - generic [ref=e655]: Zebronics Wireless Keyboard, 2.4GHz, 104 Keys with 12 Multimedia Keys, UV-Coated Keycaps, Retractable Stand, On/Off Switch, Power Saving Mode, Plug & Play (Companion 116-K)
+                - link "3.9 out of 5 stars, 233 ratings" [ref=e658] [cursor=pointer]:
+                  - /url: /product-reviews/B0G2GLPQ16/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_2_cr/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0G2GLPQ16
+                  - generic [ref=e660]: 3.9 out of 5 stars
+                  - text: "233"
+                - generic [ref=e663]: 500+ bought in past month
+                - generic [ref=e664]:
+                  - generic [ref=e666]:
+                    - generic [ref=e667]:
+                      - link "-63%" [ref=e668] [cursor=pointer]:
+                        - /url: /ZEBRONICS-Multimedia-UV-Coated-Retractable-Companion/dp/B0G2GLPQ16/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_2/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0G2GLPQ16&psc=1
+                        - text: "-63%"
+                      - link "₹549.00" [ref=e669] [cursor=pointer]:
+                        - /url: /ZEBRONICS-Multimedia-UV-Coated-Retractable-Companion/dp/B0G2GLPQ16/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_2/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0G2GLPQ16&psc=1
+                        - generic [ref=e670]:
+                          - generic [ref=e671]: ₹549.00
+                          - generic [ref=e672]:
+                            - text: ₹
+                            - generic [ref=e673]:
+                              - text: "549"
+                              - generic [ref=e674]: .
+                            - text: "00"
+                    - 'link "M.R.P: ₹1,499.00" [ref=e676] [cursor=pointer]':
+                      - /url: /ZEBRONICS-Multimedia-UV-Coated-Retractable-Companion/dp/B0G2GLPQ16/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_2/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0G2GLPQ16&psc=1
+                      - generic [ref=e678]: "M.R.P: ₹1,499.00"
+                  - generic [ref=e680]: Get it by Monday, June 29
+                - text: FREE Delivery by Amazon
+              - generic [ref=e688] [cursor=pointer]:
+                - button "Add to cart, Zebronics Wireless Keyboard, 2.4GHz, 104 Keys with 12 Multimedia Keys, UV-Coated Keycaps, Retractable Stand, On/Off Switch, Power Saving Mode, Plug & Play (Companion 116-K)" [ref=e689]
+                - generic [ref=e690]: Add to cart
+          - listitem [ref=e691]:
+            - generic [ref=e693]:
+              - link [ref=e694] [cursor=pointer]:
+                - /url: /STRIFF-230X190X2mm-Waterproof-Premium-Textured-Compatible/dp/B0CV7XMKDJ/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_3/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0CV7XMKDJ&psc=1
+                - img [ref=e696]
+              - generic [ref=e698]:
+                - link "STRIFF Mousepad Mouse Mat 230X190X2mm Mouse Pad Gaming/Mouse pad for Laptop Non-Slip Rubber Base, Waterproof Surface, Premium-Textured, Compatible with Laser and Optical Mice(Black)(Pack of 2)" [ref=e699] [cursor=pointer]:
+                  - /url: /STRIFF-230X190X2mm-Waterproof-Premium-Textured-Compatible/dp/B0CV7XMKDJ/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_3/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0CV7XMKDJ&psc=1
+                  - generic [ref=e701]: STRIFF Mousepad Mouse Mat 230X190X2mm Mouse Pad Gaming/Mouse pad for Laptop Non-Slip Rubber Base, Waterproof Surface, Premium-Textured, Compatible with Laser and Optical Mice(Black)(Pack of 2)
+                - link "4.3 out of 5 stars, 5,389 ratings" [ref=e704] [cursor=pointer]:
+                  - /url: /product-reviews/B0CV7XMKDJ/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_3_cr/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0CV7XMKDJ
+                  - generic [ref=e706]: 4.3 out of 5 stars
+                  - text: 5,389
+                - generic [ref=e709]: 2K+ bought in past month
+                - generic [ref=e710]:
+                  - generic [ref=e712]:
+                    - generic [ref=e713]:
+                      - link "-87%" [ref=e714] [cursor=pointer]:
+                        - /url: /STRIFF-230X190X2mm-Waterproof-Premium-Textured-Compatible/dp/B0CV7XMKDJ/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_3/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0CV7XMKDJ&psc=1
+                        - text: "-87%"
+                      - link "₹129.00" [ref=e715] [cursor=pointer]:
+                        - /url: /STRIFF-230X190X2mm-Waterproof-Premium-Textured-Compatible/dp/B0CV7XMKDJ/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_3/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0CV7XMKDJ&psc=1
+                        - generic [ref=e716]:
+                          - generic [ref=e717]: ₹129.00
+                          - generic [ref=e718]:
+                            - text: ₹
+                            - generic [ref=e719]:
+                              - text: "129"
+                              - generic [ref=e720]: .
+                            - text: "00"
+                    - 'link "M.R.P: ₹999.00" [ref=e722] [cursor=pointer]':
+                      - /url: /STRIFF-230X190X2mm-Waterproof-Premium-Textured-Compatible/dp/B0CV7XMKDJ/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_3/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0CV7XMKDJ&psc=1
+                      - generic [ref=e724]: "M.R.P: ₹999.00"
+                  - generic [ref=e726]: Get it by Monday, June 29
+                - text: FREE Delivery by Amazon
+              - generic [ref=e734] [cursor=pointer]:
+                - button "Add to cart, STRIFF Mousepad Mouse Mat 230X190X2mm Mouse Pad Gaming/Mouse pad for Laptop Non-Slip Rubber Base, Waterproof Surface, Premium-Textured, Compatible with Laser and Optical Mice(Black)(Pack of 2)" [ref=e735]
+                - generic [ref=e736]: Add to cart
+          - listitem [ref=e737]:
+            - generic [ref=e739]:
+              - link [ref=e740] [cursor=pointer]:
+                - /url: /ZEBRONICS-ZEB-KM2100-Multimedia-Including-Dedicated/dp/B077T3BG5L/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_4/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B077T3BG5L&psc=1
+                - img [ref=e742]
+              - generic [ref=e744]:
+                - link "Zebronics ZEB-KM2100 Multimedia USB Keyboard Comes with 114 Keys Including 12 Dedicated Multimedia Keys & with Rupee Key" [ref=e745] [cursor=pointer]:
+                  - /url: /ZEBRONICS-ZEB-KM2100-Multimedia-Including-Dedicated/dp/B077T3BG5L/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_4/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B077T3BG5L&psc=1
+                  - generic [ref=e747]: Zebronics ZEB-KM2100 Multimedia USB Keyboard Comes with 114 Keys Including 12 Dedicated Multimedia Keys & with Rupee Key
+                - link "3.7 out of 5 stars, 45,772 ratings" [ref=e750] [cursor=pointer]:
+                  - /url: /product-reviews/B077T3BG5L/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_4_cr/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B077T3BG5L
+                  - generic [ref=e752]: 3.7 out of 5 stars
+                  - text: 45,772
+                - generic [ref=e755]: 3K+ bought in past month
+                - generic [ref=e756]:
+                  - generic [ref=e758]:
+                    - generic [ref=e759]:
+                      - link "-27%" [ref=e760] [cursor=pointer]:
+                        - /url: /ZEBRONICS-ZEB-KM2100-Multimedia-Including-Dedicated/dp/B077T3BG5L/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_4/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B077T3BG5L&psc=1
+                        - text: "-27%"
+                      - link "₹291.00" [ref=e761] [cursor=pointer]:
+                        - /url: /ZEBRONICS-ZEB-KM2100-Multimedia-Including-Dedicated/dp/B077T3BG5L/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_4/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B077T3BG5L&psc=1
+                        - generic [ref=e762]:
+                          - generic [ref=e763]: ₹291.00
+                          - generic [ref=e764]:
+                            - text: ₹
+                            - generic [ref=e765]:
+                              - text: "291"
+                              - generic [ref=e766]: .
+                            - text: "00"
+                    - 'link "M.R.P: ₹399.00" [ref=e768] [cursor=pointer]':
+                      - /url: /ZEBRONICS-ZEB-KM2100-Multimedia-Including-Dedicated/dp/B077T3BG5L/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_4/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B077T3BG5L&psc=1
+                      - generic [ref=e770]: "M.R.P: ₹399.00"
+                  - generic [ref=e772]: Get it by Monday, June 29
+                - text: FREE Delivery by Amazon
+              - generic [ref=e780] [cursor=pointer]:
+                - button "Add to cart, Zebronics ZEB-KM2100 Multimedia USB Keyboard Comes with 114 Keys Including 12 Dedicated Multimedia Keys & with Rupee Key" [ref=e781]
+                - generic [ref=e782]: Add to cart
+          - listitem [ref=e783]:
+            - generic [ref=e785]:
+              - link [ref=e786] [cursor=pointer]:
+                - /url: /Zebronics-NS1500-Featuring-Foldable-Anti-Slip-Silicone/dp/B0C36YRMLQ/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_5/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0C36YRMLQ&psc=1
+                - img [ref=e788]
+              - generic [ref=e790]:
+                - link "Zebronics-NS1500 Laptop Stand Featuring Foldable Design, Anti-Slip Silicone Rubber Pads, Supports Maximum of 5kgs Weight Tabletop" [ref=e791] [cursor=pointer]:
+                  - /url: /Zebronics-NS1500-Featuring-Foldable-Anti-Slip-Silicone/dp/B0C36YRMLQ/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_5/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0C36YRMLQ&psc=1
+                  - generic [ref=e793]: Zebronics-NS1500 Laptop Stand Featuring Foldable Design, Anti-Slip Silicone Rubber Pads, Supports Maximum of 5kgs Weight Tabletop
+                - link "3.8 out of 5 stars, 5,723 ratings" [ref=e796] [cursor=pointer]:
+                  - /url: /product-reviews/B0C36YRMLQ/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_5_cr/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0C36YRMLQ
+                  - generic [ref=e798]: 3.8 out of 5 stars
+                  - text: 5,723
+                - generic [ref=e801]: 2K+ bought in past month
+                - generic [ref=e802]:
+                  - generic [ref=e804]:
+                    - generic [ref=e805]:
+                      - link "-83%" [ref=e806] [cursor=pointer]:
+                        - /url: /Zebronics-NS1500-Featuring-Foldable-Anti-Slip-Silicone/dp/B0C36YRMLQ/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_5/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0C36YRMLQ&psc=1
+                        - text: "-83%"
+                      - link "₹249.00" [ref=e807] [cursor=pointer]:
+                        - /url: /Zebronics-NS1500-Featuring-Foldable-Anti-Slip-Silicone/dp/B0C36YRMLQ/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_5/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0C36YRMLQ&psc=1
+                        - generic [ref=e808]:
+                          - generic [ref=e809]: ₹249.00
+                          - generic [ref=e810]:
+                            - text: ₹
+                            - generic [ref=e811]:
+                              - text: "249"
+                              - generic [ref=e812]: .
+                            - text: "00"
+                    - 'link "M.R.P: ₹1,500.00" [ref=e814] [cursor=pointer]':
+                      - /url: /Zebronics-NS1500-Featuring-Foldable-Anti-Slip-Silicone/dp/B0C36YRMLQ/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_5/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0C36YRMLQ&psc=1
+                      - generic [ref=e816]: "M.R.P: ₹1,500.00"
+                  - generic [ref=e818]: Get it by Monday, June 29
+                - text: FREE Delivery by Amazon
+              - generic [ref=e826] [cursor=pointer]:
+                - button "Add to cart, Zebronics-NS1500 Laptop Stand Featuring Foldable Design, Anti-Slip Silicone Rubber Pads, Supports Maximum of 5kgs Weight Tabletop" [ref=e827]
+                - generic [ref=e828]: Add to cart
+          - listitem [ref=e829]:
+            - generic [ref=e831]:
+              - link [ref=e832] [cursor=pointer]:
+                - /url: /ZEBRONICS-Pro-Precision-Comfortable-Lightweight/dp/B0DDTL9PB6/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_6/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0DDTL9PB6&psc=1
+                - img [ref=e834]
+              - generic [ref=e836]:
+                - link "ZEBRONICS Dash Pro 2.4GHz Wireless Mouse, Upto 1600 DPI, 3 Level DPI, High Precision, Power Saving Mode, Comfortable & Lightweight, for Mac | Laptop | Computer (Black)" [ref=e837] [cursor=pointer]:
+                  - /url: /ZEBRONICS-Pro-Precision-Comfortable-Lightweight/dp/B0DDTL9PB6/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_6/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0DDTL9PB6&psc=1
+                  - generic [ref=e839]: ZEBRONICS Dash Pro 2.4GHz Wireless Mouse, Upto 1600 DPI, 3 Level DPI, High Precision, Power Saving Mode, Comfortable & Lightweight, for Mac | Laptop | Computer (Black)
+                - link "3.7 out of 5 stars, 1,305 ratings" [ref=e842] [cursor=pointer]:
+                  - /url: /product-reviews/B0DDTL9PB6/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_6_cr/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0DDTL9PB6
+                  - generic [ref=e844]: 3.7 out of 5 stars
+                  - text: 1,305
+                - generic [ref=e847]: 1K+ bought in past month
+                - generic [ref=e848]:
+                  - generic [ref=e850]:
+                    - generic [ref=e851]:
+                      - link "-55%" [ref=e852] [cursor=pointer]:
+                        - /url: /ZEBRONICS-Pro-Precision-Comfortable-Lightweight/dp/B0DDTL9PB6/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_6/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0DDTL9PB6&psc=1
+                        - text: "-55%"
+                      - link "₹269.00" [ref=e853] [cursor=pointer]:
+                        - /url: /ZEBRONICS-Pro-Precision-Comfortable-Lightweight/dp/B0DDTL9PB6/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_6/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0DDTL9PB6&psc=1
+                        - generic [ref=e854]:
+                          - generic [ref=e855]: ₹269.00
+                          - generic [ref=e856]:
+                            - text: ₹
+                            - generic [ref=e857]:
+                              - text: "269"
+                              - generic [ref=e858]: .
+                            - text: "00"
+                    - 'link "M.R.P: ₹599.00" [ref=e860] [cursor=pointer]':
+                      - /url: /ZEBRONICS-Pro-Precision-Comfortable-Lightweight/dp/B0DDTL9PB6/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_6/525-0076135-2522941?pd_rd_w=AJ3Mn&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=AJD6R75ENGTMAR0Y5PG9&pd_rd_wg=rL8Xa&pd_rd_r=7e7d58d2-f52f-4247-84e7-5b4066928f6c&pd_rd_i=B0DDTL9PB6&psc=1
+                      - generic [ref=e862]: "M.R.P: ₹599.00"
+                  - generic [ref=e864]: Get it by Monday, June 29
+                - text: FREE Delivery by Amazon
+              - generic [ref=e872] [cursor=pointer]:
+                - button "Add to cart, ZEBRONICS Dash Pro 2.4GHz Wireless Mouse, Upto 1600 DPI, 3 Level DPI, High Precision, Power Saving Mode, Comfortable & Lightweight, for Mac | Laptop | Computer (Black)" [ref=e873]
+                - generic [ref=e874]: Add to cart
+          - listitem [ref=e875]
+          - listitem [ref=e876]
+          - listitem [ref=e877]
+      - button "Next set of slides" [ref=e879] [cursor=pointer]:
+        - generic [ref=e882]: Next set of slides
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=e883]:
+    - button "Back to top" [ref=e884] [cursor=pointer]:
+      - generic [ref=e885]: Back to top
+    - generic [ref=e886]:
+      - generic [ref=e887]:
+        - heading "Get to Know Us" [level=6] [ref=e888]
+        - list [ref=e889]:
+          - listitem [ref=e890]:
+            - link "About Amazon" [ref=e891] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e892]:
+            - link "Careers" [ref=e893] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=e894]:
+            - link "Press Releases" [ref=e895] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e896]:
+            - link "Amazon Science" [ref=e897] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e899]:
+        - heading "Connect with Us" [level=6] [ref=e900]
+        - list [ref=e901]:
+          - listitem [ref=e902]:
+            - link "Facebook" [ref=e903] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=e904]:
+            - link "Twitter" [ref=e905] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=e906]:
+            - link "Instagram" [ref=e907] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=e909]:
+        - heading "Make Money with Us" [level=6] [ref=e910]
+        - list [ref=e911]:
+          - listitem [ref=e912]:
+            - link "Sell on Amazon" [ref=e913] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=e914]:
+            - link "Sell under Amazon Accelerator" [ref=e915] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=e916]:
+            - link "Protect and Build Your Brand" [ref=e917] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=e918]:
+            - link "Amazon Global Selling" [ref=e919] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=e920]:
+            - link "Supply to Amazon" [ref=e921] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=e922]:
+            - link "Become an Affiliate" [ref=e923] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=e924]:
+            - link "Fulfilment by Amazon" [ref=e925] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=e926]:
+            - link "Advertise Your Products" [ref=e927] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=e928]:
+            - link "Amazon Pay on Merchants" [ref=e929] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant
+      - generic [ref=e931]:
+        - heading "Let Us Help You" [level=6] [ref=e932]
+        - list [ref=e933]:
+          - listitem [ref=e934]:
+            - link "Your Account" [ref=e935] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e936]:
+            - link "Returns Centre" [ref=e937] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e938]:
+            - link "Recalls and Product Safety Alerts" [ref=e939] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e940]:
+            - link "100% Purchase Protection" [ref=e941] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=e942]:
+            - link "Amazon App Download" [ref=e943] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=e944]:
+            - link "Help" [ref=e945] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=e947]:
+      - link "Amazon India Home" [ref=e950] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=e953]:
+        - generic [ref=e954]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e955] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e957]: English
+          - button "Expand to Change Language or Country" [ref=e958] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=e959] [cursor=pointer]:
+          - generic [ref=e961]: India
+    - generic "More on Amazon" [ref=e962]:
+      - generic "More on Amazon" [ref=e963]:
+        - list [ref=e964]:
+          - listitem [ref=e965]:
+            - link "AbeBooks Books, art & collectibles" [ref=e966] [cursor=pointer]:
+              - /url: https://www.abebooks.com/
+              - heading "AbeBooks" [level=5] [ref=e967]
+              - generic [ref=e968]:
+                - text: Books, art
+                - text: "& collectibles"
+          - listitem [ref=e969]
+          - listitem [ref=e970]:
+            - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e971] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e972]
+              - generic [ref=e973]:
+                - text: Scalable Cloud
+                - text: Computing Services
+          - listitem [ref=e974]
+          - listitem [ref=e975]:
+            - link "Audible Download Audio Books" [ref=e976] [cursor=pointer]:
+              - /url: https://www.audible.in/
+              - heading "Audible" [level=5] [ref=e977]
+              - generic [ref=e978]:
+                - text: Download
+                - text: Audio Books
+          - listitem [ref=e979]
+          - listitem [ref=e980]:
+            - link "IMDb Movies, TV & Celebrities" [ref=e981] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=e982]
+              - generic [ref=e983]:
+                - text: Movies, TV
+                - text: "& Celebrities"
+        - list [ref=e984]:
+          - listitem [ref=e985]:
+            - link "Shopbop Designer Fashion Brands" [ref=e986] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=e987]
+              - generic [ref=e988]:
+                - text: Designer
+                - text: Fashion Brands
+          - listitem [ref=e989]
+          - listitem [ref=e990]:
+            - link "Amazon Business Everything For Your Business" [ref=e991] [cursor=pointer]:
+              - /url: /business?ref=footer_aingw
+              - heading "Amazon Business" [level=5] [ref=e992]
+              - generic [ref=e993]:
+                - text: Everything For
+                - text: Your Business
+          - listitem [ref=e994]
+          - listitem [ref=e995]:
+            - link "Amazon Music Stream millions of songs" [ref=e996] [cursor=pointer]:
+              - /url: /music/player?ref=footer_apm
+              - heading "Amazon Music" [level=5] [ref=e997]
+              - generic [ref=e998]: Stream millions of songs
+          - listitem [ref=e999]
+          - listitem [ref=e1000]
+    - generic [ref=e1001]:
+      - list [ref=e1002]:
+        - listitem [ref=e1003]:
+          - link "Conditions of Use & Sale" [ref=e1004] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=e1005]:
+          - link "Privacy Notice" [ref=e1006] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=e1007]:
+          - link "Interest-Based Ads" [ref=e1008] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=e1009]: © 1996-2026, Amazon.com, Inc. or its affiliates

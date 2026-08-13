@@ -1,0 +1,33 @@
+{
+  "name": "agenttestautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pipeline": "tsx execution/pipeline_runner.ts",
+    "testdata:bootstrap": "tsx scripts/bootstrap-test-data.ts",
+    "testdata:bootstrap:scoped": "tsx scripts/bootstrap-test-data.ts",
+    "validate:strategy": "tsx scripts/validate-test-data-strategy.ts",
+    "validate:strategy:all": "tsx scripts/validate-test-data-strategy.ts --check-all",
+    "test": "npx playwright test",
+    "test:chrome": "npx playwright test --project=chromium",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.7.0",
+    "openai": "^4.77.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@executeautomation/playwright-mcp-server": "^1.0.12",
+    "@playwright/test": "^1.61.0",
+    "@types/node": "^25.9.3",
+    "tsx": "^4.19.2",
+    "typescript": "^6.0.3"
+  }
+}

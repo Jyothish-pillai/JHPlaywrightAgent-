@@ -1,0 +1,15 @@
+- generic [ref=e2]:
+  - link "Amazon" [ref=e3] [cursor=pointer]:
+    - /url: /ref=cs_404_logo
+    - img "Amazon" [ref=e4]
+  - table [ref=e5]:
+    - rowgroup [ref=e6]:
+      - row "Looking for something? We're sorry. The Web address you entered is not a functioning page on our site. Click here to go back to the Amazon home page" [ref=e7]:
+        - cell [ref=e8]:
+          - img [ref=e9]
+        - cell "Looking for something? We're sorry. The Web address you entered is not a functioning page on our site. Click here to go back to the Amazon home page" [ref=e10]:
+          - text: Looking for something?
+          - text: We're sorry. The Web address you entered is not a functioning page on our site.
+          - img [ref=e11]
+          - link "Click here to go back to the Amazon home page" [ref=e13] [cursor=pointer]:
+            - /url: /ref=cs_404_link

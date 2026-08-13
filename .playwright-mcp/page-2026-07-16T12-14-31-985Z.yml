@@ -1,0 +1,1372 @@
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=e8]:
+        - link "Shopping cart" [ref=e9] [cursor=pointer]:
+          - /url: "#sc-active-cart"
+          - text: Your Amazon Cart
+      - listitem [ref=e10]:
+        - link "Saved for later" [ref=e11] [cursor=pointer]:
+          - /url: "#sc-saved-cart-caption"
+          - text: Saved for Later
+      - listitem [ref=e12]:
+        - link "Buy it again" [ref=e13] [cursor=pointer]:
+          - /url: "#sc-buy-it-again-caption"
+          - text: Buy it Again
+    - separator [ref=e14]
+    - heading "Keyboard shortcuts" [level=2] [ref=e15]
+    - list "Keyboard shortcuts" [ref=e16]:
+      - listitem [ref=e17]:
+        - link "Search, alt, forward slash" [ref=e18] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e19]:
+            - generic [ref=e20]: Search
+            - generic [ref=e21]:
+              - generic [ref=e22]: alt
+              - generic [ref=e23]: +
+              - generic [ref=e24]: /
+      - listitem [ref=e25]:
+        - link "Cart, shift, alt, c" [ref=e26] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e27]:
+            - generic [ref=e28]: Cart
+            - generic [ref=e29]:
+              - generic [ref=e30]: shift
+              - generic [ref=e31]: +
+              - generic [ref=e32]: alt
+              - generic [ref=e33]: +
+              - generic [ref=e34]: C
+      - listitem [ref=e35]:
+        - link "Home, shift, alt, h" [ref=e36] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e37]:
+            - generic [ref=e38]: Home
+            - generic [ref=e39]:
+              - generic [ref=e40]: shift
+              - generic [ref=e41]: +
+              - generic [ref=e42]: alt
+              - generic [ref=e43]: +
+              - generic [ref=e44]: H
+      - listitem [ref=e45]:
+        - link "Your orders, shift, alt, o" [ref=e46] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e47]:
+            - generic [ref=e48]: Orders
+            - generic [ref=e49]:
+              - generic [ref=e50]: shift
+              - generic [ref=e51]: +
+              - generic [ref=e52]: alt
+              - generic [ref=e53]: +
+              - generic [ref=e54]: O
+      - listitem [ref=e55]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]:
+            - generic [ref=e58]: Show/Hide shortcuts
+            - generic [ref=e59]:
+              - generic [ref=e60]: shift
+              - generic [ref=e61]: +
+              - generic [ref=e62]: alt
+              - generic [ref=e63]: +
+              - generic [ref=e64]: Z
+    - generic [ref=e70]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e71]:
+    - navigation "Primary" [ref=e72]:
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - link "Amazon.in" [ref=e76] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Deliver to New Noida 201301‌" [ref=e79] [cursor=pointer]:
+            - generic [ref=e81]:
+              - generic [ref=e82]: Deliver to New
+              - generic [ref=e83]: Noida 201301‌
+        - search [ref=e86]:
+          - generic [ref=e89]:
+            - generic [ref=e91]: All
+            - combobox "Select the department you want to search in" [ref=e93] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh"
+              - option "Amazon Fresh Meat"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=e96]
+          - generic "Go" [ref=e99] [cursor=pointer]:
+            - button "Go" [ref=e100]
+        - generic [ref=e102]:
+          - generic [ref=e103]:
+            - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=e104] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e107]:
+                - img "India" [ref=e108]
+                - generic [ref=e109]: EN
+            - button "Expand to Change Language or Country" [ref=e1765] [cursor=pointer]
+          - generic [ref=e110]:
+            - link "Hello, Celsior Account & Lists" [ref=e111] [cursor=pointer]:
+              - /url: https://www.amazon.in/gp/css/homepage.html?ref_=nav_youraccount_btn
+              - generic [ref=e113]: Hello, Celsior
+              - generic [ref=e114]: Account & Lists
+            - button "Expand Account and Lists" [ref=e115] [cursor=pointer]
+          - link "Returns & Orders" [ref=e116] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e117]: Returns
+            - generic [ref=e118]: "& Orders"
+          - link "0 items in cart" [ref=e1766] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e121]: "0"
+            - generic [ref=e124]: Cart
+      - generic [ref=e125]:
+        - generic [ref=e126]:
+          - button "Open All Categories Menu" [ref=e127] [cursor=pointer]:
+            - generic [ref=e129]: All
+          - button "Open Rufus panel" [ref=e130] [cursor=pointer]:
+            - generic [ref=e132]: Rufus
+        - list [ref=e136]:
+          - listitem [ref=e137]:
+            - generic [ref=e138]:
+              - link "Fresh" [ref=e139] [cursor=pointer]:
+                - /url: /tez/browse?qcbrand=ctnow&ref_=nav_cs_grocery
+              - button "Fresh Details" [ref=e140] [cursor=pointer]
+          - listitem [ref=e141]:
+            - generic [ref=e142]:
+              - link "Prime" [ref=e143] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=e144] [cursor=pointer]
+          - listitem [ref=e145]:
+            - link "MX Player" [ref=e147] [cursor=pointer]:
+              - /url: /minitv?ref_=nav_avod_desktop_topnav
+          - listitem [ref=e148]:
+            - link "Sell" [ref=e150] [cursor=pointer]:
+              - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+          - listitem [ref=e151]:
+            - link "Gift Cards" [ref=e153] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=e154]:
+            - link "Amazon Pay" [ref=e156] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=e157]:
+            - link "Buy Again" [ref=e159] [cursor=pointer]:
+              - /url: /gp/buyagain?ie=UTF8&ref_=nav_cs_buy_again
+          - listitem [ref=e160]:
+            - link "Gift Ideas" [ref=e162] [cursor=pointer]:
+              - /url: /gcx/-/gfhz/?ref_=nav_cs_giftfinder
+          - listitem [ref=e163]:
+            - link "AmazonBasics" [ref=e165] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=e166]:
+            - link "Subscribe & Save" [ref=e168] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e169]:
+            - link "Health, Household & Personal Care" [ref=e171] [cursor=pointer]:
+              - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+          - listitem [ref=e172]:
+            - link "Home Improvement" [ref=e174] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=e175]:
+            - generic [ref=e176]:
+              - link "Browsing History" [ref=e177] [cursor=pointer]:
+                - /url: /gp/history?ref_=nav_cs_timeline
+              - button "Browsing History Details" [ref=e178] [cursor=pointer]
+          - listitem [ref=e179]:
+            - link "Today's Deals" [ref=e181] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e182]:
+            - link "Celsior 's Amazon.in" [ref=e184] [cursor=pointer]:
+              - /url: /gp/yourstore/home?ref_=nav_cs_ys
+              - generic [ref=e185]:
+                - generic [ref=e186]: Celsior
+                - text: "'s Amazon.in"
+          - listitem [ref=e187]:
+            - link "Audible" [ref=e189] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=e190]:
+            - link "Customer Service" [ref=e192] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=e193]:
+            - link "Books" [ref=e195] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=e196]:
+            - link "Sports, Fitness & Outdoors" [ref=e198] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=e199]:
+            - link "Bestsellers" [ref=e201] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e202]:
+            - link "Home & Kitchen" [ref=e204] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=e205]:
+            - link "Kindle eBooks" [ref=e207] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books
+          - listitem [ref=e208]:
+            - link "Toys & Games" [ref=e210] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=e211]:
+            - link "Electronics" [ref=e213] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=e214]:
+            - link "Beauty & Personal Care" [ref=e216] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=e217]:
+            - link "Pet Supplies" [ref=e219] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=e220]:
+            - link "Computers" [ref=e222] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=e223]:
+            - link "Fashion" [ref=e225] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=e226]:
+            - link "Video Games" [ref=e228] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=e229]:
+            - link "Car & Motorbike" [ref=e231] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=e232]:
+            - link "New Releases" [ref=e234] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e235]:
+            - link "Mobiles" [ref=e237] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+          - listitem [ref=e238]:
+            - link "Baby" [ref=e240] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+  - main [ref=e245]:
+    - heading "All Carts" [level=1] [ref=e246]
+    - generic [ref=e248]:
+      - generic [ref=e306]:
+        - heading "Customers Who Bought HP OmniBook 5 OLED (Previously Pavilion), Snapdrag... Also Bought" [level=3] [ref=e307]
+        - list [ref=e308]:
+          - listitem [ref=e309]:
+            - generic [ref=e314]:
+              - link [ref=e317] [cursor=pointer]:
+                - /url: /HP-Smartchoice-Victus-Upgradeable-Gamepass/dp/B0GWQ7MQ1Q/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_1/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0GWQ7MQ1Q&psc=1
+                - img [ref=e318]
+              - generic [ref=e319]:
+                - generic [ref=e321]:
+                  - link "HP Smartchoice Victus, AMD Ryzen 7 7445HS, 6GB RTX 3050, 16GB DDR5(Upgradeable) 512GB SSD, 144Hz, 300 nits, 15.6''/39.6cm, Win 11, Office 24, Blue, 2.29kg, fb3134/20ax, Xbox Gamepass*, Gaming Laptop" [ref=e322] [cursor=pointer]:
+                    - /url: /HP-Smartchoice-Victus-Upgradeable-Gamepass/dp/B0GWQ7MQ1Q/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_1/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0GWQ7MQ1Q&psc=1
+                    - generic [ref=e324]: HP Smartchoice Victus, AMD Ryzen 7 7445HS, 6GB RTX 3050, 16GB DDR5(Upgradeable) 512GB SSD, 144Hz, 300 nits, 15.6''/39.6cm, Win 11, Office 24, Blue, 2.29kg, fb3134/20ax, Xbox Gamepass*, Gaming Laptop
+                  - link "3.0 out of 5 stars, 2 ratings" [ref=e327] [cursor=pointer]:
+                    - /url: /product-reviews/B0GWQ7MQ1Q/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_1_cr/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0GWQ7MQ1Q
+                    - generic [ref=e329]: 3.0 out of 5 stars
+                    - text: "2"
+                  - generic [ref=e330]:
+                    - link "₹1,06,990.00" [ref=e334] [cursor=pointer]:
+                      - /url: /HP-Smartchoice-Victus-Upgradeable-Gamepass/dp/B0GWQ7MQ1Q/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_1/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0GWQ7MQ1Q&psc=1
+                      - generic [ref=e335]:
+                        - generic [ref=e336]: ₹1,06,990.00
+                        - generic [ref=e337]:
+                          - text: ₹
+                          - generic [ref=e338]:
+                            - text: 1,06,990
+                            - generic [ref=e339]: .
+                          - text: "00"
+                    - generic [ref=e341]: Get it by Saturday, July 18
+                  - text: FREE Delivery by Amazon
+                - generic [ref=e349] [cursor=pointer]:
+                  - button "Add to cart, HP Smartchoice Victus, AMD Ryzen 7 7445HS, 6GB RTX 3050, 16GB DDR5(Upgradeable) 512GB SSD, 144Hz, 300 nits, 15.6''/39.6cm, Win 11, Office 24, Blue, 2.29kg, fb3134/20ax, Xbox Gamepass*, Gaming Laptop" [ref=e350]
+                  - generic [ref=e351]: Add to cart
+          - listitem [ref=e352]:
+            - generic [ref=e357]:
+              - link [ref=e360] [cursor=pointer]:
+                - /url: /HP-Omnibook-Snapdragon-Processor-Anti-Glare/dp/B0GY8KNSFC/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_2/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0GY8KNSFC&psc=1
+                - img [ref=e361]
+              - generic [ref=e362]:
+                - generic [ref=e364]:
+                  - link "HP Omnibook 3, Snapdragon X Processor 45 TOPS (16GB LPDDR5x,512GB SSD) 2K WUXGA, Anti-Glare, 14''/35.6cm, Win 11, M365*Office 24,Silver,1.42kg, hz0026QU, Lighter mini Charger, FHD IR Camera, AI Laptop" [ref=e365] [cursor=pointer]:
+                    - /url: /HP-Omnibook-Snapdragon-Processor-Anti-Glare/dp/B0GY8KNSFC/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_2/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0GY8KNSFC&psc=1
+                    - generic [ref=e367]: HP Omnibook 3, Snapdragon X Processor 45 TOPS (16GB LPDDR5x,512GB SSD) 2K WUXGA, Anti-Glare, 14''/35.6cm, Win 11, M365*Office 24,Silver,1.42kg, hz0026QU, Lighter mini Charger, FHD IR Camera, AI Laptop
+                  - link "3.0 out of 5 stars, 10 ratings" [ref=e370] [cursor=pointer]:
+                    - /url: /product-reviews/B0GY8KNSFC/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_2_cr/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0GY8KNSFC
+                    - generic [ref=e372]: 3.0 out of 5 stars
+                    - text: "10"
+                  - generic [ref=e373]:
+                    - generic [ref=e375]:
+                      - generic [ref=e376]:
+                        - link "-45%" [ref=e377] [cursor=pointer]:
+                          - /url: /HP-Omnibook-Snapdragon-Processor-Anti-Glare/dp/B0GY8KNSFC/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_2/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0GY8KNSFC&psc=1
+                          - text: "-45%"
+                        - link "₹79,990.00" [ref=e378] [cursor=pointer]:
+                          - /url: /HP-Omnibook-Snapdragon-Processor-Anti-Glare/dp/B0GY8KNSFC/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_2/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0GY8KNSFC&psc=1
+                          - generic [ref=e379]:
+                            - generic [ref=e380]: ₹79,990.00
+                            - generic [ref=e381]:
+                              - text: ₹
+                              - generic [ref=e382]:
+                                - text: 79,990
+                                - generic [ref=e383]: .
+                              - text: "00"
+                      - 'link "M.R.P: ₹1,46,518.00" [ref=e385] [cursor=pointer]':
+                        - /url: /HP-Omnibook-Snapdragon-Processor-Anti-Glare/dp/B0GY8KNSFC/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_2/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0GY8KNSFC&psc=1
+                        - generic [ref=e387]: "M.R.P: ₹1,46,518.00"
+                    - generic [ref=e389]: Get it by Saturday, July 18
+                  - text: FREE Delivery by Amazon
+                - generic [ref=e397] [cursor=pointer]:
+                  - button "Add to cart, HP Omnibook 3, Snapdragon X Processor 45 TOPS (16GB LPDDR5x,512GB SSD) 2K WUXGA, Anti-Glare, 14''/35.6cm, Win 11, M365*Office 24,Silver,1.42kg, hz0026QU, Lighter mini Charger, FHD IR Camera, AI Laptop" [ref=e398]
+                  - generic [ref=e399]: Add to cart
+          - listitem [ref=e400]:
+            - generic [ref=e405]:
+              - link [ref=e408] [cursor=pointer]:
+                - /url: /HP-Office24-fd1254TU-Graphics-Shutter/dp/B0F5B2X1SD/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_3/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0F5B2X1SD&psc=1
+                - img [ref=e409]
+              - generic [ref=e410]:
+                - generic [ref=e412]:
+                  - link "HP 15 Smartchoice, Intel Core Ultra 5 125H, 12 Tops (16GB DDR5, 512GB SSD) FHD, IPS, 15.6''/39.6cm, Win11, M365(1yr)* Office24, Silver, 1.65kg, fd1254TU, FHD Camera w/Shutter, AI Powered Laptop" [ref=e413] [cursor=pointer]:
+                    - /url: /HP-Office24-fd1254TU-Graphics-Shutter/dp/B0F5B2X1SD/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_3/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0F5B2X1SD&psc=1
+                    - generic [ref=e415]: HP 15 Smartchoice, Intel Core Ultra 5 125H, 12 Tops (16GB DDR5, 512GB SSD) FHD, IPS, 15.6''/39.6cm, Win11, M365(1yr)* Office24, Silver, 1.65kg, fd1254TU, FHD Camera w/Shutter, AI Powered Laptop
+                  - link "3.7 out of 5 stars, 59 ratings" [ref=e418] [cursor=pointer]:
+                    - /url: /product-reviews/B0F5B2X1SD/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_3_cr/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0F5B2X1SD
+                    - generic [ref=e420]: 3.7 out of 5 stars
+                    - text: "59"
+                  - generic [ref=e421]:
+                    - generic [ref=e423]:
+                      - generic [ref=e424]:
+                        - link "-9%" [ref=e425] [cursor=pointer]:
+                          - /url: /HP-Office24-fd1254TU-Graphics-Shutter/dp/B0F5B2X1SD/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_3/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0F5B2X1SD&psc=1
+                          - text: "-9%"
+                        - link "₹75,490.00" [ref=e426] [cursor=pointer]:
+                          - /url: /HP-Office24-fd1254TU-Graphics-Shutter/dp/B0F5B2X1SD/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_3/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0F5B2X1SD&psc=1
+                          - generic [ref=e427]:
+                            - generic [ref=e428]: ₹75,490.00
+                            - generic [ref=e429]:
+                              - text: ₹
+                              - generic [ref=e430]:
+                                - text: 75,490
+                                - generic [ref=e431]: .
+                              - text: "00"
+                      - 'link "M.R.P: ₹83,033.15" [ref=e433] [cursor=pointer]':
+                        - /url: /HP-Office24-fd1254TU-Graphics-Shutter/dp/B0F5B2X1SD/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_3/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0F5B2X1SD&psc=1
+                        - generic [ref=e435]: "M.R.P: ₹83,033.15"
+                    - generic [ref=e437]: Get it by Saturday, July 18
+                  - text: FREE Delivery by Amazon
+                - generic [ref=e445] [cursor=pointer]:
+                  - button "Add to cart, HP 15 Smartchoice, Intel Core Ultra 5 125H, 12 Tops (16GB DDR5, 512GB SSD) FHD, IPS, 15.6''/39.6cm, Win11, M365(1yr)* Office24, Silver, 1.65kg, fd1254TU, FHD Camera w/Shutter, AI Powered Laptop" [ref=e446]
+                  - generic [ref=e447]: Add to cart
+          - listitem [ref=e448]:
+            - generic [ref=e453]:
+              - link [ref=e456] [cursor=pointer]:
+                - /url: /RAYA-Silicone-Keyboard-OmniBook-Transparent/dp/B0H1JM34TD/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_4/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0H1JM34TD&psc=1
+                - img [ref=e457]
+              - generic [ref=e458]:
+                - generic [ref=e460]:
+                  - link "RAYA Silicone Keyboard Cover for HP OmniBook 5 Flip 14inch [ fp0789TU / fp0790TU / fp0690TU / fp0141TU ] & HP OmniBook 7 14inch [ fr0116TU / fr0789TU ] Laptop (Transparent)" [ref=e461] [cursor=pointer]:
+                    - /url: /RAYA-Silicone-Keyboard-OmniBook-Transparent/dp/B0H1JM34TD/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_4/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0H1JM34TD&psc=1
+                    - generic [ref=e463]: RAYA Silicone Keyboard Cover for HP OmniBook 5 Flip 14inch [ fp0789TU / fp0790TU / fp0690TU / fp0141TU ] & HP OmniBook 7 14inch [ fr0116TU / fr0789TU ] Laptop (Transparent)
+                  - link "4.5 out of 5 stars, 6 ratings" [ref=e466] [cursor=pointer]:
+                    - /url: /product-reviews/B0H1JM34TD/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_4_cr/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0H1JM34TD
+                    - generic [ref=e468]: 4.5 out of 5 stars
+                    - text: "6"
+                  - generic [ref=e469]:
+                    - generic [ref=e471]:
+                      - generic [ref=e472]:
+                        - link "-70%" [ref=e473] [cursor=pointer]:
+                          - /url: /RAYA-Silicone-Keyboard-OmniBook-Transparent/dp/B0H1JM34TD/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_4/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0H1JM34TD&psc=1
+                          - text: "-70%"
+                        - link "₹299.00" [ref=e474] [cursor=pointer]:
+                          - /url: /RAYA-Silicone-Keyboard-OmniBook-Transparent/dp/B0H1JM34TD/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_4/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0H1JM34TD&psc=1
+                          - generic [ref=e475]:
+                            - generic [ref=e476]: ₹299.00
+                            - generic [ref=e477]:
+                              - text: ₹
+                              - generic [ref=e478]:
+                                - text: "299"
+                                - generic [ref=e479]: .
+                              - text: "00"
+                      - 'link "M.R.P: ₹999.00" [ref=e481] [cursor=pointer]':
+                        - /url: /RAYA-Silicone-Keyboard-OmniBook-Transparent/dp/B0H1JM34TD/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_4/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0H1JM34TD&psc=1
+                        - generic [ref=e483]: "M.R.P: ₹999.00"
+                    - generic [ref=e485]: Get it by Saturday, July 18
+                  - text: FREE Delivery by Amazon
+                - generic [ref=e493] [cursor=pointer]:
+                  - button "Add to cart, RAYA Silicone Keyboard Cover for HP OmniBook 5 Flip 14inch [ fp0789TU / fp0790TU / fp0690TU / fp0141TU ] & HP OmniBook 7 14inch [ fr0116TU / fr0789TU ] Laptop (Transparent)" [ref=e494]
+                  - generic [ref=e495]: Add to cart
+          - listitem [ref=e496]:
+            - generic [ref=e501]:
+              - link [ref=e504] [cursor=pointer]:
+                - /url: /HP-Smartchoice-i7-13620H-Upgradeable-Office24/dp/B0FDKS93JV/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_5/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0FDKS93JV&psc=1
+                - img [ref=e505]
+              - generic [ref=e506]:
+                - generic [ref=e508]:
+                  - link "HP Smartchoice Victus, 13th Gen i7-13620H, 6GB RTX 4050, 16GB DDR4(Upgradeable) 512GB SSD, 144Hz, 300nits, 15.6''/39.6cm, Win11, Office24, Mica Silver, 2.3kg, fa2100tx, Xbox Gamepass* Gaming Laptop" [ref=e509] [cursor=pointer]:
+                    - /url: /HP-Smartchoice-i7-13620H-Upgradeable-Office24/dp/B0FDKS93JV/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_5/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0FDKS93JV&psc=1
+                    - generic [ref=e511]: HP Smartchoice Victus, 13th Gen i7-13620H, 6GB RTX 4050, 16GB DDR4(Upgradeable) 512GB SSD, 144Hz, 300nits, 15.6''/39.6cm, Win11, Office24, Mica Silver, 2.3kg, fa2100tx, Xbox Gamepass* Gaming Laptop
+                  - link "4.2 out of 5 stars, 137 ratings" [ref=e514] [cursor=pointer]:
+                    - /url: /product-reviews/B0FDKS93JV/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_5_cr/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0FDKS93JV
+                    - generic [ref=e516]: 4.2 out of 5 stars
+                    - text: "137"
+                  - generic [ref=e517]:
+                    - link "₹1,03,990.00" [ref=e521] [cursor=pointer]:
+                      - /url: /HP-Smartchoice-i7-13620H-Upgradeable-Office24/dp/B0FDKS93JV/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_5/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0FDKS93JV&psc=1
+                      - generic [ref=e522]:
+                        - generic [ref=e523]: ₹1,03,990.00
+                        - generic [ref=e524]:
+                          - text: ₹
+                          - generic [ref=e525]:
+                            - text: 1,03,990
+                            - generic [ref=e526]: .
+                          - text: "00"
+                    - generic [ref=e528]: Get it by Monday, July 20
+                  - text: FREE Delivery by Amazon
+                - generic [ref=e536] [cursor=pointer]:
+                  - button "Add to cart, HP Smartchoice Victus, 13th Gen i7-13620H, 6GB RTX 4050, 16GB DDR4(Upgradeable) 512GB SSD, 144Hz, 300nits, 15.6''/39.6cm, Win11, Office24, Mica Silver, 2.3kg, fa2100tx, Xbox Gamepass* Gaming Laptop" [ref=e537]
+                  - generic [ref=e538]: Add to cart
+          - listitem [ref=e539]:
+            - generic [ref=e544]:
+              - link [ref=e547] [cursor=pointer]:
+                - /url: /HP-i5-13420H-Upgrade-Office24-fa2700TX/dp/B0DTYZ2CG8/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_6/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0DTYZ2CG8&psc=1
+                - img [ref=e548]
+              - generic [ref=e549]:
+                - generic [ref=e551]:
+                  - link "HP Victus, 13th Gen Intel Core i5-13420H, 6GB RTX 3050, 16GB DDR4(Upgradeable) 512GB SSD, FHD, 144Hz, 300 nits, IPS, 15.6''/39.6cm, Win11, M365* Office24, Mica Silver, 2.3kg, fa2700TX, Gaming Laptop" [ref=e552] [cursor=pointer]:
+                    - /url: /HP-i5-13420H-Upgrade-Office24-fa2700TX/dp/B0DTYZ2CG8/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_6/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0DTYZ2CG8&psc=1
+                    - generic [ref=e554]: HP Victus, 13th Gen Intel Core i5-13420H, 6GB RTX 3050, 16GB DDR4(Upgradeable) 512GB SSD, FHD, 144Hz, 300 nits, IPS, 15.6''/39.6cm, Win11, M365* Office24, Mica Silver, 2.3kg, fa2700TX, Gaming Laptop
+                  - link "4.0 out of 5 stars, 232 ratings" [ref=e557] [cursor=pointer]:
+                    - /url: /product-reviews/B0DTYZ2CG8/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_6_cr/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0DTYZ2CG8
+                    - generic [ref=e559]: 4.0 out of 5 stars
+                    - text: "232"
+                  - generic [ref=e560]:
+                    - generic [ref=e562]:
+                      - generic [ref=e563]:
+                        - link "-3%" [ref=e564] [cursor=pointer]:
+                          - /url: /HP-i5-13420H-Upgrade-Office24-fa2700TX/dp/B0DTYZ2CG8/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_6/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0DTYZ2CG8&psc=1
+                          - text: "-3%"
+                        - link "₹85,777.00" [ref=e565] [cursor=pointer]:
+                          - /url: /HP-i5-13420H-Upgrade-Office24-fa2700TX/dp/B0DTYZ2CG8/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_6/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0DTYZ2CG8&psc=1
+                          - generic [ref=e566]:
+                            - generic [ref=e567]: ₹85,777.00
+                            - generic [ref=e568]:
+                              - text: ₹
+                              - generic [ref=e569]:
+                                - text: 85,777
+                                - generic [ref=e570]: .
+                              - text: "00"
+                      - 'link "M.R.P: ₹88,473.00" [ref=e572] [cursor=pointer]':
+                        - /url: /HP-i5-13420H-Upgrade-Office24-fa2700TX/dp/B0DTYZ2CG8/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_6/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0DTYZ2CG8&psc=1
+                        - generic [ref=e574]: "M.R.P: ₹88,473.00"
+                    - generic [ref=e576]: Get it by Saturday, July 18
+                  - text: FREE Delivery by Amazon
+                - generic [ref=e584] [cursor=pointer]:
+                  - button "Add to cart, HP Victus, 13th Gen Intel Core i5-13420H, 6GB RTX 3050, 16GB DDR4(Upgradeable) 512GB SSD, FHD, 144Hz, 300 nits, IPS, 15.6''/39.6cm, Win11, M365* Office24, Mica Silver, 2.3kg, fa2700TX, Gaming Laptop" [ref=e585]
+                  - generic [ref=e586]: Add to cart
+          - listitem [ref=e587]:
+            - generic [ref=e592]:
+              - link [ref=e595] [cursor=pointer]:
+                - /url: /Dell-i5-1334U-Anti-Glare-Vostro-3530/dp/B0D2Y1BLDT/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_7/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0D2Y1BLDT&psc=1
+                - img [ref=e596]
+              - generic [ref=e597]:
+                - generic [ref=e599]:
+                  - link "Dell 15, Intel Core 13th Gen i5-1334U, FHD, 15.6\"/39.62cm, Windows 11, MSO'24, Grey, 1.66kg, Vostro 3530, (16GB DDR4, 512GB SSD) Anti-Glare FHD 15.6\"/39.62cm, 12 Month McAfee, Thin & Light Laptop" [ref=e600] [cursor=pointer]:
+                    - /url: /Dell-i5-1334U-Anti-Glare-Vostro-3530/dp/B0D2Y1BLDT/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_7/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0D2Y1BLDT&psc=1
+                    - generic [ref=e602]: Dell 15, Intel Core 13th Gen i5-1334U, FHD, 15.6"/39.62cm, Windows 11, MSO'24, Grey, 1.66kg, Vostro 3530, (16GB DDR4, 512GB SSD) Anti-Glare FHD 15.6"/39.62cm, 12 Month McAfee, Thin & Light Laptop
+                  - link "3.8 out of 5 stars, 591 ratings" [ref=e605] [cursor=pointer]:
+                    - /url: /product-reviews/B0D2Y1BLDT/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_7_cr/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0D2Y1BLDT
+                    - generic [ref=e607]: 3.8 out of 5 stars
+                    - text: "591"
+                  - generic [ref=e608]:
+                    - generic [ref=e610]:
+                      - generic [ref=e611]:
+                        - link "-7%" [ref=e612] [cursor=pointer]:
+                          - /url: /Dell-i5-1334U-Anti-Glare-Vostro-3530/dp/B0D2Y1BLDT/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_7/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0D2Y1BLDT&psc=1
+                          - text: "-7%"
+                        - link "₹67,990.00" [ref=e613] [cursor=pointer]:
+                          - /url: /Dell-i5-1334U-Anti-Glare-Vostro-3530/dp/B0D2Y1BLDT/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_7/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0D2Y1BLDT&psc=1
+                          - generic [ref=e614]:
+                            - generic [ref=e615]: ₹67,990.00
+                            - generic [ref=e616]:
+                              - text: ₹
+                              - generic [ref=e617]:
+                                - text: 67,990
+                                - generic [ref=e618]: .
+                              - text: "00"
+                      - 'link "M.R.P: ₹73,163.00" [ref=e620] [cursor=pointer]':
+                        - /url: /Dell-i5-1334U-Anti-Glare-Vostro-3530/dp/B0D2Y1BLDT/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_7/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0D2Y1BLDT&psc=1
+                        - generic [ref=e622]: "M.R.P: ₹73,163.00"
+                    - generic [ref=e624]: Get it by Saturday, July 18
+                  - text: FREE Delivery by Amazon
+                - generic [ref=e632] [cursor=pointer]:
+                  - button "Add to cart, Dell 15, Intel Core 13th Gen i5-1334U, FHD, 15.6\"/39.62cm, Windows 11, MSO'24, Grey, 1.66kg, Vostro 3530, (16GB DDR4, 512GB SSD) Anti-Glare FHD 15.6\"/39.62cm, 12 Month McAfee, Thin & Light Laptop" [ref=e633]
+                  - generic [ref=e634]: Add to cart
+          - listitem [ref=e635]:
+            - generic [ref=e640]:
+              - link [ref=e643] [cursor=pointer]:
+                - /url: /ASUS-3050-4GB-Upgradeable-Graphite-FA506NCQ-HN006W/dp/B0GW85JTBN/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_8/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0GW85JTBN&psc=1
+                - img [ref=e644]
+              - generic [ref=e645]:
+                - generic [ref=e647]:
+                  - link "ASUS TUF A15, AMD Ryzen 7 170, RTX 3050-4GB, 16GB RAM (Upgradeable), 512GB SSD, FHD, 15.6\"(39.6 cm),Windows 11 Home,Graphite Black, 2.3 Kg, FA506NCQ-HN006W, Gaming Laptop" [ref=e648] [cursor=pointer]:
+                    - /url: /ASUS-3050-4GB-Upgradeable-Graphite-FA506NCQ-HN006W/dp/B0GW85JTBN/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_8/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0GW85JTBN&psc=1
+                    - generic [ref=e650]: ASUS TUF A15, AMD Ryzen 7 170, RTX 3050-4GB, 16GB RAM (Upgradeable), 512GB SSD, FHD, 15.6"(39.6 cm),Windows 11 Home,Graphite Black, 2.3 Kg, FA506NCQ-HN006W, Gaming Laptop
+                  - link "4.8 out of 5 stars, 5 ratings" [ref=e653] [cursor=pointer]:
+                    - /url: /product-reviews/B0GW85JTBN/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_8_cr/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0GW85JTBN
+                    - generic [ref=e655]: 4.8 out of 5 stars
+                    - text: "5"
+                  - generic [ref=e656]:
+                    - generic [ref=e658]:
+                      - generic [ref=e659]:
+                        - link "-16%" [ref=e660] [cursor=pointer]:
+                          - /url: /ASUS-3050-4GB-Upgradeable-Graphite-FA506NCQ-HN006W/dp/B0GW85JTBN/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_8/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0GW85JTBN&psc=1
+                          - text: "-16%"
+                        - link "₹70,990.00" [ref=e661] [cursor=pointer]:
+                          - /url: /ASUS-3050-4GB-Upgradeable-Graphite-FA506NCQ-HN006W/dp/B0GW85JTBN/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_8/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0GW85JTBN&psc=1
+                          - generic [ref=e662]:
+                            - generic [ref=e663]: ₹70,990.00
+                            - generic [ref=e664]:
+                              - text: ₹
+                              - generic [ref=e665]:
+                                - text: 70,990
+                                - generic [ref=e666]: .
+                              - text: "00"
+                      - 'link "M.R.P: ₹84,990.00" [ref=e668] [cursor=pointer]':
+                        - /url: /ASUS-3050-4GB-Upgradeable-Graphite-FA506NCQ-HN006W/dp/B0GW85JTBN/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_8/520-2719826-2014458?pd_rd_w=NHs8R&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0GW85JTBN&psc=1
+                        - generic [ref=e670]: "M.R.P: ₹84,990.00"
+                    - generic [ref=e672]: Get it by Saturday, July 18
+                  - text: FREE Delivery by Amazon
+                - generic [ref=e680] [cursor=pointer]:
+                  - button "Add to cart, ASUS TUF A15, AMD Ryzen 7 170, RTX 3050-4GB, 16GB RAM (Upgradeable), 512GB SSD, FHD, 15.6\"(39.6 cm),Windows 11 Home,Graphite Black, 2.3 Kg, FA506NCQ-HN006W, Gaming Laptop" [ref=e681]
+                  - generic [ref=e682]: Add to cart
+      - generic [ref=e683]:
+        - generic [ref=e685]:
+          - heading "Shopping Cart" [level=2] [ref=e1770]
+          - generic [ref=e695]:
+            - generic [ref=e699]: Price
+            - list "Shopping Cart" [ref=e700]:
+              - listitem [ref=e1773]:
+                - generic "HP OmniBook 5 OLED (Previously Pavilion), Snapdragon X Processor... was removed from Shopping Cart." [active] [ref=e1775]:
+                  - generic [ref=e1776]:
+                    - link "HP OmniBook 5 OLED (Previously Pavilion), Snapdragon X Processor..." [ref=e1777] [cursor=pointer]:
+                      - /url: /gp/product/B0F8P4Y7VF/ref=ox_sc_act_title_delete_1?smid=AJ6SIZC8YQDZX&psc=1
+                    - text: was removed from Shopping Cart.
+            - generic [ref=e1778]: "Subtotal (0 items):"
+        - generic [ref=e789]:
+          - heading "Your Items" [level=3] [ref=e791]
+          - generic [ref=e792]:
+            - tablist [ref=e793]:
+              - tab "No items saved for later" [ref=e794] [cursor=pointer]:
+                - generic [ref=e1779]: No items saved for later
+              - tab "Buy it again" [selected] [ref=e796] [cursor=pointer]:
+                - generic [ref=e797]: Buy it again
+            - tabpanel "Buy it again" [ref=e798]:
+              - generic [ref=e1780]: No items
+        - generic [ref=e802]:
+          - paragraph [ref=e804]: The price and availability of items at Amazon.in are subject to change. The shopping cart is a temporary place to store a list of your items and reflects each item's most recent price.
+          - paragraph [ref=e805]: Do you have a gift card or promotional code? We'll ask you to enter your claim code when it's time to pay.
+  - generic [ref=e806]:
+    - generic [ref=e813]:
+      - heading "Save up to ₹60 with Eco-Friendly Grouped Delivery. Shop now!" [level=2] [ref=e814]
+      - generic [ref=e815]:
+        - text: ₹20 back for every additional item.
+        - link "Buy more, Save more" [ref=e817] [cursor=pointer]:
+          - /url: /promotion/details/AERUAIDBJ7KL7?ref=cbc_bmsm_cw_AERUAIDBJ7KL7_lm&ref_=iCartWidgetCart_d_lm_c
+          - text: Learn more
+      - region [ref=e818]:
+        - list [ref=e823]:
+          - listitem [ref=e824]:
+            - link "Dyazo Dyazo Water Resistant Laptop Sleeve/Laptop case/laptop cover with Handle Compatible for 15 Inch to 15.6\" Inches laptops & Notebooks - Grey 23891 ₹299.00" [ref=e825] [cursor=pointer]:
+              - /url: /dp/B09BFV96TS/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_1?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0XeKuHd1tmTTlmjzTHFuReifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT9B%2BeVWI%2BZ7W76smaTztZKWTp%2FDDorXTXa%2FWJb%2BpFdK2rW7YBXIMgyBmq1zTvM0qrd7ZEA7qi%2Bm6vJR4E%2Fqi0BliHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "Dyazo" [ref=e828]
+              - generic [ref=e829]: Dyazo Water Resistant Laptop Sleeve/Laptop case/laptop cover with Handle Compatible for 15 Inch to 15.6" Inches laptops & Notebooks - Grey
+              - generic [ref=e830]: "23891"
+              - generic [ref=e832]: ₹299.00
+            - generic [ref=e836] [cursor=pointer]:
+              - button "Submit" [ref=e837]
+              - generic [ref=e838]: Add to Cart
+          - listitem [ref=e839]:
+            - link "HP HP 330 15.6-inch Laptop Backpack/Trolley Pass-Through; Padded Back Panel; Padded air mesh Panel/Hand wash and air Dry/1 Year Limited Warranty (793A7AA) 1374 ₹799.00" [ref=e840] [cursor=pointer]:
+              - /url: /dp/B0BYDWD4VL/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_2?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0XeKuHd1tmTTlmjzTHFuReifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkTwlQjXG0yr1O6p66EA4CxoSTp%2FDDorXTXa%2FWJb%2BpFdK2rW7YBXIMgyBmq1zTvM0qrd7ZEA7qi%2Bm6vJR4E%2Fqi0BliHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "HP" [ref=e843]
+              - generic [ref=e844]: HP 330 15.6-inch Laptop Backpack/Trolley Pass-Through; Padded Back Panel; Padded air mesh Panel/Hand wash and air Dry/1 Year Limited Warranty (793A7AA)
+              - generic [ref=e845]: "1374"
+              - generic [ref=e847]: ₹799.00
+            - generic [ref=e851] [cursor=pointer]:
+              - button "Submit" [ref=e852]
+              - generic [ref=e853]: Add to Cart
+          - listitem [ref=e854]:
+            - link "ZEBRONICS Zebronics NC5500D Powerful Laptop Cooler with Dual 125mm Fans, Silent Operation, Adjustable Fan Speed, Display, Controls, USB, 5 Step Retractable Stand and Mobile Holder 2598 ₹799.00" [ref=e855] [cursor=pointer]:
+              - /url: /dp/B0C663VVP1/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_3?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0XeKuHd1tmTTlmjzTHFuReifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkTz%2Fk2jcQrkxZ7ACKtO%2Bhxi6Tp%2FDDorXTXa%2FWJb%2BpFdK2rW7YBXIMgyBmq1zTvM0qrd7ZEA7qi%2Bm6vJR4E%2Fqi0BliHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "ZEBRONICS" [ref=e858]
+              - generic [ref=e859]: Zebronics NC5500D Powerful Laptop Cooler with Dual 125mm Fans, Silent Operation, Adjustable Fan Speed, Display, Controls, USB, 5 Step Retractable Stand and Mobile Holder
+              - generic [ref=e860]: "2598"
+              - generic [ref=e862]: ₹799.00
+            - generic [ref=e866] [cursor=pointer]:
+              - button "Submit" [ref=e867]
+              - generic [ref=e868]: Add to Cart
+          - listitem [ref=e869]:
+            - link "amazon basics Amazon Basics Travel Organiser for Electronic Accessories, Flexible Padded Dividers, Waterproof, Foam Padding, for Cables, Chargers, Hard Disk, Power Bank (Grey) 578 ₹469.00" [ref=e870] [cursor=pointer]:
+              - /url: /dp/B0C3RB9X98/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_4?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0XeKuHd1tmTTlmjzTHFuReifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT3Pr30iGt39iwll43dInURaTp%2FDDorXTXa%2FWJb%2BpFdK2rW7YBXIMgyBmq1zTvM0qrd7ZEA7qi%2Bm6vJR4E%2Fqi0BliHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "amazon basics" [ref=e873]
+              - generic [ref=e874]: Amazon Basics Travel Organiser for Electronic Accessories, Flexible Padded Dividers, Waterproof, Foam Padding, for Cables, Chargers, Hard Disk, Power Bank (Grey)
+              - generic [ref=e875]: "578"
+              - generic [ref=e877]: ₹469.00
+            - generic [ref=e881] [cursor=pointer]:
+              - button "Submit" [ref=e882]
+              - generic [ref=e883]: Add to Cart
+          - listitem [ref=e884]:
+            - link "Dyazo Dyazo Water Resistant Laptop Sleeve | Laptop Case Cover for 15 Inches(38cm),15.6 Inch(39.6cm) Laptops & Notebook (Black) 23891 ₹299.00" [ref=e885] [cursor=pointer]:
+              - /url: /dp/B09BFW41H4/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_5?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0XeKuHd1tmTTlmjzTHFuReifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT0JGbEd96AnQ3mpeU73u9l2Tp%2FDDorXTXa%2FWJb%2BpFdK2rW7YBXIMgyBmq1zTvM0qrd7ZEA7qi%2Bm6vJR4E%2Fqi0BliHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "Dyazo" [ref=e888]
+              - generic [ref=e889]: Dyazo Water Resistant Laptop Sleeve | Laptop Case Cover for 15 Inches(38cm),15.6 Inch(39.6cm) Laptops & Notebook (Black)
+              - generic [ref=e890]: "23891"
+              - generic [ref=e892]: ₹299.00
+            - generic [ref=e896] [cursor=pointer]:
+              - button "Submit" [ref=e897]
+              - generic [ref=e898]: Add to Cart
+          - listitem [ref=e899]:
+            - link "ASUS ASUS AP1601 Laptop Bag, 18L Storage capcity Backpack, Suitable for 16-inch Laptop (Grey) 894 ₹599.00" [ref=e900] [cursor=pointer]:
+              - /url: /dp/B0CRDRHHKR/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_6?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0XeKuHd1tmTTlmjzTHFuReifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT%2Fr%2BgIff%2FNZ5O%2BJyPp7ljDqTp%2FDDorXTXa%2FWJb%2BpFdK2rW7YBXIMgyBmq1zTvM0qrd7ZEA7qi%2Bm6vJR4E%2Fqi0BliHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "ASUS" [ref=e903]
+              - generic [ref=e904]: ASUS AP1601 Laptop Bag, 18L Storage capcity Backpack, Suitable for 16-inch Laptop (Grey)
+              - generic [ref=e905]: "894"
+              - generic [ref=e907]: ₹599.00
+            - generic [ref=e911] [cursor=pointer]:
+              - button "Submit" [ref=e912]
+              - generic [ref=e913]: Add to Cart
+          - listitem [ref=e914]:
+            - link "Swiztek Swiztek Laptop On Off/Power Button Board with Cable Compatible for HP Pavilion 15-G 15-R 15G 15R 15-s 250 g3 255 g3 Series LS-A991P 23 ₹309.00" [ref=e915] [cursor=pointer]:
+              - /url: /dp/B09MM82G9P/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_7?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0XeKuHd1tmTTlmjzTHFuReifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT1hmuE4cP3QxRFXqO%2FxfujGTp%2FDDorXTXa%2FWJb%2BpFdK2rW7YBXIMgyBmq1zTvM0qrd7ZEA7qi%2Bm6vJR4E%2Fqi0BliHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "Swiztek" [ref=e918]
+              - generic [ref=e919]: Swiztek Laptop On Off/Power Button Board with Cable Compatible for HP Pavilion 15-G 15-R 15G 15R 15-s 250 g3 255 g3 Series LS-A991P
+              - generic [ref=e920]: "23"
+              - generic [ref=e922]: ₹309.00
+            - generic [ref=e926] [cursor=pointer]:
+              - button "Submit" [ref=e927]
+              - generic [ref=e928]: Add to Cart
+          - listitem [ref=e929]:
+            - link "Ant Esports Ant Esports MK700 V2 Membrane TKL Wired Gaming Keyboard, 87 UV Coated Mechanical feel Keys Cool RGB Backlight Waterproof Keyboard for PC Laptop Mobile Tablets Gaming, Design and Work Mercury White 929 ₹749.00" [ref=e930] [cursor=pointer]:
+              - /url: /dp/B0DFCW1ZNL/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_8?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0XeKuHd1tmTTlmjzTHFuReifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT0k50jQqVtzgVgLN63w%2BTrtjfOlMSKHx4se%2FKApbiyjuxDXTYLhXI1AywyPiauQjV57IriowAJQSDc6zkvWSQvLwT9L2he1eBP9ybiTewa%2BUNlrI%2BUhQq7usZb1%2FXgNcDg%3D%3D
+              - img "Ant Esports" [ref=e933]
+              - generic [ref=e934]: Ant Esports MK700 V2 Membrane TKL Wired Gaming Keyboard, 87 UV Coated Mechanical feel Keys Cool RGB Backlight Waterproof Keyboard for PC Laptop Mobile Tablets Gaming, Design and Work Mercury White
+              - generic [ref=e935]: "929"
+              - generic [ref=e937]: ₹749.00
+            - generic [ref=e941] [cursor=pointer]:
+              - button "Submit" [ref=e942]
+              - generic [ref=e943]: Add to Cart
+          - listitem [ref=e944]:
+            - link "Dell Dell MS116 Wired Mouse, 1000 DPI, Scrolling Wheel, 2 Buttons, 1 x USB, Optical LED Tracking, Plug and Play, Scrolling Wheel, Black 48309 ₹295.00" [ref=e945] [cursor=pointer]:
+              - /url: /dp/B01HJI0FS2/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_9?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0XeKuHd1tmTTlmjzTHFuReifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkTwzzQqCFSbb5kJjb3pkErL%2BTp%2FDDorXTXa%2FWJb%2BpFdK2rW7YBXIMgyBmq1zTvM0qrd7ZEA7qi%2Bm6vJR4E%2Fqi0BliHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "Dell" [ref=e948]
+              - generic [ref=e949]: Dell MS116 Wired Mouse, 1000 DPI, Scrolling Wheel, 2 Buttons, 1 x USB, Optical LED Tracking, Plug and Play, Scrolling Wheel, Black
+              - generic [ref=e950]: "48309"
+              - generic [ref=e952]: ₹295.00
+            - generic [ref=e956] [cursor=pointer]:
+              - button "Submit" [ref=e957]
+              - generic [ref=e958]: Add to Cart
+          - listitem [ref=e959]:
+            - link "Dyazo Dyazo Office Protective Laptop Sleeve | Laptop Case Cover With Handle for All 15 Inch To 15 .6\" (39.6 cm) Laptops, Notebooks (Blue) 23891 ₹299.00" [ref=e960] [cursor=pointer]:
+              - /url: /dp/B09BFTHSBN/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_10?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0XeKuHd1tmTTlmjzTHFuReifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkTwpl8t79ydjS2kYyqd4p4pSTp%2FDDorXTXa%2FWJb%2BpFdK2rW7YBXIMgyBmq1zTvM0qrd7ZEA7qi%2Bm6vJR4E%2Fqi0BliHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "Dyazo" [ref=e963]
+              - generic [ref=e964]: Dyazo Office Protective Laptop Sleeve | Laptop Case Cover With Handle for All 15 Inch To 15 .6" (39.6 cm) Laptops, Notebooks (Blue)
+              - generic [ref=e965]: "23891"
+              - generic [ref=e967]: ₹299.00
+            - generic [ref=e971] [cursor=pointer]:
+              - button "Submit" [ref=e972]
+              - generic [ref=e973]: Add to Cart
+          - listitem [ref=e974]:
+            - link "FUR JADEN FUR JADEN Anti Theft Number Lock Backpack Bag with 15.6 Inch Laptop Compartment, USB Charging Port & Organizer Pocket for Men Women Boys Girls 16235 ₹586.00" [ref=e975] [cursor=pointer]:
+              - /url: /dp/B09VTDMRY7/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_11?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0XeKuHd1tmTTlmjzTHFuReifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkTw%2B7TGuPfEt8ZxB2sHfPBOLhLO3Y4MlwHebV0UzRqOaSrW7YBXIMgyBmq1zTvM0qrd7ZEA7qi%2Bm6vJR4E%2Fqi0BliHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "FUR JADEN" [ref=e978]
+              - generic [ref=e979]: FUR JADEN Anti Theft Number Lock Backpack Bag with 15.6 Inch Laptop Compartment, USB Charging Port & Organizer Pocket for Men Women Boys Girls
+              - generic [ref=e980]: "16235"
+              - generic [ref=e982]: ₹586.00
+            - generic [ref=e986] [cursor=pointer]:
+              - button "Submit" [ref=e987]
+              - generic [ref=e988]: Add to Cart
+          - listitem [ref=e989]:
+            - link "Dell Dell WM118 Wireless Mouse, 1000DPI, 2.4 Ghz with USB Nano Receiver, Optical Tracking, 12-Months Battery Life, Plug and Play, Ambidextrous - Black 16755 ₹649.00" [ref=e990] [cursor=pointer]:
+              - /url: /dp/B07JPX9CR7/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_12?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0XeKuHd1tmTTlmjzTHFuReifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT9LfE2R1brwLyE%2Bj6nfkd7STp%2FDDorXTXa%2FWJb%2BpFdK2rW7YBXIMgyBmq1zTvM0qrd7ZEA7qi%2Bm6vJR4E%2Fqi0BliHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "Dell" [ref=e993]
+              - generic [ref=e994]: Dell WM118 Wireless Mouse, 1000DPI, 2.4 Ghz with USB Nano Receiver, Optical Tracking, 12-Months Battery Life, Plug and Play, Ambidextrous - Black
+              - generic [ref=e995]: "16755"
+              - generic [ref=e997]: ₹649.00
+            - generic [ref=e1001] [cursor=pointer]:
+              - button "Submit" [ref=e1002]
+              - generic [ref=e1003]: Add to Cart
+          - listitem [ref=e1004]:
+            - link "ARTBRIZ ARTBRIZ® Brizberry Pro-X1 Mouse Pad, Optimised for Speed and Precision, Premium Anti Skid Rubber Base, for Office Desktop Laptop PC Mac, 240mm x 210mm x 3mm (111S - Pack of 1) 1032 ₹149.00" [ref=e1005] [cursor=pointer]:
+              - /url: /dp/B09KCCCSX3/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_13?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0XeKuHd1tmTTlmjzTHFuReifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkTz6%2BmU6JNZ9ISNQdEiEQVKyTp%2FDDorXTXa%2FWJb%2BpFdK2rW7YBXIMgyBmq1zTvM0qrd7ZEA7qi%2Bm6vJR4E%2Fqi0BliHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "ARTBRIZ" [ref=e1008]
+              - generic [ref=e1009]: ARTBRIZ® Brizberry Pro-X1 Mouse Pad, Optimised for Speed and Precision, Premium Anti Skid Rubber Base, for Office Desktop Laptop PC Mac, 240mm x 210mm x 3mm (111S - Pack of 1)
+              - generic [ref=e1010]: "1032"
+              - generic [ref=e1012]: ₹149.00
+            - generic [ref=e1016] [cursor=pointer]:
+              - button "Submit" [ref=e1017]
+              - generic [ref=e1018]: Add to Cart
+          - listitem [ref=e1019]:
+            - link "ALIFIYA Alifiya Polyester Gadget Charger Pouch/Travel Organizer Pouch for Cables/Hard Disk/Charger (Black - Pack of 2) 1274 ₹263.00" [ref=e1020] [cursor=pointer]:
+              - /url: /dp/B09NY84WLC/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_14?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0XeKuHd1tmTTlmjzTHFuReifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT%2BbIkzDeOQNK2QyWYqRTIh3hLO3Y4MlwHebV0UzRqOaSrW7YBXIMgyBmq1zTvM0qrd7ZEA7qi%2Bm6vJR4E%2Fqi0BliHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "ALIFIYA" [ref=e1023]
+              - generic [ref=e1024]: Alifiya Polyester Gadget Charger Pouch/Travel Organizer Pouch for Cables/Hard Disk/Charger (Black - Pack of 2)
+              - generic [ref=e1025]: "1274"
+              - generic [ref=e1027]: ₹263.00
+            - generic [ref=e1031] [cursor=pointer]:
+              - button "Submit" [ref=e1032]
+              - generic [ref=e1033]: Add to Cart
+          - listitem [ref=e1034]:
+            - link "ZEBRONICS Zebronics, ZEB-NC3300 USB Powered Laptop Cooling Pad with Dual Fan, Dual USB Port and Blue LED Lights 12954 ₹599.00" [ref=e1035] [cursor=pointer]:
+              - /url: /dp/B07YWS9SP9/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_15?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0XeKuHd1tmTTlmjzTHFuReifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT5%2BwxvNvI%2FdVaYXYO8ML4ROTp%2FDDorXTXa%2FWJb%2BpFdK2rW7YBXIMgyBmq1zTvM0qrd7ZEA7qi%2Bm6vJR4E%2Fqi0BliHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "ZEBRONICS" [ref=e1038]
+              - generic [ref=e1039]: Zebronics, ZEB-NC3300 USB Powered Laptop Cooling Pad with Dual Fan, Dual USB Port and Blue LED Lights
+              - generic [ref=e1040]: "12954"
+              - generic [ref=e1042]: ₹599.00
+            - generic [ref=e1046] [cursor=pointer]:
+              - button "Submit" [ref=e1047]
+              - generic [ref=e1048]: Add to Cart
+          - listitem [ref=e1049]:
+            - link "Dyazo Dyazo 14.1 Inch Laptop Sleeve Case Cover with Handle & 2 Front Pockets | 1 Year Warranty | Compatible with Lenovo, HP, Dell, Asus, Acer & Other Notebooks | Grey 23891 ₹299.00" [ref=e1050] [cursor=pointer]:
+              - /url: /dp/B0BRJ86Y5V/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_16?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0XeKuHd1tmTTlmjzTHFuReifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT4yoAuS6jCCQowqPGroaSp2Tp%2FDDorXTXa%2FWJb%2BpFdK2rW7YBXIMgyBmq1zTvM0qrd7ZEA7qi%2Bm6vJR4E%2Fqi0BliHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "Dyazo" [ref=e1053]
+              - generic [ref=e1054]: Dyazo 14.1 Inch Laptop Sleeve Case Cover with Handle & 2 Front Pockets | 1 Year Warranty | Compatible with Lenovo, HP, Dell, Asus, Acer & Other Notebooks | Grey
+              - generic [ref=e1055]: "23891"
+              - generic [ref=e1057]: ₹299.00
+            - generic [ref=e1061] [cursor=pointer]:
+              - button "Submit" [ref=e1062]
+              - generic [ref=e1063]: Add to Cart
+          - listitem [ref=e1064]:
+            - link "Ant Esports Ant Esports KM1410 Wired Gaming Keyboard and Mouse Combo, RGB LED Backlit, 25 Keys Anti-ghosting Water Resistant Membrane Keyboard, Carbon Black, Upto 3600 DPI RGB Gaming Mouse. 382 ₹749.00" [ref=e1065] [cursor=pointer]:
+              - /url: /dp/B0FG2PNPZY/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_17?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0XeKuHd1tmTTlmjzTHFuReifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT39t0U7RJ1OJ44%2BHSf5POChjfOlMSKHx4se%2FKApbiyjuxDXTYLhXI1AywyPiauQjV57IriowAJQSDc6zkvWSQvLwT9L2he1eBP9ybiTewa%2BUNlrI%2BUhQq7usZb1%2FXgNcDg%3D%3D
+              - img "Ant Esports" [ref=e1068]
+              - generic [ref=e1069]: Ant Esports KM1410 Wired Gaming Keyboard and Mouse Combo, RGB LED Backlit, 25 Keys Anti-ghosting Water Resistant Membrane Keyboard, Carbon Black, Upto 3600 DPI RGB Gaming Mouse.
+              - generic [ref=e1070]: "382"
+              - generic [ref=e1072]: ₹749.00
+            - generic [ref=e1076] [cursor=pointer]:
+              - button "Submit" [ref=e1077]
+              - generic [ref=e1078]: Add to Cart
+          - listitem [ref=e1079]:
+            - link "TARKAN TARKAN Vertical Laptop Holder | 2-Slot Desk Space Saving Organizer Stand Fits All Laptop Sizes (ABS, Black) 679 ₹499.00" [ref=e1080] [cursor=pointer]:
+              - /url: /dp/B0CBC7D3C9/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_18?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0XeKuHd1tmTTlmjzTHFuReifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT3GCMDir22CfgZwDF0GJQXaTp%2FDDorXTXa%2FWJb%2BpFdK2rW7YBXIMgyBmq1zTvM0qrd7ZEA7qi%2Bm6vJR4E%2Fqi0BliHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "TARKAN" [ref=e1083]
+              - generic [ref=e1084]: TARKAN Vertical Laptop Holder | 2-Slot Desk Space Saving Organizer Stand Fits All Laptop Sizes (ABS, Black)
+              - generic [ref=e1085]: "679"
+              - generic [ref=e1087]: ₹499.00
+            - generic [ref=e1091] [cursor=pointer]:
+              - button "Submit" [ref=e1092]
+              - generic [ref=e1093]: Add to Cart
+          - listitem [ref=e1094]:
+            - link "TABELITO You Imagine We Deliver Tabelito Basic Laptop Sleeve Bag for Upto 15.6 Inch Laptop, Water Resistant Protective Sleeve Case for Men & Women Compatible with Apple, Dell, Lenovo, Asus, HP, Samsung, Mi, MacBook, Ultrabook (Grey) 4127 ₹259.00" [ref=e1095] [cursor=pointer]:
+              - /url: /dp/B09NDTW8SP/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_19?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0XeKuHd1tmTTlmjzTHFuReifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT4%2BqwCAzhzUTDWye9mtwu56Tp%2FDDorXTXa%2FWJb%2BpFdK2rW7YBXIMgyBmq1zTvM0qrd7ZEA7qi%2Bm6vJR4E%2Fqi0BliHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "TABELITO You Imagine We Deliver" [ref=e1098]
+              - generic [ref=e1099]: Tabelito Basic Laptop Sleeve Bag for Upto 15.6 Inch Laptop, Water Resistant Protective Sleeve Case for Men & Women Compatible with Apple, Dell, Lenovo, Asus, HP, Samsung, Mi, MacBook, Ultrabook (Grey)
+              - generic [ref=e1100]: "4127"
+              - generic [ref=e1102]: ₹259.00
+            - generic [ref=e1106] [cursor=pointer]:
+              - button "Submit" [ref=e1107]
+              - generic [ref=e1108]: Add to Cart
+          - listitem [ref=e1109]:
+            - link "Logitech Logitech K120 Wired Keyboard for Windows, USB Plug-and-Play, Full-Size, Spill-Resistant, Curved Space Bar, Compatible with PC, Laptop 8652 ₹649.00" [ref=e1110] [cursor=pointer]:
+              - /url: /dp/B006FEPRO4/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_20?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0XeKuHd1tmTTlmjzTHFuReifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT0%2B%2Fzl9Sde8hjLBTBOIhguWTp%2FDDorXTXa%2FWJb%2BpFdK2rW7YBXIMgyBmq1zTvM0qrd7ZEA7qi%2Bm6vJR4E%2Fqi0BliHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "Logitech" [ref=e1113]
+              - generic [ref=e1114]: Logitech K120 Wired Keyboard for Windows, USB Plug-and-Play, Full-Size, Spill-Resistant, Curved Space Bar, Compatible with PC, Laptop
+              - generic [ref=e1115]: "8652"
+              - generic [ref=e1117]: ₹649.00
+            - generic [ref=e1121] [cursor=pointer]:
+              - button "Submit" [ref=e1122]
+              - generic [ref=e1123]: Add to Cart
+          - listitem [ref=e1124]:
+            - link "CRALOFT Craloft 14 Inch Laptop Sleeve Cover Bag – Water-Resistant Case for MacBook, Dell, HP, Lenovo – Ideal for Office & Travel Use (Grey) 484 ₹389.00" [ref=e1125] [cursor=pointer]:
+              - /url: /dp/B09T6ZQKN9/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_21?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0XeKuHd1tmTTlmjzTHFuReifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkTzb0nIh5OUiYZk45O6IEbl0FrfO5enrygDonBXeDrMIi7UEXBVKKIOcFY09rdQAEhU2tjsdZjFZogdPLpE1tHRFcRyn1qvDnKkUheu%2BDpU4kfGMsncKdoG8lI%2Br8bPwKjg%3D%3D
+              - img "CRALOFT" [ref=e1128]
+              - generic [ref=e1129]: Craloft 14 Inch Laptop Sleeve Cover Bag – Water-Resistant Case for MacBook, Dell, HP, Lenovo – Ideal for Office & Travel Use (Grey)
+              - generic [ref=e1130]: "484"
+              - generic [ref=e1132]: ₹389.00
+            - generic [ref=e1136] [cursor=pointer]:
+              - button "Submit" [ref=e1137]
+              - generic [ref=e1138]: Add to Cart
+          - listitem [ref=e1139]:
+            - link "FLYNGO FLYNGO Nylon 8 Pcs Travel Organizer Pouch Packing Cubes For Clothes Space Savers Bags Cosmetics/Underwear/Socks/Shoes Toiletry Bag Laundry Organiser(Beige) 1815 ₹575.00" [ref=e1140] [cursor=pointer]:
+              - /url: /dp/B0C4TV4M2F/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_22?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0XeKuHd1tmTTlmjzTHFuReifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT4P5kTCot8ptMxBXRqn436CLZZ1e01FPZjILPalXB6n8xDXTYLhXI1AywyPiauQjV57IriowAJQSDc6zkvWSQvLwT9L2he1eBP9ybiTewa%2BUNlrI%2BUhQq7usZb1%2FXgNcDg%3D%3D
+              - img "FLYNGO" [ref=e1143]
+              - generic [ref=e1144]: FLYNGO Nylon 8 Pcs Travel Organizer Pouch Packing Cubes For Clothes Space Savers Bags Cosmetics/Underwear/Socks/Shoes Toiletry Bag Laundry Organiser(Beige)
+              - generic [ref=e1145]: "1815"
+              - generic [ref=e1147]: ₹575.00
+            - generic [ref=e1151] [cursor=pointer]:
+              - button "Submit" [ref=e1152]
+              - generic [ref=e1153]: Add to Cart
+          - listitem [ref=e1154]:
+            - link "Lapmate Swiztek Laptop Keyboard for Hp 431 435 430 630 630s Compaq CQ43 CQ57 G4 G6 HP 1000 Series 202 ₹390.00" [ref=e1155] [cursor=pointer]:
+              - /url: /dp/B00TXA7M9K/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_23?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0XeKuHd1tmTTlmjzTHFuReifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT07t3mmHtLP9FJQHdIpl1UiTp%2FDDorXTXa%2FWJb%2BpFdK2rW7YBXIMgyBmq1zTvM0qrd7ZEA7qi%2Bm6vJR4E%2Fqi0BliHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "Lapmate" [ref=e1158]
+              - generic [ref=e1159]: Swiztek Laptop Keyboard for Hp 431 435 430 630 630s Compaq CQ43 CQ57 G4 G6 HP 1000 Series
+              - generic [ref=e1160]: "202"
+              - generic [ref=e1162]: ₹390.00
+            - generic [ref=e1166] [cursor=pointer]:
+              - button "Submit" [ref=e1167]
+              - generic [ref=e1168]: Add to Cart
+          - listitem [ref=e1169]:
+            - link "amazon basics Amazon Basics Laptop Bag Sleeve Case Cover Pouch with Handle for Men & Women | 14.1 Inch Laptop with Padded Laptop Compartment | Zipper Closure | Water Repellent Nylon Fabric (Grey) 535 ₹419.00" [ref=e1170] [cursor=pointer]:
+              - /url: /dp/B0CPJ1RS9C/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_24?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0XeKuHd1tmTTlmjzTHFuReifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT48FvYRHIwx0UMxygFwuZaSTp%2FDDorXTXa%2FWJb%2BpFdK2rW7YBXIMgyBmq1zTvM0qrd7ZEA7qi%2Bm6vJR4E%2Fqi0BliHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "amazon basics" [ref=e1173]
+              - generic [ref=e1174]: Amazon Basics Laptop Bag Sleeve Case Cover Pouch with Handle for Men & Women | 14.1 Inch Laptop with Padded Laptop Compartment | Zipper Closure | Water Repellent Nylon Fabric (Grey)
+              - generic [ref=e1175]: "535"
+              - generic [ref=e1177]: ₹419.00
+            - generic [ref=e1181] [cursor=pointer]:
+              - button "Submit" [ref=e1182]
+              - generic [ref=e1183]: Add to Cart
+    - group [ref=e1190]:
+      - generic [ref=e1192]:
+        - generic [ref=e1193]:
+          - heading "Customers who bought items in your cart also bought" [level=2] [ref=e1195]
+          - generic [ref=e1198]: Page 1 of 2
+        - button "Not interested in specific items" [ref=e1202] [cursor=pointer]
+      - generic [ref=e1204]:
+        - button "Previous set of slides" [ref=e1206] [cursor=pointer]:
+          - generic [ref=e1209]: Previous set of slides
+        - group [ref=e1211]:
+          - list [ref=e1212]:
+            - listitem [ref=e1213]:
+              - generic [ref=e1215]:
+                - link [ref=e1217] [cursor=pointer]:
+                  - /url: /Portronics-C-Konnect-Adapter-Project-Projector/dp/B083DY9RXW/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_1/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B083DY9RXW&psc=1
+                  - img [ref=e1218]
+                - generic [ref=e1220]:
+                  - link "Portronics C-Konnect Type C to HDMI Adapter (3-in-1), Multiport USB C Hub with 4K@30Hz, USB 3.0 @ 5Gbps, 100 W PD Charging Port for Laptop, MacBook, PC and Other Type C Devices (White)" [ref=e1221] [cursor=pointer]:
+                    - /url: /Portronics-C-Konnect-Adapter-Project-Projector/dp/B083DY9RXW/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_1/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B083DY9RXW&psc=1
+                    - generic [ref=e1223]: Portronics C-Konnect Type C to HDMI Adapter (3-in-1), Multiport USB C Hub with 4K@30Hz, USB 3.0 @ 5Gbps, 100 W PD Charging Port for Laptop, MacBook, PC and Other Type C Devices (White)
+                  - link "4.0 out of 5 stars, 10,460 ratings" [ref=e1226] [cursor=pointer]:
+                    - /url: /product-reviews/B083DY9RXW/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_1_cr/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B083DY9RXW
+                    - generic [ref=e1228]: 4.0 out of 5 stars
+                    - text: 10,460
+                  - generic [ref=e1231]: 4K+ bought in past month
+                  - generic [ref=e1232]:
+                    - generic [ref=e1234]:
+                      - generic [ref=e1235]:
+                        - link "-83%" [ref=e1236] [cursor=pointer]:
+                          - /url: /Portronics-C-Konnect-Adapter-Project-Projector/dp/B083DY9RXW/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_1/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B083DY9RXW&psc=1
+                          - text: "-83%"
+                        - link "₹429.00" [ref=e1237] [cursor=pointer]:
+                          - /url: /Portronics-C-Konnect-Adapter-Project-Projector/dp/B083DY9RXW/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_1/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B083DY9RXW&psc=1
+                          - generic [ref=e1238]:
+                            - generic [ref=e1239]: ₹429.00
+                            - generic [ref=e1240]:
+                              - text: ₹
+                              - generic [ref=e1241]:
+                                - text: "429"
+                                - generic [ref=e1242]: .
+                              - text: "00"
+                      - 'link "M.R.P: ₹2,499.00" [ref=e1244] [cursor=pointer]':
+                        - /url: /Portronics-C-Konnect-Adapter-Project-Projector/dp/B083DY9RXW/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_1/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B083DY9RXW&psc=1
+                        - generic [ref=e1246]: "M.R.P: ₹2,499.00"
+                    - generic [ref=e1248]: Get it by Saturday, July 18
+                  - text: FREE Delivery by Amazon
+                - generic [ref=e1256] [cursor=pointer]:
+                  - button "Add to cart, Portronics C-Konnect Type C to HDMI Adapter (3-in-1), Multiport USB C Hub with 4K@30Hz, USB 3.0 @ 5Gbps, 100 W PD Charging Port for Laptop, MacBook, PC and Other Type C Devices (White)" [ref=e1257]
+                  - generic [ref=e1258]: Add to cart
+            - listitem [ref=e1259]:
+              - generic [ref=e1261]:
+                - link [ref=e1263] [cursor=pointer]:
+                  - /url: /HP-K270-Wireless-Keyboard-Black/dp/B0DXPHFMLX/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_2/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0DXPHFMLX&psc=1
+                  - img [ref=e1264]
+                - generic [ref=e1266]:
+                  - link "HP K270 Wireless Keyboard" [ref=e1267] [cursor=pointer]:
+                    - /url: /HP-K270-Wireless-Keyboard-Black/dp/B0DXPHFMLX/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_2/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0DXPHFMLX&psc=1
+                    - generic [ref=e1269]: HP K270 Wireless Keyboard
+                  - link "4.1 out of 5 stars, 256 ratings" [ref=e1272] [cursor=pointer]:
+                    - /url: /product-reviews/B0DXPHFMLX/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_2_cr/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0DXPHFMLX
+                    - generic [ref=e1274]: 4.1 out of 5 stars
+                    - text: "256"
+                  - generic [ref=e1277]: 300+ bought in past month
+                  - generic [ref=e1278]:
+                    - generic [ref=e1280]:
+                      - generic [ref=e1281]:
+                        - link "-56%" [ref=e1282] [cursor=pointer]:
+                          - /url: /HP-K270-Wireless-Keyboard-Black/dp/B0DXPHFMLX/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_2/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0DXPHFMLX&psc=1
+                          - text: "-56%"
+                        - link "₹749.00" [ref=e1283] [cursor=pointer]:
+                          - /url: /HP-K270-Wireless-Keyboard-Black/dp/B0DXPHFMLX/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_2/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0DXPHFMLX&psc=1
+                          - generic [ref=e1284]:
+                            - generic [ref=e1285]: ₹749.00
+                            - generic [ref=e1286]:
+                              - text: ₹
+                              - generic [ref=e1287]:
+                                - text: "749"
+                                - generic [ref=e1288]: .
+                              - text: "00"
+                      - generic [ref=e1291]: Limited time deal
+                      - 'link "M.R.P: ₹1,699.00" [ref=e1293] [cursor=pointer]':
+                        - /url: /HP-K270-Wireless-Keyboard-Black/dp/B0DXPHFMLX/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_2/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0DXPHFMLX&psc=1
+                        - generic [ref=e1295]: "M.R.P: ₹1,699.00"
+                    - generic [ref=e1297]: Get it by Saturday, July 18
+                  - text: FREE Delivery by Amazon
+                - generic [ref=e1305] [cursor=pointer]:
+                  - button "Add to cart, HP K270 Wireless Keyboard" [ref=e1306]
+                  - generic [ref=e1307]: Add to cart
+            - listitem [ref=e1308]:
+              - generic [ref=e1310]:
+                - link [ref=e1312] [cursor=pointer]:
+                  - /url: /HP-15-6-inch-Backpack-Pass-Through-793A7AA/dp/B0BYDWD4VL/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_3/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0BYDWD4VL&psc=1
+                  - img [ref=e1313]
+                - generic [ref=e1315]:
+                  - link "HP 330 15.6-inch Laptop Backpack/Trolley Pass-Through; Padded Back Panel; Padded air mesh Panel/Hand wash and air Dry/1 Year Limited Warranty (793A7AA)" [ref=e1316] [cursor=pointer]:
+                    - /url: /HP-15-6-inch-Backpack-Pass-Through-793A7AA/dp/B0BYDWD4VL/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_3/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0BYDWD4VL&psc=1
+                    - generic [ref=e1318]: HP 330 15.6-inch Laptop Backpack/Trolley Pass-Through; Padded Back Panel; Padded air mesh Panel/Hand wash and air Dry/1 Year Limited Warranty (793A7AA)
+                  - link "4.4 out of 5 stars, 1,374 ratings" [ref=e1321] [cursor=pointer]:
+                    - /url: /product-reviews/B0BYDWD4VL/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_3_cr/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0BYDWD4VL
+                    - generic [ref=e1323]: 4.4 out of 5 stars
+                    - text: 1,374
+                  - generic [ref=e1326]: 200+ bought in past month
+                  - generic [ref=e1327]:
+                    - generic [ref=e1329]:
+                      - generic [ref=e1330]:
+                        - link "-73%" [ref=e1331] [cursor=pointer]:
+                          - /url: /HP-15-6-inch-Backpack-Pass-Through-793A7AA/dp/B0BYDWD4VL/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_3/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0BYDWD4VL&psc=1
+                          - text: "-73%"
+                        - link "₹799.00" [ref=e1332] [cursor=pointer]:
+                          - /url: /HP-15-6-inch-Backpack-Pass-Through-793A7AA/dp/B0BYDWD4VL/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_3/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0BYDWD4VL&psc=1
+                          - generic [ref=e1333]:
+                            - generic [ref=e1334]: ₹799.00
+                            - generic [ref=e1335]:
+                              - text: ₹
+                              - generic [ref=e1336]:
+                                - text: "799"
+                                - generic [ref=e1337]: .
+                              - text: "00"
+                      - generic [ref=e1340]: Limited time deal
+                      - 'link "M.R.P: ₹2,999.00" [ref=e1342] [cursor=pointer]':
+                        - /url: /HP-15-6-inch-Backpack-Pass-Through-793A7AA/dp/B0BYDWD4VL/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_3/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0BYDWD4VL&psc=1
+                        - generic [ref=e1344]: "M.R.P: ₹2,999.00"
+                    - generic [ref=e1346]: Get it by Saturday, July 18
+                  - text: FREE Delivery by Amazon
+                - generic [ref=e1354] [cursor=pointer]:
+                  - button "Add to cart, HP 330 15.6-inch Laptop Backpack/Trolley Pass-Through; Padded Back Panel; Padded air mesh Panel/Hand wash and air Dry/1 Year Limited Warranty (793A7AA)" [ref=e1355]
+                  - generic [ref=e1356]: Add to cart
+            - listitem [ref=e1357]:
+              - generic [ref=e1359]:
+                - link [ref=e1361] [cursor=pointer]:
+                  - /url: /HP-Bluetooth-Bluetooth%C2%AE-connection-ambidextrous/dp/B0C8BDH25B/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_4/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0C8BDH25B&psc=1
+                  - img [ref=e1362]
+                - generic [ref=e1364]:
+                  - link "HP 240 Lunar White Bluetooth Mouse/Bluetooth® 5.1 connection/15 Month battery/1600 dpi Optical Sensor/Sleek and ambidextrous Design" [ref=e1365] [cursor=pointer]:
+                    - /url: /HP-Bluetooth-Bluetooth%C2%AE-connection-ambidextrous/dp/B0C8BDH25B/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_4/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0C8BDH25B&psc=1
+                    - generic [ref=e1367]: HP 240 Lunar White Bluetooth Mouse/Bluetooth® 5.1 connection/15 Month battery/1600 dpi Optical Sensor/Sleek and ambidextrous Design
+                  - link "4.0 out of 5 stars, 200 ratings" [ref=e1370] [cursor=pointer]:
+                    - /url: /product-reviews/B0C8BDH25B/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_4_cr/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0C8BDH25B
+                    - generic [ref=e1372]: 4.0 out of 5 stars
+                    - text: "200"
+                  - generic [ref=e1375]: 50+ bought in past month
+                  - generic [ref=e1376]:
+                    - generic [ref=e1378]:
+                      - generic [ref=e1379]:
+                        - link "-59%" [ref=e1380] [cursor=pointer]:
+                          - /url: /HP-Bluetooth-Bluetooth%C2%AE-connection-ambidextrous/dp/B0C8BDH25B/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_4/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0C8BDH25B&psc=1
+                          - text: "-59%"
+                        - link "₹692.00" [ref=e1381] [cursor=pointer]:
+                          - /url: /HP-Bluetooth-Bluetooth%C2%AE-connection-ambidextrous/dp/B0C8BDH25B/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_4/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0C8BDH25B&psc=1
+                          - generic [ref=e1382]:
+                            - generic [ref=e1383]: ₹692.00
+                            - generic [ref=e1384]:
+                              - text: ₹
+                              - generic [ref=e1385]:
+                                - text: "692"
+                                - generic [ref=e1386]: .
+                              - text: "00"
+                      - 'link "M.R.P: ₹1,697.00" [ref=e1388] [cursor=pointer]':
+                        - /url: /HP-Bluetooth-Bluetooth%C2%AE-connection-ambidextrous/dp/B0C8BDH25B/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_4/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0C8BDH25B&psc=1
+                        - generic [ref=e1390]: "M.R.P: ₹1,697.00"
+                    - generic [ref=e1392]: Get it by Saturday, July 18
+                  - text: FREE Delivery by Amazon
+                - generic [ref=e1400] [cursor=pointer]:
+                  - button "Add to cart, HP 240 Lunar White Bluetooth Mouse/Bluetooth® 5.1 connection/15 Month battery/1600 dpi Optical Sensor/Sleek and ambidextrous Design" [ref=e1401]
+                  - generic [ref=e1402]: Add to cart
+            - listitem [ref=e1403]:
+              - generic [ref=e1405]:
+                - link [ref=e1407] [cursor=pointer]:
+                  - /url: /Samsung-Shield-External-Portable-MU-PE1T0R/dp/B09YHQ2J5T/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_5/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B09YHQ2J5T&psc=1
+                  - img [ref=e1408]
+                - generic [ref=e1410]:
+                  - link "Samsung T7 Shield Portable SSD 1TB USB 3.2 Gen2 External SSD, Up to 1,050MB/s, Rugged, IP65 Water & Dust Resistant, for Photographers, Content Creators and Gaming, Mac Compatible, MU-PE1T0R, Blue" [ref=e1411] [cursor=pointer]:
+                    - /url: /Samsung-Shield-External-Portable-MU-PE1T0R/dp/B09YHQ2J5T/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_5/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B09YHQ2J5T&psc=1
+                    - generic [ref=e1413]: Samsung T7 Shield Portable SSD 1TB USB 3.2 Gen2 External SSD, Up to 1,050MB/s, Rugged, IP65 Water & Dust Resistant, for Photographers, Content Creators and Gaming, Mac Compatible, MU-PE1T0R, Blue
+                  - link "4.6 out of 5 stars, 2,623 ratings" [ref=e1416] [cursor=pointer]:
+                    - /url: /product-reviews/B09YHQ2J5T/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_5_cr/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B09YHQ2J5T
+                    - generic [ref=e1418]: 4.6 out of 5 stars
+                    - text: 2,623
+                  - generic [ref=e1421]: 50+ bought in past month
+                  - generic [ref=e1422]:
+                    - generic [ref=e1424]:
+                      - generic [ref=e1425]:
+                        - link "-12%" [ref=e1426] [cursor=pointer]:
+                          - /url: /Samsung-Shield-External-Portable-MU-PE1T0R/dp/B09YHQ2J5T/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_5/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B09YHQ2J5T&psc=1
+                          - text: "-12%"
+                        - link "₹24,999.00" [ref=e1427] [cursor=pointer]:
+                          - /url: /Samsung-Shield-External-Portable-MU-PE1T0R/dp/B09YHQ2J5T/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_5/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B09YHQ2J5T&psc=1
+                          - generic [ref=e1428]:
+                            - generic [ref=e1429]: ₹24,999.00
+                            - generic [ref=e1430]:
+                              - text: ₹
+                              - generic [ref=e1431]:
+                                - text: 24,999
+                                - generic [ref=e1432]: .
+                              - text: "00"
+                      - 'link "M.R.P: ₹28,449.00" [ref=e1434] [cursor=pointer]':
+                        - /url: /Samsung-Shield-External-Portable-MU-PE1T0R/dp/B09YHQ2J5T/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_5/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B09YHQ2J5T&psc=1
+                        - generic [ref=e1436]: "M.R.P: ₹28,449.00"
+                    - generic [ref=e1438]: Get it by Friday, July 24
+                - generic [ref=e1446] [cursor=pointer]:
+                  - button "Add to cart, Samsung T7 Shield Portable SSD 1TB USB 3.2 Gen2 External SSD, Up to 1,050MB/s, Rugged, IP65 Water & Dust Resistant, for Photographers, Content Creators and Gaming, Mac Compatible, MU-PE1T0R, Blue" [ref=e1447]
+                  - generic [ref=e1448]: Add to cart
+            - listitem [ref=e1449]:
+              - generic [ref=e1451]:
+                - link [ref=e1453] [cursor=pointer]:
+                  - /url: /Samsung-Smartphone-Titanium-Snapdragon-ProVisual/dp/B0DSKMV3ZC/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_6/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0DSKMV3ZC&psc=1
+                  - img [ref=e1454]
+                - generic [ref=e1456]:
+                  - link "Samsung Galaxy S25 Ultra 5G AI Smartphone (Titanium Gray, 12GB RAM, 256GB Storage), 200MP Camera, S Pen Included, Long Battery Life" [ref=e1457] [cursor=pointer]:
+                    - /url: /Samsung-Smartphone-Titanium-Snapdragon-ProVisual/dp/B0DSKMV3ZC/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_6/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0DSKMV3ZC&psc=1
+                    - generic [ref=e1459]: Samsung Galaxy S25 Ultra 5G AI Smartphone (Titanium Gray, 12GB RAM, 256GB Storage), 200MP Camera, S Pen Included, Long Battery Life
+                  - link "4.2 out of 5 stars, 1,519 ratings" [ref=e1462] [cursor=pointer]:
+                    - /url: /product-reviews/B0DSKMV3ZC/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_6_cr/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0DSKMV3ZC
+                    - generic [ref=e1464]: 4.2 out of 5 stars
+                    - text: 1,519
+                  - generic [ref=e1467]: 5K+ bought in past month
+                  - generic [ref=e1468]:
+                    - generic [ref=e1470]:
+                      - generic [ref=e1471]:
+                        - link "-25%" [ref=e1472] [cursor=pointer]:
+                          - /url: /Samsung-Smartphone-Titanium-Snapdragon-ProVisual/dp/B0DSKMV3ZC/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_6/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0DSKMV3ZC&psc=1
+                          - text: "-25%"
+                        - link "₹97,999.00" [ref=e1473] [cursor=pointer]:
+                          - /url: /Samsung-Smartphone-Titanium-Snapdragon-ProVisual/dp/B0DSKMV3ZC/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_6/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0DSKMV3ZC&psc=1
+                          - generic [ref=e1474]:
+                            - generic [ref=e1475]: ₹97,999.00
+                            - generic [ref=e1476]:
+                              - text: ₹
+                              - generic [ref=e1477]:
+                                - text: 97,999
+                                - generic [ref=e1478]: .
+                              - text: "00"
+                      - 'link "M.R.P: ₹1,29,999.00" [ref=e1480] [cursor=pointer]':
+                        - /url: /Samsung-Smartphone-Titanium-Snapdragon-ProVisual/dp/B0DSKMV3ZC/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_6/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0DSKMV3ZC&psc=1
+                        - generic [ref=e1482]: "M.R.P: ₹1,29,999.00"
+                    - generic [ref=e1484]: Get it by Saturday, July 18
+                  - text: FREE Delivery by Amazon
+                - generic [ref=e1492] [cursor=pointer]:
+                  - button "Add to cart, Samsung Galaxy S25 Ultra 5G AI Smartphone (Titanium Gray, 12GB RAM, 256GB Storage), 200MP Camera, S Pen Included, Long Battery Life" [ref=e1493]
+                  - generic [ref=e1494]: Add to cart
+            - listitem [ref=e1495]:
+              - generic [ref=e1497]:
+                - link [ref=e1499] [cursor=pointer]:
+                  - /url: /OnePlus-Snapdragon-Segments-Complete-Personalized/dp/B0GRBBPBGQ/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_7/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0GRBBPBGQ&psc=1
+                  - img [ref=e1500]
+                - generic [ref=e1502]:
+                  - link "OnePlus Nord 6 | 8GB+256GB | Fresh Mint | Snapdragon 8s Gen 4 | Segment's First Stable 165FPS Gaming | Segment's Largest 9000mAh Battery | Most Complete IP Rating | Personalized AI" [ref=e1503] [cursor=pointer]:
+                    - /url: /OnePlus-Snapdragon-Segments-Complete-Personalized/dp/B0GRBBPBGQ/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_7/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0GRBBPBGQ&psc=1
+                    - generic [ref=e1505]: OnePlus Nord 6 | 8GB+256GB | Fresh Mint | Snapdragon 8s Gen 4 | Segment's First Stable 165FPS Gaming | Segment's Largest 9000mAh Battery | Most Complete IP Rating | Personalized AI
+                  - link "4.3 out of 5 stars, 1,994 ratings" [ref=e1508] [cursor=pointer]:
+                    - /url: /product-reviews/B0GRBBPBGQ/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_7_cr/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0GRBBPBGQ
+                    - generic [ref=e1510]: 4.3 out of 5 stars
+                    - text: 1,994
+                  - generic [ref=e1513]: 5K+ bought in past month
+                  - generic [ref=e1514]:
+                    - generic [ref=e1516]:
+                      - generic [ref=e1517]:
+                        - link "-15%" [ref=e1518] [cursor=pointer]:
+                          - /url: /OnePlus-Snapdragon-Segments-Complete-Personalized/dp/B0GRBBPBGQ/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_7/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0GRBBPBGQ&psc=1
+                          - text: "-15%"
+                        - link "₹44,999.00" [ref=e1519] [cursor=pointer]:
+                          - /url: /OnePlus-Snapdragon-Segments-Complete-Personalized/dp/B0GRBBPBGQ/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_7/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0GRBBPBGQ&psc=1
+                          - generic [ref=e1520]:
+                            - generic [ref=e1521]: ₹44,999.00
+                            - generic [ref=e1522]:
+                              - text: ₹
+                              - generic [ref=e1523]:
+                                - text: 44,999
+                                - generic [ref=e1524]: .
+                              - text: "00"
+                      - 'link "M.R.P: ₹52,999.00" [ref=e1526] [cursor=pointer]':
+                        - /url: /OnePlus-Snapdragon-Segments-Complete-Personalized/dp/B0GRBBPBGQ/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_7/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B0GRBBPBGQ&psc=1
+                        - generic [ref=e1528]: "M.R.P: ₹52,999.00"
+                    - generic [ref=e1530]: Get it by Saturday, July 18
+                  - text: FREE Delivery by Amazon
+                - generic [ref=e1538] [cursor=pointer]:
+                  - button "Add to cart, OnePlus Nord 6 | 8GB+256GB | Fresh Mint | Snapdragon 8s Gen 4 | Segment's First Stable 165FPS Gaming | Segment's Largest 9000mAh Battery | Most Complete IP Rating | Personalized AI" [ref=e1539]
+                  - generic [ref=e1540]: Add to cart
+            - listitem [ref=e1541]:
+              - generic [ref=e1543]:
+                - link [ref=e1545] [cursor=pointer]:
+                  - /url: /HP-Z3700-Wireless-Mouse-Modern/dp/B01KK0HU3Y/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_8/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B01KK0HU3Y&psc=1
+                  - img [ref=e1546]
+                - generic [ref=e1548]:
+                  - link "HP Z3700 Wireless Optical Mouse with USB receiver and 2.4GHz Wireless Connection/ 1200DPI / 16 months Long Battery Life /Ambidextrous and Slim Design (Modern Gold)" [ref=e1549] [cursor=pointer]:
+                    - /url: /HP-Z3700-Wireless-Mouse-Modern/dp/B01KK0HU3Y/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_8/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B01KK0HU3Y&psc=1
+                    - generic [ref=e1551]: HP Z3700 Wireless Optical Mouse with USB receiver and 2.4GHz Wireless Connection/ 1200DPI / 16 months Long Battery Life /Ambidextrous and Slim Design (Modern Gold)
+                  - link "4.2 out of 5 stars, 29,110 ratings" [ref=e1554] [cursor=pointer]:
+                    - /url: /product-reviews/B01KK0HU3Y/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_8_cr/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B01KK0HU3Y
+                    - generic [ref=e1556]: 4.2 out of 5 stars
+                    - text: 29,110
+                  - generic [ref=e1559]: 100+ bought in past month
+                  - generic [ref=e1560]:
+                    - generic [ref=e1562]:
+                      - generic [ref=e1563]:
+                        - link "-21%" [ref=e1564] [cursor=pointer]:
+                          - /url: /HP-Z3700-Wireless-Mouse-Modern/dp/B01KK0HU3Y/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_8/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B01KK0HU3Y&psc=1
+                          - text: "-21%"
+                        - link "₹1,178.00" [ref=e1565] [cursor=pointer]:
+                          - /url: /HP-Z3700-Wireless-Mouse-Modern/dp/B01KK0HU3Y/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_8/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B01KK0HU3Y&psc=1
+                          - generic [ref=e1566]:
+                            - generic [ref=e1567]: ₹1,178.00
+                            - generic [ref=e1568]:
+                              - text: ₹
+                              - generic [ref=e1569]:
+                                - text: 1,178
+                                - generic [ref=e1570]: .
+                              - text: "00"
+                      - 'link "M.R.P: ₹1,499.00" [ref=e1572] [cursor=pointer]':
+                        - /url: /HP-Z3700-Wireless-Mouse-Modern/dp/B01KK0HU3Y/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_8/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B01KK0HU3Y&psc=1
+                        - generic [ref=e1574]: "M.R.P: ₹1,499.00"
+                    - generic [ref=e1576]: Get it by Saturday, July 18
+                  - text: FREE Delivery by Amazon
+                - generic [ref=e1584] [cursor=pointer]:
+                  - button "Add to cart, HP Z3700 Wireless Optical Mouse with USB receiver and 2.4GHz Wireless Connection/ 1200DPI / 16 months Long Battery Life /Ambidextrous and Slim Design (Modern Gold)" [ref=e1585]
+                  - generic [ref=e1586]: Add to cart
+            - listitem [ref=e1587]:
+              - generic [ref=e1589]:
+                - link [ref=e1591] [cursor=pointer]:
+                  - /url: /HP-Pavilion-i5-1335U-13th-LPDDR5x-ew0107TU/dp/B07FLHBMXY/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_9/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B07FLHBMXY&psc=1
+                  - img [ref=e1592]
+                - generic [ref=e1594]:
+                  - link "HP Pavilion Plus, Intel Core i5-1335U-13th Gen Laptop, (16GB LPDDR5x,512GB SSD),IPS, 300 nits, 14''(35.6cm) 2K,Win 11, M365 Basic(1yr), Office Home 24, Silver,1.38kg, 5MP Camera w/Shutter, ew0107TU" [ref=e1595] [cursor=pointer]:
+                    - /url: /HP-Pavilion-i5-1335U-13th-LPDDR5x-ew0107TU/dp/B07FLHBMXY/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_9/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B07FLHBMXY&psc=1
+                    - generic [ref=e1597]: HP Pavilion Plus, Intel Core i5-1335U-13th Gen Laptop, (16GB LPDDR5x,512GB SSD),IPS, 300 nits, 14''(35.6cm) 2K,Win 11, M365 Basic(1yr), Office Home 24, Silver,1.38kg, 5MP Camera w/Shutter, ew0107TU
+                  - link "3.7 out of 5 stars, 59 ratings" [ref=e1600] [cursor=pointer]:
+                    - /url: /product-reviews/B07FLHBMXY/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_9_cr/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B07FLHBMXY
+                    - generic [ref=e1602]: 3.7 out of 5 stars
+                    - text: "59"
+                  - generic [ref=e1605]: 300+ bought in past month
+                  - generic [ref=e1606]:
+                    - generic [ref=e1608]:
+                      - generic [ref=e1609]:
+                        - link "-24%" [ref=e1610] [cursor=pointer]:
+                          - /url: /HP-Pavilion-i5-1335U-13th-LPDDR5x-ew0107TU/dp/B07FLHBMXY/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_9/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B07FLHBMXY&psc=1
+                          - text: "-24%"
+                        - link "₹63,990.00" [ref=e1611] [cursor=pointer]:
+                          - /url: /HP-Pavilion-i5-1335U-13th-LPDDR5x-ew0107TU/dp/B07FLHBMXY/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_9/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B07FLHBMXY&psc=1
+                          - generic [ref=e1612]:
+                            - generic [ref=e1613]: ₹63,990.00
+                            - generic [ref=e1614]:
+                              - text: ₹
+                              - generic [ref=e1615]:
+                                - text: 63,990
+                                - generic [ref=e1616]: .
+                              - text: "00"
+                      - 'link "M.R.P: ₹83,999.00" [ref=e1618] [cursor=pointer]':
+                        - /url: /HP-Pavilion-i5-1335U-13th-LPDDR5x-ew0107TU/dp/B07FLHBMXY/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_9/520-2719826-2014458?pd_rd_w=iJTsE&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=53S8RFXJWYC75FE8W9AQ&pd_rd_wg=ZwLXJ&pd_rd_r=700b95d4-96b4-42e8-818c-5000540b795e&pd_rd_i=B07FLHBMXY&psc=1
+                        - generic [ref=e1620]: "M.R.P: ₹83,999.00"
+                    - generic [ref=e1622]: Get it by Monday, July 20
+                  - text: FREE Delivery by Amazon
+                - generic [ref=e1630] [cursor=pointer]:
+                  - button "Add to cart, HP Pavilion Plus, Intel Core i5-1335U-13th Gen Laptop, (16GB LPDDR5x,512GB SSD),IPS, 300 nits, 14''(35.6cm) 2K,Win 11, M365 Basic(1yr), Office Home 24, Silver,1.38kg, 5MP Camera w/Shutter, ew0107TU" [ref=e1631]
+                  - generic [ref=e1632]: Add to cart
+        - button "Next set of slides" [ref=e1634] [cursor=pointer]:
+          - generic [ref=e1637]: Next set of slides
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=e1638]:
+    - button "Back to top" [ref=e1639] [cursor=pointer]:
+      - generic [ref=e1640]: Back to top
+    - generic [ref=e1641]:
+      - generic [ref=e1642]:
+        - heading "Get to Know Us" [level=6] [ref=e1643]
+        - list [ref=e1644]:
+          - listitem [ref=e1645]:
+            - link "About Amazon" [ref=e1646] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e1647]:
+            - link "Careers" [ref=e1648] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=e1649]:
+            - link "Press Releases" [ref=e1650] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e1651]:
+            - link "Amazon Science" [ref=e1652] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e1654]:
+        - heading "Connect with Us" [level=6] [ref=e1655]
+        - list [ref=e1656]:
+          - listitem [ref=e1657]:
+            - link "Facebook" [ref=e1658] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=e1659]:
+            - link "Twitter" [ref=e1660] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=e1661]:
+            - link "Instagram" [ref=e1662] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=e1664]:
+        - heading "Make Money with Us" [level=6] [ref=e1665]
+        - list [ref=e1666]:
+          - listitem [ref=e1667]:
+            - link "Sell on Amazon" [ref=e1668] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=e1669]:
+            - link "Sell under Amazon Accelerator" [ref=e1670] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=e1671]:
+            - link "Protect and Build Your Brand" [ref=e1672] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=e1673]:
+            - link "Amazon Global Selling" [ref=e1674] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=e1675]:
+            - link "Supply to Amazon" [ref=e1676] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=e1677]:
+            - link "Become an Affiliate" [ref=e1678] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=e1679]:
+            - link "Fulfilment by Amazon" [ref=e1680] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=e1681]:
+            - link "Advertise Your Products" [ref=e1682] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=e1683]:
+            - link "Amazon Pay on Merchants" [ref=e1684] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant
+      - generic [ref=e1686]:
+        - heading "Let Us Help You" [level=6] [ref=e1687]
+        - list [ref=e1688]:
+          - listitem [ref=e1689]:
+            - link "Your Account" [ref=e1690] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e1691]:
+            - link "Returns Centre" [ref=e1692] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e1693]:
+            - link "Recalls and Product Safety Alerts" [ref=e1694] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e1695]:
+            - link "100% Purchase Protection" [ref=e1696] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=e1697]:
+            - link "Amazon App Download" [ref=e1698] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=e1699]:
+            - link "Help" [ref=e1700] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=e1702]:
+      - link "Amazon India Home" [ref=e1705] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=e1708]:
+        - generic [ref=e1709]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e1710] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e1712]: English
+          - button "Expand to Change Language or Country" [ref=e1713] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=e1714] [cursor=pointer]:
+          - generic [ref=e1716]: India
+    - generic "More on Amazon" [ref=e1717]:
+      - generic "More on Amazon" [ref=e1718]:
+        - list [ref=e1719]:
+          - listitem [ref=e1720]:
+            - link "AbeBooks Books, art & collectibles" [ref=e1721] [cursor=pointer]:
+              - /url: https://www.abebooks.com/
+              - heading "AbeBooks" [level=5] [ref=e1722]
+              - generic [ref=e1723]:
+                - text: Books, art
+                - text: "& collectibles"
+          - listitem [ref=e1724]
+          - listitem [ref=e1725]:
+            - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e1726] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e1727]
+              - generic [ref=e1728]:
+                - text: Scalable Cloud
+                - text: Computing Services
+          - listitem [ref=e1729]
+          - listitem [ref=e1730]:
+            - link "Audible Download Audio Books" [ref=e1731] [cursor=pointer]:
+              - /url: https://www.audible.in/
+              - heading "Audible" [level=5] [ref=e1732]
+              - generic [ref=e1733]:
+                - text: Download
+                - text: Audio Books
+          - listitem [ref=e1734]
+          - listitem [ref=e1735]:
+            - link "IMDb Movies, TV & Celebrities" [ref=e1736] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=e1737]
+              - generic [ref=e1738]:
+                - text: Movies, TV
+                - text: "& Celebrities"
+        - list [ref=e1739]:
+          - listitem [ref=e1740]:
+            - link "Shopbop Designer Fashion Brands" [ref=e1741] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=e1742]
+              - generic [ref=e1743]:
+                - text: Designer
+                - text: Fashion Brands
+          - listitem [ref=e1744]
+          - listitem [ref=e1745]:
+            - link "Amazon Business Everything For Your Business" [ref=e1746] [cursor=pointer]:
+              - /url: /business?ref=footer_aingw
+              - heading "Amazon Business" [level=5] [ref=e1747]
+              - generic [ref=e1748]:
+                - text: Everything For
+                - text: Your Business
+          - listitem [ref=e1749]
+          - listitem [ref=e1750]:
+            - link "Amazon Music Stream millions of songs" [ref=e1751] [cursor=pointer]:
+              - /url: /music/player?ref=footer_apm
+              - heading "Amazon Music" [level=5] [ref=e1752]
+              - generic [ref=e1753]: Stream millions of songs
+          - listitem [ref=e1754]
+          - listitem [ref=e1755]
+    - generic [ref=e1756]:
+      - list [ref=e1757]:
+        - listitem [ref=e1758]:
+          - link "Conditions of Use & Sale" [ref=e1759] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=e1760]:
+          - link "Privacy Notice" [ref=e1761] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=e1762]:
+          - link "Interest-Based Ads" [ref=e1763] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=e1764]: © 1996-2026, Amazon.com, Inc. or its affiliates
+  - iframe [ref=e1782]:
+    - iframe [ref=f12e2]:
+      - generic [active]:
+        - img [ref=f13e1]
+        - img [ref=f13e2]

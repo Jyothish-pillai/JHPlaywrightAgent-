@@ -1,0 +1,1319 @@
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=e8]:
+        - link "Shopping cart" [ref=e9] [cursor=pointer]:
+          - /url: "#sc-active-cart"
+          - text: Your Amazon Cart
+      - listitem [ref=e10]:
+        - link "Saved for later" [ref=e11] [cursor=pointer]:
+          - /url: "#sc-saved-cart-caption"
+          - text: Saved for Later
+      - listitem [ref=e12]:
+        - link "Buy it again" [ref=e13] [cursor=pointer]:
+          - /url: "#sc-buy-it-again-caption"
+          - text: Buy it Again
+    - separator [ref=e14]
+    - heading "Keyboard shortcuts" [level=2] [ref=e15]
+    - list "Keyboard shortcuts" [ref=e16]:
+      - listitem [ref=e17]:
+        - link "Search, alt, forward slash" [ref=e18] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e19]:
+            - generic [ref=e20]: Search
+            - generic [ref=e21]:
+              - generic [ref=e22]: alt
+              - generic [ref=e23]: +
+              - generic [ref=e24]: /
+      - listitem [ref=e25]:
+        - link "Cart, shift, alt, c" [ref=e26] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e27]:
+            - generic [ref=e28]: Cart
+            - generic [ref=e29]:
+              - generic [ref=e30]: shift
+              - generic [ref=e31]: +
+              - generic [ref=e32]: alt
+              - generic [ref=e33]: +
+              - generic [ref=e34]: C
+      - listitem [ref=e35]:
+        - link "Home, shift, alt, h" [ref=e36] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e37]:
+            - generic [ref=e38]: Home
+            - generic [ref=e39]:
+              - generic [ref=e40]: shift
+              - generic [ref=e41]: +
+              - generic [ref=e42]: alt
+              - generic [ref=e43]: +
+              - generic [ref=e44]: H
+      - listitem [ref=e45]:
+        - link "Your orders, shift, alt, o" [ref=e46] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e47]:
+            - generic [ref=e48]: Orders
+            - generic [ref=e49]:
+              - generic [ref=e50]: shift
+              - generic [ref=e51]: +
+              - generic [ref=e52]: alt
+              - generic [ref=e53]: +
+              - generic [ref=e54]: O
+      - listitem [ref=e55]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]:
+            - generic [ref=e58]: Show/Hide shortcuts
+            - generic [ref=e59]:
+              - generic [ref=e60]: shift
+              - generic [ref=e61]: +
+              - generic [ref=e62]: alt
+              - generic [ref=e63]: +
+              - generic [ref=e64]: Z
+    - generic [ref=e70]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e71]:
+    - navigation "Primary" [ref=e72]:
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - link "Amazon.in" [ref=e76] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Deliver to New Noida 201301‌" [ref=e79] [cursor=pointer]:
+            - generic [ref=e81]:
+              - generic [ref=e82]: Deliver to New
+              - generic [ref=e83]: Noida 201301‌
+        - search [ref=e86]:
+          - generic [ref=e89]:
+            - generic [ref=e91]: All
+            - combobox "Select the department you want to search in" [ref=e93] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh"
+              - option "Amazon Fresh Meat"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=e96]
+          - generic "Go" [ref=e99] [cursor=pointer]:
+            - button "Go" [ref=e100]
+        - generic [ref=e102]:
+          - generic [ref=e103]:
+            - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=e104] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e107]:
+                - img "India" [ref=e108]
+                - generic [ref=e109]: EN
+            - button "Expand to Change Language or Country" [ref=e110] [cursor=pointer]
+          - generic [ref=e111]:
+            - link "Hello, Celsior Account & Lists" [ref=e112] [cursor=pointer]:
+              - /url: https://www.amazon.in/gp/css/homepage.html?ref_=nav_youraccount_btn
+              - generic [ref=e114]: Hello, Celsior
+              - generic [ref=e115]: Account & Lists
+            - button "Expand Account and Lists" [ref=e116] [cursor=pointer]
+          - link "Returns & Orders" [ref=e117] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e118]: Returns
+            - generic [ref=e119]: "& Orders"
+          - link "3 items in cart" [ref=e1704] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e122]: "3"
+            - generic [ref=e125]: Cart
+      - generic [ref=e126]:
+        - generic [ref=e127]:
+          - button "Open All Categories Menu" [ref=e128] [cursor=pointer]:
+            - generic [ref=e130]: All
+          - button "Open Rufus panel" [ref=e131] [cursor=pointer]:
+            - generic [ref=e133]: Rufus
+        - list [ref=e137]:
+          - listitem [ref=e138]:
+            - generic [ref=e139]:
+              - link "Fresh" [ref=e140] [cursor=pointer]:
+                - /url: /tez/browse?qcbrand=ctnow&ref_=nav_cs_grocery
+              - button "Fresh Details" [ref=e141] [cursor=pointer]
+          - listitem [ref=e142]:
+            - generic [ref=e143]:
+              - link "Prime" [ref=e144] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=e145] [cursor=pointer]
+          - listitem [ref=e146]:
+            - link "MX Player" [ref=e148] [cursor=pointer]:
+              - /url: /minitv?ref_=nav_avod_desktop_topnav
+          - listitem [ref=e149]:
+            - link "Sell" [ref=e151] [cursor=pointer]:
+              - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+          - listitem [ref=e152]:
+            - link "Gift Cards" [ref=e154] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=e155]:
+            - link "Amazon Pay" [ref=e157] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=e158]:
+            - link "Buy Again" [ref=e160] [cursor=pointer]:
+              - /url: /gp/buyagain?ie=UTF8&ref_=nav_cs_buy_again
+          - listitem [ref=e161]:
+            - link "Gift Ideas" [ref=e163] [cursor=pointer]:
+              - /url: /gcx/-/gfhz/?ref_=nav_cs_giftfinder
+          - listitem [ref=e164]:
+            - link "AmazonBasics" [ref=e166] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=e167]:
+            - link "Health, Household & Personal Care" [ref=e169] [cursor=pointer]:
+              - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+          - listitem [ref=e170]:
+            - link "Home Improvement" [ref=e172] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=e173]:
+            - link "Subscribe & Save" [ref=e175] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e176]:
+            - link "Audible" [ref=e178] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=e179]:
+            - link "Today's Deals" [ref=e181] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e182]:
+            - generic [ref=e183]:
+              - link "Browsing History" [ref=e184] [cursor=pointer]:
+                - /url: /gp/history?ref_=nav_cs_timeline
+              - button "Browsing History Details" [ref=e185] [cursor=pointer]
+          - listitem [ref=e186]:
+            - link "Celsior 's Amazon.in" [ref=e188] [cursor=pointer]:
+              - /url: /gp/yourstore/home?ref_=nav_cs_ys
+              - generic [ref=e189]:
+                - generic [ref=e190]: Celsior
+                - text: "'s Amazon.in"
+          - listitem [ref=e191]:
+            - link "Books" [ref=e193] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=e194]:
+            - link "Customer Service" [ref=e196] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=e197]:
+            - link "Kindle eBooks" [ref=e199] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books
+          - listitem [ref=e200]:
+            - link "Pet Supplies" [ref=e202] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=e203]:
+            - link "Bestsellers" [ref=e205] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e206]:
+            - link "Sports, Fitness & Outdoors" [ref=e208] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=e209]:
+            - link "Beauty & Personal Care" [ref=e211] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=e212]:
+            - link "Home & Kitchen" [ref=e214] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=e215]:
+            - link "New Releases" [ref=e217] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e218]:
+            - link "Computers" [ref=e220] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=e221]:
+            - link "Toys & Games" [ref=e223] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=e224]:
+            - link "Fashion" [ref=e226] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=e227]:
+            - link "Car & Motorbike" [ref=e229] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=e230]:
+            - link "Electronics" [ref=e232] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=e233]:
+            - link "Baby" [ref=e235] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+          - listitem [ref=e236]:
+            - link "Video Games" [ref=e238] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=e239]:
+            - link "Mobiles" [ref=e241] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+        - link "PD26_Event" [ref=e245] [cursor=pointer]:
+          - /url: /events/primeday/?_encoding=UTF8&ref_=nav_swm_event&pf_rd_p=43119a04-109d-4825-a1ce-4d8cbe47aea6&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A21TJRUUN4KGV&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ
+          - img "PD26_Event" [ref=e246]
+  - main [ref=e249]:
+    - heading "All Carts" [level=1] [ref=e250]
+    - generic [ref=e252]:
+      - generic [ref=e253]:
+        - generic [ref=e1708]:
+          - status [ref=e1709]:
+            - generic [ref=e1717]:
+              - text: Part of your order qualifies for FREE Delivery.
+              - generic [ref=e1718]:
+                - text: Choose
+                - link "FREE Delivery" [ref=e1719] [cursor=pointer]:
+                  - /url: /gp/help/customer/display.html?nodeId=200904360&pop-up=1
+                - text: option at checkout.
+          - generic [ref=e1720]:
+            - 'heading "Amazon Subtotal (3 items): ₹21,298.00" [level=3] [ref=e1721]':
+              - generic [ref=e1722]: Amazon
+              - generic [ref=e1723]:
+                - text: "Subtotal (3 items):"
+                - generic [ref=e1724]: ₹21,298.00
+            - generic [ref=e1728]:
+              - checkbox "This order contains a gift" [ref=e1729]
+              - generic [ref=e1731]: This order contains a gift
+            - generic [ref=e1735] [cursor=pointer]:
+              - button "Proceed to Buy Buy Amazon items" [ref=e1736]: Proceed to checkout
+              - generic [ref=e1739]: Proceed to Buy
+          - button "EMI Available" [ref=e1744] [cursor=pointer]:
+            - heading "EMI Available" [level=5] [ref=e1746]
+        - generic [ref=e1757]:
+          - paragraph [ref=e1758]: Hurry! Limited Period Offer - get ₹100 off on Prime Shopping Edition!
+          - paragraph [ref=e1759]: FREE delivery, offers and multiple benefits - all in ONE membership!
+          - generic [ref=e1763] [cursor=pointer]:
+            - button "Join Prime Shopping Edition at ₹399 ₹299/year" [ref=e1764]
+            - generic [ref=e1765]:
+              - generic [ref=e1766]: Join Prime Shopping Edition at
+              - text: ₹399 ₹299/year
+        - generic [ref=e310]:
+          - heading "Products related to items in your cart" [level=5] [ref=e311]
+          - button "Leave feedback on Sponsored ad" [ref=e317] [cursor=pointer]: Sponsored
+          - list [ref=e321]:
+            - listitem [ref=e322]:
+              - generic [ref=e326]:
+                - link [ref=e328] [cursor=pointer]:
+                  - /url: /dp/B09HKZH7P1/ref=pd_cart_sspa_dk_ct_pt_expsub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTcwODQ5NTY4OTU3MDc0OjE3ODIyNDAzMzk6c3BfY2FydF9wZXJjb2xhdGU6MzAxMTM1NjMwMDk4MTMyOjowOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=qeLJwIAoLA&pd_rd_w=cObmH&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e330]
+                - generic [ref=e331]:
+                  - link "SPARX Mens SM 661 | Enhanced Durability & Soft Cushion | Black Running Shoe - 9 UK (SM 661)" [ref=e332] [cursor=pointer]:
+                    - /url: /dp/B09HKZH7P1/ref=pd_cart_sspa_dk_ct_pt_expsub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTcwODQ5NTY4OTU3MDc0OjE3ODIyNDAzMzk6c3BfY2FydF9wZXJjb2xhdGU6MzAxMTM1NjMwMDk4MTMyOjowOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=qeLJwIAoLA&pd_rd_w=cObmH&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e334]:
+                      - generic [ref=e335]: SPARX Mens SM 661 | Enhanced Durability & Soft Cushion | Black Running Shoe - 9 UK (SM 661)
+                      - generic [ref=e336]: SPARX Mens SM 661…
+                  - link "3.6 out of 5 stars 74 ratings" [ref=e338] [cursor=pointer]:
+                    - /url: /dp/B09HKZH7P1/ref=pd_cart_sspa_dk_ct_pt_expsub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTcwODQ5NTY4OTU3MDc0OjE3ODIyNDAzMzk6c3BfY2FydF9wZXJjb2xhdGU6MzAxMTM1NjMwMDk4MTMyOjowOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=qeLJwIAoLA&pd_rd_w=cObmH&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e340]: 3.6 out of 5 stars
+                    - generic [ref=e341]: 74 ratings
+                  - link "₹1,189.00" [ref=e343] [cursor=pointer]:
+                    - /url: /dp/B09HKZH7P1/ref=pd_cart_sspa_dk_ct_pt_expsub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTcwODQ5NTY4OTU3MDc0OjE3ODIyNDAzMzk6c3BfY2FydF9wZXJjb2xhdGU6MzAxMTM1NjMwMDk4MTMyOjowOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=qeLJwIAoLA&pd_rd_w=cObmH&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e345]:
+                      - generic [ref=e346]: ₹1,189.00
+                      - generic [ref=e347]:
+                        - text: ₹
+                        - generic [ref=e348]:
+                          - text: 1,189
+                          - generic [ref=e349]: .
+                        - text: "00"
+                  - link "See all buying options" [ref=e353] [cursor=pointer]:
+                    - /url: /dp/B09HKZH7P1/ref=pd_cart_sspa_dk_ct_pt_expsub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTcwODQ5NTY4OTU3MDc0OjE3ODIyNDAzMzk6c3BfY2FydF9wZXJjb2xhdGU6MzAxMTM1NjMwMDk4MTMyOjowOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=qeLJwIAoLA&pd_rd_w=cObmH&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&ref_=pd_cart_sspa_dk_ct_pt_expsub
+            - listitem [ref=e354]:
+              - generic [ref=e358]:
+                - link [ref=e360] [cursor=pointer]:
+                  - /url: /dp/B0GGRP3JNY/ref=pd_cart_sspa_dk_ct_pt_expsub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTcwODQ5NTY4OTU3MDc0OjE3ODIyNDAzMzk6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTE1NTkxMzQ1MTMyOjoxOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=CqkVHPefAw&pd_rd_w=cObmH&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e362]
+                - generic [ref=e363]:
+                  - link "Centrino Men’s Badminton Shoes | Lightweight Indoor Court Shoes | Breathable Mesh Sports Sneakers | Non-Marking Grip Sole | Comfortable Training & Play Footwear (9345)" [ref=e364] [cursor=pointer]:
+                    - /url: /dp/B0GGRP3JNY/ref=pd_cart_sspa_dk_ct_pt_expsub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTcwODQ5NTY4OTU3MDc0OjE3ODIyNDAzMzk6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTE1NTkxMzQ1MTMyOjoxOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=CqkVHPefAw&pd_rd_w=cObmH&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e366]:
+                      - generic [ref=e367]: Centrino Men’s Badminton Shoes | Lightweight Indoor Court Shoes | Breathable Mesh Sports Sneakers | Non-Marking Grip Sole | Comfortable Training & Play Footwear (9345)
+                      - generic [ref=e368]: Centrino Men’s Badm…
+                  - link "3.8 out of 5 stars 62 ratings" [ref=e370] [cursor=pointer]:
+                    - /url: /dp/B0GGRP3JNY/ref=pd_cart_sspa_dk_ct_pt_expsub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTcwODQ5NTY4OTU3MDc0OjE3ODIyNDAzMzk6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTE1NTkxMzQ1MTMyOjoxOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=CqkVHPefAw&pd_rd_w=cObmH&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e372]: 3.8 out of 5 stars
+                    - generic [ref=e373]: 62 ratings
+                  - link "₹949.00" [ref=e375] [cursor=pointer]:
+                    - /url: /dp/B0GGRP3JNY/ref=pd_cart_sspa_dk_ct_pt_expsub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTcwODQ5NTY4OTU3MDc0OjE3ODIyNDAzMzk6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTE1NTkxMzQ1MTMyOjoxOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=CqkVHPefAw&pd_rd_w=cObmH&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e377]:
+                      - generic [ref=e378]: ₹949.00
+                      - generic [ref=e379]:
+                        - text: ₹
+                        - generic [ref=e380]:
+                          - text: "949"
+                          - generic [ref=e381]: .
+                        - text: "00"
+                  - link "See all buying options" [ref=e385] [cursor=pointer]:
+                    - /url: /dp/B0GGRP3JNY/ref=pd_cart_sspa_dk_ct_pt_expsub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTcwODQ5NTY4OTU3MDc0OjE3ODIyNDAzMzk6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTE1NTkxMzQ1MTMyOjoxOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=CqkVHPefAw&pd_rd_w=cObmH&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&ref_=pd_cart_sspa_dk_ct_pt_expsub
+            - listitem [ref=e386]:
+              - generic [ref=e390]:
+                - link [ref=e392] [cursor=pointer]:
+                  - /url: /dp/B0FHL1GHLB/ref=pd_cart_sspa_dk_ct_pt_expsub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTcwODQ5NTY4OTU3MDc0OjE3ODIyNDAzMzk6c3BfY2FydF9wZXJjb2xhdGU6MzAxMTUyMjI0NjUwMTMyOjoyOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=1Onxp4efbR&pd_rd_w=cObmH&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e394]
+                - generic [ref=e395]:
+                  - link "adidas Mens Adistar 3 Sportswear Sportswear Shoes" [ref=e396] [cursor=pointer]:
+                    - /url: /dp/B0FHL1GHLB/ref=pd_cart_sspa_dk_ct_pt_expsub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTcwODQ5NTY4OTU3MDc0OjE3ODIyNDAzMzk6c3BfY2FydF9wZXJjb2xhdGU6MzAxMTUyMjI0NjUwMTMyOjoyOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=1Onxp4efbR&pd_rd_w=cObmH&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e398]:
+                      - generic [ref=e399]: adidas Mens Adistar 3 Sportswear Sportswear Shoes
+                      - generic [ref=e400]: adidas Mens Adistar…
+                  - link "₹12,999.00" [ref=e402] [cursor=pointer]:
+                    - /url: /dp/B0FHL1GHLB/ref=pd_cart_sspa_dk_ct_pt_expsub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTcwODQ5NTY4OTU3MDc0OjE3ODIyNDAzMzk6c3BfY2FydF9wZXJjb2xhdGU6MzAxMTUyMjI0NjUwMTMyOjoyOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=1Onxp4efbR&pd_rd_w=cObmH&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e404]:
+                      - generic [ref=e405]: ₹12,999.00
+                      - generic [ref=e406]:
+                        - text: ₹
+                        - generic [ref=e407]:
+                          - text: 12,999
+                          - generic [ref=e408]: .
+                        - text: "00"
+                  - link "See all buying options" [ref=e412] [cursor=pointer]:
+                    - /url: /dp/B0FHL1GHLB/ref=pd_cart_sspa_dk_ct_pt_expsub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTcwODQ5NTY4OTU3MDc0OjE3ODIyNDAzMzk6c3BfY2FydF9wZXJjb2xhdGU6MzAxMTUyMjI0NjUwMTMyOjoyOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=1Onxp4efbR&pd_rd_w=cObmH&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&ref_=pd_cart_sspa_dk_ct_pt_expsub
+            - listitem [ref=e413]:
+              - generic [ref=e417]:
+                - link [ref=e419] [cursor=pointer]:
+                  - /url: /dp/B00IZ9681I/ref=pd_cart_sspa_dk_ct_pt_expsub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTcwODQ5NTY4OTU3MDc0OjE3ODIyNDAzMzk6c3BfY2FydF9wZXJjb2xhdGU6MzAxMTI5MTkzMTY5NTMyOjozOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=00sADA3DPg&pd_rd_w=cObmH&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e421]
+                - generic [ref=e422]:
+                  - link "SPARX Sports Shoe SM-171 for Men" [ref=e423] [cursor=pointer]:
+                    - /url: /dp/B00IZ9681I/ref=pd_cart_sspa_dk_ct_pt_expsub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTcwODQ5NTY4OTU3MDc0OjE3ODIyNDAzMzk6c3BfY2FydF9wZXJjb2xhdGU6MzAxMTI5MTkzMTY5NTMyOjozOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=00sADA3DPg&pd_rd_w=cObmH&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e425]:
+                      - generic [ref=e426]: SPARX Sports Shoe SM-171 for Men
+                      - generic [ref=e427]: SPARX Sports Shoe S…
+                  - link "4.1 out of 5 stars 8,814 ratings" [ref=e429] [cursor=pointer]:
+                    - /url: /dp/B00IZ9681I/ref=pd_cart_sspa_dk_ct_pt_expsub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTcwODQ5NTY4OTU3MDc0OjE3ODIyNDAzMzk6c3BfY2FydF9wZXJjb2xhdGU6MzAxMTI5MTkzMTY5NTMyOjozOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=00sADA3DPg&pd_rd_w=cObmH&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e431]: 4.1 out of 5 stars
+                    - generic [ref=e432]: 8,814 ratings
+                  - link "₹1,049.00" [ref=e434] [cursor=pointer]:
+                    - /url: /dp/B00IZ9681I/ref=pd_cart_sspa_dk_ct_pt_expsub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTcwODQ5NTY4OTU3MDc0OjE3ODIyNDAzMzk6c3BfY2FydF9wZXJjb2xhdGU6MzAxMTI5MTkzMTY5NTMyOjozOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=00sADA3DPg&pd_rd_w=cObmH&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e436]:
+                      - generic [ref=e437]: ₹1,049.00
+                      - generic [ref=e438]:
+                        - text: ₹
+                        - generic [ref=e439]:
+                          - text: 1,049
+                          - generic [ref=e440]: .
+                        - text: "00"
+                  - link "See all buying options" [ref=e444] [cursor=pointer]:
+                    - /url: /dp/B00IZ9681I/ref=pd_cart_sspa_dk_ct_pt_expsub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTcwODQ5NTY4OTU3MDc0OjE3ODIyNDAzMzk6c3BfY2FydF9wZXJjb2xhdGU6MzAxMTI5MTkzMTY5NTMyOjozOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=00sADA3DPg&pd_rd_w=cObmH&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&ref_=pd_cart_sspa_dk_ct_pt_expsub
+      - generic [ref=e445]:
+        - generic [ref=e447]:
+          - generic [ref=e1767]:
+            - heading "Shopping Cart" [level=2] [ref=e1770]
+            - link "Deselect all items" [ref=e1775] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e457]:
+            - generic [ref=e461]: Price
+            - list "Shopping Cart" [ref=e462]:
+              - listitem [ref=e1776]:
+                - generic "Campus Men's Camp-Glacier Running Shoes Off WHT/MSTD - 10UK/Indi... was removed from Shopping Cart." [active] [ref=e1778]:
+                  - generic [ref=e1779]:
+                    - link "Campus Men's Camp-Glacier Running Shoes Off WHT/MSTD - 10UK/Indi..." [ref=e1780] [cursor=pointer]:
+                      - /url: /gp/product/B0BCQVX4LT/ref=ox_sc_act_title_delete_1?smid=A2JTUMWXNY2SJF&psc=1
+                    - text: was removed from Shopping Cart.
+              - listitem [ref=e555]:
+                - generic [ref=e557]:
+                  - checkbox "Select Campus Men&amp;#39;s Camp-Glacier Running Shoes Off WHT/MSTD - 9UK/India for checkout" [checked] [ref=e560]
+                  - link [ref=e563] [cursor=pointer]:
+                    - /url: /gp/product/B0BCQX2GZN/ref=ox_sc_act_image_2?smid=A15HI3YP389PS&psc=1
+                  - generic [ref=e564]:
+                    - link "Campus Men's Camp-Glacier Running Shoes Off WHT/MSTD - 9UK/India" [ref=e566] [cursor=pointer]:
+                      - /url: /gp/product/B0BCQX2GZN/ref=ox_sc_act_title_2?smid=A15HI3YP389PS&psc=1
+                      - heading "Campus Men's Camp-Glacier Running Shoes Off WHT/MSTD - 9UK/India" [level=3] [ref=e568]:
+                        - generic [ref=e569]:
+                          - generic [ref=e570]: Campus Men's Camp-Glacier Running Shoes Off WHT/MSTD - 9UK/India
+                          - generic [ref=e571]: Campus Men's Camp-Glacier Running Shoes Off WHT/MSTD - 9UK/India
+                    - generic [ref=e572]:
+                      - generic [ref=e576]:
+                        - generic [ref=e577]: ₹1,099.00
+                        - generic [ref=e578]:
+                          - text: ₹
+                          - generic [ref=e579]:
+                            - text: 1,099
+                            - generic [ref=e580]: .
+                          - text: "00"
+                      - generic [ref=e585]:
+                        - text: Up to 5% back with Amazon Pay ICICI card
+                        - link "Terms" [ref=e588] [cursor=pointer]:
+                          - /url: "#"
+                          - generic [ref=e589]: Terms
+                    - generic [ref=e590]:
+                      - generic [ref=e591]: In stock
+                      - generic [ref=e593]:
+                        - text: Sold by
+                        - link "AhanjalBrands" [ref=e594] [cursor=pointer]:
+                          - /url: /gp/help/seller/at-a-glance.html/ref=ox_sc_seller_act_2?seller=A15HI3YP389PS
+                      - generic [ref=e600]: FREE delivery Mon, 29 Jun
+                      - generic [ref=e603]:
+                        - text: Gift options not available.
+                        - link "Gift options not available. Learn more" [ref=e604] [cursor=pointer]:
+                          - /url: /gp/help/customer/display.html/ref=ox_sc_gift?pop-up=1&nodeId=200898020
+                          - generic [ref=e605]:
+                            - generic [ref=e606]: Gift options not available.
+                            - text: Learn more
+                      - generic [ref=e607]: "Size: 9 UK"
+                      - generic [ref=e608]: "Colour: OFF WHT/MSTD"
+                    - generic [ref=e609]:
+                      - group "Quantity is 1" [ref=e612]:
+                        - generic [ref=e613]: Quantity is 1
+                        - generic [ref=e615]:
+                          - button "Delete Campus Men&#39;s Camp-Glacier Running Shoes Off WHT/MSTD - 9UK/India" [ref=e616] [cursor=pointer]
+                          - generic [ref=e620]: "1"
+                          - generic [ref=e622]: "1"
+                          - button "Increase quantity by one Campus Men&#39;s Camp-Glacier Running Shoes Off WHT/MSTD - 9UK/India" [ref=e623] [cursor=pointer]
+                      - button "Delete Campus Men&#39;s Camp-Glacier Running Shoes Off WHT/MSTD - 9UK/India" [ref=e627] [cursor=pointer]: Delete
+                      - button "Save for later Campus Men&#39;s Camp-Glacier Running Shoes Off WHT/MSTD - 9UK/India" [ref=e630] [cursor=pointer]: Save for later
+                      - button "See more like this Campus Men&#39;s Camp-Glacier Running Shoes Off WHT/MSTD - 9UK/India" [ref=e633] [cursor=pointer]: See more like this
+                      - link "Share Campus Men&amp;#39;s Camp-Glacier Running Shoes Off WHT/MSTD - 9UK/India" [ref=e636] [cursor=pointer]:
+                        - /url: "#"
+                        - text: Share
+              - listitem [ref=e637]:
+                - generic [ref=e639]:
+                  - checkbox "Select Hindware F160027 ABS Faucet with Rubbit Cleaning System, Flexible Tube and Wall Hook, Chrome, Painted Finish | 1-Year Manufacturer Warranty for checkout" [checked] [ref=e642]
+                  - link [ref=e645] [cursor=pointer]:
+                    - /url: /gp/product/B00IRY9GEM/ref=ox_sc_act_image_3?smid=A25YPYJHEZYIPE&psc=1
+                  - generic [ref=e646]:
+                    - link "Hindware F160027 ABS Faucet with Rubbit Cleaning System, Flexible Tube and Wall Hook, Chrome, Painted Finish | 1-Year Manufacturer Warranty" [ref=e648] [cursor=pointer]:
+                      - /url: /gp/product/B00IRY9GEM/ref=ox_sc_act_title_3?smid=A25YPYJHEZYIPE&psc=1
+                      - heading "Hindware F160027 ABS Faucet with Rubbit Cleaning System, Flexible Tube and Wall Hook, Chrome, Painted Finish | 1-Year Manufacturer Warranty" [level=3] [ref=e650]:
+                        - generic [ref=e651]:
+                          - generic [ref=e652]: Hindware F160027 ABS Faucet with Rubbit Cleaning System, Flexible Tube and Wall Hook, Chrome, Painted Finish | 1-Year Manufacturer Warranty
+                          - generic [ref=e653]: Hindware F160027 ABS Faucet with Rubbit Cleaning System, Flexible Tube and Wall Hook, Chrome, Painted Fi…
+                    - generic [ref=e654]:
+                      - generic [ref=e658]:
+                        - generic [ref=e659]: ₹699.00
+                        - generic [ref=e660]:
+                          - text: ₹
+                          - generic [ref=e661]:
+                            - text: "699"
+                            - generic [ref=e662]: .
+                          - text: "00"
+                      - generic [ref=e667]:
+                        - text: Buy 2 items, get 10% off
+                        - link "Shop items" [ref=e670] [cursor=pointer]:
+                          - /url: "#"
+                          - generic [ref=e671]: Shop items
+                    - generic [ref=e672]:
+                      - generic [ref=e673]: In stock
+                      - generic [ref=e675]:
+                        - text: Sold by
+                        - link "Bathfitting" [ref=e676] [cursor=pointer]:
+                          - /url: /gp/help/seller/at-a-glance.html/ref=ox_sc_seller_act_3?seller=A25YPYJHEZYIPE
+                      - generic [ref=e682]: FREE delivery Tue, 30 Jun
+                      - generic [ref=e685]:
+                        - text: Gift options not available.
+                        - link "Gift options not available. Learn more" [ref=e686] [cursor=pointer]:
+                          - /url: /gp/help/customer/display.html/ref=ox_sc_gift?pop-up=1&nodeId=200898020
+                          - generic [ref=e687]:
+                            - generic [ref=e688]: Gift options not available.
+                            - text: Learn more
+                    - generic [ref=e689]:
+                      - group "Quantity is 1" [ref=e692]:
+                        - generic [ref=e693]: Quantity is 1
+                        - generic [ref=e695]:
+                          - button "Delete Hindware F160027 ABS Faucet with Rubbit Cleaning System, Flexible Tube and Wall Hook, Chrome, Painted Finish | 1-Year Manufacturer Warranty" [ref=e696] [cursor=pointer]
+                          - generic [ref=e700]: "1"
+                          - generic [ref=e702]: "1"
+                          - button "Increase quantity by one Hindware F160027 ABS Faucet with Rubbit Cleaning System, Flexible Tube and Wall Hook, Chrome, Painted Finish | 1-Year Manufacturer Warranty" [ref=e703] [cursor=pointer]
+                      - button "Delete Hindware F160027 ABS Faucet with Rubbit Cleaning System, Flexible Tube and Wall Hook, Chrome, Painted Finish | 1-Year Manufacturer Warranty" [ref=e707] [cursor=pointer]: Delete
+                      - button "Save for later Hindware F160027 ABS Faucet with Rubbit Cleaning System, Flexible Tube and Wall Hook, Chrome, Painted Finish | 1-Year Manufacturer Warranty" [ref=e710] [cursor=pointer]: Save for later
+                      - button "See more like this Hindware F160027 ABS Faucet with Rubbit Cleaning System, Flexible Tube and Wall Hook, Chrome, Painted Finish | 1-Year Manufacturer Warranty" [ref=e713] [cursor=pointer]: See more like this
+                      - link "Share Hindware F160027 ABS Faucet with Rubbit Cleaning System, Flexible Tube and Wall Hook, Chrome, Painted Finish | 1-Year Manufacturer Warranty" [ref=e716] [cursor=pointer]:
+                        - /url: "#"
+                        - text: Share
+              - listitem [ref=e717]:
+                - generic [ref=e719]:
+                  - checkbox "Select Delta Faucet Pull Down Kitchen Sink Faucet I 10 Year Warranty I Three Spray Kitchen Faucet I 360&amp;deg; Swivel Spout I Lenta Multi-Function Deck Mount Kitchen Mixer Sink Tap I Chrome I 19802Z-DST for checkout" [checked] [ref=e722]
+                  - link [ref=e725] [cursor=pointer]:
+                    - /url: /gp/product/B084RNBLTF/ref=ox_sc_act_image_4?smid=AJ6SIZC8YQDZX&psc=1
+                  - generic [ref=e726]:
+                    - link "Delta Faucet Pull Down Kitchen Sink Faucet I 10 Year Warranty I Three Spray Kitchen Faucet I 360° Swivel Spout I Lenta Multi-Function Deck Mount Kitchen Mixer Sink Tap I Chrome I 19802Z-DST" [ref=e728] [cursor=pointer]:
+                      - /url: /gp/product/B084RNBLTF/ref=ox_sc_act_title_4?smid=AJ6SIZC8YQDZX&psc=1
+                      - heading "Delta Faucet Pull Down Kitchen Sink Faucet I 10 Year Warranty I Three Spray Kitchen Faucet I 360° Swivel Spout I Lenta Multi-Function Deck Mount Kitchen Mixer Sink Tap I Chrome I 19802Z-DST" [level=3] [ref=e730]:
+                        - generic [ref=e731]:
+                          - generic [ref=e732]: Delta Faucet Pull Down Kitchen Sink Faucet I 10 Year Warranty I Three Spray Kitchen Faucet I 360° Swivel Spout I Lenta Multi-Function Deck Mount Kitchen Mixer Sink Tap I Chrome I 19802Z-DST
+                          - generic [ref=e733]: Delta Faucet Pull Down Kitchen Sink Faucet I 10 Year Warranty I Three Spray Kitchen Faucet I 360° Swivel Spou…
+                    - generic [ref=e734]:
+                      - generic [ref=e737]: Limited time deal
+                      - generic [ref=e738]:
+                        - generic [ref=e739]:
+                          - generic [ref=e740]: "-43%"
+                          - generic [ref=e742]:
+                            - generic [ref=e743]: ₹19,500.00
+                            - generic [ref=e744]:
+                              - text: ₹
+                              - generic [ref=e745]:
+                                - text: 19,500
+                                - generic [ref=e746]: .
+                              - text: "00"
+                        - generic [ref=e747]: "M.R.P.: ₹34,500.00"
+                        - generic [ref=e748]:
+                          - text: "M.R.P.:"
+                          - generic [ref=e749]:
+                            - generic [ref=e750]: ₹34,500.00
+                            - text: ₹34,500.00
+                      - generic [ref=e755]:
+                        - text: Up to 5% back with Amazon Pay ICICI card
+                        - link "Terms" [ref=e758] [cursor=pointer]:
+                          - /url: "#"
+                          - generic [ref=e759]: Terms
+                    - generic [ref=e760]:
+                      - generic [ref=e761]: In stock
+                      - generic [ref=e765]: FREE delivery Fri, 26 Jun available at checkout
+                      - paragraph [ref=e766]
+                      - generic [ref=e770]:
+                        - checkbox "This will be a gift This is a gift Learn more" [ref=e771]
+                        - generic [ref=e773]:
+                          - text: This will be a gift
+                          - link "This is a gift Learn more" [ref=e775] [cursor=pointer]:
+                            - /url: /gp/help/customer/display.html/ref=ord_cart_shr?pop-up=1&nodeId=200507630
+                            - generic [ref=e776]:
+                              - generic [ref=e777]: This is a gift
+                              - text: Learn more
+                    - generic [ref=e778]:
+                      - group "Quantity is 1" [ref=e781]:
+                        - generic [ref=e782]: Quantity is 1
+                        - generic [ref=e784]:
+                          - button "Delete Delta Faucet Pull Down Kitchen Sink Faucet I 10 Year Warranty I Three Spray Kitchen Faucet I 360&deg; Swivel Spout I Lenta Multi-Function Deck Mount Kitchen Mixer Sink Tap I Chrome I 19802Z-DST" [ref=e785] [cursor=pointer]
+                          - generic [ref=e789]: "1"
+                          - generic [ref=e791]: "1"
+                          - button "Increase quantity by one Delta Faucet Pull Down Kitchen Sink Faucet I 10 Year Warranty I Three Spray Kitchen Faucet I 360&deg; Swivel Spout I Lenta Multi-Function Deck Mount Kitchen Mixer Sink Tap I Chrome I 19802Z-DST" [ref=e792] [cursor=pointer]
+                      - button "Delete Delta Faucet Pull Down Kitchen Sink Faucet I 10 Year Warranty I Three Spray Kitchen Faucet I 360&deg; Swivel Spout I Lenta Multi-Function Deck Mount Kitchen Mixer Sink Tap I Chrome I 19802Z-DST" [ref=e796] [cursor=pointer]: Delete
+                      - button "Save for later Delta Faucet Pull Down Kitchen Sink Faucet I 10 Year Warranty I Three Spray Kitchen Faucet I 360&deg; Swivel Spout I Lenta Multi-Function Deck Mount Kitchen Mixer Sink Tap I Chrome I 19802Z-DST" [ref=e799] [cursor=pointer]: Save for later
+                      - button "See more like this Delta Faucet Pull Down Kitchen Sink Faucet I 10 Year Warranty I Three Spray Kitchen Faucet I 360&deg; Swivel Spout I Lenta Multi-Function Deck Mount Kitchen Mixer Sink Tap I Chrome I 19802Z-DST" [ref=e802] [cursor=pointer]: See more like this
+                      - link "Share Delta Faucet Pull Down Kitchen Sink Faucet I 10 Year Warranty I Three Spray Kitchen Faucet I 360&amp;deg; Swivel Spout I Lenta Multi-Function Deck Mount Kitchen Mixer Sink Tap I Chrome I 19802Z-DST" [ref=e805] [cursor=pointer]:
+                        - /url: "#"
+                        - text: Share
+            - generic [ref=e1781]:
+              - text: "Subtotal (3 items):"
+              - generic [ref=e1782]: ₹21,298.00
+        - generic [ref=e810]:
+          - heading "Your Items" [level=3] [ref=e812]
+          - generic [ref=e813]:
+            - tablist [ref=e814]:
+              - tab "No items saved for later" [ref=e815] [cursor=pointer]:
+                - generic [ref=e1783]: No items saved for later
+              - tab "Buy it again" [selected] [ref=e817] [cursor=pointer]:
+                - generic [ref=e818]: Buy it again
+            - tabpanel "Buy it again" [ref=e819]:
+              - generic [ref=e1784]: No items
+        - generic [ref=e823]:
+          - paragraph [ref=e825]: The price and availability of items at Amazon.in are subject to change. The shopping cart is a temporary place to store a list of your items and reflects each item's most recent price.
+          - paragraph [ref=e826]: Do you have a gift card or promotional code? We'll ask you to enter your claim code when it's time to pay.
+  - generic [ref=e827]:
+    - generic [ref=e1241]:
+      - heading "Save up to ₹60 with Eco-Friendly Grouped Delivery. Shop now!" [level=2] [ref=e1242]
+      - generic [ref=e1243]:
+        - text: ₹20 back for every additional item.
+        - link "Buy more, Save more" [ref=e1245] [cursor=pointer]:
+          - /url: /promotion/details/AERUAIDBJ7KL7?ref=cbc_bmsm_cw_AERUAIDBJ7KL7_lm&ref_=iCartWidgetCart_d_lm_c
+          - text: Learn more
+      - region [ref=e1246]:
+        - list [ref=e1251]:
+          - listitem [ref=e1252]:
+            - link "Fitness Mantra Fitness Mantra® 12 Pairs Sports Ankle Cotton Socks | Free Size| Breathable| Daily Use| Multicolor| 12 Pairs| 5485 ₹196.00" [ref=e1253] [cursor=pointer]:
+              - /url: /dp/B0CTQ4RSMB/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_1?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofVzusP2LmHlC35F4HkRrvFtXNZ6S41gkwX%2FYoJghAdcegV7HOuDh2VxzR6x2u26GoTfE7OnBTfO3T8x47yC1Au9cRyn1qvDnKkUheu%2BDpU4kfGMsncKdoG8lI%2Br8bPwKjg%3D%3D
+              - img "Fitness Mantra" [ref=e1256]
+              - generic [ref=e1257]: Fitness Mantra® 12 Pairs Sports Ankle Cotton Socks | Free Size| Breathable| Daily Use| Multicolor| 12 Pairs|
+              - generic [ref=e1258]: "5485"
+              - generic [ref=e1260]: ₹196.00
+            - generic [ref=e1264] [cursor=pointer]:
+              - button "Submit" [ref=e1265]
+              - generic [ref=e1266]: Add to Cart
+          - listitem [ref=e1267]:
+            - link "SKULLFIT Skullfit Sports Headbands For Men (Black) - Lightweight Moisture Wicking Workout Sweatbands For Running, Gym, Yoga, Cycling, Tennis, Cricket And Other Sports - Spandex, Polyester Blend, Cotton 1994 ₹298.00" [ref=e1268] [cursor=pointer]:
+              - /url: /dp/B08QGP3JVV/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_2?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofQWOqNapnDM1f9uU9a6Fhc48OrpOp%2BwISBV7H1q4JnjCI1oePdIE2LgXoaeBEofsWuzBjJP6IfD4n05d0L8APJiwIeA%2Bnw2tzj%2Bk2A5wauD2iSOfPyJllczGjIqzriHV%2Fw%3D%3D
+              - img "SKULLFIT" [ref=e1271]
+              - generic [ref=e1272]: Skullfit Sports Headbands For Men (Black) - Lightweight Moisture Wicking Workout Sweatbands For Running, Gym, Yoga, Cycling, Tennis, Cricket And Other Sports - Spandex, Polyester Blend, Cotton
+              - generic [ref=e1273]: "1994"
+              - generic [ref=e1275]: ₹298.00
+            - generic [ref=e1279] [cursor=pointer]:
+              - button "Submit" [ref=e1280]
+              - generic [ref=e1281]: Add to Cart
+          - listitem [ref=e1282]:
+            - link "Nivia Nivia Basic Polyester Duffle Bag for Men & Women, Side Mesh Pocket, Workout & Training Bag, Suitable for Gym, Fitness, Sports & Travel with Adjustable Shoulder Strap (Black/Grey), Capacity-11L 7880 ₹229.00" [ref=e1283] [cursor=pointer]:
+              - /url: /dp/B07NLB6FRS/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_3?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofSWhXHHD22Oim7vB4KkgxFFXNZ6S41gkwX%2FYoJghAdcegV7HOuDh2VxzR6x2u26GoTfE7OnBTfO3T8x47yC1Au9cRyn1qvDnKkUheu%2BDpU4kfGMsncKdoG8lI%2Br8bPwKjg%3D%3D
+              - img "Nivia" [ref=e1286]
+              - generic [ref=e1287]: Nivia Basic Polyester Duffle Bag for Men & Women, Side Mesh Pocket, Workout & Training Bag, Suitable for Gym, Fitness, Sports & Travel with Adjustable Shoulder Strap (Black/Grey), Capacity-11L
+              - generic [ref=e1288]: "7880"
+              - generic [ref=e1290]: ₹229.00
+            - generic [ref=e1294] [cursor=pointer]:
+              - button "Submit" [ref=e1295]
+              - generic [ref=e1296]: Add to Cart
+          - listitem [ref=e1297]:
+            - link "HILLSON HILLSON Mens Workout Dual Density Black Pvc Safety Shoe(9 Uk) 2131 ₹783.00" [ref=e1298] [cursor=pointer]:
+              - /url: /dp/B086QZCLKW/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_4?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofaRYZ5NfIZksHZE9TUBaP%2BneWKSLjIjjnMevVbgbGY9QgV7HOuDh2VxzR6x2u26GoTfE7OnBTfO3T8x47yC1Au9cRyn1qvDnKkUheu%2BDpU4kfGMsncKdoG8lI%2Br8bPwKjg%3D%3D
+              - img "HILLSON" [ref=e1301]
+              - generic [ref=e1302]: HILLSON Mens Workout Dual Density Black Pvc Safety Shoe(9 Uk)
+              - generic [ref=e1303]: "2131"
+              - generic [ref=e1305]: ₹783.00
+            - generic [ref=e1309] [cursor=pointer]:
+              - button "Submit" [ref=e1310]
+              - generic [ref=e1311]: Add to Cart
+          - listitem [ref=e1312]:
+            - link "Nivia Nivia Basic Polyester Duffle Bag for Men & Women, Side Mesh Pocket, Workout & Training Bag, Suitable for Gym, Fitness, Sports & Travel with Adjustable Shoulder Strap (Black), Capacity-11L 7880 ₹259.00" [ref=e1313] [cursor=pointer]:
+              - /url: /dp/B07FWQ9HRV/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_5?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofUASeaZb2NQ85Yrsq%2B6f%2BNxXNZ6S41gkwX%2FYoJghAdcegV7HOuDh2VxzR6x2u26GoTfE7OnBTfO3T8x47yC1Au9cRyn1qvDnKkUheu%2BDpU4kfGMsncKdoG8lI%2Br8bPwKjg%3D%3D
+              - img "Nivia" [ref=e1316]
+              - generic [ref=e1317]: Nivia Basic Polyester Duffle Bag for Men & Women, Side Mesh Pocket, Workout & Training Bag, Suitable for Gym, Fitness, Sports & Travel with Adjustable Shoulder Strap (Black), Capacity-11L
+              - generic [ref=e1318]: "7880"
+              - generic [ref=e1320]: ₹259.00
+            - generic [ref=e1324] [cursor=pointer]:
+              - button "Submit" [ref=e1325]
+              - generic [ref=e1326]: Add to Cart
+          - listitem [ref=e1327]:
+            - link "Nivia Nivia Knitted Knee Support, for Men, for Gym, Knee Sleeves, Knee Braces Pair for Sports & Workout, Knee Cap, Knee Compression Knee Supporter for Exercise, Running, Cycling 1617 ₹369.00" [ref=e1328] [cursor=pointer]:
+              - /url: /dp/B0C624MV8M/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_6?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofWJxuY11ATMOiOskUy%2B1QlNXNZ6S41gkwX%2FYoJghAdcegV7HOuDh2VxzR6x2u26GoTfE7OnBTfO3T8x47yC1Au9cRyn1qvDnKkUheu%2BDpU4kfGMsncKdoG8lI%2Br8bPwKjg%3D%3D
+              - img "Nivia" [ref=e1331]
+              - generic [ref=e1332]: Nivia Knitted Knee Support, for Men, for Gym, Knee Sleeves, Knee Braces Pair for Sports & Workout, Knee Cap, Knee Compression Knee Supporter for Exercise, Running, Cycling
+              - generic [ref=e1333]: "1617"
+              - generic [ref=e1335]: ₹369.00
+            - generic [ref=e1339] [cursor=pointer]:
+              - button "Submit" [ref=e1340]
+              - generic [ref=e1341]: Add to Cart
+          - listitem [ref=e1342]:
+            - link "Boldfit Boldfit Gym Gloves for Men Workout Unisex Hand Gloves for Gym for Men & Women with Wrist Support for Weightlifting, Workout Comfortable Fit Bike Riding, Cycling Handgloves - Warrior Black 7321 ₹348.00" [ref=e1343] [cursor=pointer]:
+              - /url: /dp/B0BN1V4GYB/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_7?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofZbgHXgsybPda989CM4dqRZXNZ6S41gkwX%2FYoJghAdcegV7HOuDh2VxzR6x2u26GoTfE7OnBTfO3T8x47yC1Au9cRyn1qvDnKkUheu%2BDpU4kfGMsncKdoG8lI%2Br8bPwKjg%3D%3D
+              - img "Boldfit" [ref=e1346]
+              - generic [ref=e1347]: Boldfit Gym Gloves for Men Workout Unisex Hand Gloves for Gym for Men & Women with Wrist Support for Weightlifting, Workout Comfortable Fit Bike Riding, Cycling Handgloves - Warrior Black
+              - generic [ref=e1348]: "7321"
+              - generic [ref=e1350]: ₹348.00
+            - generic [ref=e1354] [cursor=pointer]:
+              - button "Submit" [ref=e1355]
+              - generic [ref=e1356]: Add to Cart
+          - listitem [ref=e1357]:
+            - link "Coreteq Coreteq Printed Multifunction Sports Sweatband Headband Microfiber Men and Women (Calm Blue) 977 ₹295.00" [ref=e1358] [cursor=pointer]:
+              - /url: /dp/B09473GJD2/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_8?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofRU%2Bu6qox2zd9xXn28shSsrNP%2BqYRLmg%2FEux9dxcFmRPgV7HOuDh2VxzR6x2u26GoTfE7OnBTfO3T8x47yC1Au9cRyn1qvDnKkUheu%2BDpU4kfGMsncKdoG8lI%2Br8bPwKjg%3D%3D
+              - img "Coreteq" [ref=e1361]
+              - generic [ref=e1362]: Coreteq Printed Multifunction Sports Sweatband Headband Microfiber Men and Women (Calm Blue)
+              - generic [ref=e1363]: "977"
+              - generic [ref=e1365]: ₹295.00
+            - generic [ref=e1369] [cursor=pointer]:
+              - button "Submit" [ref=e1370]
+              - generic [ref=e1371]: Add to Cart
+          - listitem [ref=e1372]:
+            - link "Nivia Nivia Knitted Knee Support, for Men, for Gym, Knee Sleeves, Knee Braces Pair for Sports & Workout, Knee Cap, Knee Compression Knee Supporter for Exercise, Running, Cycling 1617 ₹389.00" [ref=e1373] [cursor=pointer]:
+              - /url: /dp/B0DSPCCF71/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_9?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofZqjav7wzjmoVWj2aqk%2FZdZXNZ6S41gkwX%2FYoJghAdcegV7HOuDh2VxzR6x2u26GoTfE7OnBTfO3T8x47yC1Au9cRyn1qvDnKkUheu%2BDpU4kfGMsncKdoG8lI%2Br8bPwKjg%3D%3D
+              - img "Nivia" [ref=e1376]
+              - generic [ref=e1377]: Nivia Knitted Knee Support, for Men, for Gym, Knee Sleeves, Knee Braces Pair for Sports & Workout, Knee Cap, Knee Compression Knee Supporter for Exercise, Running, Cycling
+              - generic [ref=e1378]: "1617"
+              - generic [ref=e1380]: ₹389.00
+            - generic [ref=e1384] [cursor=pointer]:
+              - button "Submit" [ref=e1385]
+              - generic [ref=e1386]: Add to Cart
+          - listitem [ref=e1387]:
+            - link "Boldfit Boldfit Polyester Blend Head Band for Man Sports Head Bandana for Men & Women Gym Hair Band for Men Workout, Running Breathable, Non-Slip & Quick Drying Head Bands for Long Hair 4096 ₹349.00" [ref=e1388] [cursor=pointer]:
+              - /url: /dp/B0B28Z4FXR/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_10?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofaG04w7K2OcKBYexM6Ha4ARXNZ6S41gkwX%2FYoJghAdcegV7HOuDh2VxzR6x2u26GoTfE7OnBTfO3T8x47yC1Au9cRyn1qvDnKkUheu%2BDpU4kfGMsncKdoG8lI%2Br8bPwKjg%3D%3D
+              - img "Boldfit" [ref=e1391]
+              - generic [ref=e1392]: Boldfit Polyester Blend Head Band for Man Sports Head Bandana for Men & Women Gym Hair Band for Men Workout, Running Breathable, Non-Slip & Quick Drying Head Bands for Long Hair
+              - generic [ref=e1393]: "4096"
+              - generic [ref=e1395]: ₹349.00
+            - generic [ref=e1399] [cursor=pointer]:
+              - button "Submit" [ref=e1400]
+              - generic [ref=e1401]: Add to Cart
+          - listitem [ref=e1402]:
+            - link "Protoner Wsg Cricket Kit Bag for Team Black 737 ₹649.00" [ref=e1403] [cursor=pointer]:
+              - /url: /dp/B072BN1YH3/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_11?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofSVsOcZXDOLWLyMb51w%2FbLFXNZ6S41gkwX%2FYoJghAdcegV7HOuDh2VxzR6x2u26GoTfE7OnBTfO3T8x47yC1Au9cRyn1qvDnKkUheu%2BDpU4kfGMsncKdoG8lI%2Br8bPwKjg%3D%3D
+              - img "Protoner" [ref=e1406]
+              - generic [ref=e1407]: Wsg Cricket Kit Bag for Team Black
+              - generic [ref=e1408]: "737"
+              - generic [ref=e1410]: ₹649.00
+            - generic [ref=e1414] [cursor=pointer]:
+              - button "Submit" [ref=e1415]
+              - generic [ref=e1416]: Add to Cart
+          - listitem [ref=e1417]:
+            - link "Automaze Automaze 2 Pack Knee Cushion Soft Pad For Leather Auto Center Console, Car Foot Care Knee Cover Thigh Support Comfort Elastic Pillow Car Interior Accessories 634 ₹458.00" [ref=e1418] [cursor=pointer]:
+              - /url: /dp/B09NRR65Y1/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_12?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofQ%2BURyX9meRbalLFFilJwPSmz22GqEmbTLFOVzaUdmQReLWk56fgrajRV6VGUmm7X3mzP0Ufq5jGnc9272w8AHqDm%2FQhFAeP5Ew1kBlV9MMJYCf5nMyRWmTpPYPvcqHHIA%3D%3D
+              - img "Automaze" [ref=e1421]
+              - generic [ref=e1422]: Automaze 2 Pack Knee Cushion Soft Pad For Leather Auto Center Console, Car Foot Care Knee Cover Thigh Support Comfort Elastic Pillow Car Interior Accessories
+              - generic [ref=e1423]: "634"
+              - generic [ref=e1425]: ₹458.00
+            - generic [ref=e1429] [cursor=pointer]:
+              - button "Submit" [ref=e1430]
+              - generic [ref=e1431]: Add to Cart
+          - listitem [ref=e1432]:
+            - link "Probiker Probiker Protective Full Finger Gloves Anti-Skid Surface Breathable Bike Riding Glove for Motorcycle, Cycling, Climbing Mountaineering and Hiking (Red, XL) 454 ₹259.00" [ref=e1433] [cursor=pointer]:
+              - /url: /dp/B00QLFX5E6/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_13?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofayVoTnqqrwXVNFapCmEQ6XD0URtruHNnlFsTIEpbiJlI1oePdIE2LgXoaeBEofsWuzBjJP6IfD4n05d0L8APJiwIeA%2Bnw2tzj%2Bk2A5wauD2iSOfPyJllczGjIqzriHV%2Fw%3D%3D
+              - img "Probiker" [ref=e1436]
+              - generic [ref=e1437]: Probiker Protective Full Finger Gloves Anti-Skid Surface Breathable Bike Riding Glove for Motorcycle, Cycling, Climbing Mountaineering and Hiking (Red, XL)
+              - generic [ref=e1438]: "454"
+              - generic [ref=e1440]: ₹259.00
+            - generic [ref=e1444] [cursor=pointer]:
+              - button "Submit" [ref=e1445]
+              - generic [ref=e1446]: Add to Cart
+          - listitem [ref=e1447]:
+            - link "Supersox Supersox Ankle Length Socks for Man | Durable Breathable Cotton | Anti-Odor & Antibacterial | Multi Colour | Free Size | Pack of 3 6449 ₹329.00" [ref=e1448] [cursor=pointer]:
+              - /url: /dp/B09W5S4ZHL/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_14?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofT20j5OAEDiCp14LMCmg0aBsjPV%2BMNm3Bb6Lr5p%2F6%2B2jI1oePdIE2LgXoaeBEofsWuzBjJP6IfD4n05d0L8APJiwIeA%2Bnw2tzj%2Bk2A5wauD2iSOfPyJllczGjIqzriHV%2Fw%3D%3D
+              - img "Supersox" [ref=e1451]
+              - generic [ref=e1452]: Supersox Ankle Length Socks for Man | Durable Breathable Cotton | Anti-Odor & Antibacterial | Multi Colour | Free Size | Pack of 3
+              - generic [ref=e1453]: "6449"
+              - generic [ref=e1455]: ₹329.00
+            - generic [ref=e1459] [cursor=pointer]:
+              - button "Submit" [ref=e1460]
+              - generic [ref=e1461]: Add to Cart
+          - listitem [ref=e1462]:
+            - link "HILLSON Hillson Mens Workout Dual Density PVC Safety Shoe(Size-7 UK,Black) 2131 ₹783.00" [ref=e1463] [cursor=pointer]:
+              - /url: /dp/B086QZJT97/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_15?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofVvE0MHGYEwf03ATUhJV6AfeWKSLjIjjnMevVbgbGY9QgV7HOuDh2VxzR6x2u26GoTfE7OnBTfO3T8x47yC1Au9cRyn1qvDnKkUheu%2BDpU4kfGMsncKdoG8lI%2Br8bPwKjg%3D%3D
+              - img "HILLSON" [ref=e1466]
+              - generic [ref=e1467]: Hillson Mens Workout Dual Density PVC Safety Shoe(Size-7 UK,Black)
+              - generic [ref=e1468]: "2131"
+              - generic [ref=e1470]: ₹783.00
+            - generic [ref=e1474] [cursor=pointer]:
+              - button "Submit" [ref=e1475]
+              - generic [ref=e1476]: Add to Cart
+          - listitem [ref=e1477]:
+            - link "Vector X Vector X Samba Shinguard with Ankle Adjustable | Training and Practice | for Girls and Boys | (Senior, Black-White) 49 ₹234.00" [ref=e1478] [cursor=pointer]:
+              - /url: /dp/B08X1CSY4Z/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_16?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofRtGCm1Yp37zOYUpTKLRqpFXNZ6S41gkwX%2FYoJghAdcegV7HOuDh2VxzR6x2u26GoTfE7OnBTfO3T8x47yC1Au9cRyn1qvDnKkUheu%2BDpU4kfGMsncKdoG8lI%2Br8bPwKjg%3D%3D
+              - img "Vector X" [ref=e1481]
+              - generic [ref=e1482]: Vector X Samba Shinguard with Ankle Adjustable | Training and Practice | for Girls and Boys | (Senior, Black-White)
+              - generic [ref=e1483]: "49"
+              - generic [ref=e1485]: ₹234.00
+            - generic [ref=e1489] [cursor=pointer]:
+              - button "Submit" [ref=e1490]
+              - generic [ref=e1491]: Add to Cart
+          - listitem [ref=e1492]:
+            - link "Golfoy Basics Golfoy Basics High Performance UPF 30+ UV Sun Protection Cooling Arm Sleeves For Men & Women - Suitable for Golfing, Running, Basketball, Football, Biking (Pair) - White 229 ₹399.00" [ref=e1493] [cursor=pointer]:
+              - /url: /dp/B0B598VCF7/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_17?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofde5rAwK5%2By1g5o0tcfwUIePk1upPDZPmHc2SPh0MgZ%2FeLWk56fgrajRV6VGUmm7X3mzP0Ufq5jGnc9272w8AHqDm%2FQhFAeP5Ew1kBlV9MMJYCf5nMyRWmTpPYPvcqHHIA%3D%3D
+              - img "Golfoy Basics" [ref=e1496]
+              - generic [ref=e1497]: Golfoy Basics High Performance UPF 30+ UV Sun Protection Cooling Arm Sleeves For Men & Women - Suitable for Golfing, Running, Basketball, Football, Biking (Pair) - White
+              - generic [ref=e1498]: "229"
+              - generic [ref=e1500]: ₹399.00
+            - generic [ref=e1504] [cursor=pointer]:
+              - button "Submit" [ref=e1505]
+              - generic [ref=e1506]: Add to Cart
+          - listitem [ref=e1507]:
+            - link "SKULLFIT SKULLFIT Polyester Blend Sports Headbands For Men - Lightweight Moisture Wicking Workout Sweatbands Running, Gym, Yoga, Cycling, Tennis, Cricket And Other (Blue) 1994 ₹298.00" [ref=e1508] [cursor=pointer]:
+              - /url: /dp/B08QGPSZFM/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_18?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofUvNHDhV%2BOB37U%2FDbv9Z%2FSc8OrpOp%2BwISBV7H1q4JnjCI1oePdIE2LgXoaeBEofsWuzBjJP6IfD4n05d0L8APJiwIeA%2Bnw2tzj%2Bk2A5wauD2iSOfPyJllczGjIqzriHV%2Fw%3D%3D
+              - img "SKULLFIT" [ref=e1511]
+              - generic [ref=e1512]: SKULLFIT Polyester Blend Sports Headbands For Men - Lightweight Moisture Wicking Workout Sweatbands Running, Gym, Yoga, Cycling, Tennis, Cricket And Other (Blue)
+              - generic [ref=e1513]: "1994"
+              - generic [ref=e1515]: ₹298.00
+            - generic [ref=e1519] [cursor=pointer]:
+              - button "Submit" [ref=e1520]
+              - generic [ref=e1521]: Add to Cart
+          - listitem [ref=e1522]:
+            - link "HILLSON HILLSON Mens Workout Dual Density Black Pvc Safety Shoe(Size-8 Uk) 2131 ₹783.00" [ref=e1523] [cursor=pointer]:
+              - /url: /dp/B086QZLNXM/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_19?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofRWfWf2ryH0uvm1HnxBkY8veWKSLjIjjnMevVbgbGY9QgV7HOuDh2VxzR6x2u26GoTfE7OnBTfO3T8x47yC1Au9cRyn1qvDnKkUheu%2BDpU4kfGMsncKdoG8lI%2Br8bPwKjg%3D%3D
+              - img "HILLSON" [ref=e1526]
+              - generic [ref=e1527]: HILLSON Mens Workout Dual Density Black Pvc Safety Shoe(Size-8 Uk)
+              - generic [ref=e1528]: "2131"
+              - generic [ref=e1530]: ₹783.00
+            - generic [ref=e1534] [cursor=pointer]:
+              - button "Submit" [ref=e1535]
+              - generic [ref=e1536]: Add to Cart
+          - listitem [ref=e1537]:
+            - link "Fitness Mantra Fitness Mantra® Athletic Special Design Sneaker Length Socks |Free Size |Pack of 3 Pairs |Activewear Sports Socks| 334 ₹159.00" [ref=e1538] [cursor=pointer]:
+              - /url: /dp/B0CMXPL7D9/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_20?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofX6rXa4Qg2ItQZ0VBdpHhDVXNZ6S41gkwX%2FYoJghAdcegV7HOuDh2VxzR6x2u26GoTfE7OnBTfO3T8x47yC1Au9cRyn1qvDnKkUheu%2BDpU4kfGMsncKdoG8lI%2Br8bPwKjg%3D%3D
+              - img "Fitness Mantra" [ref=e1541]
+              - generic [ref=e1542]: Fitness Mantra® Athletic Special Design Sneaker Length Socks |Free Size |Pack of 3 Pairs |Activewear Sports Socks|
+              - generic [ref=e1543]: "334"
+              - generic [ref=e1545]: ₹159.00
+            - generic [ref=e1549] [cursor=pointer]:
+              - button "Submit" [ref=e1550]
+              - generic [ref=e1551]: Add to Cart
+          - listitem [ref=e1552]:
+            - link "AUTOFRILL AUTOFRILL Arm Sleeves for Men & Women | UV Protection Sleeves for Sun Protection | Cooling, Breathable & Stretchable | Bike Riding, Driving, Sports & Daily Use 521 ₹139.00" [ref=e1553] [cursor=pointer]:
+              - /url: /dp/B0BTSG25SN/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_21?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPoffUq7YErzGDup5VE596M%2FPvD0URtruHNnlFsTIEpbiJlI1oePdIE2LgXoaeBEofsWuzBjJP6IfD4n05d0L8APJiwIeA%2Bnw2tzj%2Bk2A5wauD2iSOfPyJllczGjIqzriHV%2Fw%3D%3D
+              - img "AUTOFRILL" [ref=e1556]
+              - generic [ref=e1557]: AUTOFRILL Arm Sleeves for Men & Women | UV Protection Sleeves for Sun Protection | Cooling, Breathable & Stretchable | Bike Riding, Driving, Sports & Daily Use
+              - generic [ref=e1558]: "521"
+              - generic [ref=e1560]: ₹139.00
+            - generic [ref=e1564] [cursor=pointer]:
+              - button "Submit" [ref=e1565]
+              - generic [ref=e1566]: Add to Cart
+          - listitem [ref=e1567]:
+            - link "Fitness Mantra Fitness Mantra® Athletic Special Design Sneaker Length Socks |Free Size |Pack of 3 Pairs |Activewear Sports Socks|Ankle Length,Cotton 936 ₹159.00" [ref=e1568] [cursor=pointer]:
+              - /url: /dp/B0CMXPBJY8/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_22?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofXQBR1hKwb7pT%2FZUzNvHbVdXNZ6S41gkwX%2FYoJghAdcegV7HOuDh2VxzR6x2u26GoTfE7OnBTfO3T8x47yC1Au9cRyn1qvDnKkUheu%2BDpU4kfGMsncKdoG8lI%2Br8bPwKjg%3D%3D
+              - img "Fitness Mantra" [ref=e1571]
+              - generic [ref=e1572]: Fitness Mantra® Athletic Special Design Sneaker Length Socks |Free Size |Pack of 3 Pairs |Activewear Sports Socks|Ankle Length,Cotton
+              - generic [ref=e1573]: "936"
+              - generic [ref=e1575]: ₹159.00
+            - generic [ref=e1579] [cursor=pointer]:
+              - button "Submit" [ref=e1580]
+              - generic [ref=e1581]: Add to Cart
+          - listitem [ref=e1582]:
+            - link "Vector X Vector X France Football Shin Guard with Adjustable Velcro Strap (S/M, France) 1240 ₹151.00" [ref=e1583] [cursor=pointer]:
+              - /url: /dp/B0BKW7YPT7/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_23?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofXwpACWwpc%2ByZApPMU5NuwRXNZ6S41gkwX%2FYoJghAdcegV7HOuDh2VxzR6x2u26GoTfE7OnBTfO3T8x47yC1Au9cRyn1qvDnKkUheu%2BDpU4kfGMsncKdoG8lI%2Br8bPwKjg%3D%3D
+              - img "Vector X" [ref=e1586]
+              - generic [ref=e1587]: Vector X France Football Shin Guard with Adjustable Velcro Strap (S/M, France)
+              - generic [ref=e1588]: "1240"
+              - generic [ref=e1590]: ₹151.00
+            - generic [ref=e1594] [cursor=pointer]:
+              - button "Submit" [ref=e1595]
+              - generic [ref=e1596]: Add to Cart
+          - listitem [ref=e1597]:
+            - link "Boldfit Boldfit Knee Caps for Women for Pain Relief Compression Knee Support for Men Gym Running Jogging Sports Workout Cap Pad Sleeve Braces Band Belt Guard Premium Leg Pain Relief Products -Grey M 7785 ₹199.00" [ref=e1598] [cursor=pointer]:
+              - /url: /dp/B0CGVKZWDW/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_24?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofT6pXmX144It%2FF%2Fc4dEm2JGaHAB8Woq6aWrOFVIoD%2B8%2FI1oePdIE2LgXoaeBEofsWuzBjJP6IfD4n05d0L8APJiwIeA%2Bnw2tzj%2Bk2A5wauD2iSOfPyJllczGjIqzriHV%2Fw%3D%3D
+              - img "Boldfit" [ref=e1601]
+              - generic [ref=e1602]: Boldfit Knee Caps for Women for Pain Relief Compression Knee Support for Men Gym Running Jogging Sports Workout Cap Pad Sleeve Braces Band Belt Guard Premium Leg Pain Relief Products -Grey M
+              - generic [ref=e1603]: "7785"
+              - generic [ref=e1605]: ₹199.00
+            - generic [ref=e1609] [cursor=pointer]:
+              - button "Submit" [ref=e1610]
+              - generic [ref=e1611]: Add to Cart
+          - listitem [ref=e1612]:
+            - link "LEALDEALZ LEALDEALZ Ankle Socks for Men & Women (Unisex) - Made with Soft, Breathable & Durable Cotton, Anti Odour, Multicoloured - Free Size - Pack of 5 - suitable for Sports, Gym and Daily use 6337 ₹309.00" [ref=e1613] [cursor=pointer]:
+              - /url: /dp/B07FRXCM79/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_25?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofTMWBlUN%2FWn%2FAF%2B6TMXTyh2n7WXeBkiMtuq2Bmb2QNiTI1oePdIE2LgXoaeBEofsWuzBjJP6IfD4n05d0L8APJiwIeA%2Bnw2tzj%2Bk2A5wauD2iSOfPyJllczGjIqzriHV%2Fw%3D%3D
+              - img "LEALDEALZ" [ref=e1616]
+              - generic [ref=e1617]: LEALDEALZ Ankle Socks for Men & Women (Unisex) - Made with Soft, Breathable & Durable Cotton, Anti Odour, Multicoloured - Free Size - Pack of 5 - suitable for Sports, Gym and Daily use
+              - generic [ref=e1618]: "6337"
+              - generic [ref=e1620]: ₹309.00
+            - generic [ref=e1624] [cursor=pointer]:
+              - button "Submit" [ref=e1625]
+              - generic [ref=e1626]: Add to Cart
+          - listitem [ref=e1627]:
+            - link "SPARX SPARX Mens SM 482 | Enhanced Durability & Soft Cushion | Green Running Shoe - 10 UK (SM 482) 892 ₹741.00" [ref=e1628] [cursor=pointer]:
+              - /url: /dp/B07YHYGKCM/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_26?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofb99fikn0jdOYghEEyfPcveOL1GLdLBQb%2Fubta%2B4UUw0I1oePdIE2LgXoaeBEofsWuzBjJP6IfD4n05d0L8APJiwIeA%2Bnw2tzj%2Bk2A5wauD2iSOfPyJllczGjIqzriHV%2Fw%3D%3D
+              - img "SPARX" [ref=e1631]
+              - generic [ref=e1632]: SPARX Mens SM 482 | Enhanced Durability & Soft Cushion | Green Running Shoe - 10 UK (SM 482)
+              - generic [ref=e1633]: "892"
+              - generic [ref=e1635]: ₹741.00
+            - generic [ref=e1639] [cursor=pointer]:
+              - button "Submit" [ref=e1640]
+              - generic [ref=e1641]: Add to Cart
+          - listitem [ref=e1642]:
+            - link "adidas Adidas Unisex Low Cut Cotton Blend Socks (Pack Of 3) (AD-0632 Lt Grey Mel/Black/Anthra Mel_Multicolor)- 3 Pairs (6N) 1024 ₹298.99" [ref=e1643] [cursor=pointer]:
+              - /url: /dp/B09RWKJC4N/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_27?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofXPQif7cZRnymKLsTX7%2BBKA44JT3lTv%2FMFEObCtgAVHGgV7HOuDh2VxzR6x2u26GoTfE7OnBTfO3T8x47yC1Au9cRyn1qvDnKkUheu%2BDpU4kfGMsncKdoG8lI%2Br8bPwKjg%3D%3D
+              - img "adidas" [ref=e1646]
+              - generic [ref=e1647]: Adidas Unisex Low Cut Cotton Blend Socks (Pack Of 3) (AD-0632 Lt Grey Mel/Black/Anthra Mel_Multicolor)- 3 Pairs (6N)
+              - generic [ref=e1648]: "1024"
+              - generic [ref=e1650]: ₹298.99
+            - generic [ref=e1654] [cursor=pointer]:
+              - button "Submit" [ref=e1655]
+              - generic [ref=e1656]: Add to Cart
+          - listitem [ref=e1657]:
+            - link "Ambrane Ambrane Wired in Ear Earphones with in-line Mic for Clear Calling, 14mm Dynamic Drivers for BoostedBass, 3.5mm Jack, Multi-Functional Controller (Stringz 38 Lite, Green) 9090 ₹198.00" [ref=e1658] [cursor=pointer]:
+              - /url: /dp/B0BM3LTJMN/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_28?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofbo4eF1BbbpyKHDM9gZ8uBKOL1GLdLBQb%2Fubta%2B4UUw0I1oePdIE2LgXoaeBEofsWuzBjJP6IfD4n05d0L8APJiwIeA%2Bnw2tzj%2Bk2A5wauD2iSOfPyJllczGjIqzriHV%2Fw%3D%3D
+              - img "Ambrane" [ref=e1661]
+              - generic [ref=e1662]: Ambrane Wired in Ear Earphones with in-line Mic for Clear Calling, 14mm Dynamic Drivers for BoostedBass, 3.5mm Jack, Multi-Functional Controller (Stringz 38 Lite, Green)
+              - generic [ref=e1663]: "9090"
+              - generic [ref=e1665]: ₹198.00
+            - generic [ref=e1669] [cursor=pointer]:
+              - button "Submit" [ref=e1670]
+              - generic [ref=e1671]: Add to Cart
+          - listitem [ref=e1672]:
+            - link "Haldiram's Haldiram's Panchrattan, 400g 2740 ₹185.00" [ref=e1673] [cursor=pointer]:
+              - /url: /dp/B01HCYY3WW/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_29?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofc9BBoIt0DtJr%2FI%2FB2jAK%2FIV4OT3%2FgXZZJ0DE8Z874AiL8PY3r5vuloyi%2F6YcQarTTyPSzxta%2BJHh6ue0AyeSRf7Je0VrN7dWav0%2FcEUZnVkT5LWNsI2GpvOStqeVn5WqQ%3D%3D
+              - img "Haldiram's" [ref=e1676]
+              - generic [ref=e1677]: Haldiram's Panchrattan, 400g
+              - generic [ref=e1678]: "2740"
+              - generic [ref=e1680]: ₹185.00
+            - generic [ref=e1684] [cursor=pointer]:
+              - button "Submit" [ref=e1685]
+              - generic [ref=e1686]: Add to Cart
+          - listitem [ref=e1687]:
+            - link "Havells Havells Glace Plus 1000 Watts Dry Iron Press| 2X Non Stick Greblon Coating from Germany| 2X ISI Certified Safety & Performance| Fire Retardant Body| 2 Years Door Step Warranty by Havells (Blue) 10204 ₹599.00" [ref=e1688] [cursor=pointer]:
+              - /url: /dp/B08WX6S5KF/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_30?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Vw1oMuiMywBZa9k%2BeMiI6hXFTOL5SurnxZ66oaqT6qu1uasxVHQDLeLOICXGPPofRIXVZXMRYMNT1AE0Vl6mCdXNZ6S41gkwX%2FYoJghAdcegV7HOuDh2VxzR6x2u26GoTfE7OnBTfO3T8x47yC1Au9cRyn1qvDnKkUheu%2BDpU4kfGMsncKdoG8lI%2Br8bPwKjg%3D%3D
+              - img "Havells" [ref=e1691]
+              - generic [ref=e1692]: Havells Glace Plus 1000 Watts Dry Iron Press| 2X Non Stick Greblon Coating from Germany| 2X ISI Certified Safety & Performance| Fire Retardant Body| 2 Years Door Step Warranty by Havells (Blue)
+              - generic [ref=e1693]: "10204"
+              - generic [ref=e1695]: ₹599.00
+            - generic [ref=e1699] [cursor=pointer]:
+              - button "Submit" [ref=e1700]
+              - generic [ref=e1701]: Add to Cart
+    - group [ref=e834]:
+      - generic [ref=e836]:
+        - heading "Customers who bought items in your Recent History also bought" [level=2] [ref=e839]
+        - button "Not interested in specific items" [ref=e844] [cursor=pointer]
+      - group [ref=e848]:
+        - list [ref=e849]:
+          - listitem [ref=e850]:
+            - generic [ref=e852]:
+              - link [ref=e853] [cursor=pointer]:
+                - /url: /Campus-Mens-Running-Shoes-India/dp/B0BHHLBGYX/ref=pd_cart_crc_cko_cp_d_sccl_2_1/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B0BHHLBGYX&psc=1
+                - img [ref=e855]
+              - generic [ref=e857]:
+                - link "Campus Men Camp Karl Running Shoes" [ref=e858] [cursor=pointer]:
+                  - /url: /Campus-Mens-Running-Shoes-India/dp/B0BHHLBGYX/ref=pd_cart_crc_cko_cp_d_sccl_2_1/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B0BHHLBGYX&psc=1
+                  - generic [ref=e860]: Campus Men Camp Karl Running Shoes
+                - link "4.2 out of 5 stars, 1,104 ratings" [ref=e863] [cursor=pointer]:
+                  - /url: /product-reviews/B0BHHLBGYX/ref=pd_cart_crc_cko_cp_d_sccl_2_1_cr/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B0BHHLBGYX
+                  - generic [ref=e865]: 4.2 out of 5 stars
+                  - text: 1,104
+                - generic [ref=e866]:
+                  - generic [ref=e868]:
+                    - generic [ref=e869]:
+                      - link "-42%" [ref=e870] [cursor=pointer]:
+                        - /url: /Campus-Mens-Running-Shoes-India/dp/B0BHHLBGYX/ref=pd_cart_crc_cko_cp_d_sccl_2_1/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B0BHHLBGYX&psc=1
+                        - text: "-42%"
+                      - link "₹929.00" [ref=e871] [cursor=pointer]:
+                        - /url: /Campus-Mens-Running-Shoes-India/dp/B0BHHLBGYX/ref=pd_cart_crc_cko_cp_d_sccl_2_1/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B0BHHLBGYX&psc=1
+                        - generic [ref=e872]:
+                          - generic [ref=e873]: ₹929.00
+                          - generic [ref=e874]:
+                            - text: ₹
+                            - generic [ref=e875]:
+                              - text: "929"
+                              - generic [ref=e876]: .
+                            - text: "00"
+                    - generic [ref=e879]: Limited time deal
+                    - 'link "M.R.P: ₹1,599.00" [ref=e881] [cursor=pointer]':
+                      - /url: /Campus-Mens-Running-Shoes-India/dp/B0BHHLBGYX/ref=pd_cart_crc_cko_cp_d_sccl_2_1/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B0BHHLBGYX&psc=1
+                      - generic [ref=e883]: "M.R.P: ₹1,599.00"
+                  - generic [ref=e885]: Get it by Friday, June 26
+                - text: FREE Delivery by Amazon
+              - generic [ref=e893] [cursor=pointer]:
+                - button "Add to cart, Campus Men Camp Karl Running Shoes" [ref=e894]
+                - generic [ref=e895]: Add to cart
+          - listitem [ref=e896]:
+            - generic [ref=e898]:
+              - link [ref=e899] [cursor=pointer]:
+                - /url: /SJeware-Women-Solid-Length-SJW-2013/dp/B0C3DH4XPJ/ref=pd_cart_crc_cko_cp_d_sccl_2_2/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B0C3DH4XPJ&psc=1
+                - img [ref=e901]
+              - generic [ref=e903]:
+                - link "SJeware Unisex Cotton Men And Women Solid Ankle Length Socks (Pack Of 5) Sjw-2013, Assorted" [ref=e904] [cursor=pointer]:
+                  - /url: /SJeware-Women-Solid-Length-SJW-2013/dp/B0C3DH4XPJ/ref=pd_cart_crc_cko_cp_d_sccl_2_2/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B0C3DH4XPJ&psc=1
+                  - generic [ref=e906]: SJeware Unisex Cotton Men And Women Solid Ankle Length Socks (Pack Of 5) Sjw-2013, Assorted
+                - link "4.0 out of 5 stars, 4,543 ratings" [ref=e909] [cursor=pointer]:
+                  - /url: /product-reviews/B0C3DH4XPJ/ref=pd_cart_crc_cko_cp_d_sccl_2_2_cr/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B0C3DH4XPJ
+                  - generic [ref=e911]: 4.0 out of 5 stars
+                  - text: 4,543
+                - generic [ref=e914]: 7K+ bought in past month
+                - generic [ref=e915]:
+                  - generic [ref=e917]:
+                    - generic [ref=e918]:
+                      - link "-77%" [ref=e919] [cursor=pointer]:
+                        - /url: /SJeware-Women-Solid-Length-SJW-2013/dp/B0C3DH4XPJ/ref=pd_cart_crc_cko_cp_d_sccl_2_2/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B0C3DH4XPJ&psc=1
+                        - text: "-77%"
+                      - link "₹116.98" [ref=e920] [cursor=pointer]:
+                        - /url: /SJeware-Women-Solid-Length-SJW-2013/dp/B0C3DH4XPJ/ref=pd_cart_crc_cko_cp_d_sccl_2_2/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B0C3DH4XPJ&psc=1
+                        - generic [ref=e921]:
+                          - generic [ref=e922]: ₹116.98
+                          - generic [ref=e923]:
+                            - text: ₹
+                            - generic [ref=e924]:
+                              - text: "116"
+                              - generic [ref=e925]: .
+                            - text: "98"
+                      - link "(₹11.70/count)" [ref=e926] [cursor=pointer]:
+                        - /url: /SJeware-Women-Solid-Length-SJW-2013/dp/B0C3DH4XPJ/ref=pd_cart_crc_cko_cp_d_sccl_2_2/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B0C3DH4XPJ&psc=1
+                    - generic [ref=e929]: Limited time deal
+                    - 'link "M.R.P: ₹499.00" [ref=e931] [cursor=pointer]':
+                      - /url: /SJeware-Women-Solid-Length-SJW-2013/dp/B0C3DH4XPJ/ref=pd_cart_crc_cko_cp_d_sccl_2_2/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B0C3DH4XPJ&psc=1
+                      - generic [ref=e933]: "M.R.P: ₹499.00"
+                  - generic [ref=e935]: Get it by Friday, June 26
+                - text: FREE Delivery by Amazon
+              - generic [ref=e943] [cursor=pointer]:
+                - button "Add to cart, SJeware Unisex Cotton Men And Women Solid Ankle Length Socks (Pack Of 5) Sjw-2013, Assorted" [ref=e944]
+                - generic [ref=e945]: Add to cart
+          - listitem [ref=e946]:
+            - generic [ref=e948]:
+              - link [ref=e949] [cursor=pointer]:
+                - /url: /Campus-Hurricane-BTGRN-BLK-Running-Shoes/dp/B09HCHNNH1/ref=pd_cart_crc_cko_cp_d_sccl_2_3/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B09HCHNNH1&psc=1
+                - img [ref=e951]
+              - generic [ref=e953]:
+                - link "Campus Men Hurricane Running Shoes" [ref=e954] [cursor=pointer]:
+                  - /url: /Campus-Hurricane-BTGRN-BLK-Running-Shoes/dp/B09HCHNNH1/ref=pd_cart_crc_cko_cp_d_sccl_2_3/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B09HCHNNH1&psc=1
+                  - generic [ref=e956]: Campus Men Hurricane Running Shoes
+                - link "4.2 out of 5 stars, 7,587 ratings" [ref=e959] [cursor=pointer]:
+                  - /url: /product-reviews/B09HCHNNH1/ref=pd_cart_crc_cko_cp_d_sccl_2_3_cr/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B09HCHNNH1
+                  - generic [ref=e961]: 4.2 out of 5 stars
+                  - text: 7,587
+                - generic [ref=e964]: 100+ bought in past month
+                - generic [ref=e965]:
+                  - generic [ref=e967]:
+                    - generic [ref=e968]:
+                      - link "-41%" [ref=e969] [cursor=pointer]:
+                        - /url: /Campus-Hurricane-BTGRN-BLK-Running-Shoes/dp/B09HCHNNH1/ref=pd_cart_crc_cko_cp_d_sccl_2_3/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B09HCHNNH1&psc=1
+                        - text: "-41%"
+                      - link "₹999.00" [ref=e970] [cursor=pointer]:
+                        - /url: /Campus-Hurricane-BTGRN-BLK-Running-Shoes/dp/B09HCHNNH1/ref=pd_cart_crc_cko_cp_d_sccl_2_3/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B09HCHNNH1&psc=1
+                        - generic [ref=e971]:
+                          - generic [ref=e972]: ₹999.00
+                          - generic [ref=e973]:
+                            - text: ₹
+                            - generic [ref=e974]:
+                              - text: "999"
+                              - generic [ref=e975]: .
+                            - text: "00"
+                    - 'link "M.R.P: ₹1,699.00" [ref=e977] [cursor=pointer]':
+                      - /url: /Campus-Hurricane-BTGRN-BLK-Running-Shoes/dp/B09HCHNNH1/ref=pd_cart_crc_cko_cp_d_sccl_2_3/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B09HCHNNH1&psc=1
+                      - generic [ref=e979]: "M.R.P: ₹1,699.00"
+                  - generic [ref=e981]: Get it by Friday, June 26
+                - text: FREE Delivery by Amazon
+              - generic [ref=e989] [cursor=pointer]:
+                - button "Add to cart, Campus Men Hurricane Running Shoes" [ref=e990]
+                - generic [ref=e991]: Add to cart
+          - listitem [ref=e992]:
+            - generic [ref=e994]:
+              - link [ref=e995] [cursor=pointer]:
+                - /url: /Campus-Terminator-D-Gry-Running-Shoes/dp/B095T1BM9W/ref=pd_cart_crc_cko_cp_d_sccl_2_4/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B095T1BM9W&psc=1
+                - img [ref=e997]
+              - generic [ref=e999]:
+                - link "Campus Men Terminator (N) Running Shoes" [ref=e1000] [cursor=pointer]:
+                  - /url: /Campus-Terminator-D-Gry-Running-Shoes/dp/B095T1BM9W/ref=pd_cart_crc_cko_cp_d_sccl_2_4/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B095T1BM9W&psc=1
+                  - generic [ref=e1002]: Campus Men Terminator (N) Running Shoes
+                - link "4.0 out of 5 stars, 6,960 ratings" [ref=e1005] [cursor=pointer]:
+                  - /url: /product-reviews/B095T1BM9W/ref=pd_cart_crc_cko_cp_d_sccl_2_4_cr/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B095T1BM9W
+                  - generic [ref=e1007]: 4.0 out of 5 stars
+                  - text: 6,960
+                - generic [ref=e1010]: 50+ bought in past month
+                - generic [ref=e1011]:
+                  - generic [ref=e1013]:
+                    - generic [ref=e1014]:
+                      - link "-41%" [ref=e1015] [cursor=pointer]:
+                        - /url: /Campus-Terminator-D-Gry-Running-Shoes/dp/B095T1BM9W/ref=pd_cart_crc_cko_cp_d_sccl_2_4/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B095T1BM9W&psc=1
+                        - text: "-41%"
+                      - link "₹1,349.00" [ref=e1016] [cursor=pointer]:
+                        - /url: /Campus-Terminator-D-Gry-Running-Shoes/dp/B095T1BM9W/ref=pd_cart_crc_cko_cp_d_sccl_2_4/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B095T1BM9W&psc=1
+                        - generic [ref=e1017]:
+                          - generic [ref=e1018]: ₹1,349.00
+                          - generic [ref=e1019]:
+                            - text: ₹
+                            - generic [ref=e1020]:
+                              - text: 1,349
+                              - generic [ref=e1021]: .
+                            - text: "00"
+                    - 'link "M.R.P: ₹2,299.00" [ref=e1023] [cursor=pointer]':
+                      - /url: /Campus-Terminator-D-Gry-Running-Shoes/dp/B095T1BM9W/ref=pd_cart_crc_cko_cp_d_sccl_2_4/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B095T1BM9W&psc=1
+                      - generic [ref=e1025]: "M.R.P: ₹2,299.00"
+                  - generic [ref=e1027]: Get it by Friday, June 26
+                - text: FREE Delivery by Amazon
+              - generic [ref=e1035] [cursor=pointer]:
+                - button "Add to cart, Campus Men Terminator (N) Running Shoes" [ref=e1036]
+                - generic [ref=e1037]: Add to cart
+          - listitem [ref=e1038]:
+            - generic [ref=e1040]:
+              - link [ref=e1041] [cursor=pointer]:
+                - /url: /Campus-D-Gry-Running-Shoes-India/dp/B08W3H9ZWS/ref=pd_cart_crc_cko_cp_d_sccl_2_5/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B0CJDTDYHY&psc=1
+                - img [ref=e1043]
+              - generic [ref=e1045]:
+                - link "Campus Men Oslo Pro Running Shoes" [ref=e1046] [cursor=pointer]:
+                  - /url: /Campus-D-Gry-Running-Shoes-India/dp/B08W3H9ZWS/ref=pd_cart_crc_cko_cp_d_sccl_2_5/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B0CJDTDYHY&psc=1
+                  - generic [ref=e1048]: Campus Men Oslo Pro Running Shoes
+                - link "4.0 out of 5 stars, 3,868 ratings" [ref=e1051] [cursor=pointer]:
+                  - /url: /product-reviews/B0CJDTDYHY/ref=pd_cart_crc_cko_cp_d_sccl_2_5_cr/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B0CJDTDYHY
+                  - generic [ref=e1053]: 4.0 out of 5 stars
+                  - text: 3,868
+                - generic [ref=e1056]: 200+ bought in past month
+                - link "₹1,199.00" [ref=e1061] [cursor=pointer]:
+                  - /url: /Campus-D-Gry-Running-Shoes-India/dp/B08W3H9ZWS/ref=pd_cart_crc_cko_cp_d_sccl_2_5/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B0CJDTDYHY&psc=1
+                  - generic [ref=e1062]:
+                    - generic [ref=e1063]: ₹1,199.00
+                    - generic [ref=e1064]:
+                      - text: ₹
+                      - generic [ref=e1065]:
+                        - text: 1,199
+                        - generic [ref=e1066]: .
+                      - text: "00"
+              - link "See all buying options" [ref=e1072] [cursor=pointer]:
+                - /url: /Campus-D-Gry-Running-Shoes-India/dp/B08W3H9ZWS/ref=pd_cart_crc_cko_cp_d_sccl_2_5_atc_o/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B0CJDTDYHY&psc=1
+          - listitem [ref=e1073]:
+            - generic [ref=e1075]:
+              - link [ref=e1076] [cursor=pointer]:
+                - /url: /Campus-Crysta-PRO-Running-Shoes/dp/B09RBF61MC/ref=pd_cart_crc_cko_cp_d_sccl_2_6/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B0BC8GRVGV&psc=1
+                - img [ref=e1078]
+              - generic [ref=e1080]:
+                - link "Campus Men Crysta Pro Running Shoes" [ref=e1081] [cursor=pointer]:
+                  - /url: /Campus-Crysta-PRO-Running-Shoes/dp/B09RBF61MC/ref=pd_cart_crc_cko_cp_d_sccl_2_6/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B0BC8GRVGV&psc=1
+                  - generic [ref=e1083]: Campus Men Crysta Pro Running Shoes
+                - link "4.0 out of 5 stars, 13,289 ratings" [ref=e1086] [cursor=pointer]:
+                  - /url: /product-reviews/B0BC8GRVGV/ref=pd_cart_crc_cko_cp_d_sccl_2_6_cr/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B0BC8GRVGV
+                  - generic [ref=e1088]: 4.0 out of 5 stars
+                  - text: 13,289
+                - generic [ref=e1091]: 300+ bought in past month
+                - link "₹819.00" [ref=e1096] [cursor=pointer]:
+                  - /url: /Campus-Crysta-PRO-Running-Shoes/dp/B09RBF61MC/ref=pd_cart_crc_cko_cp_d_sccl_2_6/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B0BC8GRVGV&psc=1
+                  - generic [ref=e1097]:
+                    - generic [ref=e1098]: ₹819.00
+                    - generic [ref=e1099]:
+                      - text: ₹
+                      - generic [ref=e1100]:
+                        - text: "819"
+                        - generic [ref=e1101]: .
+                      - text: "00"
+              - link "See all buying options" [ref=e1107] [cursor=pointer]:
+                - /url: /Campus-Crysta-PRO-Running-Shoes/dp/B09RBF61MC/ref=pd_cart_crc_cko_cp_d_sccl_2_6_atc_o/520-4974472-7825001?pd_rd_w=ykBWp&content-id=amzn1.sym.40ade171-7451-48ad-9f32-64926564666e&pf_rd_p=40ade171-7451-48ad-9f32-64926564666e&pf_rd_r=YHHG7JQNXF3PY7MFY5TZ&pd_rd_wg=kwrLO&pd_rd_r=a873d0a7-f352-4d88-ac49-b8a1b22acdad&pd_rd_i=B0BC8GRVGV&psc=1
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=e1108]:
+    - button "Back to top" [ref=e1109] [cursor=pointer]:
+      - generic [ref=e1110]: Back to top
+    - generic [ref=e1111]:
+      - generic [ref=e1112]:
+        - heading "Get to Know Us" [level=6] [ref=e1113]
+        - list [ref=e1114]:
+          - listitem [ref=e1115]:
+            - link "About Amazon" [ref=e1116] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e1117]:
+            - link "Careers" [ref=e1118] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=e1119]:
+            - link "Press Releases" [ref=e1120] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e1121]:
+            - link "Amazon Science" [ref=e1122] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e1124]:
+        - heading "Connect with Us" [level=6] [ref=e1125]
+        - list [ref=e1126]:
+          - listitem [ref=e1127]:
+            - link "Facebook" [ref=e1128] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=e1129]:
+            - link "Twitter" [ref=e1130] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=e1131]:
+            - link "Instagram" [ref=e1132] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=e1134]:
+        - heading "Make Money with Us" [level=6] [ref=e1135]
+        - list [ref=e1136]:
+          - listitem [ref=e1137]:
+            - link "Sell on Amazon" [ref=e1138] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=e1139]:
+            - link "Sell under Amazon Accelerator" [ref=e1140] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=e1141]:
+            - link "Protect and Build Your Brand" [ref=e1142] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=e1143]:
+            - link "Amazon Global Selling" [ref=e1144] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=e1145]:
+            - link "Supply to Amazon" [ref=e1146] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=e1147]:
+            - link "Become an Affiliate" [ref=e1148] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=e1149]:
+            - link "Fulfilment by Amazon" [ref=e1150] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=e1151]:
+            - link "Advertise Your Products" [ref=e1152] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=e1153]:
+            - link "Amazon Pay on Merchants" [ref=e1154] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant
+      - generic [ref=e1156]:
+        - heading "Let Us Help You" [level=6] [ref=e1157]
+        - list [ref=e1158]:
+          - listitem [ref=e1159]:
+            - link "Your Account" [ref=e1160] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e1161]:
+            - link "Returns Centre" [ref=e1162] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e1163]:
+            - link "Recalls and Product Safety Alerts" [ref=e1164] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e1165]:
+            - link "100% Purchase Protection" [ref=e1166] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=e1167]:
+            - link "Amazon App Download" [ref=e1168] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=e1169]:
+            - link "Help" [ref=e1170] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=e1172]:
+      - link "Amazon India Home" [ref=e1175] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=e1178]:
+        - generic [ref=e1179]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e1180] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e1182]: English
+          - button "Expand to Change Language or Country" [ref=e1183] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=e1184] [cursor=pointer]:
+          - generic [ref=e1186]: India
+    - generic "More on Amazon" [ref=e1187]:
+      - generic "More on Amazon" [ref=e1188]:
+        - list [ref=e1189]:
+          - listitem [ref=e1190]:
+            - link "AbeBooks Books, art & collectibles" [ref=e1191] [cursor=pointer]:
+              - /url: https://www.abebooks.com/
+              - heading "AbeBooks" [level=5] [ref=e1192]
+              - generic [ref=e1193]:
+                - text: Books, art
+                - text: "& collectibles"
+          - listitem [ref=e1194]
+          - listitem [ref=e1195]:
+            - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e1196] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e1197]
+              - generic [ref=e1198]:
+                - text: Scalable Cloud
+                - text: Computing Services
+          - listitem [ref=e1199]
+          - listitem [ref=e1200]:
+            - link "Audible Download Audio Books" [ref=e1201] [cursor=pointer]:
+              - /url: https://www.audible.in/
+              - heading "Audible" [level=5] [ref=e1202]
+              - generic [ref=e1203]:
+                - text: Download
+                - text: Audio Books
+          - listitem [ref=e1204]
+          - listitem [ref=e1205]:
+            - link "IMDb Movies, TV & Celebrities" [ref=e1206] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=e1207]
+              - generic [ref=e1208]:
+                - text: Movies, TV
+                - text: "& Celebrities"
+        - list [ref=e1209]:
+          - listitem [ref=e1210]:
+            - link "Shopbop Designer Fashion Brands" [ref=e1211] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=e1212]
+              - generic [ref=e1213]:
+                - text: Designer
+                - text: Fashion Brands
+          - listitem [ref=e1214]
+          - listitem [ref=e1215]:
+            - link "Amazon Business Everything For Your Business" [ref=e1216] [cursor=pointer]:
+              - /url: /business?ref=footer_aingw
+              - heading "Amazon Business" [level=5] [ref=e1217]
+              - generic [ref=e1218]:
+                - text: Everything For
+                - text: Your Business
+          - listitem [ref=e1219]
+          - listitem [ref=e1220]:
+            - link "Amazon Music Stream millions of songs" [ref=e1221] [cursor=pointer]:
+              - /url: /music/player?ref=footer_apm
+              - heading "Amazon Music" [level=5] [ref=e1222]
+              - generic [ref=e1223]: Stream millions of songs
+          - listitem [ref=e1224]
+          - listitem [ref=e1225]
+    - generic [ref=e1226]:
+      - list [ref=e1227]:
+        - listitem [ref=e1228]:
+          - link "Conditions of Use & Sale" [ref=e1229] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=e1230]:
+          - link "Privacy Notice" [ref=e1231] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=e1232]:
+          - link "Interest-Based Ads" [ref=e1233] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=e1234]: © 1996-2026, Amazon.com, Inc. or its affiliates
+  - iframe [ref=e1703]:
+    - iframe [ref=f18e2]:
+      - generic [active]:
+        - img [ref=f19e1]
+        - img [ref=f19e2]

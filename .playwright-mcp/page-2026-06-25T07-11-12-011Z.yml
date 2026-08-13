@@ -1,0 +1,160 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - link "MB PYRAMID MagicBox Next" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: MB
+        - generic [ref=e6]:
+          - generic [ref=e7]: PYRAMID
+          - generic [ref=e8]: MagicBox Next
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /
+      - group [ref=e10]:
+        - generic "Staffing & Recruitment" [ref=e11] [cursor=pointer]
+        - link "Start Pre-Placement" [ref=e12] [cursor=pointer]:
+          - /url: /ui/onboarding/start
+        - link "Onboarding Dashboard" [ref=e13] [cursor=pointer]:
+          - /url: /ui/onboarding/dashboard
+        - link "Change Requests stub" [ref=e14] [cursor=pointer]:
+          - /url: /ui/onboarding/change-requests
+        - link "Placement List stub" [ref=e15] [cursor=pointer]:
+          - /url: /ui/onboarding/placements
+        - link "Approval Queue stub" [ref=e16] [cursor=pointer]:
+          - /url: /ui/onboarding/approvals
+        - link "HR Onboarding Queue stub" [ref=e17] [cursor=pointer]:
+          - /url: /ui/onboarding/hr-queue
+        - link "Requisitions stub" [ref=e18] [cursor=pointer]:
+          - /url: /ui/recruiting/requisitions
+        - link "Candidate Pipeline stub" [ref=e19] [cursor=pointer]:
+          - /url: /ui/recruiting/pipeline
+      - group [ref=e20]:
+        - generic "Sales & CRM" [ref=e21] [cursor=pointer]
+      - group [ref=e22]:
+        - generic "Finance & Payroll" [ref=e23] [cursor=pointer]
+      - group [ref=e24]:
+        - generic "Employee & HR" [ref=e25] [cursor=pointer]
+      - group [ref=e26]:
+        - generic "Vendor & MSP" [ref=e27] [cursor=pointer]
+      - group [ref=e28]:
+        - generic "External Access" [ref=e29] [cursor=pointer]
+      - group [ref=e30]:
+        - generic "Other generated screens" [ref=e31] [cursor=pointer]
+    - main [ref=e143]:
+      - link "Back to placements" [ref=e144] [cursor=pointer]:
+        - /url: /ui/onboarding/placements
+        - img [ref=e145]
+        - text: Back to placements
+      - heading "Pre-Placement Onboarding" [level=1] [ref=e147]
+      - paragraph [ref=e148]: Step 1 of 8
+      - heading "Initiate Preplacement" [level=2] [ref=e158]
+      - generic [ref=e161]:
+        - generic [ref=e162]:
+          - text: Country
+          - textbox "Country" [disabled] [ref=e163]:
+            - /placeholder: auto-populated
+            - text: USA
+        - generic [ref=e164]:
+          - generic [ref=e165]: Consultant First Name *
+          - textbox "Consultant First Name *" [ref=e166]: Priyas
+        - generic [ref=e167]:
+          - text: Consultant Middle Name
+          - textbox "Consultant Middle Name" [ref=e168]: Si
+        - generic [ref=e169]:
+          - generic [ref=e170]: Consultant Last Name *
+          - textbox "Consultant Last Name *" [ref=e171]: Nairs
+        - generic [ref=e172]:
+          - text: Suffix
+          - combobox "Suffix" [ref=e173]:
+            - option "Select…" [selected]
+            - option "II"
+            - option "III"
+            - option "IV"
+            - option "Jr."
+            - option "Sr."
+        - generic [ref=e174]:
+          - generic [ref=e175]: Division *
+          - combobox "Division *" [ref=e176]:
+            - option "Select…"
+            - option "Celsior" [selected]
+            - option "Corporate"
+            - option "GenSpark"
+            - option "Staffing"
+        - generic [ref=e177]:
+          - generic [ref=e178]: Contract Type *
+          - combobox "Contract Type *" [ref=e179]:
+            - option "Select…"
+            - option "1099 Contractor"
+            - option "Corp-to-Corp (C2C)" [selected]
+            - option "Independent Contractor"
+            - option "W2 - Hourly"
+        - generic [ref=e180]:
+          - generic [ref=e181]: Client Name *
+          - generic [ref=e182]:
+            - textbox "Client Name *" [active] [ref=e183]:
+              - /placeholder: Type to search…
+            - list [ref=e193]:
+              - listitem [ref=e194] [cursor=pointer]: 3Cloud, LLC
+              - listitem [ref=e195] [cursor=pointer]: 7-Eleven, Inc.
+              - listitem [ref=e196] [cursor=pointer]: Aaron's, Inc.
+              - listitem [ref=e197] [cursor=pointer]: ABBOTT Laboratories
+              - listitem [ref=e198] [cursor=pointer]: ABeam Consulting
+              - listitem [ref=e199] [cursor=pointer]: Accelerate360, LLC
+              - listitem [ref=e200] [cursor=pointer]: Accenture Canada
+              - listitem [ref=e201] [cursor=pointer]: Accenture CIO
+              - listitem [ref=e202] [cursor=pointer]: Accenture Federal Services LLC
+              - listitem [ref=e203] [cursor=pointer]: Accenture Flex
+              - listitem [ref=e204] [cursor=pointer]: Accenture LLP
+              - listitem [ref=e205] [cursor=pointer]: Accenture Modis Canada
+              - listitem [ref=e206] [cursor=pointer]: Ace Pipe Cleaning, Inc.
+              - listitem [ref=e207] [cursor=pointer]: ACI Worldwide Corp
+              - listitem [ref=e208] [cursor=pointer]: ACN
+              - listitem [ref=e209] [cursor=pointer]: ACT 1 Group Inc.
+              - listitem [ref=e210] [cursor=pointer]: Aderas, Inc.
+              - listitem [ref=e211] [cursor=pointer]: Adobe Systems Incorporated
+              - listitem [ref=e212] [cursor=pointer]: ADP
+              - listitem [ref=e213] [cursor=pointer]: ADP Canada
+              - listitem [ref=e214] [cursor=pointer]: ADT LLC
+              - listitem [ref=e215] [cursor=pointer]: Advisor Group Inc
+              - listitem [ref=e216] [cursor=pointer]: Advocate Health, Inc
+              - listitem [ref=e217] [cursor=pointer]: Aetna
+              - listitem [ref=e218] [cursor=pointer]: Aflac
+              - listitem [ref=e219] [cursor=pointer]: AFN. LLC.
+              - listitem [ref=e220] [cursor=pointer]: Agile1
+              - listitem [ref=e221] [cursor=pointer]: AgilityCIS
+              - listitem [ref=e222] [cursor=pointer]: AGM Tech Solutions
+              - listitem [ref=e223] [cursor=pointer]: AIG
+              - listitem [ref=e224] [cursor=pointer]: Air Line Pilots AssociationInternational
+              - listitem [ref=e225] [cursor=pointer]: Air Products and Chemicals Inc
+              - listitem [ref=e226] [cursor=pointer]: Airbnb, Inc.
+              - listitem [ref=e227] [cursor=pointer]: Albemarle Corporation
+              - listitem [ref=e228] [cursor=pointer]: Alcon
+              - listitem [ref=e229] [cursor=pointer]: Alere Health LLC Solutions
+              - listitem [ref=e230] [cursor=pointer]: Aliera Healthcare
+              - listitem [ref=e231] [cursor=pointer]: Allegis Global Solution
+              - listitem [ref=e232] [cursor=pointer]: Alliant Insurance Services
+              - listitem [ref=e233] [cursor=pointer]: AllMed Healthcare Management
+              - listitem [ref=e234] [cursor=pointer]: Ally Financial Inc Staffing
+              - listitem [ref=e235] [cursor=pointer]: Ally Financial Inc.
+              - listitem [ref=e236] [cursor=pointer]: Alogent
+              - listitem [ref=e237] [cursor=pointer]: Alogent Solution
+              - listitem [ref=e238] [cursor=pointer]: Alpha Technologies USA INC.
+              - listitem [ref=e239] [cursor=pointer]: Altimetrik Corp
+              - listitem [ref=e240] [cursor=pointer]: Altria
+              - listitem [ref=e241] [cursor=pointer]: Amdocs
+              - listitem [ref=e242] [cursor=pointer]: American Airlines
+              - listitem [ref=e243] [cursor=pointer]: American Association Of Airport Exective
+        - generic [ref=e184]:
+          - text: End Client Name
+          - textbox "End Client Name" [ref=e186]:
+            - /placeholder: Type to search…
+        - generic [ref=e187]:
+          - generic [ref=e188]: Category *
+          - combobox "Category *" [ref=e189]:
+            - option "Select…" [selected]
+            - option "Contract"
+            - option "Contract-to-Hire"
+            - option "Direct Placement"
+      - generic [ref=e190]:
+        - button "Back" [disabled] [ref=e191]
+        - button "Save & Next" [ref=e192] [cursor=pointer]
+  - alert [ref=e59]

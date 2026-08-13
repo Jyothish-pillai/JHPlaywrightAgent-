@@ -1,0 +1,36 @@
+- generic [ref=f14e2]:
+  - generic [ref=f14e3]:
+    - link "Amazon .in" [ref=f14e6] [cursor=pointer]:
+      - /url: /ref=ap_frn_logo
+      - img "Amazon" [ref=f14e7]
+      - text: .in
+    - generic [ref=f14e12]:
+      - heading "Sign in or create account" [level=1] [ref=f14e13]
+      - paragraph [ref=f14e14]: Enter mobile number or email
+      - generic [ref=f14e16]:
+        - textbox "Enter mobile number or email" [ref=f14e18]
+        - generic [ref=f14e20] [cursor=pointer]:
+          - button "Continue" [ref=f14e21]
+          - generic [ref=f14e22]: Continue
+      - paragraph [ref=f14e23]:
+        - text: By continuing, you agree to Amazon's
+        - link "Conditions of Use" [ref=f14e24] [cursor=pointer]:
+          - /url: /gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&nodeId=200545940
+        - text: and
+        - link "Privacy Notice" [ref=f14e25] [cursor=pointer]:
+          - /url: /gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=200534380
+        - text: .
+      - generic [ref=f14e26]:
+        - separator [ref=f14e27]
+        - generic [ref=f14e28]: Buying for work?
+        - link "Create a free business account" [ref=f14e29] [cursor=pointer]:
+          - /url: /business/register/org/landing?ref_=ab_reg_signin_unifiedauth
+  - generic [ref=f14e30]:
+    - generic [ref=f14e33]:
+      - link "Conditions of Use" [ref=f14e34] [cursor=pointer]:
+        - /url: /gp/help/customer/display.html/ref=ap_desktop_footer_cou?ie=UTF8&nodeId=200545940
+      - link "Privacy Notice" [ref=f14e35] [cursor=pointer]:
+        - /url: /gp/help/customer/display.html/ref=ap_desktop_footer_privacy_notice?ie=UTF8&nodeId=200534380
+      - link "Help" [ref=f14e36] [cursor=pointer]:
+        - /url: /help
+    - generic [ref=f14e37]: © 1996–2026, Amazon.com, Inc. or its affiliates

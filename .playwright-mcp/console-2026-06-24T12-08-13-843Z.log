@@ -1,0 +1,9 @@
+[    2996ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://10.35.213.32:8080/favicon.ico:0
+[  284229ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rD (https://10.35.213.32:8080/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:35057)
+    at oq (https://10.35.213.32:8080/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:84561)
+    at ik (https://10.35.213.32:8080/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:114677)
+    at https://10.35.213.32:8080/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:110725
+    at iu (https://10.35.213.32:8080/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:110826)
+    at iX (https://10.35.213.32:8080/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:132929)
+    at MessagePort.w (https://10.35.213.32:8080/_next/static/chunks/1255-216c65f9526b9b52.js:1:114608)

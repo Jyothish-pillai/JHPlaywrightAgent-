@@ -1,0 +1,41 @@
+- generic:
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - img
+          - heading [level=1]: Store App Terminal
+          - paragraph: Sign in to start processing transactions
+        - generic:
+          - generic:
+            - generic:
+              - img
+              - text: Store Location
+            - combobox:
+              - generic: STORE_101 - Paris Flagship
+              - img
+          - generic:
+            - generic:
+              - img
+              - text: Terminal ID
+            - combobox [expanded]:
+              - generic: POS_01
+              - img
+          - generic:
+            - generic:
+              - img
+              - text: Cashier ID
+            - textbox:
+              - /placeholder: Enter your cashier ID
+          - button [disabled]: Start Session
+        - paragraph: Simulated Store App System � Observability Demo
+    - list
+  - listbox [ref=e52]:
+    - option "POS_01" [active] [selected] [ref=e53]:
+      - img [ref=e56]
+      - generic [ref=e58]: POS_01
+    - option "POS_02" [ref=e59]:
+      - generic [ref=e61]: POS_02
+    - option "POS_03" [ref=e62]:
+      - generic [ref=e64]: POS_03

@@ -1,0 +1,32 @@
+- generic [ref=f5e3]:
+  - link "www.amazon.in" [ref=f5e6] [cursor=pointer]:
+    - /url: /ref=ap_frn_logo
+    - text: .in
+  - generic [ref=f5e12]:
+    - heading "Sign in" [level=1] [ref=f5e13]
+    - generic [ref=f5e14]:
+      - text: pyd_demo@outlook.com
+      - link "Change" [ref=f5e15] [cursor=pointer]:
+        - /url: https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&signInRedirectToFPPThreshold=5&pageId=inflex&useSHuMAWorkflow=false&openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3Fref_%3Dnav_ya_signin&prevRID=ABVX2JKGM5E9VEPSHEXR&openid.assoc_handle=inflex&openid.mode=checkid_setup&prepopulatedLoginId=eyJjaXBoZXIiOiJqRmxtZWVPMWZxRXp4eGNTZkxFNkovN1A4MTRCVUl4dWc0MHdvYmFjOFFvPSIsIklWIjoiNkhpZDFZY2tlbFVWcDUvKzBsc3kxQT09IiwidmVyc2lvbiI6M30%3D&failedSignInCount=0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&ref_=ap_pwd_change
+    - generic [ref=f5e17]:
+      - generic [ref=f5e18]:
+        - generic [ref=f5e19]:
+          - generic [ref=f5e21]: Password
+          - link "Forgot password?" [ref=f5e23] [cursor=pointer]:
+            - /url: https://www.amazon.in/ap/forgotpassword?openid.pape.max_auth_age=0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&signInRedirectToFPPThreshold=5&prepopulatedCustomerId=eyJjaXBoZXIiOiJrRndaTVlrYnN5alA2R2FISVNuNkJnPT0iLCJJViI6InAxYm44Lzdab1QvRHV1M3BNdDNJSlE9PSIsInZlcnNpb24iOjN9&pageId=inflex&useSHuMAWorkflow=false&openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3Fref_%3Dnav_ya_signin&prevRID=ABVX2JKGM5E9VEPSHEXR&openid.assoc_handle=inflex&openid.mode=checkid_setup&prepopulatedLoginId=eyJjaXBoZXIiOiJKVzhSRUtpWGxsblBtcEdwMWYzQUU5aFM3R0hmb0JEL3RCMHhEblFTUElBPSIsIklWIjoiQlk3MFpXMi9HaVJiVG13UzgwRUhjZz09IiwidmVyc2lvbiI6M30%3D&failedSignInCount=0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+        - textbox "Password" [active] [ref=f5e24]
+      - generic [ref=f5e27] [cursor=pointer]:
+        - button "Sign in" [ref=f5e28]
+        - generic [ref=f5e29]: Sign in
+  - generic [ref=f5e30]:
+    - list [ref=f5e34]:
+      - listitem [ref=f5e35]:
+        - link "Conditions of Use" [ref=f5e36] [cursor=pointer]:
+          - /url: /gp/help/customer/display.html/ref=ap_desktop_footer_cou?ie=UTF8&nodeId=200545940
+      - listitem [ref=f5e37]:
+        - link "Privacy Notice" [ref=f5e38] [cursor=pointer]:
+          - /url: /gp/help/customer/display.html/ref=ap_desktop_footer_privacy_notice?ie=UTF8&nodeId=200534380
+      - listitem [ref=f5e39]:
+        - link "Help" [ref=f5e40] [cursor=pointer]:
+          - /url: /help
+    - generic [ref=f5e41]: © 1996-2026, Amazon.com, Inc. or its affiliates

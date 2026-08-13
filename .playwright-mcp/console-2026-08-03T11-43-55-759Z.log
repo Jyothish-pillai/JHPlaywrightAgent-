@@ -1,0 +1,9 @@
+[     283ms] ReferenceError: _w is not defined
+    at https://www.bing.com/:4:3625
+[    2155ms] [ERROR] Permissions policy violation: unload is not allowed in this document. @ https://assets.msn.com/bundles/v1/bingHomepage/latest/microsoft.7745a211770b2836.js:1
+[    2156ms] [ERROR] Permissions policy violation: unload is not allowed in this document. @ https://assets.msn.com/bundles/v1/bingHomepage/latest/microsoft.7745a211770b2836.js:1
+[    5006ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://www.bing.com/search?q=Latest+Android+version&form=QBLH&sp=-1&lq=0&pq=latest+android+version&sc=12-22&qs=n&sk=&cvid=7F2E77E54E064CEE806011CB2ACBEAA0:8
+[    5006ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://www.bing.com/search?q=Latest+Android+version&form=QBLH&sp=-1&lq=0&pq=latest+android+version&sc=12-22&qs=n&sk=&cvid=7F2E77E54E064CEE806011CB2ACBEAA0:8
+[    5006ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://www.bing.com/search?q=Latest+Android+version&form=QBLH&sp=-1&lq=0&pq=latest+android+version&sc=12-22&qs=n&sk=&cvid=7F2E77E54E064CEE806011CB2ACBEAA0:8
+[    5007ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://www.bing.com/search?q=Latest+Android+version&form=QBLH&sp=-1&lq=0&pq=latest+android+version&sc=12-22&qs=n&sk=&cvid=7F2E77E54E064CEE806011CB2ACBEAA0:8
+[    5007ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://www.bing.com/search?q=Latest+Android+version&form=QBLH&sp=-1&lq=0&pq=latest+android+version&sc=12-22&qs=n&sk=&cvid=7F2E77E54E064CEE806011CB2ACBEAA0:8

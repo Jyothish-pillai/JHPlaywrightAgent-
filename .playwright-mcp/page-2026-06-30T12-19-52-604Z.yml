@@ -1,0 +1,623 @@
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+    - separator [ref=e8]
+    - heading "Keyboard shortcuts" [level=2] [ref=e9]
+    - list "Keyboard shortcuts" [ref=e10]:
+      - listitem [ref=e11]:
+        - link "Search, alt, forward slash" [ref=e12] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e13]:
+            - generic [ref=e14]: Search
+            - generic [ref=e15]:
+              - generic [ref=e16]: alt
+              - generic [ref=e17]: +
+              - generic [ref=e18]: /
+      - listitem [ref=e19]:
+        - link "Cart, shift, alt, c" [ref=e20] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e21]:
+            - generic [ref=e22]: Cart
+            - generic [ref=e23]:
+              - generic [ref=e24]: shift
+              - generic [ref=e25]: +
+              - generic [ref=e26]: alt
+              - generic [ref=e27]: +
+              - generic [ref=e28]: C
+      - listitem [ref=e29]:
+        - link "Home, shift, alt, h" [ref=e30] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e31]:
+            - generic [ref=e32]: Home
+            - generic [ref=e33]:
+              - generic [ref=e34]: shift
+              - generic [ref=e35]: +
+              - generic [ref=e36]: alt
+              - generic [ref=e37]: +
+              - generic [ref=e38]: H
+      - listitem [ref=e39]:
+        - link "Your orders, shift, alt, o" [ref=e40] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e41]:
+            - generic [ref=e42]: Orders
+            - generic [ref=e43]:
+              - generic [ref=e44]: shift
+              - generic [ref=e45]: +
+              - generic [ref=e46]: alt
+              - generic [ref=e47]: +
+              - generic [ref=e48]: O
+      - listitem [ref=e49]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]:
+            - generic [ref=e52]: Show/Hide shortcuts
+            - generic [ref=e53]:
+              - generic [ref=e54]: shift
+              - generic [ref=e55]: +
+              - generic [ref=e56]: alt
+              - generic [ref=e57]: +
+              - generic [ref=e58]: Z
+    - generic [ref=e64]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e65]:
+    - navigation "Primary" [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - link "Amazon.in" [ref=e70] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Deliver to New Noida 201301‌" [ref=e73] [cursor=pointer]:
+            - generic [ref=e75]:
+              - generic [ref=e76]: Deliver to New
+              - generic [ref=e77]: Noida 201301‌
+        - search [ref=e80]:
+          - generic [ref=e83]:
+            - generic [ref=e85]: All
+            - combobox "Select the department you want to search in" [ref=e87] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh"
+              - option "Amazon Fresh Meat"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=e90]
+          - generic "Go" [ref=e93] [cursor=pointer]:
+            - button "Go" [ref=e94]
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=e98] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e101]:
+                - img "India" [ref=e102]
+                - generic [ref=e103]: EN
+            - button "Expand to Change Language or Country" [ref=e104] [cursor=pointer]
+          - generic [ref=e105]:
+            - link "Hello, Celsior Account & Lists" [ref=e106] [cursor=pointer]:
+              - /url: https://www.amazon.in/gp/css/homepage.html?ref_=nav_youraccount_btn
+              - generic [ref=e108]: Hello, Celsior
+              - generic [ref=e109]: Account & Lists
+            - button "Expand Account and Lists" [ref=e110] [cursor=pointer]
+          - link "Returns & Orders" [ref=e111] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e112]: Returns
+            - generic [ref=e113]: "& Orders"
+          - link "0 items in cart" [ref=e114] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e116]: "0"
+            - generic [ref=e119]: Cart
+      - generic [ref=e120]:
+        - generic [ref=e121]:
+          - button "Open All Categories Menu" [ref=e122] [cursor=pointer]:
+            - generic [ref=e124]: All
+          - button "Open Rufus panel" [ref=e125] [cursor=pointer]:
+            - generic [ref=e127]: Rufus
+        - list [ref=e131]:
+          - listitem [ref=e132]:
+            - generic [ref=e133]:
+              - link "Fresh" [ref=e134] [cursor=pointer]:
+                - /url: /tez/browse?qcbrand=ctnow&ref_=nav_cs_grocery
+              - button "Fresh Details" [ref=e135] [cursor=pointer]
+          - listitem [ref=e136]:
+            - generic [ref=e137]:
+              - link "Prime" [ref=e138] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=e139] [cursor=pointer]
+          - listitem [ref=e140]:
+            - link "MX Player" [ref=e142] [cursor=pointer]:
+              - /url: /minitv?ref_=nav_avod_desktop_topnav
+          - listitem [ref=e143]:
+            - link "Sell" [ref=e145] [cursor=pointer]:
+              - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+          - listitem [ref=e146]:
+            - link "Gift Cards" [ref=e148] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=e149]:
+            - link "Amazon Pay" [ref=e151] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=e152]:
+            - link "Buy Again" [ref=e154] [cursor=pointer]:
+              - /url: /gp/buyagain?ie=UTF8&ref_=nav_cs_buy_again
+          - listitem [ref=e155]:
+            - link "Gift Ideas" [ref=e157] [cursor=pointer]:
+              - /url: /gcx/-/gfhz/?ref_=nav_cs_giftfinder
+          - listitem [ref=e158]:
+            - link "AmazonBasics" [ref=e160] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=e161]:
+            - link "Health, Household & Personal Care" [ref=e163] [cursor=pointer]:
+              - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+          - listitem [ref=e164]:
+            - link "Home Improvement" [ref=e166] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=e167]:
+            - link "Subscribe & Save" [ref=e169] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e170]:
+            - link "Today's Deals" [ref=e172] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e173]:
+            - generic [ref=e174]:
+              - link "Browsing History" [ref=e175] [cursor=pointer]:
+                - /url: /gp/history?ref_=nav_cs_timeline
+              - button "Browsing History Details" [ref=e176] [cursor=pointer]
+          - listitem [ref=e177]:
+            - link "Celsior 's Amazon.in" [ref=e179] [cursor=pointer]:
+              - /url: /gp/yourstore/home?ref_=nav_cs_ys
+              - generic [ref=e180]:
+                - generic [ref=e181]: Celsior
+                - text: "'s Amazon.in"
+          - listitem [ref=e182]:
+            - link "Audible" [ref=e184] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=e185]:
+            - link "Books" [ref=e187] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=e188]:
+            - link "Customer Service" [ref=e190] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=e191]:
+            - link "Kindle eBooks" [ref=e193] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books
+          - listitem [ref=e194]:
+            - link "Bestsellers" [ref=e196] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e197]:
+            - link "Home & Kitchen" [ref=e199] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=e200]:
+            - link "Sports, Fitness & Outdoors" [ref=e202] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=e203]:
+            - link "Beauty & Personal Care" [ref=e205] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=e206]:
+            - link "Pet Supplies" [ref=e208] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=e209]:
+            - link "Toys & Games" [ref=e211] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=e212]:
+            - link "New Releases" [ref=e214] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e215]:
+            - link "Electronics" [ref=e217] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=e218]:
+            - link "Fashion" [ref=e220] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=e221]:
+            - link "Computers" [ref=e223] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=e224]:
+            - link "Car & Motorbike" [ref=e226] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=e227]:
+            - link "Mobiles" [ref=e229] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+          - listitem [ref=e230]:
+            - link "Video Games" [ref=e232] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=e233]:
+            - link "Baby" [ref=e235] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+        - link "PD26_Event" [ref=e239] [cursor=pointer]:
+          - /url: /events/primeday/?_encoding=UTF8&ref_=nav_swm_event&pf_rd_p=63a908bd-6cbd-4def-a079-3c7e9b6f3f3c&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A21TJRUUN4KGV&pf_rd_r=JVCRE8567CBXM1JM5KG6
+          - img "PD26_Event" [ref=e240]
+  - generic [ref=e243]:
+    - heading "Your Account" [level=1] [ref=e245]
+    - list [ref=e246]:
+      - listitem [ref=e247]:
+        - link "Your Orders Track, return, or buy things again" [ref=e250] [cursor=pointer]:
+          - /url: https://www.amazon.in/gp/your-account/order-history?ref_=ya_d_c_yo
+          - generic [ref=e255]:
+            - heading "Your Orders" [level=2] [ref=e256]
+            - generic [ref=e257]: Track, return, or buy things again
+      - listitem [ref=e258]:
+        - link "Login & security Edit login, name, and mobile number" [ref=e261] [cursor=pointer]:
+          - /url: https://www.amazon.in/ap/cnep?openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fyour-account&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+          - generic [ref=e266]:
+            - heading "Login & security" [level=2] [ref=e267]
+            - generic [ref=e268]: Edit login, name, and mobile number
+      - listitem [ref=e269]:
+        - link "Prime View benefits and payment settings" [ref=e272] [cursor=pointer]:
+          - /url: https://www.amazon.in/gp/primecentral?ref_=ya_d_c_prime
+          - generic [ref=e277]:
+            - heading "Prime" [level=2] [ref=e278]
+            - generic [ref=e279]: View benefits and payment settings
+    - list [ref=e280]:
+      - listitem [ref=e281]:
+        - link "Your Addresses Edit addresses for orders and gifts" [ref=e284] [cursor=pointer]:
+          - /url: https://www.amazon.in/a/addresses?ref_=ya_d_c_addr
+          - generic [ref=e289]:
+            - heading "Your Addresses" [level=2] [ref=e290]
+            - generic [ref=e291]: Edit addresses for orders and gifts
+      - listitem [ref=e292]:
+        - link "Your business account Sign up for free to save up to 18% with GST invoice and bulk discounts and purchase on credit." [ref=e295] [cursor=pointer]:
+          - /url: https://www.amazon.in/cv/create-invitation?ref=ya_d_atf_in_b2b_reg_v2_top_sr&originUrl=https%3A%2F%2Fwww.amazon.in%2Fgp%2Fcss%2Fhomepage.html%3Fref_%3Dnav_youraccount_btn_sr&returnToUrl=https%3A%2F%2Fbusiness.amazon.in%2Fen%2Fregister%2Fthank-you
+          - generic [ref=e300]:
+            - heading "Your business account" [level=2] [ref=e301]
+            - generic [ref=e302]: Sign up for free to save up to 18% with GST invoice and bulk discounts and purchase on credit.
+      - listitem [ref=e303]:
+        - link "Payment options Edit or add payment methods" [ref=e306] [cursor=pointer]:
+          - /url: https://www.amazon.in/cpe/managepaymentmethods?ref_=ya_d_c_pmt_mpo
+          - generic [ref=e311]:
+            - heading "Payment options" [level=2] [ref=e312]
+            - generic [ref=e313]: Edit or add payment methods
+    - list [ref=e314]:
+      - listitem [ref=e315]:
+        - link "Amazon Pay balance Add money to your balance" [ref=e318] [cursor=pointer]:
+          - /url: https://www.amazon.in/gp/sva/addmoney?ref_=ya_d_c_gc
+          - generic [ref=e323]:
+            - heading "Amazon Pay balance" [level=2] [ref=e324]
+            - generic [ref=e325]: Add money to your balance
+      - listitem [ref=e326]:
+        - link "Contact Us Contact our customer service via phone or chat" [ref=e329] [cursor=pointer]:
+          - /url: https://www.amazon.in/gp/help/customer/contact-us?ref_=ya_cu_t2
+          - generic [ref=e334]:
+            - heading "Contact Us" [level=2] [ref=e335]
+            - generic [ref=e336]: Contact our customer service via phone or chat
+      - listitem [ref=e337]
+    - separator [ref=e338]
+    - generic [ref=e339]:
+      - generic [ref=e342]:
+        - heading "Digital content and devices" [level=2] [ref=e343]
+        - list [ref=e344]:
+          - listitem [ref=e345]:
+            - link "Apps and more" [ref=e347] [cursor=pointer]:
+              - /url: https://www.amazon.in/gp/mas/your-account/myapps?ref_=ya_d_l_mas_digilocker
+          - listitem [ref=e348]:
+            - link "Content Library" [ref=e350] [cursor=pointer]:
+              - /url: /hz/mycd/myx?pageType=content&ref_=ya_d_l_manage_kindle
+          - listitem [ref=e351]:
+            - link "Devices" [ref=e353] [cursor=pointer]:
+              - /url: https://www.amazon.in/hz/mycd/digital-console/alldevices?pageType=devices&ref_=ya_d_l_manage_devices
+          - listitem [ref=e354]:
+            - link "Digital gifts you've received" [ref=e356] [cursor=pointer]:
+              - /url: https://www.amazon.in/hz/mycd/digital-console/contentlist/receivedGifts/?ref_=ya_d_l_digital_gifts
+          - listitem [ref=e357]:
+            - link "Digital and device forum" [ref=e359] [cursor=pointer]:
+              - /url: https://www.amazon.in/r?ref_=ya_d_l_frm_a&dest=https%3A%2F%2Fin.amazonforum.com&aid=EkNSkVJSTkCQak0IXUCpBg
+      - generic [ref=e362]:
+        - heading "Email alerts, messages, and ads" [level=2] [ref=e363]
+        - list [ref=e364]:
+          - listitem [ref=e365]:
+            - link "Advertising preferences" [ref=e367] [cursor=pointer]:
+              - /url: https://www.amazon.in/adprefs?ref_=ya_d_l_advert_prefs
+          - listitem [ref=e368]:
+            - link "Communication preferences" [ref=e370] [cursor=pointer]:
+              - /url: https://www.amazon.in/gp/cpc/homepage?ref_=ya_d_l_comm_prefs
+          - listitem [ref=e371]:
+            - link "SMS alert preferences" [ref=e373] [cursor=pointer]:
+              - /url: https://www.amazon.in/gp/css/texttrace/view.html?ref_=ya_d_l_texttrace
+          - listitem [ref=e374]:
+            - link "Message Centre" [ref=e376] [cursor=pointer]:
+              - /url: https://www.amazon.in/gp/message?ref_=ya_d_l_msg_center
+          - listitem [ref=e377]:
+            - link "Alexa shopping notifications" [ref=e379] [cursor=pointer]:
+              - /url: https://www.amazon.in/alexashopping/notification/?ref_=ya_d_l_asns
+      - generic [ref=e382]:
+        - heading "More ways to pay" [level=2] [ref=e383]
+        - list [ref=e384]:
+          - listitem [ref=e385]:
+            - link "Default Purchase Settings" [ref=e387] [cursor=pointer]:
+              - /url: https://www.amazon.in/cpe/manageoneclick?ref_=ya_d_l_change_1_click
+          - listitem [ref=e388]:
+            - link "Amazon Pay" [ref=e390] [cursor=pointer]:
+              - /url: https://www.amazon.in/gp/sva/dashboard?ref_=ya_d_l_payments_acct
+          - listitem [ref=e391]:
+            - link "Coupons" [ref=e393] [cursor=pointer]:
+              - /url: https://www.amazon.in/gp/browse?node=10591838031&ref_=ya_d_l_coupons
+    - generic [ref=e394]:
+      - generic [ref=e397]:
+        - heading "Ordering and shopping preferences" [level=2] [ref=e398]
+        - list [ref=e399]:
+          - listitem [ref=e400]:
+            - link "Leave packaging feedback" [ref=e402] [cursor=pointer]:
+              - /url: https://www.amazon.in/pf?ref_=ya_d_l_package_delivery_feedback
+          - listitem [ref=e403]:
+            - link "Lists" [ref=e405] [cursor=pointer]:
+              - /url: https://www.amazon.in/wishlist?ref_=ya_d_l_lists
+          - listitem [ref=e406]:
+            - link "Manage saved IDs" [ref=e408] [cursor=pointer]:
+              - /url: https://www.amazon.in/aee/kyc/savedId/display?ref_=ya_d_l_kyc
+          - listitem [ref=e409]:
+            - link "Your Shopping preferences" [ref=e411] [cursor=pointer]:
+              - /url: https://www.amazon.in/slc/hub?ref_=ya_d_l_slph
+          - listitem [ref=e412]:
+            - link "Your Content" [ref=e414] [cursor=pointer]:
+              - /url: https://www.amazon.in/gp/profile?ref_=ya_d_l_profile
+          - listitem [ref=e415]:
+            - link "Language settings" [ref=e417] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ref_=ya_d_l_manage_lop&preferencesReturnUrl=%2Fyour-account
+          - listitem [ref=e418]:
+            - link "Recalls and Product Safety Alerts" [ref=e420] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=ya_desktop_bsx_ypsa
+      - generic [ref=e423]:
+        - heading "Other accounts" [level=2] [ref=e424]
+        - list [ref=e425]:
+          - listitem [ref=e426]:
+            - link "Account Linking" [ref=e428] [cursor=pointer]:
+              - /url: /accountlink/home?ref_=ya_d_l_your_account
+          - listitem [ref=e429]:
+            - link "Seller account" [ref=e431] [cursor=pointer]:
+              - /url: https://www.amazon.in/b/?node=2838698031&ld=AZINSOAYADesktop&ref_=ya_d_l_seller
+          - listitem [ref=e432]:
+            - link "Amazon Web Services" [ref=e434] [cursor=pointer]:
+              - /url: https://aws.amazon.com/?ref_=ya_d_l_websvcs_acct
+      - generic [ref=e437]:
+        - heading "Shopping programs and rentals" [level=2] [ref=e438]
+        - list [ref=e439]:
+          - listitem [ref=e440]:
+            - link "Manage Your Amazon Family" [ref=e442] [cursor=pointer]:
+              - /url: https://www.amazon.in/hz/profilepicker/amazonfamily?ref_=ya_d_l_myaf
+          - listitem [ref=e443]:
+            - link "Subscribe & Save" [ref=e445] [cursor=pointer]:
+              - /url: https://www.amazon.in/gp/subscribe-and-save/manager/viewsubscriptions?ref_=ya_d_l_subscribe_save
+          - listitem [ref=e446]:
+            - link "Shop the Kids' Store by age" [ref=e448] [cursor=pointer]:
+              - /url: https://www.amazon.in/shopbyage?ref_=fly_ya_def_rwt_yoac_sba
+    - generic [ref=e449]:
+      - generic [ref=e452]:
+        - heading "Subscriptions" [level=2] [ref=e453]
+        - list [ref=e454]:
+          - listitem [ref=e455]:
+            - link "Email" [ref=e457] [cursor=pointer]:
+              - /url: https://www.amazon.in/gp/gss/manage?ref_=ya_d_l_amazon_delivers&ie=UTF8
+          - listitem [ref=e458]:
+            - link "Memberships & Subscriptions" [ref=e460] [cursor=pointer]:
+              - /url: https://www.amazon.in/hz5/yourmembershipsandsubscriptions?ref_=digital_subscriptions_ya
+      - generic [ref=e463]:
+        - heading "Manage your data" [level=2] [ref=e464]
+        - list [ref=e465]:
+          - listitem [ref=e466]:
+            - link "Request your data" [ref=e468] [cursor=pointer]:
+              - /url: https://www.amazon.in/hz/privacy-central/data-requests/preview.html
+          - listitem [ref=e469]:
+            - link "Data Access and Requests" [ref=e471] [cursor=pointer]:
+              - /url: https://www.amazon.in/privacy-center/data-access
+          - listitem [ref=e472]:
+            - link "Manage apps and services with data access" [ref=e474] [cursor=pointer]:
+              - /url: https://www.amazon.in/ap/adam?ref_=ya_d_l_iba
+          - listitem [ref=e475]:
+            - link "Close Your Amazon Account" [ref=e477] [cursor=pointer]:
+              - /url: https://www.amazon.in/privacy/data-deletion
+          - listitem [ref=e478]:
+            - link "Privacy Notice" [ref=e480] [cursor=pointer]:
+              - /url: https://www.amazon.in/gp/help/customer/display.html?nodeId=201909010
+  - complementary "Your recently viewed items and featured recommendations" [ref=e482]:
+    - table [ref=e486]:
+      - rowgroup [ref=e487]:
+        - row [ref=e488]:
+          - cell [ref=e489]:
+            - img [ref=e490]
+  - generic [ref=e491]:
+    - button "Back to top" [ref=e492] [cursor=pointer]:
+      - generic [ref=e493]: Back to top
+    - generic [ref=e494]:
+      - generic [ref=e495]:
+        - heading "Get to Know Us" [level=6] [ref=e496]
+        - list [ref=e497]:
+          - listitem [ref=e498]:
+            - link "About Amazon" [ref=e499] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e500]:
+            - link "Careers" [ref=e501] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=e502]:
+            - link "Press Releases" [ref=e503] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e504]:
+            - link "Amazon Science" [ref=e505] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e507]:
+        - heading "Connect with Us" [level=6] [ref=e508]
+        - list [ref=e509]:
+          - listitem [ref=e510]:
+            - link "Facebook" [ref=e511] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=e512]:
+            - link "Twitter" [ref=e513] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=e514]:
+            - link "Instagram" [ref=e515] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=e517]:
+        - heading "Make Money with Us" [level=6] [ref=e518]
+        - list [ref=e519]:
+          - listitem [ref=e520]:
+            - link "Sell on Amazon" [ref=e521] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=e522]:
+            - link "Sell under Amazon Accelerator" [ref=e523] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=e524]:
+            - link "Protect and Build Your Brand" [ref=e525] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=e526]:
+            - link "Amazon Global Selling" [ref=e527] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=e528]:
+            - link "Supply to Amazon" [ref=e529] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=e530]:
+            - link "Become an Affiliate" [ref=e531] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=e532]:
+            - link "Fulfilment by Amazon" [ref=e533] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=e534]:
+            - link "Advertise Your Products" [ref=e535] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=e536]:
+            - link "Amazon Pay on Merchants" [ref=e537] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant
+      - generic [ref=e539]:
+        - heading "Let Us Help You" [level=6] [ref=e540]
+        - list [ref=e541]:
+          - listitem [ref=e542]:
+            - link "Your Account" [ref=e543] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e544]:
+            - link "Returns Centre" [ref=e545] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e546]:
+            - link "Recalls and Product Safety Alerts" [ref=e547] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e548]:
+            - link "100% Purchase Protection" [ref=e549] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=e550]:
+            - link "Amazon App Download" [ref=e551] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=e552]:
+            - link "Help" [ref=e553] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=e555]:
+      - link "Amazon India Home" [ref=e558] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=e561]:
+        - generic [ref=e562]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e563] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e565]: English
+          - button "Expand to Change Language or Country" [ref=e566] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=e567] [cursor=pointer]:
+          - generic [ref=e569]: India
+    - generic "More on Amazon" [ref=e570]:
+      - generic "More on Amazon" [ref=e571]:
+        - list [ref=e572]:
+          - listitem [ref=e573]:
+            - link "AbeBooks Books, art & collectibles" [ref=e574] [cursor=pointer]:
+              - /url: https://www.abebooks.com/
+              - heading "AbeBooks" [level=5] [ref=e575]
+              - generic [ref=e576]:
+                - text: Books, art
+                - text: "& collectibles"
+          - listitem [ref=e577]
+          - listitem [ref=e578]:
+            - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e579] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e580]
+              - generic [ref=e581]:
+                - text: Scalable Cloud
+                - text: Computing Services
+          - listitem [ref=e582]
+          - listitem [ref=e583]:
+            - link "Audible Download Audio Books" [ref=e584] [cursor=pointer]:
+              - /url: https://www.audible.in/
+              - heading "Audible" [level=5] [ref=e585]
+              - generic [ref=e586]:
+                - text: Download
+                - text: Audio Books
+          - listitem [ref=e587]
+          - listitem [ref=e588]:
+            - link "IMDb Movies, TV & Celebrities" [ref=e589] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=e590]
+              - generic [ref=e591]:
+                - text: Movies, TV
+                - text: "& Celebrities"
+        - list [ref=e592]:
+          - listitem [ref=e593]:
+            - link "Shopbop Designer Fashion Brands" [ref=e594] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=e595]
+              - generic [ref=e596]:
+                - text: Designer
+                - text: Fashion Brands
+          - listitem [ref=e597]
+          - listitem [ref=e598]:
+            - link "Amazon Business Everything For Your Business" [ref=e599] [cursor=pointer]:
+              - /url: /business?ref=footer_aingw
+              - heading "Amazon Business" [level=5] [ref=e600]
+              - generic [ref=e601]:
+                - text: Everything For
+                - text: Your Business
+          - listitem [ref=e602]
+          - listitem [ref=e603]:
+            - link "Amazon Music Stream millions of songs" [ref=e604] [cursor=pointer]:
+              - /url: /music/player?ref=footer_apm
+              - heading "Amazon Music" [level=5] [ref=e605]
+              - generic [ref=e606]: Stream millions of songs
+          - listitem [ref=e607]
+          - listitem [ref=e608]
+    - generic [ref=e609]:
+      - list [ref=e610]:
+        - listitem [ref=e611]:
+          - link "Conditions of Use & Sale" [ref=e612] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=e613]:
+          - link "Privacy Notice" [ref=e614] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=e615]:
+          - link "Interest-Based Ads" [ref=e616] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=e617]: © 1996-2026, Amazon.com, Inc. or its affiliates
+  - iframe [ref=e619]:
+    - iframe [ref=f13e2]:
+      - generic [active]:
+        - img [ref=f14e1]
+        - img [ref=f14e2]

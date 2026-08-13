@@ -1,0 +1,218 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - link "MB PYRAMID MagicBox Next" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: MB
+        - generic [ref=e6]:
+          - generic [ref=e7]: PYRAMID
+          - generic [ref=e8]: MagicBox Next
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /
+      - group [ref=e10]:
+        - generic "Staffing & Recruitment" [ref=e11] [cursor=pointer]
+        - link "Start Pre-Placement" [ref=e12] [cursor=pointer]:
+          - /url: /ui/onboarding/start
+        - link "Onboarding Dashboard" [ref=e13] [cursor=pointer]:
+          - /url: /ui/onboarding/dashboard
+        - link "Change Requests stub" [ref=e14] [cursor=pointer]:
+          - /url: /ui/onboarding/change-requests
+        - link "Placement List stub" [ref=e15] [cursor=pointer]:
+          - /url: /ui/onboarding/placements
+        - link "Approval Queue stub" [ref=e16] [cursor=pointer]:
+          - /url: /ui/onboarding/approvals
+        - link "HR Onboarding Queue stub" [ref=e17] [cursor=pointer]:
+          - /url: /ui/onboarding/hr-queue
+        - link "Requisitions stub" [ref=e18] [cursor=pointer]:
+          - /url: /ui/recruiting/requisitions
+        - link "Candidate Pipeline stub" [ref=e19] [cursor=pointer]:
+          - /url: /ui/recruiting/pipeline
+      - group [ref=e20]:
+        - generic "Sales & CRM" [ref=e21] [cursor=pointer]
+      - group [ref=e22]:
+        - generic "Finance & Payroll" [ref=e23] [cursor=pointer]
+      - group [ref=e24]:
+        - generic "Employee & HR" [ref=e25] [cursor=pointer]
+      - group [ref=e26]:
+        - generic "Vendor & MSP" [ref=e27] [cursor=pointer]
+      - group [ref=e28]:
+        - generic "External Access" [ref=e29] [cursor=pointer]
+      - group [ref=e30]:
+        - generic "Other generated screens" [ref=e31] [cursor=pointer]
+    - main [ref=e152]:
+      - link "Back to placements" [ref=e153] [cursor=pointer]:
+        - /url: /ui/onboarding/placements
+        - img [ref=e154]
+        - text: Back to placements
+      - heading "Pre-Placement Onboarding" [level=1] [ref=e156]
+      - paragraph [ref=e157]: Step 7 of 8
+      - heading "HR Checklist" [level=2] [ref=e635]
+      - generic [ref=e637]:
+        - generic [ref=e638]:
+          - generic [ref=e639]: Department *
+          - combobox "Department *" [ref=e640]:
+            - option "Select…" [selected]
+            - option "Administration"
+            - option "BPO"
+            - option "BPS"
+            - option "Corporate Office"
+            - option "CRM Sales"
+            - option "Delhi Sales"
+            - option "Employee_Department"
+            - option "Enterprise Solutions"
+            - option "Finance and Accounts"
+            - option "Genspark"
+            - option "Global Marketing & Communication"
+            - option "Global Marketing & Communications"
+            - option "Human Resource CRM"
+            - option "Human Resources"
+            - option "Network Management Group"
+            - option "Network Mgmt Group"
+            - option "Pyramid Mexico"
+            - option "Pyramid US"
+            - option "Pyramid US - Canada"
+            - option "Resource Management Group"
+            - option "RMG"
+            - option "S/W Internal Resourcing Group"
+            - option "Sales & Marketing"
+            - option "SEPG"
+            - option "Software"
+            - option "Software Core Solutions"
+            - option "Software Mobile Labs"
+            - option "Solutions Sales"
+            - option "Talent Management Group"
+            - option "UK Recruitments"
+            - option "US - HR"
+            - option "US Accounts"
+            - option "US Admin"
+            - option "US Finance & Accounts"
+            - option "US Human Resources"
+            - option "US Recruitments"
+        - generic [ref=e641]:
+          - text: Gender for Insurance Coverage
+          - combobox "Gender for Insurance Coverage" [ref=e642]:
+            - option "Select…" [selected]
+        - generic [ref=e643]:
+          - generic [ref=e644]: Insurance (C2C)
+          - generic [ref=e645]:
+            - generic [ref=e646]:
+              - text: Insurance Coverage Type
+              - combobox "Insurance Coverage Type" [ref=e647]:
+                - option "Select…" [selected]
+            - generic [ref=e648]:
+              - text: Coverage Status
+              - combobox "Coverage Status" [ref=e649]:
+                - option "Select…" [selected]
+            - generic [ref=e650]:
+              - text: Effective Date
+              - textbox "Effective Date" [ref=e651]
+            - generic [ref=e652]:
+              - text: Expiration Date
+              - textbox "Expiration Date" [ref=e653]
+        - generic [ref=e654]:
+          - text: Is Rehire
+          - checkbox "Is Rehire" [checked] [ref=e655]
+        - generic [ref=e656]:
+          - text: Dayforce Employee Number
+          - textbox "Dayforce Employee Number" [ref=e657]
+        - generic [ref=e658]:
+          - text: Document Upload
+          - generic [ref=e660]:
+            - combobox [ref=e661]:
+              - option "Document type…" [selected]
+              - option "Addendum"
+              - option "Additional Document"
+              - option "Approval Document"
+              - option "Background Check"
+              - option "Bank Account Including Clabe Account And Swift Code"
+              - option "Birth Certificate"
+              - option "Certificate"
+              - option "CURP"
+              - option "Drug Test"
+              - option "Emergency Contacts"
+              - option "ID CARD"
+              - option "ID Verification"
+              - option "Ids"
+              - option "Interview Prep Call Screenshot"
+              - option "Onboard HTML"
+              - option "Onboard PDF"
+              - option "OT Approval Document"
+              - option "Others"
+              - option "Proof Of Address (3months)"
+              - option "Proof Of Studies Degree"
+              - option "Resume"
+              - option "SSN"
+              - option "TAX ID"
+              - option "Upload Video Call Screenshot"
+              - option "Vaccination Support Document"
+              - option "Vendor Rate Reduction Approval Document"
+            - button "Choose File" [ref=e662]
+            - button "Add document" [disabled] [ref=e663]
+        - generic [ref=e664]:
+          - text: HR Clearance Date
+          - textbox "HR Clearance Date" [ref=e665]
+        - generic [ref=e666]:
+          - text: Manager Clearance Date
+          - textbox "Manager Clearance Date" [ref=e667]
+        - generic [ref=e668]:
+          - text: HR Checklist
+          - table [ref=e670]:
+            - rowgroup [ref=e671]:
+              - row "Item Completion Date N/A Remarks" [ref=e672]:
+                - columnheader "Item" [ref=e673]
+                - columnheader "Completion Date" [ref=e674]
+                - columnheader "N/A" [ref=e675]
+                - columnheader "Remarks" [ref=e676]
+            - rowgroup [ref=e677]:
+              - row "I-9" [ref=e678]:
+                - cell "I-9" [ref=e679]
+                - cell [ref=e680]:
+                  - textbox [ref=e681]
+                - cell [ref=e682]:
+                  - checkbox [ref=e683]
+                - cell [ref=e684]:
+                  - textbox "—" [ref=e685]
+              - row "E-Verify" [ref=e686]:
+                - cell "E-Verify" [ref=e687]
+                - cell [ref=e688]:
+                  - textbox [ref=e689]
+                - cell [ref=e690]:
+                  - checkbox [ref=e691]
+                - cell [ref=e692]:
+                  - textbox "—" [ref=e693]
+              - row "Uploaded Documents in ADP" [ref=e694]:
+                - cell "Uploaded Documents in ADP" [ref=e695]
+                - cell [ref=e696]:
+                  - textbox [ref=e697]
+                - cell [ref=e698]:
+                  - checkbox [ref=e699]
+                - cell [ref=e700]:
+                  - textbox "—" [ref=e701]
+              - row "Background Check" [ref=e702]:
+                - cell "Background Check" [ref=e703]
+                - cell [ref=e704]:
+                  - textbox [ref=e705]
+                - cell [ref=e706]:
+                  - checkbox [ref=e707]
+                - cell [ref=e708]:
+                  - textbox "—" [ref=e709]
+              - row "Drug Test" [ref=e710]:
+                - cell "Drug Test" [ref=e711]
+                - cell [ref=e712]:
+                  - textbox [ref=e713]
+                - cell [ref=e714]:
+                  - checkbox [ref=e715]
+                - cell [ref=e716]:
+                  - textbox "—" [ref=e717]
+              - row "Veriff Identity Verification" [ref=e718]:
+                - cell "Veriff Identity Verification" [ref=e719]
+                - cell [ref=e720]:
+                  - textbox [ref=e721]
+                - cell [ref=e722]:
+                  - checkbox [ref=e723]
+                - cell [ref=e724]:
+                  - textbox "—" [ref=e725]
+      - generic [ref=e199]:
+        - button "Back" [ref=e200] [cursor=pointer]
+        - button "Save & Next" [ref=e201] [cursor=pointer]
+  - alert [ref=e59]

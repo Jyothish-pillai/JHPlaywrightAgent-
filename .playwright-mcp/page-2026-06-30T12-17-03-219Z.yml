@@ -1,0 +1,17 @@
+- generic [ref=e3]:
+  - img [ref=e5]
+  - table [ref=e7]:
+    - rowgroup [ref=e8]:
+      - row "Looking for Something? We're sorry. The Web address you entered is not a functioning page on our site. Go to Amazon's Home Page" [ref=e9]:
+        - cell [ref=e10]:
+          - img [ref=e11]
+        - cell "Looking for Something? We're sorry. The Web address you entered is not a functioning page on our site. Go to Amazon's Home Page" [ref=e12]:
+          - heading "Looking for Something?" [level=1] [ref=e14]
+          - generic [ref=e15]:
+            - text: We're sorry. The Web address you entered is not a functioning page on our site.
+            - generic [ref=e16]:
+              - img [ref=e17]
+              - text: Go to Amazon's
+              - link "Home" [ref=e18] [cursor=pointer]:
+                - /url: https://www.amazon.in
+              - text: Page

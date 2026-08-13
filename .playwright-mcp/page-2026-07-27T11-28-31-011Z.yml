@@ -1,0 +1,68 @@
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - img [ref=e7]
+      - generic [ref=e8]:
+        - text: Please click
+        - emphasis [ref=e9]:
+          - strong [ref=e10]:
+            - link "here" [ref=e11] [cursor=pointer]:
+              - /url: mailto:oms-pyramid@pyramidconsultinginc.com
+        - text: to send mail to support team @
+        - emphasis [ref=e12]:
+          - strong [ref=e13]:
+            - link "oms-pyramid@pyramidconsultinginc.com" [ref=e14] [cursor=pointer]:
+              - /url: mailto:oms-pyramid@pyramidconsultinginc.com
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - textbox "User Id / Official Email Id" [ref=e23]: invalid_user@test.com
+        - textbox "Password" [ref=e25]
+        - generic [ref=e26]:
+          - button "Submit" [ref=e28] [cursor=pointer]
+          - button "Submit" [ref=e30] [cursor=pointer]
+        - generic [ref=e31]: "* User not found"
+      - table [ref=e32]:
+        - rowgroup [ref=e33]:
+          - row:
+            - cell:
+              - link:
+                - /url: javascript:popup_Register(1);
+          - row "Forgot Password" [ref=e34]:
+            - cell "Forgot Password" [ref=e35]:
+              - link "Forgot Password" [ref=e36] [cursor=pointer]:
+                - /url: javascript:popup_Forgetpassword(1);
+          - row:
+            - cell
+  - table [ref=e39]:
+    - rowgroup [ref=e40]:
+      - row "Forgot Password" [ref=e41]:
+        - cell "Forgot Password" [ref=e42]:
+          - table [ref=e43]:
+            - rowgroup [ref=e44]:
+              - row "Forgot Password" [ref=e45]:
+                - cell "Forgot Password" [ref=e46]
+                - cell [ref=e47]:
+                  - link [ref=e49] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e50]
+      - row [ref=e51]:
+        - cell [ref=e52]:
+          - iframe [active] [ref=e55]:
+            - table [ref=f4e3]:
+              - rowgroup [ref=f4e4]:
+                - row [ref=f4e5]:
+                  - cell [ref=f4e6]
+                - row "Email ID* Test@test.com" [ref=f4e7]:
+                  - cell "Email ID*" [ref=f4e8]
+                  - cell "Test@test.com" [ref=f4e9]:
+                    - textbox "Please enter your official email id registered in PyramidCore." [ref=f4e10]:
+                      - /placeholder: Enter your official email registered in PyramidCore
+                      - text: Test@test.com
+                - row [ref=f4e11]:
+                  - cell [ref=f4e12]
+                - row "Go Reset Entered email id does not exist, please use your registered email id in PyramidCore." [ref=f4e13]:
+                  - cell "Go Reset Entered email id does not exist, please use your registered email id in PyramidCore." [ref=f4e14]:
+                    - button "Go" [ref=f4e15]
+                    - button "Reset" [ref=f4e16]
+                    - generic [ref=f4e17]: Entered email id does not exist, please use your registered email id in PyramidCore.
+        - cell [ref=e56]

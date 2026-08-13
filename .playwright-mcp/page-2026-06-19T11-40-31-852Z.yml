@@ -1,0 +1,102 @@
+- generic [ref=e2]:
+  - generic [ref=e41]:
+    - generic [ref=e44]:
+      - generic [ref=e46]:
+        - generic [ref=e48]:
+          - img [ref=e49]
+          - text: Store App
+        - list [ref=e55]:
+          - listitem [ref=e56]:
+            - link "Point of Sale 1" [ref=e201] [cursor=pointer]:
+              - /url: /
+              - img [ref=e58]
+              - generic [ref=e61]: Point of Sale
+              - generic [ref=e202]: "1"
+          - listitem [ref=e62]:
+            - link "Transactions" [ref=e63] [cursor=pointer]:
+              - /url: /transactions
+              - img [ref=e64]
+              - generic [ref=e67]: Transactions
+          - listitem [ref=e68]:
+            - link "Chaos Panel" [ref=e69] [cursor=pointer]:
+              - /url: /chaos
+              - img [ref=e70]
+              - generic [ref=e72]: Chaos Panel
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - img [ref=e76]
+            - generic [ref=e79]: "4444"
+          - generic [ref=e80]:
+            - img [ref=e81]
+            - generic [ref=e86]: STORE_101
+          - generic [ref=e87]:
+            - img [ref=e88]
+            - generic [ref=e90]: POS_01
+        - button "End Session" [ref=e91] [cursor=pointer]:
+          - img
+          - text: End Session
+    - generic [ref=e92]:
+      - banner [ref=e93]:
+        - button "Toggle Sidebar" [ref=e94] [cursor=pointer]:
+          - img
+          - generic [ref=e95]: Toggle Sidebar
+        - generic [ref=e97]: CID-1781869164969-MCS4IL
+      - main [ref=e98]:
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - generic [ref=e101]:
+              - generic [ref=e102]:
+                - img [ref=e103]
+                - textbox "Search products by name or SKU..." [ref=e106]: True Match Super-Blendable Foundation
+              - generic [ref=e107]:
+                - button "All" [ref=e108] [cursor=pointer]
+                - button "Face" [ref=e109] [cursor=pointer]
+                - button "Skincare" [ref=e110] [cursor=pointer]
+                - button "Haircare" [ref=e111] [cursor=pointer]
+                - button "Eyes" [ref=e112] [cursor=pointer]
+                - button "Lips" [ref=e113] [cursor=pointer]
+                - button "Fragrance" [ref=e114] [cursor=pointer]
+            - generic [ref=e119] [cursor=pointer]:
+              - img "True Match Super-Blendable Foundation" [ref=e121]
+              - generic [ref=e122]:
+                - paragraph [ref=e123]: True Match Super-Blendable Foundation
+                - generic [ref=e124]:
+                  - generic [ref=e125]: Face
+                  - generic [ref=e126]: $15.99
+                - paragraph [ref=e127]: "Stock: 90"
+          - generic [ref=e192]:
+            - generic [ref=e203]:
+              - heading "Cart" [level=3] [ref=e204]:
+                - img [ref=e205]
+                - text: Cart
+              - generic [ref=e209]: 1 items
+            - generic [ref=e214]:
+              - img "True Match Super-Blendable Foundation" [ref=e215]
+              - generic [ref=e216]:
+                - paragraph [ref=e217]: True Match Super-Blendable Foundation
+                - paragraph [ref=e218]: $15.99 each
+                - generic [ref=e219]:
+                  - button [ref=e220] [cursor=pointer]:
+                    - img
+                  - textbox [ref=e221]: "1"
+                  - button [ref=e222] [cursor=pointer]:
+                    - img
+                  - button [ref=e223] [cursor=pointer]:
+                    - img
+              - paragraph [ref=e224]: $15.99
+            - generic [ref=e225]:
+              - generic [ref=e226]:
+                - generic [ref=e227]: Subtotal
+                - generic [ref=e228]: $15.99
+              - generic [ref=e229]:
+                - generic [ref=e230]: Tax (8.5%)
+                - generic [ref=e231]: $1.36
+              - generic [ref=e233]:
+                - generic [ref=e234]: Total
+                - generic [ref=e235]: $17.35
+              - button "Proceed to Payment" [ref=e236] [cursor=pointer]:
+                - img
+                - text: Proceed to Payment
+  - region "Notifications (F8)":
+    - list

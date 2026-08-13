@@ -1,0 +1,1228 @@
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+    - separator [ref=e8]
+    - heading "Keyboard shortcuts" [level=2] [ref=e9]
+    - list "Keyboard shortcuts" [ref=e10]:
+      - listitem [ref=e11]:
+        - link "Search, alt, forward slash" [ref=e12] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e13]:
+            - generic [ref=e14]: Search
+            - generic [ref=e15]:
+              - generic [ref=e16]: alt
+              - generic [ref=e17]: +
+              - generic [ref=e18]: /
+      - listitem [ref=e19]:
+        - link "Cart, shift, alt, c" [ref=e20] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e21]:
+            - generic [ref=e22]: Cart
+            - generic [ref=e23]:
+              - generic [ref=e24]: shift
+              - generic [ref=e25]: +
+              - generic [ref=e26]: alt
+              - generic [ref=e27]: +
+              - generic [ref=e28]: C
+      - listitem [ref=e29]:
+        - link "Home, shift, alt, h" [ref=e30] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e31]:
+            - generic [ref=e32]: Home
+            - generic [ref=e33]:
+              - generic [ref=e34]: shift
+              - generic [ref=e35]: +
+              - generic [ref=e36]: alt
+              - generic [ref=e37]: +
+              - generic [ref=e38]: H
+      - listitem [ref=e39]:
+        - link "Your orders, shift, alt, o" [ref=e40] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e41]:
+            - generic [ref=e42]: Orders
+            - generic [ref=e43]:
+              - generic [ref=e44]: shift
+              - generic [ref=e45]: +
+              - generic [ref=e46]: alt
+              - generic [ref=e47]: +
+              - generic [ref=e48]: O
+      - listitem [ref=e49]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]:
+            - generic [ref=e52]: Show/Hide shortcuts
+            - generic [ref=e53]:
+              - generic [ref=e54]: shift
+              - generic [ref=e55]: +
+              - generic [ref=e56]: alt
+              - generic [ref=e57]: +
+              - generic [ref=e58]: Z
+    - generic [ref=e64]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e65]:
+    - navigation "Primary" [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - link "Amazon.in" [ref=e70] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Deliver to New Noida 201301‌" [ref=e73] [cursor=pointer]:
+            - generic [ref=e75]:
+              - generic [ref=e76]: Deliver to New
+              - generic [ref=e77]: Noida 201301‌
+        - search [ref=e80]:
+          - generic [ref=e83]:
+            - generic [ref=e85]: All
+            - combobox "Select the department you want to search in" [ref=e87] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh"
+              - option "Amazon Fresh Meat"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=e90]
+          - generic "Go" [ref=e93] [cursor=pointer]:
+            - button "Go" [ref=e94]
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=e98] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e101]:
+                - img "India" [ref=e102]
+                - generic [ref=e103]: EN
+            - button "Expand to Change Language or Country" [ref=e104] [cursor=pointer]
+          - generic [ref=e105]:
+            - link "Hello, Celsior Account & Lists" [ref=e106] [cursor=pointer]:
+              - /url: https://www.amazon.in/gp/css/homepage.html?ref_=nav_youraccount_btn
+              - generic [ref=e108]: Hello, Celsior
+              - generic [ref=e109]: Account & Lists
+            - button "Expand Account and Lists" [ref=e110] [cursor=pointer]
+          - link "Returns & Orders" [ref=e111] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e112]: Returns
+            - generic [ref=e113]: "& Orders"
+          - link "4 items in cart" [ref=e114] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e116]: "4"
+            - generic [ref=e119]: Cart
+      - generic [ref=e121]:
+        - generic [ref=e122]:
+          - button "Open All Categories Menu" [ref=e123] [cursor=pointer]:
+            - generic [ref=e125]: All
+          - button "Open Rufus panel" [ref=e126] [cursor=pointer]:
+            - generic [ref=e128]: Rufus
+        - list [ref=e132]:
+          - listitem [ref=e133]:
+            - generic [ref=e134]:
+              - link "Fresh" [ref=e135] [cursor=pointer]:
+                - /url: /tez/browse?qcbrand=ctnow&ref_=nav_cs_grocery
+              - button "Fresh Details" [ref=e136] [cursor=pointer]
+          - listitem [ref=e137]:
+            - generic [ref=e138]:
+              - link "Prime" [ref=e139] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=e140] [cursor=pointer]
+          - listitem [ref=e141]:
+            - link "MX Player" [ref=e143] [cursor=pointer]:
+              - /url: /minitv?ref_=nav_avod_desktop_topnav
+          - listitem [ref=e144]:
+            - link "Sell" [ref=e146] [cursor=pointer]:
+              - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+          - listitem [ref=e147]:
+            - link "Gift Cards" [ref=e149] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=e150]:
+            - link "Amazon Pay" [ref=e152] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=e153]:
+            - link "Buy Again" [ref=e155] [cursor=pointer]:
+              - /url: /gp/buyagain?ie=UTF8&ref_=nav_cs_buy_again
+          - listitem [ref=e156]:
+            - link "Gift Ideas" [ref=e158] [cursor=pointer]:
+              - /url: /gcx/-/gfhz/?ref_=nav_cs_giftfinder
+          - listitem [ref=e159]:
+            - link "AmazonBasics" [ref=e161] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=e162]:
+            - link "Health, Household & Personal Care" [ref=e164] [cursor=pointer]:
+              - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+          - listitem [ref=e165]:
+            - link "Home Improvement" [ref=e167] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=e168]:
+            - link "Subscribe & Save" [ref=e170] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e171]:
+            - link "Audible" [ref=e173] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=e174]:
+            - link "Today's Deals" [ref=e176] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e177]:
+            - generic [ref=e178]:
+              - link "Browsing History" [ref=e179] [cursor=pointer]:
+                - /url: /gp/history?ref_=nav_cs_timeline
+              - button "Browsing History Details" [ref=e180] [cursor=pointer]
+          - listitem [ref=e181]:
+            - link "Celsior 's Amazon.in" [ref=e183] [cursor=pointer]:
+              - /url: /gp/yourstore/home?ref_=nav_cs_ys
+              - generic [ref=e184]:
+                - generic [ref=e185]: Celsior
+                - text: "'s Amazon.in"
+          - listitem [ref=e186]:
+            - link "Books" [ref=e188] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=e189]:
+            - link "Customer Service" [ref=e191] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=e192]:
+            - link "Kindle eBooks" [ref=e194] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books
+          - listitem [ref=e195]:
+            - link "Pet Supplies" [ref=e197] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=e198]:
+            - link "Bestsellers" [ref=e200] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e201]:
+            - link "Sports, Fitness & Outdoors" [ref=e203] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=e204]:
+            - link "Beauty & Personal Care" [ref=e206] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=e207]:
+            - link "Home & Kitchen" [ref=e209] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=e210]:
+            - link "New Releases" [ref=e212] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e213]:
+            - link "Computers" [ref=e215] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=e216]:
+            - link "Toys & Games" [ref=e218] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=e219]:
+            - link "Fashion" [ref=e221] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=e222]:
+            - link "Car & Motorbike" [ref=e224] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=e225]:
+            - link "Electronics" [ref=e227] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=e228]:
+            - link "Baby" [ref=e230] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+          - listitem [ref=e231]:
+            - link "Video Games" [ref=e233] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=e234]:
+            - link "Mobiles" [ref=e236] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+        - link "PD26_Event" [ref=e240] [cursor=pointer]:
+          - /url: /events/primeday/?_encoding=UTF8&ref_=nav_swm_event&pf_rd_p=43119a04-109d-4825-a1ce-4d8cbe47aea6&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A21TJRUUN4KGV&pf_rd_r=J167XBX3XTC99J50ZYSZ
+          - img "PD26_Event" [ref=e241]
+      - dialog [ref=e242]
+  - generic [ref=e247]:
+    - generic [ref=e248]:
+      - generic [ref=e249]:
+        - link "Campus Men&#39;s Camp-Glacier Running Shoes Off WHT/MSTD - 10UK/India" [ref=e252] [cursor=pointer]:
+          - /url: /gp/product/B0BCQVX4LT/ref=sw_img_1?smid=A2JTUMWXNY2SJF&psc=1
+          - img "Campus Men&#39;s Camp-Glacier Running Shoes Off WHT/MSTD - 10UK/India" [ref=e253]
+        - generic [ref=e254]:
+          - heading "Added to cart" [active] [level=1] [ref=e261]
+          - list [ref=e263]:
+            - listitem [ref=e264]:
+              - generic [ref=e265]: "Size: 10 UK"
+            - listitem [ref=e266]:
+              - generic [ref=e267]: "Colour: OFF WHT/MSTD"
+      - generic [ref=e269]:
+        - generic [ref=e270]:
+          - heading "Cart subtotal:" [ref=e271]
+          - generic [ref=e273]:
+            - generic [ref=e274]: ₹22,557.00
+            - generic [ref=e275]:
+              - text: ₹
+              - generic [ref=e276]:
+                - text: 22,557
+                - generic [ref=e277]: .
+              - text: "00"
+        - generic [ref=e282] [cursor=pointer]:
+          - button "Proceed to Buy (4 items) Buy Amazon items" [ref=e283]: Proceed to checkout
+          - generic [ref=e286]: Proceed to Buy (4 items)
+        - link "Go to Cart" [ref=e289] [cursor=pointer]:
+          - /url: /cart?ref_=sw_gtc
+    - group [ref=e296]:
+      - generic [ref=e297]:
+        - heading "Products related to Campus Men Camp-Glacier Running Shoes" [level=1] [ref=e299]
+        - generic [ref=e302]: Page 1 of 5
+      - button "Leave feedback on Sponsored ad" [ref=e307] [cursor=pointer]: Sponsored
+      - generic [ref=e310]:
+        - button "Previous page" [ref=e312] [cursor=pointer]:
+          - generic [ref=e315]: Previous page
+        - group [ref=e317]:
+          - list [ref=e318]:
+            - listitem [ref=e319]:
+              - generic [ref=e320]:
+                - generic [ref=e321]:
+                  - link "SPARX Mens SM 661 | Enhanced Durability & Soft Cushion | Black Running Shoe - 9 UK (SM 661)" [ref=e322] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MTozNDYwNDMyNzIzMTk1OTkxOjE3ODIyNDAzMjY6c3BfaHVjX21yYWk6MzAxMTM1NjMwMDk4MTMyOjowOjo=&url=%2FSparx-Enhanced-Durability-Cushion-Running%2Fdp%2FB09HKZH7P1%2Fref%3Dsw_img_d_sspa_dk_huc_pt_expsub%3F_encoding%3DUTF8%26pd_rd_i%3DB09HKZH7P1%26pd_rd_w%3DUHNFC%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DJ167XBX3XTC99J50ZYSZ%26pd_rd_wg%3DegbVe%26pd_rd_r%3D6deda968-e883-44f4-bd39-03916164889e%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=qeLJwIAoLA
+                    - img "SPARX Mens SM 661 | Enhanced Durability & Soft Cushion | Black Running Shoe - 9 UK (SM 661)" [ref=e324]
+                  - generic [ref=e325]:
+                    - link "SPARX Mens SM 661 | Enhanced Durability & Soft Cushion | Black Running Shoe - 9 UK (SM 661)" [ref=e326] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTozNDYwNDMyNzIzMTk1OTkxOjE3ODIyNDAzMjY6c3BfaHVjX21yYWk6MzAxMTM1NjMwMDk4MTMyOjowOjo=&url=%2FSparx-Enhanced-Durability-Cushion-Running%2Fdp%2FB09HKZH7P1%2Fref%3Dsw_ttl_d_sspa_dk_huc_pt_expsub%3F_encoding%3DUTF8%26pd_rd_i%3DB09HKZH7P1%26pd_rd_w%3DUHNFC%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DJ167XBX3XTC99J50ZYSZ%26pd_rd_wg%3DegbVe%26pd_rd_r%3D6deda968-e883-44f4-bd39-03916164889e%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=qeLJwIAoLA
+                      - generic [ref=e327]:
+                        - generic [ref=e328]: SPARX Mens SM 661 | Enhanced Durability & Soft Cushion | Black Running Shoe - 9 UK (SM 661)
+                        - generic [ref=e329]: SPARX Mens SM 661 | Enhanced Durability & Soft…
+                    - link "3.6 out of 5 stars 74" [ref=e331] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTozNDYwNDMyNzIzMTk1OTkxOjE3ODIyNDAzMjY6c3BfaHVjX21yYWk6MzAxMTM1NjMwMDk4MTMyOjowOjo=&url=%2Fproduct-reviews%2FB09HKZH7P1%2Fref%3Dsw_cr_d_sspa_dk_huc_pt_expsub%3F_encoding%3DUTF8%26pd_rd_i%3DB09HKZH7P1%26pd_rd_w%3DUHNFC%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DJ167XBX3XTC99J50ZYSZ%26pd_rd_wg%3DegbVe%26pd_rd_r%3D6deda968-e883-44f4-bd39-03916164889e%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=qeLJwIAoLA
+                      - generic [ref=e333]: 3.6 out of 5 stars
+                      - text: "74"
+                    - generic [ref=e334]:
+                      - generic [ref=e335]:
+                        - generic [ref=e336]: ₹1,189.00
+                        - generic [ref=e337]:
+                          - text: ₹
+                          - generic [ref=e338]:
+                            - text: 1,189
+                            - generic [ref=e339]: .
+                          - text: "00"
+                      - generic [ref=e340]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e341]:
+                          - generic [ref=e342]: Previous Price ₹1,699.00
+                          - text: ₹1,699.00
+                - generic [ref=e351] [cursor=pointer]:
+                  - button "Add to cart, SPARX Mens SM 661 | Enhanced Durability & Soft Cushion | Black Running Shoe - 9 UK (SM 661)" [ref=e352]
+                  - generic [ref=e353]: Add to cart
+            - listitem [ref=e354]:
+              - generic [ref=e355]:
+                - generic [ref=e356]:
+                  - link "Centrino Men’s Badminton Shoes | Lightweight Indoor Court Shoes | Breathable Mesh Sports Sneakers | Non-Marking Grip Sole | C" [ref=e357] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MTozNDYwNDMyNzIzMTk1OTkxOjE3ODIyNDAzMjY6c3BfaHVjX21yYWk6MzAwOTE1NTkxMzQ1MTMyOjoxOjo=&url=%2FCentrino-Lightweight-Breathable-Non-Marking-Comfortable%2Fdp%2FB0GGRP3JNY%2Fref%3Dsw_img_d_sspa_dk_huc_pt_expsub_1%3F_encoding%3DUTF8%26pd_rd_i%3DB0GGRP3JNY%26pd_rd_w%3DUHNFC%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DJ167XBX3XTC99J50ZYSZ%26pd_rd_wg%3DegbVe%26pd_rd_r%3D6deda968-e883-44f4-bd39-03916164889e%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=CqkVHPefAw
+                    - img "Centrino Men’s Badminton Shoes | Lightweight Indoor Court Shoes | Breathable Mesh Sports Sneakers | Non-Marking Grip Sole | C" [ref=e359]
+                  - generic [ref=e360]:
+                    - text: Only 1 left in stock.
+                    - link "Centrino Men’s Badminton Shoes | Lightweight Indoor Court Shoes | Breathable Mesh Sports Sneakers | Non-Marking Grip Sole | Comfortable Training & Play Footwear (9345)" [ref=e361] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTozNDYwNDMyNzIzMTk1OTkxOjE3ODIyNDAzMjY6c3BfaHVjX21yYWk6MzAwOTE1NTkxMzQ1MTMyOjoxOjo=&url=%2FCentrino-Lightweight-Breathable-Non-Marking-Comfortable%2Fdp%2FB0GGRP3JNY%2Fref%3Dsw_ttl_d_sspa_dk_huc_pt_expsub_1%3F_encoding%3DUTF8%26pd_rd_i%3DB0GGRP3JNY%26pd_rd_w%3DUHNFC%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DJ167XBX3XTC99J50ZYSZ%26pd_rd_wg%3DegbVe%26pd_rd_r%3D6deda968-e883-44f4-bd39-03916164889e%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=CqkVHPefAw
+                      - generic [ref=e362]:
+                        - generic [ref=e363]: Centrino Men’s Badminton Shoes | Lightweight Indoor Court Shoes | Breathable Mesh Sports Sneakers | Non-Marking Grip Sole | Comfortable Training & Play Footwear (9345)
+                        - generic [ref=e364]: Centrino Men’s Badminton Shoes | Lightweight Indoor…
+                    - link "3.8 out of 5 stars 62" [ref=e366] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTozNDYwNDMyNzIzMTk1OTkxOjE3ODIyNDAzMjY6c3BfaHVjX21yYWk6MzAwOTE1NTkxMzQ1MTMyOjoxOjo=&url=%2Fproduct-reviews%2FB0GGRP3JNY%2Fref%3Dsw_cr_d_sspa_dk_huc_pt_expsub_1%3F_encoding%3DUTF8%26pd_rd_i%3DB0GGRP3JNY%26pd_rd_w%3DUHNFC%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DJ167XBX3XTC99J50ZYSZ%26pd_rd_wg%3DegbVe%26pd_rd_r%3D6deda968-e883-44f4-bd39-03916164889e%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=CqkVHPefAw
+                      - generic [ref=e368]: 3.8 out of 5 stars
+                      - text: "62"
+                    - generic [ref=e370]: 62% off Limited time deal
+                    - generic [ref=e371]:
+                      - generic [ref=e372]:
+                        - generic [ref=e373]: ₹949.00
+                        - generic [ref=e374]:
+                          - text: ₹
+                          - generic [ref=e375]:
+                            - text: "949"
+                            - generic [ref=e376]: .
+                          - text: "00"
+                      - generic [ref=e377]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e378]:
+                          - generic [ref=e379]: Previous Price ₹2,499.00
+                          - text: ₹2,499.00
+                - generic [ref=e388] [cursor=pointer]:
+                  - button "Add to cart, Centrino Men’s Badminton Shoes | Lightweight Indoor Court Shoes | Breathable Mesh Sports Sneakers | Non-Marking Grip Sole | Comfortable Training & Play Footwear (9345)" [ref=e389]
+                  - generic [ref=e390]: Add to cart
+            - listitem [ref=e391]:
+              - generic [ref=e392]:
+                - generic [ref=e393]:
+                  - link "adidas Mens Adistar 3 Sportswear Sportswear Shoes" [ref=e394] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MTozNDYwNDMyNzIzMTk1OTkxOjE3ODIyNDAzMjY6c3BfaHVjX21yYWk6MzAxMTUyMjI0NjUwMTMyOjoyOjo=&url=%2Fadidas-Adistar-Sportswear-Shoes-White%2Fdp%2FB0FHL1GHLB%2Fref%3Dsw_img_d_sspa_dk_huc_pt_expsub_2%3F_encoding%3DUTF8%26pd_rd_i%3DB0FHL1GHLB%26pd_rd_w%3DUHNFC%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DJ167XBX3XTC99J50ZYSZ%26pd_rd_wg%3DegbVe%26pd_rd_r%3D6deda968-e883-44f4-bd39-03916164889e%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=1Onxp4efbR
+                    - img "adidas Mens Adistar 3 Sportswear Sportswear Shoes" [ref=e396]
+                  - generic [ref=e397]:
+                    - link "adidas Mens Adistar 3 Sportswear Sportswear Shoes" [ref=e398] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTozNDYwNDMyNzIzMTk1OTkxOjE3ODIyNDAzMjY6c3BfaHVjX21yYWk6MzAxMTUyMjI0NjUwMTMyOjoyOjo=&url=%2Fadidas-Adistar-Sportswear-Shoes-White%2Fdp%2FB0FHL1GHLB%2Fref%3Dsw_ttl_d_sspa_dk_huc_pt_expsub_2%3F_encoding%3DUTF8%26pd_rd_i%3DB0FHL1GHLB%26pd_rd_w%3DUHNFC%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DJ167XBX3XTC99J50ZYSZ%26pd_rd_wg%3DegbVe%26pd_rd_r%3D6deda968-e883-44f4-bd39-03916164889e%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=1Onxp4efbR
+                      - generic [ref=e399]:
+                        - generic [ref=e400]: adidas Mens Adistar 3 Sportswear Sportswear Shoes
+                        - generic [ref=e401]: adidas Mens Adistar 3 Sportswear Sportswear Shoes
+                    - generic [ref=e403]:
+                      - generic [ref=e404]: ₹12,999.00
+                      - generic [ref=e405]:
+                        - text: ₹
+                        - generic [ref=e406]:
+                          - text: 12,999
+                          - generic [ref=e407]: .
+                        - text: "00"
+                - generic [ref=e416] [cursor=pointer]:
+                  - button "Add to cart, adidas Mens Adistar 3 Sportswear Sportswear Shoes" [ref=e417]
+                  - generic [ref=e418]: Add to cart
+            - listitem [ref=e419]:
+              - generic [ref=e420]:
+                - generic [ref=e421]:
+                  - link "SPARX Sports Shoe SM-171 for Men" [ref=e422] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MTozNDYwNDMyNzIzMTk1OTkxOjE3ODIyNDAzMjY6c3BfaHVjX21yYWk6MzAxMTI5MTkzMTY5NTMyOjozOjo=&url=%2FSparx-White-Maroon-Synthetic-Running%2Fdp%2FB00IZ9681I%2Fref%3Dsw_img_d_sspa_dk_huc_pt_expsub_3%3F_encoding%3DUTF8%26pd_rd_i%3DB00IZ9681I%26pd_rd_w%3DUHNFC%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DJ167XBX3XTC99J50ZYSZ%26pd_rd_wg%3DegbVe%26pd_rd_r%3D6deda968-e883-44f4-bd39-03916164889e%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=00sADA3DPg
+                    - img "SPARX Sports Shoe SM-171 for Men" [ref=e424]
+                  - generic [ref=e425]:
+                    - link "SPARX Sports Shoe SM-171 for Men" [ref=e426] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTozNDYwNDMyNzIzMTk1OTkxOjE3ODIyNDAzMjY6c3BfaHVjX21yYWk6MzAxMTI5MTkzMTY5NTMyOjozOjo=&url=%2FSparx-White-Maroon-Synthetic-Running%2Fdp%2FB00IZ9681I%2Fref%3Dsw_ttl_d_sspa_dk_huc_pt_expsub_3%3F_encoding%3DUTF8%26pd_rd_i%3DB00IZ9681I%26pd_rd_w%3DUHNFC%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DJ167XBX3XTC99J50ZYSZ%26pd_rd_wg%3DegbVe%26pd_rd_r%3D6deda968-e883-44f4-bd39-03916164889e%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=00sADA3DPg
+                      - generic [ref=e428]: SPARX Sports Shoe SM-171 for Men
+                    - link "4.1 out of 5 stars 8,814" [ref=e430] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTozNDYwNDMyNzIzMTk1OTkxOjE3ODIyNDAzMjY6c3BfaHVjX21yYWk6MzAxMTI5MTkzMTY5NTMyOjozOjo=&url=%2Fproduct-reviews%2FB00IZ9681I%2Fref%3Dsw_cr_d_sspa_dk_huc_pt_expsub_3%3F_encoding%3DUTF8%26pd_rd_i%3DB00IZ9681I%26pd_rd_w%3DUHNFC%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DJ167XBX3XTC99J50ZYSZ%26pd_rd_wg%3DegbVe%26pd_rd_r%3D6deda968-e883-44f4-bd39-03916164889e%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=00sADA3DPg
+                      - generic [ref=e432]: 4.1 out of 5 stars
+                      - text: 8,814
+                    - generic [ref=e433]:
+                      - generic [ref=e434]:
+                        - generic [ref=e435]: ₹1,049.00
+                        - generic [ref=e436]:
+                          - text: ₹
+                          - generic [ref=e437]:
+                            - text: 1,049
+                            - generic [ref=e438]: .
+                          - text: "00"
+                      - generic [ref=e439]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e440]:
+                          - generic [ref=e441]: Previous Price ₹1,649.00
+                          - text: ₹1,649.00
+                - generic [ref=e450] [cursor=pointer]:
+                  - button "Add to cart, SPARX Sports Shoe SM-171 for Men" [ref=e451]
+                  - generic [ref=e452]: Add to cart
+            - listitem [ref=e453]:
+              - generic [ref=e454]:
+                - generic [ref=e455]:
+                  - link "JQR Men's Denzel Running Shoes" [ref=e456] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MTozNDYwNDMyNzIzMTk1OTkxOjE3ODIyNDAzMjY6c3BfaHVjX21yYWk6MzAxMDc4OTQyNjczMjMyOjo0Ojo=&url=%2FJQR-Denzel-Running-Shoes-India%2Fdp%2FB0GXVK5C5Z%2Fref%3Dsw_img_d_sspa_dk_huc_pt_expsub_4%3F_encoding%3DUTF8%26pd_rd_i%3DB0GXVK5C5Z%26pd_rd_w%3DUHNFC%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DJ167XBX3XTC99J50ZYSZ%26pd_rd_wg%3DegbVe%26pd_rd_r%3D6deda968-e883-44f4-bd39-03916164889e%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=rvzaZiRhWZ
+                    - img "JQR Men's Denzel Running Shoes" [ref=e458]
+                  - generic [ref=e459]:
+                    - link "JQR Men's Denzel Running Shoes" [ref=e460] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTozNDYwNDMyNzIzMTk1OTkxOjE3ODIyNDAzMjY6c3BfaHVjX21yYWk6MzAxMDc4OTQyNjczMjMyOjo0Ojo=&url=%2FJQR-Denzel-Running-Shoes-India%2Fdp%2FB0GXVK5C5Z%2Fref%3Dsw_ttl_d_sspa_dk_huc_pt_expsub_4%3F_encoding%3DUTF8%26pd_rd_i%3DB0GXVK5C5Z%26pd_rd_w%3DUHNFC%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DJ167XBX3XTC99J50ZYSZ%26pd_rd_wg%3DegbVe%26pd_rd_r%3D6deda968-e883-44f4-bd39-03916164889e%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=rvzaZiRhWZ
+                      - generic [ref=e462]: JQR Men's Denzel Running Shoes
+                    - link "5.0 out of 5 stars 1" [ref=e464] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTozNDYwNDMyNzIzMTk1OTkxOjE3ODIyNDAzMjY6c3BfaHVjX21yYWk6MzAxMDc4OTQyNjczMjMyOjo0Ojo=&url=%2Fproduct-reviews%2FB0GXVK5C5Z%2Fref%3Dsw_cr_d_sspa_dk_huc_pt_expsub_4%3F_encoding%3DUTF8%26pd_rd_i%3DB0GXVK5C5Z%26pd_rd_w%3DUHNFC%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DJ167XBX3XTC99J50ZYSZ%26pd_rd_wg%3DegbVe%26pd_rd_r%3D6deda968-e883-44f4-bd39-03916164889e%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=rvzaZiRhWZ
+                      - generic [ref=e466]: 5.0 out of 5 stars
+                      - text: "1"
+                    - generic [ref=e467]:
+                      - generic [ref=e468]:
+                        - generic [ref=e469]: ₹1,399.00
+                        - generic [ref=e470]:
+                          - text: ₹
+                          - generic [ref=e471]:
+                            - text: 1,399
+                            - generic [ref=e472]: .
+                          - text: "00"
+                      - generic [ref=e473]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e474]:
+                          - generic [ref=e475]: Previous Price ₹1,999.00
+                          - text: ₹1,999.00
+                - generic [ref=e484] [cursor=pointer]:
+                  - button "Add to cart, JQR Men's Denzel Running Shoes" [ref=e485]
+                  - generic [ref=e486]: Add to cart
+        - button "Next page" [ref=e488] [cursor=pointer]:
+          - generic [ref=e491]: Next page
+    - generic [ref=e492]:
+      - group [ref=e497]:
+        - generic [ref=e498]:
+          - heading "Customers who bought items in your cart also bought" [level=1] [ref=e500]
+          - generic [ref=e503]: Page 1 of 5
+        - generic [ref=e505]:
+          - button "Previous page" [ref=e507] [cursor=pointer]:
+            - generic [ref=e510]: Previous page
+          - group [ref=e512]:
+            - list [ref=e513]:
+              - listitem [ref=e514]:
+                - generic [ref=e515]:
+                  - generic [ref=e516]:
+                    - link "Delta RP100251 Marca Soap Dispenser, Chrome" [ref=e517] [cursor=pointer]:
+                      - /url: /Delta-RP100251-Marca-Dispenser-Chrome/dp/B0C5YZQ81T/ref=sw_img_d_crh_rh_hashrec?_encoding=UTF8&pd_rd_i=B0C5YZQ81T&pd_rd_w=6cxag&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - img "Delta RP100251 Marca Soap Dispenser, Chrome" [ref=e519]
+                    - generic [ref=e520]:
+                      - link "Delta RP100251 Marca Soap Dispenser, Chrome" [ref=e521] [cursor=pointer]:
+                        - /url: /Delta-RP100251-Marca-Dispenser-Chrome/dp/B0C5YZQ81T/ref=sw_ttl_d_crh_rh_hashrec?_encoding=UTF8&pd_rd_i=B0C5YZQ81T&pd_rd_w=6cxag&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                        - generic [ref=e523]: Delta RP100251 Marca Soap Dispenser, Chrome
+                      - link "4.1 out of 5 stars 16" [ref=e525] [cursor=pointer]:
+                        - /url: /product-reviews/B0C5YZQ81T/ref=sw_cr_d_crh_rh_hashrec?_encoding=UTF8&pd_rd_i=B0C5YZQ81T&pd_rd_w=6cxag&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                        - generic [ref=e527]: 4.1 out of 5 stars
+                        - text: "16"
+                      - generic [ref=e529]:
+                        - generic [ref=e530]: ₹14,342.00
+                        - generic [ref=e531]:
+                          - text: ₹
+                          - generic [ref=e532]:
+                            - text: 14,342
+                            - generic [ref=e533]: .
+                          - text: "00"
+                  - generic [ref=e542] [cursor=pointer]:
+                    - button "Add to cart, Delta RP100251 Marca Soap Dispenser, Chrome" [ref=e543]
+                    - generic [ref=e544]: Add to cart
+              - listitem [ref=e545]:
+                - generic [ref=e546]:
+                  - generic [ref=e547]:
+                    - link "Moen Revyl Chrome One-Handle Single Hole Modern Bathroom Sink Faucet with Optional Deckplate and Spring Loaded Drain Assembly" [ref=e548] [cursor=pointer]:
+                      - /url: /Moen-One-Handle-Bathroom-Deckplate-84771/dp/B0CFYQW4KP/ref=sw_img_d_crh_rh_hashrec_1?_encoding=UTF8&pd_rd_i=B0CFYQW4KP&pd_rd_w=6cxag&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - img "Moen Revyl Chrome One-Handle Single Hole Modern Bathroom Sink Faucet with Optional Deckplate and Spring Loaded Drain Assembly" [ref=e550]
+                    - generic [ref=e551]:
+                      - link "Moen Revyl Chrome One-Handle Single Hole Modern Bathroom Sink Faucet with Optional Deckplate and Spring Loaded Drain Assembly, 84771" [ref=e552] [cursor=pointer]:
+                        - /url: /Moen-One-Handle-Bathroom-Deckplate-84771/dp/B0CFYQW4KP/ref=sw_ttl_d_crh_rh_hashrec_1?_encoding=UTF8&pd_rd_i=B0CFYQW4KP&pd_rd_w=6cxag&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                        - generic [ref=e554]: Moen Revyl Chrome One-Handle Single Hole Modern Bathroom Sink Faucet with Optional Deckplate and Spring Loaded Drain Assembly, 84771
+                      - link "4.6 out of 5 stars 146" [ref=e556] [cursor=pointer]:
+                        - /url: /product-reviews/B0CFYQW4KP/ref=sw_cr_d_crh_rh_hashrec_1?_encoding=UTF8&pd_rd_i=B0CFYQW4KP&pd_rd_w=6cxag&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                        - generic [ref=e558]: 4.6 out of 5 stars
+                        - text: "146"
+                      - generic [ref=e560]:
+                        - generic [ref=e561]: ₹19,062.25
+                        - generic [ref=e562]:
+                          - text: ₹
+                          - generic [ref=e563]:
+                            - text: 19,062
+                            - generic [ref=e564]: .
+                          - text: "25"
+                  - generic [ref=e573] [cursor=pointer]:
+                    - button "Add to cart, Moen Revyl Chrome One-Handle Single Hole Modern Bathroom Sink Faucet with Optional Deckplate and Spring Loaded Drain Assembly, 84771" [ref=e574]
+                    - generic [ref=e575]: Add to cart
+              - listitem [ref=e576]:
+                - generic [ref=e577]:
+                  - generic [ref=e578]:
+                    - link "Built in Soap Dispenser for Kitchen Sink, Chrome Stainless Steel Countertop Pump Head (Plastic Inside), Dish Soap Hand Lotion" [ref=e579] [cursor=pointer]:
+                      - /url: /Dispenser-Kitchen-Stainless-Countertop-Refillable/dp/B09NBP7SKV/ref=sw_img_d_crh_rh_hashrec_2?_encoding=UTF8&pd_rd_i=B09NBP7SKV&pd_rd_w=6cxag&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - img "Built in Soap Dispenser for Kitchen Sink, Chrome Stainless Steel Countertop Pump Head (Plastic Inside), Dish Soap Hand Lotion" [ref=e581]
+                    - generic [ref=e582]:
+                      - link "Built in Soap Dispenser for Kitchen Sink, Chrome Stainless Steel Countertop Pump Head (Plastic Inside), Dish Soap Hand Lotion Dispenser with Refillable 17OZ Bottle" [ref=e583] [cursor=pointer]:
+                        - /url: /Dispenser-Kitchen-Stainless-Countertop-Refillable/dp/B09NBP7SKV/ref=sw_ttl_d_crh_rh_hashrec_2?_encoding=UTF8&pd_rd_i=B09NBP7SKV&pd_rd_w=6cxag&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                        - generic [ref=e585]: Built in Soap Dispenser for Kitchen Sink, Chrome Stainless Steel Countertop Pump Head (Plastic Inside), Dish Soap Hand Lotion Dispenser with Refillable 17OZ Bottle
+                      - link "4.5 out of 5 stars 297" [ref=e587] [cursor=pointer]:
+                        - /url: /product-reviews/B09NBP7SKV/ref=sw_cr_d_crh_rh_hashrec_2?_encoding=UTF8&pd_rd_i=B09NBP7SKV&pd_rd_w=6cxag&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                        - generic [ref=e589]: 4.5 out of 5 stars
+                        - text: "297"
+                      - generic [ref=e590]:
+                        - generic [ref=e591]:
+                          - generic [ref=e592]: ₹4,676.00
+                          - generic [ref=e593]:
+                            - text: ₹
+                            - generic [ref=e594]:
+                              - text: 4,676
+                              - generic [ref=e595]: .
+                            - text: "00"
+                        - generic [ref=e596]:
+                          - text: "M.R.P.:"
+                          - generic [ref=e597]:
+                            - generic [ref=e598]: Previous Price ₹6,239.00
+                            - text: ₹6,239.00
+                  - generic [ref=e607] [cursor=pointer]:
+                    - button "Add to cart, Built in Soap Dispenser for Kitchen Sink, Chrome Stainless Steel Countertop Pump Head (Plastic Inside), Dish Soap Hand Lotion Dispenser with Refillable 17OZ Bottle" [ref=e608]
+                    - generic [ref=e609]: Add to cart
+              - listitem [ref=e610]:
+                - generic [ref=e611]:
+                  - generic [ref=e612]:
+                    - link "Delta 51361 Hand Shower 1.75 GPM w/Slide Bar 4S Handshower, Chrome" [ref=e613] [cursor=pointer]:
+                      - /url: /Delta-51361-Shower-Handshower-Chrome/dp/B07T3PWWFW/ref=sw_img_d_crh_rh_hashrec_3?_encoding=UTF8&pd_rd_i=B07T3PWWFW&pd_rd_w=6cxag&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - img "Delta 51361 Hand Shower 1.75 GPM w/Slide Bar 4S Handshower, Chrome" [ref=e615]
+                    - generic [ref=e616]:
+                      - link "Delta 51361 Hand Shower 1.75 GPM w/Slide Bar 4S Handshower, Chrome" [ref=e617] [cursor=pointer]:
+                        - /url: /Delta-51361-Shower-Handshower-Chrome/dp/B07T3PWWFW/ref=sw_ttl_d_crh_rh_hashrec_3?_encoding=UTF8&pd_rd_i=B07T3PWWFW&pd_rd_w=6cxag&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                        - generic [ref=e619]: Delta 51361 Hand Shower 1.75 GPM w/Slide Bar 4S Handshower, Chrome
+                      - link "4.3 out of 5 stars 189" [ref=e621] [cursor=pointer]:
+                        - /url: /product-reviews/B07T3PWWFW/ref=sw_cr_d_crh_rh_hashrec_3?_encoding=UTF8&pd_rd_i=B07T3PWWFW&pd_rd_w=6cxag&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                        - generic [ref=e623]: 4.3 out of 5 stars
+                        - text: "189"
+                      - generic [ref=e625]:
+                        - generic [ref=e626]: ₹27,723.00
+                        - generic [ref=e627]:
+                          - text: ₹
+                          - generic [ref=e628]:
+                            - text: 27,723
+                            - generic [ref=e629]: .
+                          - text: "00"
+                  - generic [ref=e638] [cursor=pointer]:
+                    - button "Add to cart, Delta 51361 Hand Shower 1.75 GPM w/Slide Bar 4S Handshower, Chrome" [ref=e639]
+                    - generic [ref=e640]: Add to cart
+              - listitem [ref=e641]:
+                - generic [ref=e642]:
+                  - generic [ref=e643]:
+                    - link "SJeware Unisex Cotton Men And Women Solid Ankle Length Socks (Pack Of 5) Sjw-2013, Assorted" [ref=e644] [cursor=pointer]:
+                      - /url: /SJeware-Women-Solid-Length-SJW-2013/dp/B0C3DH4XPJ/ref=sw_img_d_crh_rh_hashrec_4?_encoding=UTF8&pd_rd_i=B0C3DH4XPJ&pd_rd_w=6cxag&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - img "SJeware Unisex Cotton Men And Women Solid Ankle Length Socks (Pack Of 5) Sjw-2013, Assorted" [ref=e646]
+                    - generic [ref=e647]:
+                      - link "SJeware Unisex Cotton Men And Women Solid Ankle Length Socks (Pack Of 5) Sjw-2013, Assorted" [ref=e648] [cursor=pointer]:
+                        - /url: /SJeware-Women-Solid-Length-SJW-2013/dp/B0C3DH4XPJ/ref=sw_ttl_d_crh_rh_hashrec_4?_encoding=UTF8&pd_rd_i=B0C3DH4XPJ&pd_rd_w=6cxag&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                        - generic [ref=e650]: SJeware Unisex Cotton Men And Women Solid Ankle Length Socks (Pack Of 5) Sjw-2013, Assorted
+                      - link "4.0 out of 5 stars 4,543" [ref=e652] [cursor=pointer]:
+                        - /url: /product-reviews/B0C3DH4XPJ/ref=sw_cr_d_crh_rh_hashrec_4?_encoding=UTF8&pd_rd_i=B0C3DH4XPJ&pd_rd_w=6cxag&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                        - generic [ref=e654]: 4.0 out of 5 stars
+                        - text: 4,543
+                      - generic [ref=e656]: 77% off Limited time deal
+                      - generic [ref=e657]:
+                        - generic [ref=e658]:
+                          - generic [ref=e659]: ₹116.98
+                          - generic [ref=e660]:
+                            - text: ₹
+                            - generic [ref=e661]:
+                              - text: "116"
+                              - generic [ref=e662]: .
+                            - text: "98"
+                        - generic [ref=e663]:
+                          - text: "M.R.P.:"
+                          - generic [ref=e664]:
+                            - generic [ref=e665]: Previous Price ₹499.00
+                            - text: ₹499.00
+                  - generic [ref=e674] [cursor=pointer]:
+                    - button "Add to cart, SJeware Unisex Cotton Men And Women Solid Ankle Length Socks (Pack Of 5) Sjw-2013, Assorted" [ref=e675]
+                    - generic [ref=e676]: Add to cart
+          - button "Next page" [ref=e678] [cursor=pointer]:
+            - generic [ref=e681]: Next page
+      - group [ref=e686]:
+        - heading "Best Sellers in Shoes" [level=1] [ref=e689]
+        - group [ref=e694]:
+          - list [ref=e695]:
+            - listitem [ref=e696]:
+              - generic [ref=e697]:
+                - generic [ref=e698]:
+                  - link "Red Tape Men Pull On Clogs" [ref=e699] [cursor=pointer]:
+                    - /url: /Red-Tape-Designer-Comfortable-Adjustable/dp/B0CSWN33CZ/ref=sw_img_d_ts_crc?_encoding=UTF8&pd_rd_i=B0CSWN33CZ&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                    - img "Red Tape Men Pull On Clogs" [ref=e701]
+                  - generic [ref=e702]:
+                    - link "Red Tape Men Pull On Clogs" [ref=e703] [cursor=pointer]:
+                      - /url: /Red-Tape-Designer-Comfortable-Adjustable/dp/B0CSWN33CZ/ref=sw_ttl_d_ts_crc?_encoding=UTF8&pd_rd_i=B0CSWN33CZ&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e705]: Red Tape Men Pull On Clogs
+                    - link "4.0 out of 5 stars 3,262" [ref=e707] [cursor=pointer]:
+                      - /url: /product-reviews/B0CSWN33CZ/ref=sw_cr_d_ts_crc?_encoding=UTF8&pd_rd_i=B0CSWN33CZ&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e709]: 4.0 out of 5 stars
+                      - text: 3,262
+                    - generic [ref=e711]: 83% off Limited time deal
+                    - generic [ref=e712]:
+                      - generic [ref=e713]:
+                        - generic [ref=e714]: ₹499.00
+                        - generic [ref=e715]:
+                          - text: ₹
+                          - generic [ref=e716]:
+                            - text: "499"
+                            - generic [ref=e717]: .
+                          - text: "00"
+                      - generic [ref=e718]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e719]:
+                          - generic [ref=e720]: Previous Price ₹2,999.00
+                          - text: ₹2,999.00
+                - generic [ref=e729] [cursor=pointer]:
+                  - button "Add to cart, Red Tape Men Pull On Clogs" [ref=e730]
+                  - generic [ref=e731]: Add to cart
+            - listitem [ref=e732]:
+              - generic [ref=e733]:
+                - generic [ref=e734]:
+                  - link "Liberty Force 10 School Shoes for Kids Boys & Girls - Black & White | Comfortable School Shoes | Lightweight & Durable | Easy" [ref=e735] [cursor=pointer]:
+                    - /url: /Liberty-Force-Gola-SCHV-School-Lacing/dp/B0BYVSTYP8/ref=sw_img_d_ts_crc_1?_encoding=UTF8&pd_rd_i=B0BYVSTYP8&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                    - img "Liberty Force 10 School Shoes for Kids Boys & Girls - Black & White | Comfortable School Shoes | Lightweight & Durable | Easy" [ref=e737]
+                  - generic [ref=e738]:
+                    - link "Liberty Force 10 School Shoes for Kids Boys & Girls - Black & White | Comfortable School Shoes | Lightweight & Durable | Easy Slip-On & Velcro Closure" [ref=e739] [cursor=pointer]:
+                      - /url: /Liberty-Force-Gola-SCHV-School-Lacing/dp/B0BYVSTYP8/ref=sw_ttl_d_ts_crc_1?_encoding=UTF8&pd_rd_i=B0BYVSTYP8&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e741]: Liberty Force 10 School Shoes for Kids Boys & Girls - Black & White | Comfortable School Shoes | Lightweight & Durable | Easy Slip-On & Velcro Closure
+                    - link "3.8 out of 5 stars 6,060" [ref=e743] [cursor=pointer]:
+                      - /url: /product-reviews/B0BYVSTYP8/ref=sw_cr_d_ts_crc_1?_encoding=UTF8&pd_rd_i=B0BYVSTYP8&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e745]: 3.8 out of 5 stars
+                      - text: 6,060
+                    - generic [ref=e746]:
+                      - generic [ref=e747]:
+                        - generic [ref=e748]: ₹385.00
+                        - generic [ref=e749]:
+                          - text: ₹
+                          - generic [ref=e750]:
+                            - text: "385"
+                            - generic [ref=e751]: .
+                          - text: "00"
+                      - generic [ref=e752]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e753]:
+                          - generic [ref=e754]: Previous Price ₹799.00
+                          - text: ₹799.00
+                - generic [ref=e763] [cursor=pointer]:
+                  - button "Add to cart, Liberty Force 10 School Shoes for Kids Boys & Girls - Black & White | Comfortable School Shoes | Lightweight & Durable | Easy Slip-On & Velcro Closure" [ref=e764]
+                  - generic [ref=e765]: Add to cart
+            - listitem [ref=e766]:
+              - generic [ref=e767]:
+                - generic [ref=e768]:
+                  - link "DOCTOR EXTRA SOFT Care Diabetic Orthopedic Pregnancy Flat Super Comfort Dr Flipflops and House Slippers For Women's and Girl'" [ref=e769] [cursor=pointer]:
+                    - /url: /DOCTOR-EXTRA-SOFT-D-18-Orthopaedic/dp/B09D8CXJ2Q/ref=sw_img_d_ts_crc_2?_encoding=UTF8&pd_rd_i=B09D8CXJ2Q&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                    - img "DOCTOR EXTRA SOFT Care Diabetic Orthopedic Pregnancy Flat Super Comfort Dr Flipflops and House Slippers For Women's and Girl'" [ref=e771]
+                  - generic [ref=e772]:
+                    - link "DOCTOR EXTRA SOFT Care Diabetic Orthopedic Pregnancy Flat Super Comfort Dr Flipflops and House Slippers For Women's and Girl's" [ref=e773] [cursor=pointer]:
+                      - /url: /DOCTOR-EXTRA-SOFT-D-18-Orthopaedic/dp/B09D8CXJ2Q/ref=sw_ttl_d_ts_crc_2?_encoding=UTF8&pd_rd_i=B09D8CXJ2Q&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e775]: DOCTOR EXTRA SOFT Care Diabetic Orthopedic Pregnancy Flat Super Comfort Dr Flipflops and House Slippers For Women's and Girl's
+                    - link "4.0 out of 5 stars 59,847" [ref=e777] [cursor=pointer]:
+                      - /url: /product-reviews/B09D8CXJ2Q/ref=sw_cr_d_ts_crc_2?_encoding=UTF8&pd_rd_i=B09D8CXJ2Q&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e779]: 4.0 out of 5 stars
+                      - text: 59,847
+                    - generic [ref=e780]:
+                      - generic [ref=e781]:
+                        - generic [ref=e782]: ₹427.85
+                        - generic [ref=e783]:
+                          - text: ₹
+                          - generic [ref=e784]:
+                            - text: "427"
+                            - generic [ref=e785]: .
+                          - text: "85"
+                      - generic [ref=e786]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e787]:
+                          - generic [ref=e788]: Previous Price ₹999.00
+                          - text: ₹999.00
+                - generic [ref=e797] [cursor=pointer]:
+                  - button "Add to cart, DOCTOR EXTRA SOFT Care Diabetic Orthopedic Pregnancy Flat Super Comfort Dr Flipflops and House Slippers For Women's and Girl's" [ref=e798]
+                  - generic [ref=e799]: Add to cart
+            - listitem [ref=e800]:
+              - generic [ref=e801]:
+                - generic [ref=e802]:
+                  - link "Dr.Ortho Orthopedic Slippers | Acupressure Slippers | Flip-Flops | For Men & Women's Slippers" [ref=e803] [cursor=pointer]:
+                    - /url: /Dr-Ortho-Acupressure-Flip-Flops-Comfortable-Lightweight/dp/B0DZ71JLJG/ref=sw_img_d_ts_crc_3?_encoding=UTF8&pd_rd_i=B0DZ71JLJG&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                    - img "Dr.Ortho Orthopedic Slippers | Acupressure Slippers | Flip-Flops | For Men & Women's Slippers" [ref=e805]
+                  - generic [ref=e806]:
+                    - link "Dr.Ortho Orthopedic Slippers | Acupressure Slippers | Flip-Flops | For Men & Women's Slippers" [ref=e807] [cursor=pointer]:
+                      - /url: /Dr-Ortho-Acupressure-Flip-Flops-Comfortable-Lightweight/dp/B0DZ71JLJG/ref=sw_ttl_d_ts_crc_3?_encoding=UTF8&pd_rd_i=B0DZ71JLJG&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e809]: Dr.Ortho Orthopedic Slippers | Acupressure Slippers | Flip-Flops | For Men & Women's Slippers
+                    - link "4.2 out of 5 stars 7,912" [ref=e811] [cursor=pointer]:
+                      - /url: /product-reviews/B0DZ71JLJG/ref=sw_cr_d_ts_crc_3?_encoding=UTF8&pd_rd_i=B0DZ71JLJG&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e813]: 4.2 out of 5 stars
+                      - text: 7,912
+                    - generic [ref=e814]:
+                      - generic [ref=e815]:
+                        - generic [ref=e816]: ₹399.00
+                        - generic [ref=e817]:
+                          - text: ₹
+                          - generic [ref=e818]:
+                            - text: "399"
+                            - generic [ref=e819]: .
+                          - text: "00"
+                      - generic [ref=e820]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e821]:
+                          - generic [ref=e822]: Previous Price ₹464.00
+                          - text: ₹464.00
+                - generic [ref=e831] [cursor=pointer]:
+                  - button "Add to cart, Dr.Ortho Orthopedic Slippers | Acupressure Slippers | Flip-Flops | For Men & Women's Slippers" [ref=e832]
+                  - generic [ref=e833]: Add to cart
+            - listitem [ref=e834]:
+              - generic [ref=e835]:
+                - generic [ref=e836]:
+                  - link "DOCTOR EXTRA SOFT House Slipper for Women's Care Dr Orthopaedic Super Comfort Fitting Flat Cushion Chappal Flip-Flop for Ladi" [ref=e837] [cursor=pointer]:
+                    - /url: /DOCTOR-EXTRA-SOFT-Slippers-Numeric_7/dp/B08DXL36HK/ref=sw_img_d_ts_crc_4?_encoding=UTF8&pd_rd_i=B08DXL36HK&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                    - img "DOCTOR EXTRA SOFT House Slipper for Women's Care Dr Orthopaedic Super Comfort Fitting Flat Cushion Chappal Flip-Flop for Ladi" [ref=e839]
+                  - generic [ref=e840]:
+                    - link "DOCTOR EXTRA SOFT House Slipper for Women's Care Dr Orthopaedic Super Comfort Fitting Flat Cushion Chappal Flip-Flop for Ladies & Girl’s" [ref=e841] [cursor=pointer]:
+                      - /url: /DOCTOR-EXTRA-SOFT-Slippers-Numeric_7/dp/B08DXL36HK/ref=sw_ttl_d_ts_crc_4?_encoding=UTF8&pd_rd_i=B08DXL36HK&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e843]: DOCTOR EXTRA SOFT House Slipper for Women's Care Dr Orthopaedic Super Comfort Fitting Flat Cushion Chappal Flip-Flop for Ladies & Girl’s
+                    - link "4.0 out of 5 stars 27,161" [ref=e845] [cursor=pointer]:
+                      - /url: /product-reviews/B08DXL36HK/ref=sw_cr_d_ts_crc_4?_encoding=UTF8&pd_rd_i=B08DXL36HK&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e847]: 4.0 out of 5 stars
+                      - text: 27,161
+                    - generic [ref=e849]: 34% off Limited time deal
+                    - generic [ref=e850]:
+                      - generic [ref=e851]:
+                        - generic [ref=e852]: ₹397.85
+                        - generic [ref=e853]:
+                          - text: ₹
+                          - generic [ref=e854]:
+                            - text: "397"
+                            - generic [ref=e855]: .
+                          - text: "85"
+                      - generic [ref=e856]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e857]:
+                          - generic [ref=e858]: Previous Price ₹599.00
+                          - text: ₹599.00
+                - generic [ref=e867] [cursor=pointer]:
+                  - button "Add to cart, DOCTOR EXTRA SOFT House Slipper for Women's Care Dr Orthopaedic Super Comfort Fitting Flat Cushion Chappal Flip-Flop for Ladies & Girl’s" [ref=e868]
+                  - generic [ref=e869]: Add to cart
+            - listitem [ref=e870]:
+              - generic [ref=e871]:
+                - generic [ref=e872]:
+                  - link "Sparx Mens SS 453 Sandals" [ref=e873] [cursor=pointer]:
+                    - /url: /SPARX-Latest-Stylish-Floaters-Sandal/dp/B075G5HC8P/ref=sw_img_d_ts_crc_5?_encoding=UTF8&pd_rd_i=B075G5HC8P&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                    - img "Sparx Mens SS 453 Sandals" [ref=e875]
+                  - generic [ref=e876]:
+                    - link "Sparx Mens SS 453 Sandals" [ref=e877] [cursor=pointer]:
+                      - /url: /SPARX-Latest-Stylish-Floaters-Sandal/dp/B075G5HC8P/ref=sw_ttl_d_ts_crc_5?_encoding=UTF8&pd_rd_i=B075G5HC8P&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e879]: Sparx Mens SS 453 Sandals
+                    - link "4.0 out of 5 stars 35,258" [ref=e881] [cursor=pointer]:
+                      - /url: /product-reviews/B075G5HC8P/ref=sw_cr_d_ts_crc_5?_encoding=UTF8&pd_rd_i=B075G5HC8P&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e883]: 4.0 out of 5 stars
+                      - text: 35,258
+                    - generic [ref=e884]:
+                      - generic [ref=e885]:
+                        - generic [ref=e886]: ₹682.00
+                        - generic [ref=e887]:
+                          - text: ₹
+                          - generic [ref=e888]:
+                            - text: "682"
+                            - generic [ref=e889]: .
+                          - text: "00"
+                      - generic [ref=e890]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e891]:
+                          - generic [ref=e892]: Previous Price ₹899.00
+                          - text: ₹899.00
+                - generic [ref=e901] [cursor=pointer]:
+                  - button "Add to cart, Sparx Mens SS 453 Sandals" [ref=e902]
+                  - generic [ref=e903]: Add to cart
+            - listitem [ref=e904]:
+              - generic [ref=e905]:
+                - generic [ref=e906]:
+                  - link "ASIAN Wonder-13 Men's Running Shoe | Lightweight Sports Design, Soft Cushioning, Reliable Grip for Casual, Travel & Gym" [ref=e907] [cursor=pointer]:
+                    - /url: /ASIAN-Wonder-13-Sports-Running-Shoes/dp/B01N54ZM9W/ref=sw_img_d_ts_crc_6?_encoding=UTF8&pd_rd_i=B01N54ZM9W&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                    - img "ASIAN Wonder-13 Men's Running Shoe | Lightweight Sports Design, Soft Cushioning, Reliable Grip for Casual, Travel & Gym" [ref=e909]
+                  - generic [ref=e910]:
+                    - link "ASIAN Wonder-13 Men's Running Shoe | Lightweight Sports Design, Soft Cushioning, Reliable Grip for Casual, Travel & Gym" [ref=e911] [cursor=pointer]:
+                      - /url: /ASIAN-Wonder-13-Sports-Running-Shoes/dp/B01N54ZM9W/ref=sw_ttl_d_ts_crc_6?_encoding=UTF8&pd_rd_i=B01N54ZM9W&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e913]: ASIAN Wonder-13 Men's Running Shoe | Lightweight Sports Design, Soft Cushioning, Reliable Grip for Casual, Travel & Gym
+                    - link "4.0 out of 5 stars 111,449" [ref=e915] [cursor=pointer]:
+                      - /url: /product-reviews/B01N54ZM9W/ref=sw_cr_d_ts_crc_6?_encoding=UTF8&pd_rd_i=B01N54ZM9W&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e917]: 4.0 out of 5 stars
+                      - text: 111,449
+                    - generic [ref=e918]:
+                      - generic [ref=e919]:
+                        - generic [ref=e920]: ₹599.00
+                        - generic [ref=e921]:
+                          - text: ₹
+                          - generic [ref=e922]:
+                            - text: "599"
+                            - generic [ref=e923]: .
+                          - text: "00"
+                      - generic [ref=e924]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e925]:
+                          - generic [ref=e926]: Previous Price ₹999.00
+                          - text: ₹999.00
+                - generic [ref=e935] [cursor=pointer]:
+                  - button "Add to cart, ASIAN Wonder-13 Men's Running Shoe | Lightweight Sports Design, Soft Cushioning, Reliable Grip for Casual, Travel & Gym" [ref=e936]
+                  - generic [ref=e937]: Add to cart
+            - listitem [ref=e938]:
+              - generic [ref=e939]:
+                - generic [ref=e940]:
+                  - link "YOHO Drizzle Soft Slippers for Women, Mild Acupressure, Lightweight, Anti Skid & Slip, Diabetic Footwear for Woman, Home Wear" [ref=e941] [cursor=pointer]:
+                    - /url: /YOHO-comfortable-slippers-Lightweight-Waterproof/dp/B0BRL22YLB/ref=sw_img_d_ts_crc_7?_encoding=UTF8&pd_rd_i=B0BRL22YLB&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                    - img "YOHO Drizzle Soft Slippers for Women, Mild Acupressure, Lightweight, Anti Skid & Slip, Diabetic Footwear for Woman, Home Wear" [ref=e943]
+                  - generic [ref=e944]:
+                    - link "YOHO Drizzle Soft Slippers for Women, Mild Acupressure, Lightweight, Anti Skid & Slip, Diabetic Footwear for Woman, Home Wear Bathroom Chappal for ladies" [ref=e945] [cursor=pointer]:
+                      - /url: /YOHO-comfortable-slippers-Lightweight-Waterproof/dp/B0BRL22YLB/ref=sw_ttl_d_ts_crc_7?_encoding=UTF8&pd_rd_i=B0BRL22YLB&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e947]: YOHO Drizzle Soft Slippers for Women, Mild Acupressure, Lightweight, Anti Skid & Slip, Diabetic Footwear for Woman, Home Wear Bathroom Chappal for ladies
+                    - link "4.2 out of 5 stars 4,042" [ref=e949] [cursor=pointer]:
+                      - /url: /product-reviews/B0BRL22YLB/ref=sw_cr_d_ts_crc_7?_encoding=UTF8&pd_rd_i=B0BRL22YLB&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e951]: 4.2 out of 5 stars
+                      - text: 4,042
+                    - generic [ref=e952]:
+                      - generic [ref=e953]:
+                        - generic [ref=e954]: ₹559.00
+                        - generic [ref=e955]:
+                          - text: ₹
+                          - generic [ref=e956]:
+                            - text: "559"
+                            - generic [ref=e957]: .
+                          - text: "00"
+                      - generic [ref=e958]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e959]:
+                          - generic [ref=e960]: Previous Price ₹1,499.00
+                          - text: ₹1,499.00
+                - generic [ref=e969] [cursor=pointer]:
+                  - button "Add to cart, YOHO Drizzle Soft Slippers for Women, Mild Acupressure, Lightweight, Anti Skid & Slip, Diabetic Footwear for Woman, Home Wear Bathroom Chappal for ladies" [ref=e970]
+                  - generic [ref=e971]: Add to cart
+            - listitem [ref=e972]:
+              - generic [ref=e973]:
+                - generic [ref=e974]:
+                  - link "DOCTOR EXTRA SOFT Doctor Slippers for Women Orthopedic Diabetic Pregnancy Non Slip Lightweight Comfortable Flat Casual Stylis" [ref=e975] [cursor=pointer]:
+                    - /url: /DOCTOR-EXTRA-SOFT-Lightweight-D-22-Bk-Pink-6/dp/B0BYTC95RD/ref=sw_img_d_ts_crc_8?_encoding=UTF8&pd_rd_i=B0BYTC95RD&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                    - img "DOCTOR EXTRA SOFT Doctor Slippers for Women Orthopedic Diabetic Pregnancy Non Slip Lightweight Comfortable Flat Casual Stylis" [ref=e977]
+                  - generic [ref=e978]:
+                    - link "DOCTOR EXTRA SOFT Doctor Slippers for Women Orthopedic Diabetic Pregnancy Non Slip Lightweight Comfortable Flat Casual Stylish DR Chappals and House Flip flops For Ladies & Girl’s D-22" [ref=e979] [cursor=pointer]:
+                      - /url: /DOCTOR-EXTRA-SOFT-Lightweight-D-22-Bk-Pink-6/dp/B0BYTC95RD/ref=sw_ttl_d_ts_crc_8?_encoding=UTF8&pd_rd_i=B0BYTC95RD&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e981]: DOCTOR EXTRA SOFT Doctor Slippers for Women Orthopedic Diabetic Pregnancy Non Slip Lightweight Comfortable Flat Casual Stylish DR Chappals and House Flip flops For Ladies & Girl’s D-22
+                    - link "4.2 out of 5 stars 6,132" [ref=e983] [cursor=pointer]:
+                      - /url: /product-reviews/B0BYTC95RD/ref=sw_cr_d_ts_crc_8?_encoding=UTF8&pd_rd_i=B0BYTC95RD&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e985]: 4.2 out of 5 stars
+                      - text: 6,132
+                    - generic [ref=e986]:
+                      - generic [ref=e987]:
+                        - generic [ref=e988]: ₹377.85
+                        - generic [ref=e989]:
+                          - text: ₹
+                          - generic [ref=e990]:
+                            - text: "377"
+                            - generic [ref=e991]: .
+                          - text: "85"
+                      - generic [ref=e992]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e993]:
+                          - generic [ref=e994]: Previous Price ₹999.00
+                          - text: ₹999.00
+                - generic [ref=e1003] [cursor=pointer]:
+                  - button "Add to cart, DOCTOR EXTRA SOFT Doctor Slippers for Women Orthopedic Diabetic Pregnancy Non Slip Lightweight Comfortable Flat Casual Stylish DR Chappals and House Flip flops For Ladies & Girl’s D-22" [ref=e1004]
+                  - generic [ref=e1005]: Add to cart
+            - listitem [ref=e1006]:
+              - generic [ref=e1007]:
+                - generic [ref=e1008]:
+                  - link "DOCTOR HEALTH SUPER SOFT Women’s Orthopedic Soft Platform Slippers | Ultra-Cushioned Shock Absorbing Footbed | Lightweight An" [ref=e1009] [cursor=pointer]:
+                    - /url: /DOCTOR-HEALTH-SUPER-SOFT-Ultra-Cushioned/dp/B0G5L5KQNR/ref=sw_img_d_ts_crc_9?_encoding=UTF8&pd_rd_i=B0G5L5KQNR&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                    - img "DOCTOR HEALTH SUPER SOFT Women’s Orthopedic Soft Platform Slippers | Ultra-Cushioned Shock Absorbing Footbed | Lightweight An" [ref=e1011]
+                  - generic [ref=e1012]:
+                    - link "DOCTOR HEALTH SUPER SOFT Women’s Orthopedic Soft Platform Slippers | Ultra-Cushioned Shock Absorbing Footbed | Lightweight Anti-Skid Everyday Wear Comfort Flip Flops for All-Day Support" [ref=e1013] [cursor=pointer]:
+                      - /url: /DOCTOR-HEALTH-SUPER-SOFT-Ultra-Cushioned/dp/B0G5L5KQNR/ref=sw_ttl_d_ts_crc_9?_encoding=UTF8&pd_rd_i=B0G5L5KQNR&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e1015]: DOCTOR HEALTH SUPER SOFT Women’s Orthopedic Soft Platform Slippers | Ultra-Cushioned Shock Absorbing Footbed | Lightweight Anti-Skid Everyday Wear Comfort Flip Flops for All-Day Support
+                    - link "4.0 out of 5 stars 834" [ref=e1017] [cursor=pointer]:
+                      - /url: /product-reviews/B0G5L5KQNR/ref=sw_cr_d_ts_crc_9?_encoding=UTF8&pd_rd_i=B0G5L5KQNR&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e1019]: 4.0 out of 5 stars
+                      - text: "834"
+                    - generic [ref=e1021]: 76% off Limited time deal
+                    - generic [ref=e1022]:
+                      - generic [ref=e1023]:
+                        - generic [ref=e1024]: ₹599.00
+                        - generic [ref=e1025]:
+                          - text: ₹
+                          - generic [ref=e1026]:
+                            - text: "599"
+                            - generic [ref=e1027]: .
+                          - text: "00"
+                      - generic [ref=e1028]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e1029]:
+                          - generic [ref=e1030]: Previous Price ₹2,499.00
+                          - text: ₹2,499.00
+                - generic [ref=e1039] [cursor=pointer]:
+                  - button "Add to cart, DOCTOR HEALTH SUPER SOFT Women’s Orthopedic Soft Platform Slippers | Ultra-Cushioned Shock Absorbing Footbed | Lightweight Anti-Skid Everyday Wear Comfort Flip Flops for All-Day Support" [ref=e1040]
+                  - generic [ref=e1041]: Add to cart
+            - listitem [ref=e1042]:
+              - generic [ref=e1043]:
+                - generic [ref=e1044]:
+                  - link "YOHO ArchFlex orthopedic slippers for women | Arch support for pain relief | Soft, Anti-Skid, lightweight | comfortable padde" [ref=e1045] [cursor=pointer]:
+                    - /url: /YOHO-slippers-comfortable-Flip-Flops-Slippers/dp/B0BLYGY7GY/ref=sw_img_d_ts_crc_10?_encoding=UTF8&pd_rd_i=B0BLYGY7GY&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                    - img "YOHO ArchFlex orthopedic slippers for women | Arch support for pain relief | Soft, Anti-Skid, lightweight | comfortable padde" [ref=e1047]
+                  - generic [ref=e1048]:
+                    - link "YOHO ArchFlex orthopedic slippers for women | Arch support for pain relief | Soft, Anti-Skid, lightweight | comfortable padded straps flip flops for Everyday" [ref=e1049] [cursor=pointer]:
+                      - /url: /YOHO-slippers-comfortable-Flip-Flops-Slippers/dp/B0BLYGY7GY/ref=sw_ttl_d_ts_crc_10?_encoding=UTF8&pd_rd_i=B0BLYGY7GY&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e1051]: YOHO ArchFlex orthopedic slippers for women | Arch support for pain relief | Soft, Anti-Skid, lightweight | comfortable padded straps flip flops for Everyday
+                    - link "4.0 out of 5 stars 2,452" [ref=e1053] [cursor=pointer]:
+                      - /url: /product-reviews/B0BLYGY7GY/ref=sw_cr_d_ts_crc_10?_encoding=UTF8&pd_rd_i=B0BLYGY7GY&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e1055]: 4.0 out of 5 stars
+                      - text: 2,452
+                    - generic [ref=e1056]:
+                      - generic [ref=e1057]:
+                        - generic [ref=e1058]: ₹659.00
+                        - generic [ref=e1059]:
+                          - text: ₹
+                          - generic [ref=e1060]:
+                            - text: "659"
+                            - generic [ref=e1061]: .
+                          - text: "00"
+                      - generic [ref=e1062]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e1063]:
+                          - generic [ref=e1064]: Previous Price ₹899.00
+                          - text: ₹899.00
+                - generic [ref=e1073] [cursor=pointer]:
+                  - button "Add to cart, YOHO ArchFlex orthopedic slippers for women | Arch support for pain relief | Soft, Anti-Skid, lightweight | comfortable padded straps flip flops for Everyday" [ref=e1074]
+                  - generic [ref=e1075]: Add to cart
+            - listitem [ref=e1076]:
+              - generic [ref=e1077]:
+                - generic [ref=e1078]:
+                  - link "DOCTOR HEALTH SUPER SOFT Women Soft Cushioned Flip Flops | Lightweight Comfort Slippers | Anti-Slip Casual Sandals for Indoor" [ref=e1079] [cursor=pointer]:
+                    - /url: /DOCTOR-HEALTH-SUPER-SOFT-Lightweight/dp/B0GSJXVNHC/ref=sw_img_d_ts_crc_11?_encoding=UTF8&pd_rd_i=B0GSJXVNHC&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                    - img "DOCTOR HEALTH SUPER SOFT Women Soft Cushioned Flip Flops | Lightweight Comfort Slippers | Anti-Slip Casual Sandals for Indoor" [ref=e1081]
+                  - generic [ref=e1082]:
+                    - link "DOCTOR HEALTH SUPER SOFT Women Soft Cushioned Flip Flops | Lightweight Comfort Slippers | Anti-Slip Casual Sandals for Indoor Outdoor Everyday Wear" [ref=e1083] [cursor=pointer]:
+                      - /url: /DOCTOR-HEALTH-SUPER-SOFT-Lightweight/dp/B0GSJXVNHC/ref=sw_ttl_d_ts_crc_11?_encoding=UTF8&pd_rd_i=B0GSJXVNHC&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e1085]: DOCTOR HEALTH SUPER SOFT Women Soft Cushioned Flip Flops | Lightweight Comfort Slippers | Anti-Slip Casual Sandals for Indoor Outdoor Everyday Wear
+                    - link "4.0 out of 5 stars 130" [ref=e1087] [cursor=pointer]:
+                      - /url: /product-reviews/B0GSJXVNHC/ref=sw_cr_d_ts_crc_11?_encoding=UTF8&pd_rd_i=B0GSJXVNHC&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e1089]: 4.0 out of 5 stars
+                      - text: "130"
+                    - generic [ref=e1091]: 76% off Limited time deal
+                    - generic [ref=e1092]:
+                      - generic [ref=e1093]:
+                        - generic [ref=e1094]: ₹599.00
+                        - generic [ref=e1095]:
+                          - text: ₹
+                          - generic [ref=e1096]:
+                            - text: "599"
+                            - generic [ref=e1097]: .
+                          - text: "00"
+                      - generic [ref=e1098]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e1099]:
+                          - generic [ref=e1100]: Previous Price ₹2,499.00
+                          - text: ₹2,499.00
+                - generic [ref=e1109] [cursor=pointer]:
+                  - button "Add to cart, DOCTOR HEALTH SUPER SOFT Women Soft Cushioned Flip Flops | Lightweight Comfort Slippers | Anti-Slip Casual Sandals for Indoor Outdoor Everyday Wear" [ref=e1110]
+                  - generic [ref=e1111]: Add to cart
+            - listitem [ref=e1112]:
+              - generic [ref=e1113]:
+                - generic [ref=e1114]:
+                  - link "Liberty A-HA LPMXT-800 Casual Slingback Clogs for Men with EVA Sole - Slip-On Comfort, Comfortable, Breathable & Lightweight" [ref=e1115] [cursor=pointer]:
+                    - /url: /Liberty-HA-LPMXT-800-Casual-Clogs/dp/B0BM5QMGLF/ref=sw_img_d_ts_crc_12?_encoding=UTF8&pd_rd_i=B0BM5QMGLF&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                    - img "Liberty A-HA LPMXT-800 Casual Slingback Clogs for Men with EVA Sole - Slip-On Comfort, Comfortable, Breathable & Lightweight" [ref=e1117]
+                  - generic [ref=e1118]:
+                    - link "Liberty A-HA LPMXT-800 Casual Slingback Clogs for Men with EVA Sole - Slip-On Comfort, Comfortable, Breathable & Lightweight | Ideal for All-Day Wear | Versatile for Indoors/Outdoors | Home Footwear" [ref=e1119] [cursor=pointer]:
+                      - /url: /Liberty-HA-LPMXT-800-Casual-Clogs/dp/B0BM5QMGLF/ref=sw_ttl_d_ts_crc_12?_encoding=UTF8&pd_rd_i=B0BM5QMGLF&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e1121]: Liberty A-HA LPMXT-800 Casual Slingback Clogs for Men with EVA Sole - Slip-On Comfort, Comfortable, Breathable & Lightweight | Ideal for All-Day Wear | Versatile for Indoors/Outdoors | Home Footwear
+                    - link "3.4 out of 5 stars 4,620" [ref=e1123] [cursor=pointer]:
+                      - /url: /product-reviews/B0BM5QMGLF/ref=sw_cr_d_ts_crc_12?_encoding=UTF8&pd_rd_i=B0BM5QMGLF&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e1125]: 3.4 out of 5 stars
+                      - text: 4,620
+                    - generic [ref=e1126]:
+                      - generic [ref=e1127]:
+                        - generic [ref=e1128]: ₹349.00
+                        - generic [ref=e1129]:
+                          - text: ₹
+                          - generic [ref=e1130]:
+                            - text: "349"
+                            - generic [ref=e1131]: .
+                          - text: "00"
+                      - generic [ref=e1132]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e1133]:
+                          - generic [ref=e1134]: Previous Price ₹1,299.00
+                          - text: ₹1,299.00
+                - generic [ref=e1143] [cursor=pointer]:
+                  - button "Add to cart, Liberty A-HA LPMXT-800 Casual Slingback Clogs for Men with EVA Sole - Slip-On Comfort, Comfortable, Breathable & Lightweight | Ideal for All-Day Wear | Versatile for Indoors/Outdoors | Home Footwear" [ref=e1144]
+                  - generic [ref=e1145]: Add to cart
+            - listitem [ref=e1146]:
+              - generic [ref=e1147]:
+                - generic [ref=e1148]:
+                  - link "Bata Men's Lace-up Formal Shoes" [ref=e1149] [cursor=pointer]:
+                    - /url: /Bata-Mens-Lace-up-Formal-Shoes/dp/B096BFVSFG/ref=sw_img_d_ts_crc_13?_encoding=UTF8&pd_rd_i=B096BFVSFG&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                    - img "Bata Men's Lace-up Formal Shoes" [ref=e1151]
+                  - generic [ref=e1152]:
+                    - link "Bata Men's Lace-up Formal Shoes" [ref=e1153] [cursor=pointer]:
+                      - /url: /Bata-Mens-Lace-up-Formal-Shoes/dp/B096BFVSFG/ref=sw_ttl_d_ts_crc_13?_encoding=UTF8&pd_rd_i=B096BFVSFG&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e1155]: Bata Men's Lace-up Formal Shoes
+                    - link "3.7 out of 5 stars 10,369" [ref=e1157] [cursor=pointer]:
+                      - /url: /product-reviews/B096BFVSFG/ref=sw_cr_d_ts_crc_13?_encoding=UTF8&pd_rd_i=B096BFVSFG&pd_rd_w=C5jAh&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=J167XBX3XTC99J50ZYSZ&pd_rd_wg=egbVe&pd_rd_r=6deda968-e883-44f4-bd39-03916164889e
+                      - generic [ref=e1159]: 3.7 out of 5 stars
+                      - text: 10,369
+                    - generic [ref=e1160]:
+                      - generic [ref=e1161]:
+                        - generic [ref=e1162]: ₹779.00
+                        - generic [ref=e1163]:
+                          - text: ₹
+                          - generic [ref=e1164]:
+                            - text: "779"
+                            - generic [ref=e1165]: .
+                          - text: "00"
+                      - generic [ref=e1166]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e1167]:
+                          - generic [ref=e1168]: Previous Price ₹999.00
+                          - text: ₹999.00
+                - generic [ref=e1177] [cursor=pointer]:
+                  - button "Add to cart, Bata Men's Lace-up Formal Shoes" [ref=e1178]
+                  - generic [ref=e1179]: Add to cart
+      - generic [ref=e1183]:
+        - iframe [ref=e1184]:
+          - generic [ref=f15e4]:
+            - generic [ref=f15e5]: "Click to navigate to product detail page Sponsored Ad. Product image. Branded image. Campus Men Camp-Glacier Running Shoes. Price: ₹1,259.00."
+            - img "Product image" [ref=f15e13]
+            - link "Click to navigate to product detail page" [ref=f15e17] [cursor=pointer]:
+              - /url: https://aax-eu.amazon.in/x/c/RHorYjKptnqY-iRMaBQDGDEAAAGe9c0zmQMAAAH_AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICD0elw3/clv1c_ek-YwoXWLcTeThVvum_vvgifnA1k7U4dT4dTFHORTYLYWaKt9ai-eGoEfnTPFJ3jjadvfVq9d78xf-h3-2ccK6lPmnb7c68Z-aeH3gcRYvJi6hppr4VJiAyAiCbdaS1Zh8hKThZBHXvH8gdp22CuhnrAgTzgnFGqkMPi53f3VG6tyCov80mY419D51v9CL25I19Gg1I9zo4sSc8_LgrpeazRzN9_Q8uZEYN6zFkIBRwpdQBFVHqLelUFKYByqDed-hXT6pF9XsXMBDb321pOvdIiS95fUYiBw6vFZKCXYiC39PXHa4LUJHhme-Cxoo5zO6x7F2H5VDm5vOsuDqap6ANvpOY_h7qREvOmcMYeF_Q6kYB2sMZPR4ToV4vvvM6WUx9ucAepvoeF782oVD17p5t3-2fZd_4vz4t4yGAYx0b6NU928v7j5j-484c_GqUbLB5g7_afXx6a3AHnOHitBnIJCo9IQl5k49KT7Kwr7VHqRLRONdSt3E7BXtXKaES1l0Bi3RmoolOHdSrciS3S5FOOe9zg95eKUx31CEO0Yi4et_s_odP3jxuGcRcUBxpR1TD9C5INVlLPWfFaTLATWlf19nyRPcPw4akuAmPiaeMKcjYYpGHcO3VJp5iNzEcJQnmBgTnwmTEew2y3MbNutT4Huiu4u3WaiAEhef3hEtNVqM9AgtKRx0PBx7L7SDfu1bIwiOvEkgPPoCvQjFM0N4JCYeH_AHNkulqBxQDHkh1dszYSP5kELGG5RrjcEhXnjv1YsuJu7rLQ3xCnYD6w7QmJ71IS4hkEhKKrN_a__z7Q8Grfl2NVf_OzK7TrQnR0QY8pRP2oWuDlZM6ys5i_6q1FwEVMM5TUQlDx7ZZ1QOAYjWVo3IR4iQ5NVjUob4gLa2lAU_rbLgDx9i0tmVNwcRrcLsUvmYVRu-mTqPD_v7phq4Zpu_6xhGx_y5L1caafTqy3qLD8jtzZfMGKrqZsNPNAlCNDssoGwxrRtOiJaNvgqD0DAmsCMFqGc2na1h2MTNzIEqER2BhBuozgQa1kH9rV566i_1gqr1ZEwDyOV7eAjJCsiFUuQ-STWgXoA7iCq9lacCRjC-gMyA9r6-X0IOO9zABcezSeDxv4ttn5_mxJXoUdtuLfVMTy0vN6fz5xAiVPIkvKkWz8Hy3zpCl8aj0VxZ6gkgB0/http://www.amazon.in/dp/B0BCQX2GZN/ref=syn_sd_onsite_desktop_0?ie=UTF8&psc=1&pd_rd_plhdr=t&aref=j3m1fYZWN0
+        - button "Leave feedback on Sponsored advertisement" [ref=e1186] [cursor=pointer]:
+          - generic [ref=e1187]: Sponsored
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=e1189]:
+    - button "Back to top" [ref=e1190] [cursor=pointer]:
+      - generic [ref=e1191]: Back to top
+    - generic [ref=e1192]:
+      - generic [ref=e1193]:
+        - heading "Get to Know Us" [level=6] [ref=e1194]
+        - list [ref=e1195]:
+          - listitem [ref=e1196]:
+            - link "About Amazon" [ref=e1197] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e1198]:
+            - link "Careers" [ref=e1199] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=e1200]:
+            - link "Press Releases" [ref=e1201] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e1202]:
+            - link "Amazon Science" [ref=e1203] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e1205]:
+        - heading "Connect with Us" [level=6] [ref=e1206]
+        - list [ref=e1207]:
+          - listitem [ref=e1208]:
+            - link "Facebook" [ref=e1209] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=e1210]:
+            - link "Twitter" [ref=e1211] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=e1212]:
+            - link "Instagram" [ref=e1213] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=e1215]:
+        - heading "Make Money with Us" [level=6] [ref=e1216]
+        - list [ref=e1217]:
+          - listitem [ref=e1218]:
+            - link "Sell on Amazon" [ref=e1219] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=e1220]:
+            - link "Sell under Amazon Accelerator" [ref=e1221] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=e1222]:
+            - link "Protect and Build Your Brand" [ref=e1223] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=e1224]:
+            - link "Amazon Global Selling" [ref=e1225] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=e1226]:
+            - link "Supply to Amazon" [ref=e1227] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=e1228]:
+            - link "Become an Affiliate" [ref=e1229] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=e1230]:
+            - link "Fulfilment by Amazon" [ref=e1231] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=e1232]:
+            - link "Advertise Your Products" [ref=e1233] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=e1234]:
+            - link "Amazon Pay on Merchants" [ref=e1235] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant
+      - generic [ref=e1237]:
+        - heading "Let Us Help You" [level=6] [ref=e1238]
+        - list [ref=e1239]:
+          - listitem [ref=e1240]:
+            - link "Your Account" [ref=e1241] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e1242]:
+            - link "Returns Centre" [ref=e1243] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e1244]:
+            - link "Recalls and Product Safety Alerts" [ref=e1245] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e1246]:
+            - link "100% Purchase Protection" [ref=e1247] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=e1248]:
+            - link "Amazon App Download" [ref=e1249] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=e1250]:
+            - link "Help" [ref=e1251] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=e1253]:
+      - link "Amazon India Home" [ref=e1256] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=e1259]:
+        - generic [ref=e1260]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e1261] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e1263]: English
+          - button "Expand to Change Language or Country" [ref=e1264] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=e1265] [cursor=pointer]:
+          - generic [ref=e1267]: India
+    - generic "More on Amazon" [ref=e1268]:
+      - generic "More on Amazon" [ref=e1269]:
+        - list [ref=e1270]:
+          - listitem [ref=e1271]:
+            - link "AbeBooks Books, art & collectibles" [ref=e1272] [cursor=pointer]:
+              - /url: https://www.abebooks.com/
+              - heading "AbeBooks" [level=5] [ref=e1273]
+              - generic [ref=e1274]:
+                - text: Books, art
+                - text: "& collectibles"
+          - listitem [ref=e1275]
+          - listitem [ref=e1276]:
+            - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e1277] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e1278]
+              - generic [ref=e1279]:
+                - text: Scalable Cloud
+                - text: Computing Services
+          - listitem [ref=e1280]
+          - listitem [ref=e1281]:
+            - link "Audible Download Audio Books" [ref=e1282] [cursor=pointer]:
+              - /url: https://www.audible.in/
+              - heading "Audible" [level=5] [ref=e1283]
+              - generic [ref=e1284]:
+                - text: Download
+                - text: Audio Books
+          - listitem [ref=e1285]
+          - listitem [ref=e1286]:
+            - link "IMDb Movies, TV & Celebrities" [ref=e1287] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=e1288]
+              - generic [ref=e1289]:
+                - text: Movies, TV
+                - text: "& Celebrities"
+        - list [ref=e1290]:
+          - listitem [ref=e1291]:
+            - link "Shopbop Designer Fashion Brands" [ref=e1292] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=e1293]
+              - generic [ref=e1294]:
+                - text: Designer
+                - text: Fashion Brands
+          - listitem [ref=e1295]
+          - listitem [ref=e1296]:
+            - link "Amazon Business Everything For Your Business" [ref=e1297] [cursor=pointer]:
+              - /url: /business?ref=footer_aingw
+              - heading "Amazon Business" [level=5] [ref=e1298]
+              - generic [ref=e1299]:
+                - text: Everything For
+                - text: Your Business
+          - listitem [ref=e1300]
+          - listitem [ref=e1301]:
+            - link "Amazon Music Stream millions of songs" [ref=e1302] [cursor=pointer]:
+              - /url: /music/player?ref=footer_apm
+              - heading "Amazon Music" [level=5] [ref=e1303]
+              - generic [ref=e1304]: Stream millions of songs
+          - listitem [ref=e1305]
+          - listitem [ref=e1306]
+    - generic [ref=e1307]:
+      - list [ref=e1308]:
+        - listitem [ref=e1309]:
+          - link "Conditions of Use & Sale" [ref=e1310] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=e1311]:
+          - link "Privacy Notice" [ref=e1312] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=e1313]:
+          - link "Interest-Based Ads" [ref=e1314] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=e1315]: © 1996-2026, Amazon.com, Inc. or its affiliates

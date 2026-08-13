@@ -1,0 +1,1433 @@
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+    - separator [ref=e8]
+    - heading "Keyboard shortcuts" [level=2] [ref=e9]
+    - list "Keyboard shortcuts" [ref=e10]:
+      - listitem [ref=e11]:
+        - link "Search, alt, forward slash" [ref=e12] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e13]:
+            - generic [ref=e14]: Search
+            - generic [ref=e15]:
+              - generic [ref=e16]: alt
+              - generic [ref=e17]: +
+              - generic [ref=e18]: /
+      - listitem [ref=e19]:
+        - link "Cart, shift, alt, c" [ref=e20] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e21]:
+            - generic [ref=e22]: Cart
+            - generic [ref=e23]:
+              - generic [ref=e24]: shift
+              - generic [ref=e25]: +
+              - generic [ref=e26]: alt
+              - generic [ref=e27]: +
+              - generic [ref=e28]: C
+      - listitem [ref=e29]:
+        - link "Home, shift, alt, h" [ref=e30] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e31]:
+            - generic [ref=e32]: Home
+            - generic [ref=e33]:
+              - generic [ref=e34]: shift
+              - generic [ref=e35]: +
+              - generic [ref=e36]: alt
+              - generic [ref=e37]: +
+              - generic [ref=e38]: H
+      - listitem [ref=e39]:
+        - link "Your orders, shift, alt, o" [ref=e40] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e41]:
+            - generic [ref=e42]: Orders
+            - generic [ref=e43]:
+              - generic [ref=e44]: shift
+              - generic [ref=e45]: +
+              - generic [ref=e46]: alt
+              - generic [ref=e47]: +
+              - generic [ref=e48]: O
+      - listitem [ref=e49]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]:
+            - generic [ref=e52]: Show/Hide shortcuts
+            - generic [ref=e53]:
+              - generic [ref=e54]: shift
+              - generic [ref=e55]: +
+              - generic [ref=e56]: alt
+              - generic [ref=e57]: +
+              - generic [ref=e58]: Z
+    - generic [ref=e64]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e65]:
+    - navigation "Primary" [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - link "Amazon.in" [ref=e70] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Deliver to New Noida 201301‌" [ref=e73] [cursor=pointer]:
+            - generic [ref=e75]:
+              - generic [ref=e76]: Deliver to New
+              - generic [ref=e77]: Noida 201301‌
+        - search [ref=e80]:
+          - generic [ref=e83]:
+            - generic [ref=e85]: All
+            - combobox "Select the department you want to search in" [ref=e87] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh"
+              - option "Amazon Fresh Meat"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=e90]
+          - generic "Go" [ref=e93] [cursor=pointer]:
+            - button "Go" [ref=e94]
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=e98] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e101]:
+                - img "India" [ref=e102]
+                - generic [ref=e103]: EN
+            - button "Expand to Change Language or Country" [ref=e104] [cursor=pointer]
+          - generic [ref=e105]:
+            - link "Hello, Celsior Account & Lists" [ref=e106] [cursor=pointer]:
+              - /url: https://www.amazon.in/gp/css/homepage.html?ref_=nav_youraccount_btn
+              - generic [ref=e108]: Hello, Celsior
+              - generic [ref=e109]: Account & Lists
+            - button "Expand Account and Lists" [ref=e110] [cursor=pointer]
+          - link "Returns & Orders" [ref=e111] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e112]: Returns
+            - generic [ref=e113]: "& Orders"
+          - link "1 item in cart" [ref=e114] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e116]: "1"
+            - generic [ref=e119]: Cart
+      - generic [ref=e121]:
+        - generic [ref=e122]:
+          - button "Open All Categories Menu" [ref=e123] [cursor=pointer]:
+            - generic [ref=e125]: All
+          - button "Open Rufus panel" [ref=e126] [cursor=pointer]:
+            - generic [ref=e128]: Rufus
+        - list [ref=e132]:
+          - listitem [ref=e133]:
+            - generic [ref=e134]:
+              - link "Fresh" [ref=e135] [cursor=pointer]:
+                - /url: /tez/browse?qcbrand=ctnow&ref_=nav_cs_grocery
+              - button "Fresh Details" [ref=e136] [cursor=pointer]
+          - listitem [ref=e137]:
+            - generic [ref=e138]:
+              - link "Prime" [ref=e139] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=e140] [cursor=pointer]
+          - listitem [ref=e141]:
+            - link "MX Player" [ref=e143] [cursor=pointer]:
+              - /url: /minitv?ref_=nav_avod_desktop_topnav
+          - listitem [ref=e144]:
+            - link "Sell" [ref=e146] [cursor=pointer]:
+              - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+          - listitem [ref=e147]:
+            - link "Gift Cards" [ref=e149] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=e150]:
+            - link "Amazon Pay" [ref=e152] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=e153]:
+            - link "Buy Again" [ref=e155] [cursor=pointer]:
+              - /url: /gp/buyagain?ie=UTF8&ref_=nav_cs_buy_again
+          - listitem [ref=e156]:
+            - link "Gift Ideas" [ref=e158] [cursor=pointer]:
+              - /url: /gcx/-/gfhz/?ref_=nav_cs_giftfinder
+          - listitem [ref=e159]:
+            - link "AmazonBasics" [ref=e161] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=e162]:
+            - link "Health, Household & Personal Care" [ref=e164] [cursor=pointer]:
+              - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+          - listitem [ref=e165]:
+            - link "Home Improvement" [ref=e167] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=e168]:
+            - link "Subscribe & Save" [ref=e170] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e171]:
+            - link "Audible" [ref=e173] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=e174]:
+            - link "Today's Deals" [ref=e176] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e177]:
+            - generic [ref=e178]:
+              - link "Browsing History" [ref=e179] [cursor=pointer]:
+                - /url: /gp/history?ref_=nav_cs_timeline
+              - button "Browsing History Details" [ref=e180] [cursor=pointer]
+          - listitem [ref=e181]:
+            - link "Celsior 's Amazon.in" [ref=e183] [cursor=pointer]:
+              - /url: /gp/yourstore/home?ref_=nav_cs_ys
+              - generic [ref=e184]:
+                - generic [ref=e185]: Celsior
+                - text: "'s Amazon.in"
+          - listitem [ref=e186]:
+            - link "Books" [ref=e188] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=e189]:
+            - link "Customer Service" [ref=e191] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=e192]:
+            - link "Kindle eBooks" [ref=e194] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books
+          - listitem [ref=e195]:
+            - link "Pet Supplies" [ref=e197] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=e198]:
+            - link "Bestsellers" [ref=e200] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e201]:
+            - link "Sports, Fitness & Outdoors" [ref=e203] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=e204]:
+            - link "Beauty & Personal Care" [ref=e206] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=e207]:
+            - link "Home & Kitchen" [ref=e209] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=e210]:
+            - link "New Releases" [ref=e212] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e213]:
+            - link "Computers" [ref=e215] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=e216]:
+            - link "Toys & Games" [ref=e218] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=e219]:
+            - link "Fashion" [ref=e221] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=e222]:
+            - link "Car & Motorbike" [ref=e224] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=e225]:
+            - link "Electronics" [ref=e227] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=e228]:
+            - link "Baby" [ref=e230] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+          - listitem [ref=e231]:
+            - link "Video Games" [ref=e233] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=e234]:
+            - link "Mobiles" [ref=e236] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+        - link "PD26_Event" [ref=e240] [cursor=pointer]:
+          - /url: /events/primeday/?_encoding=UTF8&ref_=nav_swm_event&pf_rd_p=63a908bd-6cbd-4def-a079-3c7e9b6f3f3c&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A21TJRUUN4KGV&pf_rd_r=CNB9TPV0JJT776P0BERZ
+          - img "PD26_Event" [ref=e241]
+      - dialog [ref=e242]
+  - generic [ref=e247]:
+    - generic [ref=e248]:
+      - generic [ref=e249]:
+        - link "ZEBRONICS Wireless Mouse, 2.4GHz, 3200 DPI, 3 Buttons, Comfortable &amp; Ergonomic, USB Nano Receiver, Power-Saving Mode, Works on Most Surfaces, for Mac | Laptop | Computer (Freego, Black)" [ref=e252] [cursor=pointer]:
+          - /url: /gp/product/B0FF4XBM5N/ref=sw_img_1?smid=&psc=1
+          - img "ZEBRONICS Wireless Mouse, 2.4GHz, 3200 DPI, 3 Buttons, Comfortable &amp; Ergonomic, USB Nano Receiver, Power-Saving Mode, Works on Most Surfaces, for Mac | Laptop | Computer (Freego, Black)" [ref=e253]
+        - generic [ref=e254]:
+          - heading "Added to cart" [active] [level=1] [ref=e261]
+          - list [ref=e263]:
+            - listitem [ref=e264]:
+              - generic [ref=e265]: "Colour: Black"
+      - generic [ref=e269]:
+        - generic [ref=e270]:
+          - heading "Cart subtotal:" [ref=e271]
+          - generic [ref=e273]:
+            - generic [ref=e274]: ₹229.00
+            - generic [ref=e275]:
+              - text: ₹
+              - generic [ref=e276]:
+                - text: "229"
+                - generic [ref=e277]: .
+              - text: "00"
+        - generic [ref=e282] [cursor=pointer]:
+          - button "Proceed to Buy (1 item) Buy Amazon items" [ref=e283]: Proceed to checkout
+          - generic [ref=e286]: Proceed to Buy (1 item)
+        - link "Go to Cart" [ref=e289] [cursor=pointer]:
+          - /url: /cart?ref_=sw_gtc
+    - group [ref=e296]:
+      - generic [ref=e297]:
+        - heading "Products related to ZEBRONICS Wireless Mouse, 2.4GHz, 3200 DPI, 3…" [level=1] [ref=e299]
+        - generic [ref=e302]: Page 1 of 3
+      - button "Leave feedback on Sponsored ad" [ref=e307] [cursor=pointer]: Sponsored
+      - generic [ref=e310]:
+        - button "Previous page" [ref=e312] [cursor=pointer]:
+          - generic [ref=e315]: Previous page
+        - group [ref=e317]:
+          - list [ref=e318]:
+            - listitem [ref=e319]:
+              - generic [ref=e320]:
+                - generic [ref=e321]:
+                  - link "Logitech Signature M650 Wireless Mouse - for Small to Medium Sized Hands, 2-Year Battery, Silent Clicks, Customisable Side Bu" [ref=e322] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MTo0ODUxNzQxODQwODY5MjM1OjE3ODI0Njk0MzI6c3BfaHVjX21yYWk6MzAwOTYwNTM5NjI5MTMyOjowOjo=&url=%2FLogitech-Signature-M650-Wireless-Mouse%2Fdp%2FB09QWY7JYK%2Fref%3Dsw_img_d_sspa_dk_huc_pt_expsub%3F_encoding%3DUTF8%26pd_rd_i%3DB09QWY7JYK%26pd_rd_w%3DUEV21%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DCNB9TPV0JJT776P0BERZ%26pd_rd_wg%3DSbRgR%26pd_rd_r%3D6705badb-a7b6-4c09-9458-f9f4cd802ebe%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=esKkkOzyYl
+                    - img "Logitech Signature M650 Wireless Mouse - for Small to Medium Sized Hands, 2-Year Battery, Silent Clicks, Customisable Side Bu" [ref=e324]
+                  - generic [ref=e325]:
+                    - link "Logitech Signature M650 Wireless Mouse - for Small to Medium Sized Hands, 2-Year Battery, Silent Clicks, Customisable Side Buttons, Bluetooth -Graphite" [ref=e326] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo0ODUxNzQxODQwODY5MjM1OjE3ODI0Njk0MzI6c3BfaHVjX21yYWk6MzAwOTYwNTM5NjI5MTMyOjowOjo=&url=%2FLogitech-Signature-M650-Wireless-Mouse%2Fdp%2FB09QWY7JYK%2Fref%3Dsw_ttl_d_sspa_dk_huc_pt_expsub%3F_encoding%3DUTF8%26pd_rd_i%3DB09QWY7JYK%26pd_rd_w%3DUEV21%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DCNB9TPV0JJT776P0BERZ%26pd_rd_wg%3DSbRgR%26pd_rd_r%3D6705badb-a7b6-4c09-9458-f9f4cd802ebe%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=esKkkOzyYl
+                      - generic [ref=e327]:
+                        - generic [ref=e328]: Logitech Signature M650 Wireless Mouse - for Small to Medium Sized Hands, 2-Year Battery, Silent Clicks, Customisable Side Buttons, Bluetooth -Graphite
+                        - generic [ref=e329]: Logitech Signature M650 Wireless Mouse - for Small t…
+                    - link "4.4 out of 5 stars 2,546" [ref=e331] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo0ODUxNzQxODQwODY5MjM1OjE3ODI0Njk0MzI6c3BfaHVjX21yYWk6MzAwOTYwNTM5NjI5MTMyOjowOjo=&url=%2Fproduct-reviews%2FB09QWY7JYK%2Fref%3Dsw_cr_d_sspa_dk_huc_pt_expsub%3F_encoding%3DUTF8%26pd_rd_i%3DB09QWY7JYK%26pd_rd_w%3DUEV21%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DCNB9TPV0JJT776P0BERZ%26pd_rd_wg%3DSbRgR%26pd_rd_r%3D6705badb-a7b6-4c09-9458-f9f4cd802ebe%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=esKkkOzyYl
+                      - generic [ref=e333]: 4.4 out of 5 stars
+                      - text: 2,546
+                    - generic [ref=e334]:
+                      - generic [ref=e335]:
+                        - generic [ref=e336]: ₹2,599.00
+                        - generic [ref=e337]:
+                          - text: ₹
+                          - generic [ref=e338]:
+                            - text: 2,599
+                            - generic [ref=e339]: .
+                          - text: "00"
+                      - generic [ref=e340]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e341]:
+                          - generic [ref=e342]: Previous Price ₹3,295.00
+                          - text: ₹3,295.00
+                - generic [ref=e351] [cursor=pointer]:
+                  - button "Add to cart, Logitech Signature M650 Wireless Mouse - for Small to Medium Sized Hands, 2-Year Battery, Silent Clicks, Customisable Side Buttons, Bluetooth -Graphite" [ref=e352]
+                  - generic [ref=e353]: Add to cart
+            - listitem [ref=e354]:
+              - generic [ref=e355]:
+                - generic [ref=e356]:
+                  - link "Logitech Pebble Mouse 2 M350s Slim Bluetooth Wireless Mouse, Portable, Lightweight, Customisable Button, 4000 DPI, Quiet Clic" [ref=e357] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MTo0ODUxNzQxODQwODY5MjM1OjE3ODI0Njk0MzI6c3BfaHVjX21yYWk6MzAwNDU1NTg1MTQ4NjMyOjoxOjo=&url=%2FLogitech-Bluetooth-Lightweight-Customisable-Easy-Switch%2Fdp%2FB0CGCZHGW1%2Fref%3Dsw_img_d_sspa_dk_huc_pt_expsub_1%3F_encoding%3DUTF8%26pd_rd_i%3DB0CGCZHGW1%26pd_rd_w%3DUEV21%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DCNB9TPV0JJT776P0BERZ%26pd_rd_wg%3DSbRgR%26pd_rd_r%3D6705badb-a7b6-4c09-9458-f9f4cd802ebe%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=GXxkmGBxhx
+                    - img "Logitech Pebble Mouse 2 M350s Slim Bluetooth Wireless Mouse, Portable, Lightweight, Customisable Button, 4000 DPI, Quiet Clic" [ref=e359]
+                  - generic [ref=e360]:
+                    - link "Logitech Pebble Mouse 2 M350s Slim Bluetooth Wireless Mouse, Portable, Lightweight, Customisable Button, 4000 DPI, Quiet Clicks, Easy-Switch for Windows, macOS, iPadOS, Android - Tonal Graphite" [ref=e361] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo0ODUxNzQxODQwODY5MjM1OjE3ODI0Njk0MzI6c3BfaHVjX21yYWk6MzAwNDU1NTg1MTQ4NjMyOjoxOjo=&url=%2FLogitech-Bluetooth-Lightweight-Customisable-Easy-Switch%2Fdp%2FB0CGCZHGW1%2Fref%3Dsw_ttl_d_sspa_dk_huc_pt_expsub_1%3F_encoding%3DUTF8%26pd_rd_i%3DB0CGCZHGW1%26pd_rd_w%3DUEV21%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DCNB9TPV0JJT776P0BERZ%26pd_rd_wg%3DSbRgR%26pd_rd_r%3D6705badb-a7b6-4c09-9458-f9f4cd802ebe%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=GXxkmGBxhx
+                      - generic [ref=e362]:
+                        - generic [ref=e363]: Logitech Pebble Mouse 2 M350s Slim Bluetooth Wireless Mouse, Portable, Lightweight, Customisable Button, 4000 DPI, Quiet Clicks, Easy-Switch for Windows, macOS, iPadOS, Android - Tonal Graphite
+                        - generic [ref=e364]: Logitech Pebble Mouse 2 M350s Slim Bluetooth Wirel…
+                    - link "4.4 out of 5 stars 1,788" [ref=e366] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo0ODUxNzQxODQwODY5MjM1OjE3ODI0Njk0MzI6c3BfaHVjX21yYWk6MzAwNDU1NTg1MTQ4NjMyOjoxOjo=&url=%2Fproduct-reviews%2FB0CGCZHGW1%2Fref%3Dsw_cr_d_sspa_dk_huc_pt_expsub_1%3F_encoding%3DUTF8%26pd_rd_i%3DB0CGCZHGW1%26pd_rd_w%3DUEV21%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DCNB9TPV0JJT776P0BERZ%26pd_rd_wg%3DSbRgR%26pd_rd_r%3D6705badb-a7b6-4c09-9458-f9f4cd802ebe%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=GXxkmGBxhx
+                      - generic [ref=e368]: 4.4 out of 5 stars
+                      - text: 1,788
+                    - generic [ref=e369]:
+                      - generic [ref=e370]:
+                        - generic [ref=e371]: ₹1,595.00
+                        - generic [ref=e372]:
+                          - text: ₹
+                          - generic [ref=e373]:
+                            - text: 1,595
+                            - generic [ref=e374]: .
+                          - text: "00"
+                      - generic [ref=e375]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e376]:
+                          - generic [ref=e377]: Previous Price ₹2,295.00
+                          - text: ₹2,295.00
+                - generic [ref=e386] [cursor=pointer]:
+                  - button "Add to cart, Logitech Pebble Mouse 2 M350s Slim Bluetooth Wireless Mouse, Portable, Lightweight, Customisable Button, 4000 DPI, Quiet Clicks, Easy-Switch for Windows, macOS, iPadOS, Android - Tonal Graphite" [ref=e387]
+                  - generic [ref=e388]: Add to cart
+            - listitem [ref=e389]:
+              - generic [ref=e390]:
+                - generic [ref=e391]:
+                  - link "iBall GLIDR Ai1 Smart AI Wireless Mouse, Powered by ChatGPT AI Voice & Text Translation, Voice Typing, Centralized AI Softwar" [ref=e392] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MTo0ODUxNzQxODQwODY5MjM1OjE3ODI0Njk0MzI6c3BfaHVjX21yYWk6MzAxMDcxNzIyMjIxNzMyOjoyOjo=&url=%2FiBall-Translation-Centralized-Languages-Rechargeable%2Fdp%2FB0GWHPS34L%2Fref%3Dsw_img_d_sspa_dk_huc_pt_expsub_2%3F_encoding%3DUTF8%26pd_rd_i%3DB0GWHPS34L%26pd_rd_w%3DUEV21%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DCNB9TPV0JJT776P0BERZ%26pd_rd_wg%3DSbRgR%26pd_rd_r%3D6705badb-a7b6-4c09-9458-f9f4cd802ebe%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=LNgDDkV9ey
+                    - img "iBall GLIDR Ai1 Smart AI Wireless Mouse, Powered by ChatGPT AI Voice & Text Translation, Voice Typing, Centralized AI Softwar" [ref=e394]
+                  - generic [ref=e395]:
+                    - link "iBall GLIDR Ai1 Smart AI Wireless Mouse, Powered by ChatGPT AI Voice & Text Translation, Voice Typing, Centralized AI Software, 100+ Languages, Dual Mode (BT + 2.4GHz), Rechargeable Battery (Black)" [ref=e396] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo0ODUxNzQxODQwODY5MjM1OjE3ODI0Njk0MzI6c3BfaHVjX21yYWk6MzAxMDcxNzIyMjIxNzMyOjoyOjo=&url=%2FiBall-Translation-Centralized-Languages-Rechargeable%2Fdp%2FB0GWHPS34L%2Fref%3Dsw_ttl_d_sspa_dk_huc_pt_expsub_2%3F_encoding%3DUTF8%26pd_rd_i%3DB0GWHPS34L%26pd_rd_w%3DUEV21%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DCNB9TPV0JJT776P0BERZ%26pd_rd_wg%3DSbRgR%26pd_rd_r%3D6705badb-a7b6-4c09-9458-f9f4cd802ebe%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=LNgDDkV9ey
+                      - generic [ref=e397]:
+                        - generic [ref=e398]: iBall GLIDR Ai1 Smart AI Wireless Mouse, Powered by ChatGPT AI Voice & Text Translation, Voice Typing, Centralized AI Software, 100+ Languages, Dual Mode (BT + 2.4GHz), Rechargeable Battery (Black)
+                        - generic [ref=e399]: iBall GLIDR Ai1 Smart AI Wireless Mouse, Powered by…
+                    - link "5.0 out of 5 stars 6" [ref=e401] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo0ODUxNzQxODQwODY5MjM1OjE3ODI0Njk0MzI6c3BfaHVjX21yYWk6MzAxMDcxNzIyMjIxNzMyOjoyOjo=&url=%2Fproduct-reviews%2FB0GWHPS34L%2Fref%3Dsw_cr_d_sspa_dk_huc_pt_expsub_2%3F_encoding%3DUTF8%26pd_rd_i%3DB0GWHPS34L%26pd_rd_w%3DUEV21%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DCNB9TPV0JJT776P0BERZ%26pd_rd_wg%3DSbRgR%26pd_rd_r%3D6705badb-a7b6-4c09-9458-f9f4cd802ebe%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=LNgDDkV9ey
+                      - generic [ref=e403]: 5.0 out of 5 stars
+                      - text: "6"
+                    - generic [ref=e404]:
+                      - generic [ref=e405]:
+                        - generic [ref=e406]: ₹2,499.00
+                        - generic [ref=e407]:
+                          - text: ₹
+                          - generic [ref=e408]:
+                            - text: 2,499
+                            - generic [ref=e409]: .
+                          - text: "00"
+                      - generic [ref=e410]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e411]:
+                          - generic [ref=e412]: Previous Price ₹4,299.00
+                          - text: ₹4,299.00
+                - generic [ref=e421] [cursor=pointer]:
+                  - button "Add to cart, iBall GLIDR Ai1 Smart AI Wireless Mouse, Powered by ChatGPT AI Voice & Text Translation, Voice Typing, Centralized AI Software, 100+ Languages, Dual Mode (BT + 2.4GHz), Rechargeable Battery (Black)" [ref=e422]
+                  - generic [ref=e423]: Add to cart
+            - listitem [ref=e424]:
+              - generic [ref=e425]:
+                - generic [ref=e426]:
+                  - link "Logitech M240 Silent Bluetooth Mouse, Compact, Portable, Smooth Tracking, 18-Month Battery, for Windows, macOS, ChromeOS, Com" [ref=e427] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MTo0ODUxNzQxODQwODY5MjM1OjE3ODI0Njk0MzI6c3BfaHVjX21yYWk6MzAwNDU1NTg1MTQ4NDMyOjozOjo=&url=%2FLogitech-Bluetooth-Wireless-Portable-Compatible%2Fdp%2FB0C52ZF43S%2Fref%3Dsw_img_d_sspa_dk_huc_pt_expsub_3%3F_encoding%3DUTF8%26pd_rd_i%3DB0C52ZF43S%26pd_rd_w%3DUEV21%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DCNB9TPV0JJT776P0BERZ%26pd_rd_wg%3DSbRgR%26pd_rd_r%3D6705badb-a7b6-4c09-9458-f9f4cd802ebe%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=34jPnxeAWh
+                    - img "Logitech M240 Silent Bluetooth Mouse, Compact, Portable, Smooth Tracking, 18-Month Battery, for Windows, macOS, ChromeOS, Com" [ref=e429]
+                  - generic [ref=e430]:
+                    - link "Logitech M240 Silent Bluetooth Mouse, Compact, Portable, Smooth Tracking, 18-Month Battery, for Windows, macOS, ChromeOS, Compatible with PC, Mac, Laptop, Tablets - Graphite" [ref=e431] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo0ODUxNzQxODQwODY5MjM1OjE3ODI0Njk0MzI6c3BfaHVjX21yYWk6MzAwNDU1NTg1MTQ4NDMyOjozOjo=&url=%2FLogitech-Bluetooth-Wireless-Portable-Compatible%2Fdp%2FB0C52ZF43S%2Fref%3Dsw_ttl_d_sspa_dk_huc_pt_expsub_3%3F_encoding%3DUTF8%26pd_rd_i%3DB0C52ZF43S%26pd_rd_w%3DUEV21%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DCNB9TPV0JJT776P0BERZ%26pd_rd_wg%3DSbRgR%26pd_rd_r%3D6705badb-a7b6-4c09-9458-f9f4cd802ebe%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=34jPnxeAWh
+                      - generic [ref=e432]:
+                        - generic [ref=e433]: Logitech M240 Silent Bluetooth Mouse, Compact, Portable, Smooth Tracking, 18-Month Battery, for Windows, macOS, ChromeOS, Compatible with PC, Mac, Laptop, Tablets - Graphite
+                        - generic [ref=e434]: Logitech M240 Silent Bluetooth Mouse, Compact,…
+                    - link "4.3 out of 5 stars 2,202" [ref=e436] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo0ODUxNzQxODQwODY5MjM1OjE3ODI0Njk0MzI6c3BfaHVjX21yYWk6MzAwNDU1NTg1MTQ4NDMyOjozOjo=&url=%2Fproduct-reviews%2FB0C52ZF43S%2Fref%3Dsw_cr_d_sspa_dk_huc_pt_expsub_3%3F_encoding%3DUTF8%26pd_rd_i%3DB0C52ZF43S%26pd_rd_w%3DUEV21%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DCNB9TPV0JJT776P0BERZ%26pd_rd_wg%3DSbRgR%26pd_rd_r%3D6705badb-a7b6-4c09-9458-f9f4cd802ebe%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=34jPnxeAWh
+                      - generic [ref=e438]: 4.3 out of 5 stars
+                      - text: 2,202
+                    - generic [ref=e440]: 38% off Limited time deal
+                    - generic [ref=e441]:
+                      - generic [ref=e442]:
+                        - generic [ref=e443]: ₹995.00
+                        - generic [ref=e444]:
+                          - text: ₹
+                          - generic [ref=e445]:
+                            - text: "995"
+                            - generic [ref=e446]: .
+                          - text: "00"
+                      - generic [ref=e447]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e448]:
+                          - generic [ref=e449]: Previous Price ₹1,595.00
+                          - text: ₹1,595.00
+                - generic [ref=e458] [cursor=pointer]:
+                  - button "Add to cart, Logitech M240 Silent Bluetooth Mouse, Compact, Portable, Smooth Tracking, 18-Month Battery, for Windows, macOS, ChromeOS, Compatible with PC, Mac, Laptop, Tablets - Graphite" [ref=e459]
+                  - generic [ref=e460]: Add to cart
+            - listitem [ref=e461]:
+              - generic [ref=e462]:
+                - generic [ref=e463]:
+                  - link "Offbeat - Atom Dual Bluetooth 5.1+5.1 & 2.4Ghz Wireless, Type-C Rechargeable 100 Hours Battery Silent Click Mouse, Triple Dev" [ref=e464] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MTo0ODUxNzQxODQwODY5MjM1OjE3ODI0Njk0MzI6c3BfaHVjX21yYWk6MzAwOTc5MDc5MDU3OTMyOjo0Ojo=&url=%2FOffbeat-Bluetooth-Wireless-Rechargeable-connectivity%2Fdp%2FB0CQJSW9DG%2Fref%3Dsw_img_d_sspa_dk_huc_pt_expsub_4%3F_encoding%3DUTF8%26pd_rd_i%3DB0CQJSW9DG%26pd_rd_w%3DUEV21%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DCNB9TPV0JJT776P0BERZ%26pd_rd_wg%3DSbRgR%26pd_rd_r%3D6705badb-a7b6-4c09-9458-f9f4cd802ebe%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=NyjhDJcJxU
+                    - img "Offbeat - Atom Dual Bluetooth 5.1+5.1 & 2.4Ghz Wireless, Type-C Rechargeable 100 Hours Battery Silent Click Mouse, Triple Dev" [ref=e466]
+                  - generic [ref=e467]:
+                    - link "Offbeat - Atom Dual Bluetooth 5.1+5.1 & 2.4Ghz Wireless, Type-C Rechargeable 100 Hours Battery Silent Click Mouse, Triple Device connectivity Windows, Mac, iOS, Android (Silver)" [ref=e468] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo0ODUxNzQxODQwODY5MjM1OjE3ODI0Njk0MzI6c3BfaHVjX21yYWk6MzAwOTc5MDc5MDU3OTMyOjo0Ojo=&url=%2FOffbeat-Bluetooth-Wireless-Rechargeable-connectivity%2Fdp%2FB0CQJSW9DG%2Fref%3Dsw_ttl_d_sspa_dk_huc_pt_expsub_4%3F_encoding%3DUTF8%26pd_rd_i%3DB0CQJSW9DG%26pd_rd_w%3DUEV21%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DCNB9TPV0JJT776P0BERZ%26pd_rd_wg%3DSbRgR%26pd_rd_r%3D6705badb-a7b6-4c09-9458-f9f4cd802ebe%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=NyjhDJcJxU
+                      - generic [ref=e470]: Offbeat - Atom Dual Bluetooth 5.1+5.1 & 2.4Ghz Wireless, Type-C Rechargeable 100 Hours Battery Silent Click Mouse, Triple Device connectivity Windows, Mac, iOS, Android (Silver)
+                    - link "4.0 out of 5 stars 1,231" [ref=e472] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo0ODUxNzQxODQwODY5MjM1OjE3ODI0Njk0MzI6c3BfaHVjX21yYWk6MzAwOTc5MDc5MDU3OTMyOjo0Ojo=&url=%2Fproduct-reviews%2FB0CQJSW9DG%2Fref%3Dsw_cr_d_sspa_dk_huc_pt_expsub_4%3F_encoding%3DUTF8%26pd_rd_i%3DB0CQJSW9DG%26pd_rd_w%3DUEV21%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DCNB9TPV0JJT776P0BERZ%26pd_rd_wg%3DSbRgR%26pd_rd_r%3D6705badb-a7b6-4c09-9458-f9f4cd802ebe%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=NyjhDJcJxU
+                      - generic [ref=e474]: 4.0 out of 5 stars
+                      - text: 1,231
+                    - generic [ref=e476]:
+                      - generic [ref=e477]: ₹1,490.00
+                      - generic [ref=e478]:
+                        - text: ₹
+                        - generic [ref=e479]:
+                          - text: 1,490
+                          - generic [ref=e480]: .
+                        - text: "00"
+                - generic [ref=e489] [cursor=pointer]:
+                  - button "Add to cart, Offbeat - Atom Dual Bluetooth 5.1+5.1 & 2.4Ghz Wireless, Type-C Rechargeable 100 Hours Battery Silent Click Mouse, Triple Device connectivity Windows, Mac, iOS, Android (Silver)" [ref=e490]
+                  - generic [ref=e491]: Add to cart
+            - listitem [ref=e492]:
+              - generic [ref=e493]:
+                - generic [ref=e494]:
+                  - link "Ant GLOBE15 Wireless Mouse |2.4GHz High-Speed Connectivity |1200 DPI Optical Tracking |12M Battery Life |10m Range USB Plug &" [ref=e495] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MTo0ODUxNzQxODQwODY5MjM1OjE3ODI0Njk0MzI6c3BfaHVjX21yYWk6MzAxMTQ1NDQwOTQxNjMyOjo1Ojo=&url=%2FAnt-High-Speed-Connectivity-Lightweight-Ergonomic%2Fdp%2FB0GWDMSPB3%2Fref%3Dsw_img_d_sspa_dk_huc_pt_expsub_5%3F_encoding%3DUTF8%26pd_rd_i%3DB0GWDMSPB3%26pd_rd_w%3DUEV21%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DCNB9TPV0JJT776P0BERZ%26pd_rd_wg%3DSbRgR%26pd_rd_r%3D6705badb-a7b6-4c09-9458-f9f4cd802ebe%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=ehEVcACSKn
+                    - img "Ant GLOBE15 Wireless Mouse |2.4GHz High-Speed Connectivity |1200 DPI Optical Tracking |12M Battery Life |10m Range USB Plug &" [ref=e497]
+                  - generic [ref=e498]:
+                    - link "Ant GLOBE15 Wireless Mouse |2.4GHz High-Speed Connectivity |1200 DPI Optical Tracking |12M Battery Life |10m Range USB Plug & Play, Lightweight Ergonomic Design for Laptop,PC,Mac,Windows -Black/Silver" [ref=e499] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo0ODUxNzQxODQwODY5MjM1OjE3ODI0Njk0MzI6c3BfaHVjX21yYWk6MzAxMTQ1NDQwOTQxNjMyOjo1Ojo=&url=%2FAnt-High-Speed-Connectivity-Lightweight-Ergonomic%2Fdp%2FB0GWDMSPB3%2Fref%3Dsw_ttl_d_sspa_dk_huc_pt_expsub_5%3F_encoding%3DUTF8%26pd_rd_i%3DB0GWDMSPB3%26pd_rd_w%3DUEV21%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DCNB9TPV0JJT776P0BERZ%26pd_rd_wg%3DSbRgR%26pd_rd_r%3D6705badb-a7b6-4c09-9458-f9f4cd802ebe%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=ehEVcACSKn
+                      - generic [ref=e501]: Ant GLOBE15 Wireless Mouse |2.4GHz High-Speed Connectivity |1200 DPI Optical Tracking |12M Battery Life |10m Range USB Plug & Play, Lightweight Ergonomic Design for Laptop,PC,Mac,Windows -Black/Silver
+                    - link "4.4 out of 5 stars 19" [ref=e503] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo0ODUxNzQxODQwODY5MjM1OjE3ODI0Njk0MzI6c3BfaHVjX21yYWk6MzAxMTQ1NDQwOTQxNjMyOjo1Ojo=&url=%2Fproduct-reviews%2FB0GWDMSPB3%2Fref%3Dsw_cr_d_sspa_dk_huc_pt_expsub_5%3F_encoding%3DUTF8%26pd_rd_i%3DB0GWDMSPB3%26pd_rd_w%3DUEV21%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DCNB9TPV0JJT776P0BERZ%26pd_rd_wg%3DSbRgR%26pd_rd_r%3D6705badb-a7b6-4c09-9458-f9f4cd802ebe%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=ehEVcACSKn
+                      - generic [ref=e505]: 4.4 out of 5 stars
+                      - text: "19"
+                    - generic [ref=e507]: 72% off Limited time deal
+                    - generic [ref=e508]:
+                      - generic [ref=e509]:
+                        - generic [ref=e510]: ₹249.00
+                        - generic [ref=e511]:
+                          - text: ₹
+                          - generic [ref=e512]:
+                            - text: "249"
+                            - generic [ref=e513]: .
+                          - text: "00"
+                      - generic [ref=e514]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e515]:
+                          - generic [ref=e516]: Previous Price ₹899.00
+                          - text: ₹899.00
+                - generic [ref=e525] [cursor=pointer]:
+                  - button "Add to cart, Ant GLOBE15 Wireless Mouse |2.4GHz High-Speed Connectivity |1200 DPI Optical Tracking |12M Battery Life |10m Range USB Plug & Play, Lightweight Ergonomic Design for Laptop,PC,Mac,Windows -Black/Silver" [ref=e526]
+                  - generic [ref=e527]: Add to cart
+            - listitem [ref=e528]:
+              - generic [ref=e529]:
+                - generic [ref=e530]:
+                  - link "TECPHILE Wireless Keyboard and Mouse Combo, Multi Device Keyboard (3 BT5.0 + 2.4Ghz USB) and Mouse (BT5.0 + USB) Connectivity" [ref=e531] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MTo0ODUxNzQxODQwODY5MjM1OjE3ODI0Njk0MzI6c3BfaHVjX21yYWk6MzAwNDcwMDI5ODQwMzMyOjo2Ojo=&url=%2FTECPHILE-Wireless-Keyboard-Connectivity-Rechargeable%2Fdp%2FB0DSL1RXPQ%2Fref%3Dsw_img_d_sspa_dk_huc_pt_expsub_6%3F_encoding%3DUTF8%26pd_rd_i%3DB0DSL1RXPQ%26pd_rd_w%3DUEV21%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DCNB9TPV0JJT776P0BERZ%26pd_rd_wg%3DSbRgR%26pd_rd_r%3D6705badb-a7b6-4c09-9458-f9f4cd802ebe%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=MYXYBPYHRi
+                    - img "TECPHILE Wireless Keyboard and Mouse Combo, Multi Device Keyboard (3 BT5.0 + 2.4Ghz USB) and Mouse (BT5.0 + USB) Connectivity" [ref=e533]
+                  - generic [ref=e534]:
+                    - link "TECPHILE Wireless Keyboard and Mouse Combo, Multi Device Keyboard (3 BT5.0 + 2.4Ghz USB) and Mouse (BT5.0 + USB) Connectivity, Silent Easy Switch, Rechargeable, for Laptop, Mac, Computer Tablet (Blue)" [ref=e535] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo0ODUxNzQxODQwODY5MjM1OjE3ODI0Njk0MzI6c3BfaHVjX21yYWk6MzAwNDcwMDI5ODQwMzMyOjo2Ojo=&url=%2FTECPHILE-Wireless-Keyboard-Connectivity-Rechargeable%2Fdp%2FB0DSL1RXPQ%2Fref%3Dsw_ttl_d_sspa_dk_huc_pt_expsub_6%3F_encoding%3DUTF8%26pd_rd_i%3DB0DSL1RXPQ%26pd_rd_w%3DUEV21%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DCNB9TPV0JJT776P0BERZ%26pd_rd_wg%3DSbRgR%26pd_rd_r%3D6705badb-a7b6-4c09-9458-f9f4cd802ebe%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=MYXYBPYHRi
+                      - generic [ref=e537]: TECPHILE Wireless Keyboard and Mouse Combo, Multi Device Keyboard (3 BT5.0 + 2.4Ghz USB) and Mouse (BT5.0 + USB) Connectivity, Silent Easy Switch, Rechargeable, for Laptop, Mac, Computer Tablet (Blue)
+                    - link "3.2 out of 5 stars 28" [ref=e539] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo0ODUxNzQxODQwODY5MjM1OjE3ODI0Njk0MzI6c3BfaHVjX21yYWk6MzAwNDcwMDI5ODQwMzMyOjo2Ojo=&url=%2Fproduct-reviews%2FB0DSL1RXPQ%2Fref%3Dsw_cr_d_sspa_dk_huc_pt_expsub_6%3F_encoding%3DUTF8%26pd_rd_i%3DB0DSL1RXPQ%26pd_rd_w%3DUEV21%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DCNB9TPV0JJT776P0BERZ%26pd_rd_wg%3DSbRgR%26pd_rd_r%3D6705badb-a7b6-4c09-9458-f9f4cd802ebe%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=MYXYBPYHRi
+                      - generic [ref=e541]: 3.2 out of 5 stars
+                      - text: "28"
+                    - generic [ref=e542]:
+                      - generic [ref=e543]:
+                        - generic [ref=e544]: ₹1,605.00
+                        - generic [ref=e545]:
+                          - text: ₹
+                          - generic [ref=e546]:
+                            - text: 1,605
+                            - generic [ref=e547]: .
+                          - text: "00"
+                      - generic [ref=e548]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e549]:
+                          - generic [ref=e550]: Previous Price ₹1,999.00
+                          - text: ₹1,999.00
+                - generic [ref=e559] [cursor=pointer]:
+                  - button "Add to cart, TECPHILE Wireless Keyboard and Mouse Combo, Multi Device Keyboard (3 BT5.0 + 2.4Ghz USB) and Mouse (BT5.0 + USB) Connectivity, Silent Easy Switch, Rechargeable, for Laptop, Mac, Computer Tablet (Blue)" [ref=e560]
+                  - generic [ref=e561]: Add to cart
+            - listitem [ref=e562]:
+              - generic [ref=e563]:
+                - generic [ref=e564]:
+                  - link "ZEBRONICS Glassy 10 Wireless Mouse, Dual Mode (2.4GHz + BT), Upto 1600 DPI, Silent Operation, 5 Buttons, Type-C Charging, Com" [ref=e565] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MTo0ODUxNzQxODQwODY5MjM1OjE3ODI0Njk0MzI6c3BfaHVjX21yYWk6MzAwNTk2NTI3NDA5NjMyOjo3Ojo=&url=%2FZEBRONICS-Wireless-Operation-Comfortable-Ergonomic%2Fdp%2FB0F88GT83S%2Fref%3Dsw_img_d_sspa_dk_huc_pt_expsub_7%3F_encoding%3DUTF8%26pd_rd_i%3DB0F88GT83S%26pd_rd_w%3DUEV21%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DCNB9TPV0JJT776P0BERZ%26pd_rd_wg%3DSbRgR%26pd_rd_r%3D6705badb-a7b6-4c09-9458-f9f4cd802ebe%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=zk3Rw4qOxk
+                    - img "ZEBRONICS Glassy 10 Wireless Mouse, Dual Mode (2.4GHz + BT), Upto 1600 DPI, Silent Operation, 5 Buttons, Type-C Charging, Com" [ref=e567]
+                  - generic [ref=e568]:
+                    - link "ZEBRONICS Glassy 10 Wireless Mouse, Dual Mode (2.4GHz + BT), Upto 1600 DPI, Silent Operation, 5 Buttons, Type-C Charging, Comfortable & Ergonomic, for Mac | Laptop | Computer (Black)" [ref=e569] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo0ODUxNzQxODQwODY5MjM1OjE3ODI0Njk0MzI6c3BfaHVjX21yYWk6MzAwNTk2NTI3NDA5NjMyOjo3Ojo=&url=%2FZEBRONICS-Wireless-Operation-Comfortable-Ergonomic%2Fdp%2FB0F88GT83S%2Fref%3Dsw_ttl_d_sspa_dk_huc_pt_expsub_7%3F_encoding%3DUTF8%26pd_rd_i%3DB0F88GT83S%26pd_rd_w%3DUEV21%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DCNB9TPV0JJT776P0BERZ%26pd_rd_wg%3DSbRgR%26pd_rd_r%3D6705badb-a7b6-4c09-9458-f9f4cd802ebe%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=zk3Rw4qOxk
+                      - generic [ref=e571]: ZEBRONICS Glassy 10 Wireless Mouse, Dual Mode (2.4GHz + BT), Upto 1600 DPI, Silent Operation, 5 Buttons, Type-C Charging, Comfortable & Ergonomic, for Mac | Laptop | Computer (Black)
+                    - link "3.4 out of 5 stars 665" [ref=e573] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo0ODUxNzQxODQwODY5MjM1OjE3ODI0Njk0MzI6c3BfaHVjX21yYWk6MzAwNTk2NTI3NDA5NjMyOjo3Ojo=&url=%2Fproduct-reviews%2FB0F88GT83S%2Fref%3Dsw_cr_d_sspa_dk_huc_pt_expsub_7%3F_encoding%3DUTF8%26pd_rd_i%3DB0F88GT83S%26pd_rd_w%3DUEV21%26content-id%3Damzn1.sym.63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_p%3D63a9835e-9432-44c0-b7e2-5951712304ac%26pf_rd_r%3DCNB9TPV0JJT776P0BERZ%26pd_rd_wg%3DSbRgR%26pd_rd_r%3D6705badb-a7b6-4c09-9458-f9f4cd802ebe%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9odWNfbXJhaQ%3D%3D&aref=zk3Rw4qOxk
+                      - generic [ref=e575]: 3.4 out of 5 stars
+                      - text: "665"
+                    - generic [ref=e576]:
+                      - generic [ref=e577]:
+                        - generic [ref=e578]: ₹449.00
+                        - generic [ref=e579]:
+                          - text: ₹
+                          - generic [ref=e580]:
+                            - text: "449"
+                            - generic [ref=e581]: .
+                          - text: "00"
+                      - generic [ref=e582]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e583]:
+                          - generic [ref=e584]: Previous Price ₹999.00
+                          - text: ₹999.00
+                - generic [ref=e593] [cursor=pointer]:
+                  - button "Add to cart, ZEBRONICS Glassy 10 Wireless Mouse, Dual Mode (2.4GHz + BT), Upto 1600 DPI, Silent Operation, 5 Buttons, Type-C Charging, Comfortable & Ergonomic, for Mac | Laptop | Computer (Black)" [ref=e594]
+                  - generic [ref=e595]: Add to cart
+        - button "Next page" [ref=e597] [cursor=pointer]:
+          - generic [ref=e600]: Next page
+    - generic [ref=e601]:
+      - group [ref=e606]:
+        - generic [ref=e607]:
+          - heading "Customers who bought items in your cart also bought" [level=1] [ref=e609]
+          - generic [ref=e612]: Page 1 of 3
+        - generic [ref=e614]:
+          - button "Previous page" [ref=e616] [cursor=pointer]:
+            - generic [ref=e619]: Previous page
+          - group [ref=e621]:
+            - list [ref=e622]:
+              - listitem [ref=e623]:
+                - generic [ref=e624]:
+                  - generic [ref=e625]:
+                    - link "ZEBRONICS MSP-X1 Mouse Pad, for Speed and Precision Operation, Smooth Cloth Surface, Roll and Go, Optimised for All Mouse Sen" [ref=e626] [cursor=pointer]:
+                      - /url: /ZEBRONICS-Precision-Operation-Surface-Optimised/dp/B0D8KQK2CY/ref=sw_img_d_crh_rh_hashrec?_encoding=UTF8&pd_rd_i=B0D8KQK2CY&pd_rd_w=OVrp2&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - img "ZEBRONICS MSP-X1 Mouse Pad, for Speed and Precision Operation, Smooth Cloth Surface, Roll and Go, Optimised for All Mouse Sen" [ref=e628]
+                    - generic [ref=e629]:
+                      - link "ZEBRONICS MSP-X1 Mouse Pad, for Speed and Precision Operation, Smooth Cloth Surface, Roll and Go, Optimised for All Mouse Sensors, Anti Slip Rubber Base, Surface of 232 x 182 mm" [ref=e630] [cursor=pointer]:
+                        - /url: /ZEBRONICS-Precision-Operation-Surface-Optimised/dp/B0D8KQK2CY/ref=sw_ttl_d_crh_rh_hashrec?_encoding=UTF8&pd_rd_i=B0D8KQK2CY&pd_rd_w=OVrp2&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                        - generic [ref=e632]: ZEBRONICS MSP-X1 Mouse Pad, for Speed and Precision Operation, Smooth Cloth Surface, Roll and Go, Optimised for All Mouse Sensors, Anti Slip Rubber Base, Surface of 232 x 182 mm
+                      - link "4.3 out of 5 stars 3,729" [ref=e634] [cursor=pointer]:
+                        - /url: /product-reviews/B0D8KQK2CY/ref=sw_cr_d_crh_rh_hashrec?_encoding=UTF8&pd_rd_i=B0D8KQK2CY&pd_rd_w=OVrp2&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                        - generic [ref=e636]: 4.3 out of 5 stars
+                        - text: 3,729
+                      - generic [ref=e637]:
+                        - generic [ref=e638]:
+                          - generic [ref=e639]: ₹99.00
+                          - generic [ref=e640]:
+                            - text: ₹
+                            - generic [ref=e641]:
+                              - text: "99"
+                              - generic [ref=e642]: .
+                            - text: "00"
+                        - generic [ref=e643]:
+                          - text: "M.R.P.:"
+                          - generic [ref=e644]:
+                            - generic [ref=e645]: Previous Price ₹299.00
+                            - text: ₹299.00
+                  - generic [ref=e654] [cursor=pointer]:
+                    - button "Add to cart, ZEBRONICS MSP-X1 Mouse Pad, for Speed and Precision Operation, Smooth Cloth Surface, Roll and Go, Optimised for All Mouse Sensors, Anti Slip Rubber Base, Surface of 232 x 182 mm" [ref=e655]
+                    - generic [ref=e656]: Add to cart
+              - listitem [ref=e657]:
+                - generic [ref=e658]:
+                  - generic [ref=e659]:
+                    - link "Zebronics Wireless Keyboard, 2.4GHz, 104 Keys with 12 Multimedia Keys, UV-Coated Keycaps, Retractable Stand, On/Off Switch, P" [ref=e660] [cursor=pointer]:
+                      - /url: /ZEBRONICS-Multimedia-UV-Coated-Retractable-Companion/dp/B0G2GLPQ16/ref=sw_img_d_crh_rh_hashrec_1?_encoding=UTF8&pd_rd_i=B0G2GLPQ16&pd_rd_w=OVrp2&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - img "Zebronics Wireless Keyboard, 2.4GHz, 104 Keys with 12 Multimedia Keys, UV-Coated Keycaps, Retractable Stand, On/Off Switch, P" [ref=e662]
+                    - generic [ref=e663]:
+                      - link "Zebronics Wireless Keyboard, 2.4GHz, 104 Keys with 12 Multimedia Keys, UV-Coated Keycaps, Retractable Stand, On/Off Switch, Power Saving Mode, Plug & Play (Companion 116-K)" [ref=e664] [cursor=pointer]:
+                        - /url: /ZEBRONICS-Multimedia-UV-Coated-Retractable-Companion/dp/B0G2GLPQ16/ref=sw_ttl_d_crh_rh_hashrec_1?_encoding=UTF8&pd_rd_i=B0G2GLPQ16&pd_rd_w=OVrp2&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                        - generic [ref=e666]: Zebronics Wireless Keyboard, 2.4GHz, 104 Keys with 12 Multimedia Keys, UV-Coated Keycaps, Retractable Stand, On/Off Switch, Power Saving Mode, Plug & Play (Companion 116-K)
+                      - link "3.9 out of 5 stars 233" [ref=e668] [cursor=pointer]:
+                        - /url: /product-reviews/B0G2GLPQ16/ref=sw_cr_d_crh_rh_hashrec_1?_encoding=UTF8&pd_rd_i=B0G2GLPQ16&pd_rd_w=OVrp2&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                        - generic [ref=e670]: 3.9 out of 5 stars
+                        - text: "233"
+                      - generic [ref=e671]:
+                        - generic [ref=e672]:
+                          - generic [ref=e673]: ₹549.00
+                          - generic [ref=e674]:
+                            - text: ₹
+                            - generic [ref=e675]:
+                              - text: "549"
+                              - generic [ref=e676]: .
+                            - text: "00"
+                        - generic [ref=e677]:
+                          - text: "M.R.P.:"
+                          - generic [ref=e678]:
+                            - generic [ref=e679]: Previous Price ₹1,499.00
+                            - text: ₹1,499.00
+                  - generic [ref=e688] [cursor=pointer]:
+                    - button "Add to cart, Zebronics Wireless Keyboard, 2.4GHz, 104 Keys with 12 Multimedia Keys, UV-Coated Keycaps, Retractable Stand, On/Off Switch, Power Saving Mode, Plug & Play (Companion 116-K)" [ref=e689]
+                    - generic [ref=e690]: Add to cart
+              - listitem [ref=e691]:
+                - generic [ref=e692]:
+                  - generic [ref=e693]:
+                    - link "Tizum Mouse Pad Computer Mouse Mat with Anti-Slip Rubber Base & Smooth Mouse Control with Spill-Resistant Surface for Laptop," [ref=e694] [cursor=pointer]:
+                      - /url: /Tizum-Mouse-Pad-Anti-Slip-Spill-Resistant/dp/B08QJJCY2Q/ref=sw_img_d_crh_rh_hashrec_2?_encoding=UTF8&pd_rd_i=B08QJJCY2Q&pd_rd_w=OVrp2&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - img "Tizum Mouse Pad Computer Mouse Mat with Anti-Slip Rubber Base & Smooth Mouse Control with Spill-Resistant Surface for Laptop," [ref=e696]
+                    - generic [ref=e697]:
+                      - link "Tizum Mouse Pad Computer Mouse Mat with Anti-Slip Rubber Base & Smooth Mouse Control with Spill-Resistant Surface for Laptop, Notebook, MacBook Pro, Gaming Computer (9.4*7.9 Inches), Beta (Multicolor)" [ref=e698] [cursor=pointer]:
+                        - /url: /Tizum-Mouse-Pad-Anti-Slip-Spill-Resistant/dp/B08QJJCY2Q/ref=sw_ttl_d_crh_rh_hashrec_2?_encoding=UTF8&pd_rd_i=B08QJJCY2Q&pd_rd_w=OVrp2&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                        - generic [ref=e700]: Tizum Mouse Pad Computer Mouse Mat with Anti-Slip Rubber Base & Smooth Mouse Control with Spill-Resistant Surface for Laptop, Notebook, MacBook Pro, Gaming Computer (9.4*7.9 Inches), Beta (Multicolor)
+                      - link "4.4 out of 5 stars 8,271" [ref=e702] [cursor=pointer]:
+                        - /url: /product-reviews/B08QJJCY2Q/ref=sw_cr_d_crh_rh_hashrec_2?_encoding=UTF8&pd_rd_i=B08QJJCY2Q&pd_rd_w=OVrp2&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                        - generic [ref=e704]: 4.4 out of 5 stars
+                        - text: 8,271
+                      - generic [ref=e705]:
+                        - generic [ref=e706]:
+                          - generic [ref=e707]: ₹89.00
+                          - generic [ref=e708]:
+                            - text: ₹
+                            - generic [ref=e709]:
+                              - text: "89"
+                              - generic [ref=e710]: .
+                            - text: "00"
+                        - generic [ref=e711]:
+                          - text: "M.R.P.:"
+                          - generic [ref=e712]:
+                            - generic [ref=e713]: Previous Price ₹299.00
+                            - text: ₹299.00
+                  - generic [ref=e722] [cursor=pointer]:
+                    - button "Add to cart, Tizum Mouse Pad Computer Mouse Mat with Anti-Slip Rubber Base & Smooth Mouse Control with Spill-Resistant Surface for Laptop, Notebook, MacBook Pro, Gaming Computer (9.4*7.9 Inches), Beta (Multicolor)" [ref=e723]
+                    - generic [ref=e724]: Add to cart
+              - listitem [ref=e725]:
+                - generic [ref=e726]:
+                  - generic [ref=e727]:
+                    - link "STRIFF Mousepad Mouse Mat 230X190X2mm Mouse Pad Gaming/Mouse pad for Laptop Non-Slip Rubber Base, Waterproof Surface, Premium" [ref=e728] [cursor=pointer]:
+                      - /url: /STRIFF-230X190X2mm-Waterproof-Premium-Textured-Compatible/dp/B0CV7XMKDJ/ref=sw_img_d_crh_rh_hashrec_3?_encoding=UTF8&pd_rd_i=B0CV7XMKDJ&pd_rd_w=OVrp2&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - img "STRIFF Mousepad Mouse Mat 230X190X2mm Mouse Pad Gaming/Mouse pad for Laptop Non-Slip Rubber Base, Waterproof Surface, Premium" [ref=e730]
+                    - generic [ref=e731]:
+                      - link "STRIFF Mousepad Mouse Mat 230X190X2mm Mouse Pad Gaming/Mouse pad for Laptop Non-Slip Rubber Base, Waterproof Surface, Premium-Textured, Compatible with Laser and Optical Mice(Black)(Pack of 2)" [ref=e732] [cursor=pointer]:
+                        - /url: /STRIFF-230X190X2mm-Waterproof-Premium-Textured-Compatible/dp/B0CV7XMKDJ/ref=sw_ttl_d_crh_rh_hashrec_3?_encoding=UTF8&pd_rd_i=B0CV7XMKDJ&pd_rd_w=OVrp2&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                        - generic [ref=e734]: STRIFF Mousepad Mouse Mat 230X190X2mm Mouse Pad Gaming/Mouse pad for Laptop Non-Slip Rubber Base, Waterproof Surface, Premium-Textured, Compatible with Laser and Optical Mice(Black)(Pack of 2)
+                      - link "4.3 out of 5 stars 5,389" [ref=e736] [cursor=pointer]:
+                        - /url: /product-reviews/B0CV7XMKDJ/ref=sw_cr_d_crh_rh_hashrec_3?_encoding=UTF8&pd_rd_i=B0CV7XMKDJ&pd_rd_w=OVrp2&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                        - generic [ref=e738]: 4.3 out of 5 stars
+                        - text: 5,389
+                      - generic [ref=e739]:
+                        - generic [ref=e740]:
+                          - generic [ref=e741]: ₹129.00
+                          - generic [ref=e742]:
+                            - text: ₹
+                            - generic [ref=e743]:
+                              - text: "129"
+                              - generic [ref=e744]: .
+                            - text: "00"
+                        - generic [ref=e745]:
+                          - text: "M.R.P.:"
+                          - generic [ref=e746]:
+                            - generic [ref=e747]: Previous Price ₹999.00
+                            - text: ₹999.00
+                  - generic [ref=e756] [cursor=pointer]:
+                    - button "Add to cart, STRIFF Mousepad Mouse Mat 230X190X2mm Mouse Pad Gaming/Mouse pad for Laptop Non-Slip Rubber Base, Waterproof Surface, Premium-Textured, Compatible with Laser and Optical Mice(Black)(Pack of 2)" [ref=e757]
+                    - generic [ref=e758]: Add to cart
+              - listitem [ref=e759]:
+                - generic [ref=e760]:
+                  - generic [ref=e761]:
+                    - link "Zebronics ZEB-KM2100 Multimedia USB Keyboard Comes with 114 Keys Including 12 Dedicated Multimedia Keys & with Rupee Key" [ref=e762] [cursor=pointer]:
+                      - /url: /ZEBRONICS-ZEB-KM2100-Multimedia-Including-Dedicated/dp/B077T3BG5L/ref=sw_img_d_crh_rh_hashrec_4?_encoding=UTF8&pd_rd_i=B077T3BG5L&pd_rd_w=OVrp2&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - img "Zebronics ZEB-KM2100 Multimedia USB Keyboard Comes with 114 Keys Including 12 Dedicated Multimedia Keys & with Rupee Key" [ref=e764]
+                    - generic [ref=e765]:
+                      - link "Zebronics ZEB-KM2100 Multimedia USB Keyboard Comes with 114 Keys Including 12 Dedicated Multimedia Keys & with Rupee Key" [ref=e766] [cursor=pointer]:
+                        - /url: /ZEBRONICS-ZEB-KM2100-Multimedia-Including-Dedicated/dp/B077T3BG5L/ref=sw_ttl_d_crh_rh_hashrec_4?_encoding=UTF8&pd_rd_i=B077T3BG5L&pd_rd_w=OVrp2&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                        - generic [ref=e768]: Zebronics ZEB-KM2100 Multimedia USB Keyboard Comes with 114 Keys Including 12 Dedicated Multimedia Keys & with Rupee Key
+                      - link "3.7 out of 5 stars 45,772" [ref=e770] [cursor=pointer]:
+                        - /url: /product-reviews/B077T3BG5L/ref=sw_cr_d_crh_rh_hashrec_4?_encoding=UTF8&pd_rd_i=B077T3BG5L&pd_rd_w=OVrp2&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                        - generic [ref=e772]: 3.7 out of 5 stars
+                        - text: 45,772
+                      - generic [ref=e773]:
+                        - generic [ref=e774]:
+                          - generic [ref=e775]: ₹291.00
+                          - generic [ref=e776]:
+                            - text: ₹
+                            - generic [ref=e777]:
+                              - text: "291"
+                              - generic [ref=e778]: .
+                            - text: "00"
+                        - generic [ref=e779]:
+                          - text: "M.R.P.:"
+                          - generic [ref=e780]:
+                            - generic [ref=e781]: Previous Price ₹399.00
+                            - text: ₹399.00
+                  - generic [ref=e790] [cursor=pointer]:
+                    - button "Add to cart, Zebronics ZEB-KM2100 Multimedia USB Keyboard Comes with 114 Keys Including 12 Dedicated Multimedia Keys & with Rupee Key" [ref=e791]
+                    - generic [ref=e792]: Add to cart
+              - listitem [ref=e793]:
+                - generic [ref=e794]:
+                  - generic [ref=e795]:
+                    - link "Sounce Mouse Pad Speed Type Mouse Pad with Antifray Stitched Embroidery Edges, Non-Slip Rubber Base Mousepad for Laptop PC (2" [ref=e796] [cursor=pointer]:
+                      - /url: /Sounce-Antifray-Stitched-Embroidery-Non-Slip/dp/B0BSR2N5W9/ref=sw_img_d_crh_rh_hashrec_5?_encoding=UTF8&pd_rd_i=B0BSR2N5W9&pd_rd_w=OVrp2&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - img "Sounce Mouse Pad Speed Type Mouse Pad with Antifray Stitched Embroidery Edges, Non-Slip Rubber Base Mousepad for Laptop PC (2" [ref=e798]
+                    - generic [ref=e799]:
+                      - link "Sounce Mouse Pad Speed Type Mouse Pad with Antifray Stitched Embroidery Edges, Non-Slip Rubber Base Mousepad for Laptop PC (260mm x 210mm x 2mm) (Black)" [ref=e800] [cursor=pointer]:
+                        - /url: /Sounce-Antifray-Stitched-Embroidery-Non-Slip/dp/B0BSR2N5W9/ref=sw_ttl_d_crh_rh_hashrec_5?_encoding=UTF8&pd_rd_i=B0BSR2N5W9&pd_rd_w=OVrp2&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                        - generic [ref=e802]: Sounce Mouse Pad Speed Type Mouse Pad with Antifray Stitched Embroidery Edges, Non-Slip Rubber Base Mousepad for Laptop PC (260mm x 210mm x 2mm) (Black)
+                      - link "4.3 out of 5 stars 4,000" [ref=e804] [cursor=pointer]:
+                        - /url: /product-reviews/B0BSR2N5W9/ref=sw_cr_d_crh_rh_hashrec_5?_encoding=UTF8&pd_rd_i=B0BSR2N5W9&pd_rd_w=OVrp2&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                        - generic [ref=e806]: 4.3 out of 5 stars
+                        - text: 4,000
+                      - generic [ref=e808]: 90% off Limited time deal
+                      - generic [ref=e809]:
+                        - generic [ref=e810]:
+                          - generic [ref=e811]: ₹99.00
+                          - generic [ref=e812]:
+                            - text: ₹
+                            - generic [ref=e813]:
+                              - text: "99"
+                              - generic [ref=e814]: .
+                            - text: "00"
+                        - generic [ref=e815]:
+                          - text: "M.R.P.:"
+                          - generic [ref=e816]:
+                            - generic [ref=e817]: Previous Price ₹999.00
+                            - text: ₹999.00
+                  - generic [ref=e826] [cursor=pointer]:
+                    - button "Add to cart, Sounce Mouse Pad Speed Type Mouse Pad with Antifray Stitched Embroidery Edges, Non-Slip Rubber Base Mousepad for Laptop PC (260mm x 210mm x 2mm) (Black)" [ref=e827]
+                    - generic [ref=e828]: Add to cart
+              - listitem [ref=e829]:
+                - generic [ref=e830]:
+                  - generic [ref=e831]:
+                    - link "Zebronics-NS1500 Laptop Stand Featuring Foldable Design, Anti-Slip Silicone Rubber Pads, Supports Maximum of 5kgs Weight Tabl" [ref=e832] [cursor=pointer]:
+                      - /url: /Zebronics-NS1500-Featuring-Foldable-Anti-Slip-Silicone/dp/B0C36YRMLQ/ref=sw_img_d_crh_rh_hashrec_6?_encoding=UTF8&pd_rd_i=B0C36YRMLQ&pd_rd_w=OVrp2&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - img "Zebronics-NS1500 Laptop Stand Featuring Foldable Design, Anti-Slip Silicone Rubber Pads, Supports Maximum of 5kgs Weight Tabl" [ref=e834]
+                    - generic [ref=e835]:
+                      - link "Zebronics-NS1500 Laptop Stand Featuring Foldable Design, Anti-Slip Silicone Rubber Pads, Supports Maximum of 5kgs Weight Tabletop" [ref=e836] [cursor=pointer]:
+                        - /url: /Zebronics-NS1500-Featuring-Foldable-Anti-Slip-Silicone/dp/B0C36YRMLQ/ref=sw_ttl_d_crh_rh_hashrec_6?_encoding=UTF8&pd_rd_i=B0C36YRMLQ&pd_rd_w=OVrp2&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                        - generic [ref=e838]: Zebronics-NS1500 Laptop Stand Featuring Foldable Design, Anti-Slip Silicone Rubber Pads, Supports Maximum of 5kgs Weight Tabletop
+                      - link "3.8 out of 5 stars 5,723" [ref=e840] [cursor=pointer]:
+                        - /url: /product-reviews/B0C36YRMLQ/ref=sw_cr_d_crh_rh_hashrec_6?_encoding=UTF8&pd_rd_i=B0C36YRMLQ&pd_rd_w=OVrp2&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                        - generic [ref=e842]: 3.8 out of 5 stars
+                        - text: 5,723
+                      - generic [ref=e843]:
+                        - generic [ref=e844]:
+                          - generic [ref=e845]: ₹249.00
+                          - generic [ref=e846]:
+                            - text: ₹
+                            - generic [ref=e847]:
+                              - text: "249"
+                              - generic [ref=e848]: .
+                            - text: "00"
+                        - generic [ref=e849]:
+                          - text: "M.R.P.:"
+                          - generic [ref=e850]:
+                            - generic [ref=e851]: Previous Price ₹1,500.00
+                            - text: ₹1,500.00
+                  - generic [ref=e860] [cursor=pointer]:
+                    - button "Add to cart, Zebronics-NS1500 Laptop Stand Featuring Foldable Design, Anti-Slip Silicone Rubber Pads, Supports Maximum of 5kgs Weight Tabletop" [ref=e861]
+                    - generic [ref=e862]: Add to cart
+              - listitem [ref=e863]:
+                - generic [ref=e864]:
+                  - generic [ref=e865]:
+                    - link "ZEBRONICS Dash Pro 2.4GHz Wireless Mouse, Upto 1600 DPI, 3 Level DPI, High Precision, Power Saving Mode, Comfortable & Lightw" [ref=e866] [cursor=pointer]:
+                      - /url: /ZEBRONICS-Pro-Precision-Comfortable-Lightweight/dp/B0DDTL9PB6/ref=sw_img_d_crh_rh_hashrec_7?_encoding=UTF8&pd_rd_i=B0DDTL9PB6&pd_rd_w=OVrp2&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - img "ZEBRONICS Dash Pro 2.4GHz Wireless Mouse, Upto 1600 DPI, 3 Level DPI, High Precision, Power Saving Mode, Comfortable & Lightw" [ref=e868]
+                    - generic [ref=e869]:
+                      - link "ZEBRONICS Dash Pro 2.4GHz Wireless Mouse, Upto 1600 DPI, 3 Level DPI, High Precision, Power Saving Mode, Comfortable & Lightweight, for Mac | Laptop | Computer (Black)" [ref=e870] [cursor=pointer]:
+                        - /url: /ZEBRONICS-Pro-Precision-Comfortable-Lightweight/dp/B0DDTL9PB6/ref=sw_ttl_d_crh_rh_hashrec_7?_encoding=UTF8&pd_rd_i=B0DDTL9PB6&pd_rd_w=OVrp2&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                        - generic [ref=e872]: ZEBRONICS Dash Pro 2.4GHz Wireless Mouse, Upto 1600 DPI, 3 Level DPI, High Precision, Power Saving Mode, Comfortable & Lightweight, for Mac | Laptop | Computer (Black)
+                      - link "3.7 out of 5 stars 1,305" [ref=e874] [cursor=pointer]:
+                        - /url: /product-reviews/B0DDTL9PB6/ref=sw_cr_d_crh_rh_hashrec_7?_encoding=UTF8&pd_rd_i=B0DDTL9PB6&pd_rd_w=OVrp2&content-id=amzn1.sym.6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_p=6473271d-4411-421b-8a49-cb0591a667fc&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                        - generic [ref=e876]: 3.7 out of 5 stars
+                        - text: 1,305
+                      - generic [ref=e877]:
+                        - generic [ref=e878]:
+                          - generic [ref=e879]: ₹269.00
+                          - generic [ref=e880]:
+                            - text: ₹
+                            - generic [ref=e881]:
+                              - text: "269"
+                              - generic [ref=e882]: .
+                            - text: "00"
+                        - generic [ref=e883]:
+                          - text: "M.R.P.:"
+                          - generic [ref=e884]:
+                            - generic [ref=e885]: Previous Price ₹599.00
+                            - text: ₹599.00
+                  - generic [ref=e894] [cursor=pointer]:
+                    - button "Add to cart, ZEBRONICS Dash Pro 2.4GHz Wireless Mouse, Upto 1600 DPI, 3 Level DPI, High Precision, Power Saving Mode, Comfortable & Lightweight, for Mac | Laptop | Computer (Black)" [ref=e895]
+                    - generic [ref=e896]: Add to cart
+              - button [ref=e897] [cursor=pointer]
+              - button [ref=e898] [cursor=pointer]
+              - button [ref=e899] [cursor=pointer]
+              - button [ref=e900] [cursor=pointer]
+              - button [ref=e901] [cursor=pointer]
+              - button [ref=e902] [cursor=pointer]
+          - button "Next page" [ref=e904] [cursor=pointer]:
+            - generic [ref=e907]: Next page
+      - group [ref=e912]:
+        - heading "Best Sellers in Electronics" [level=1] [ref=e915]
+        - group [ref=e920]:
+          - list [ref=e921]:
+            - listitem [ref=e922]:
+              - generic [ref=e923]:
+                - generic [ref=e924]:
+                  - link "OnePlus Nord Buds 3r TWS Earbuds up to 54 Hours Playback, 2-mic Clear Calls, 3D Spatial Audio, AI Translation, 12.4mm Drivers" [ref=e925] [cursor=pointer]:
+                    - /url: /OnePlus-Playback-Translation-Dual-Device-Connectivity/dp/B0FMDL81GS/ref=sw_img_d_ts_crc?_encoding=UTF8&pd_rd_i=B0FMDL81GS&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                    - img "OnePlus Nord Buds 3r TWS Earbuds up to 54 Hours Playback, 2-mic Clear Calls, 3D Spatial Audio, AI Translation, 12.4mm Drivers" [ref=e927]
+                  - generic [ref=e928]:
+                    - link "OnePlus Nord Buds 3r TWS Earbuds up to 54 Hours Playback, 2-mic Clear Calls, 3D Spatial Audio, AI Translation, 12.4mm Drivers, Dual-Device Connectivity, 47ms Low Latency - Ash Black" [ref=e929] [cursor=pointer]:
+                      - /url: /OnePlus-Playback-Translation-Dual-Device-Connectivity/dp/B0FMDL81GS/ref=sw_ttl_d_ts_crc?_encoding=UTF8&pd_rd_i=B0FMDL81GS&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e931]: OnePlus Nord Buds 3r TWS Earbuds up to 54 Hours Playback, 2-mic Clear Calls, 3D Spatial Audio, AI Translation, 12.4mm Drivers, Dual-Device Connectivity, 47ms Low Latency - Ash Black
+                    - link "4.3 out of 5 stars 46,793" [ref=e933] [cursor=pointer]:
+                      - /url: /product-reviews/B0FMDL81GS/ref=sw_cr_d_ts_crc?_encoding=UTF8&pd_rd_i=B0FMDL81GS&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e935]: 4.3 out of 5 stars
+                      - text: 46,793
+                    - generic [ref=e936]:
+                      - generic [ref=e937]:
+                        - generic [ref=e938]: ₹1,864.00
+                        - generic [ref=e939]:
+                          - text: ₹
+                          - generic [ref=e940]:
+                            - text: 1,864
+                            - generic [ref=e941]: .
+                          - text: "00"
+                      - generic [ref=e942]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e943]:
+                          - generic [ref=e944]: Previous Price ₹1,999.00
+                          - text: ₹1,999.00
+                - generic [ref=e953] [cursor=pointer]:
+                  - button "Add to cart, OnePlus Nord Buds 3r TWS Earbuds up to 54 Hours Playback, 2-mic Clear Calls, 3D Spatial Audio, AI Translation, 12.4mm Drivers, Dual-Device Connectivity, 47ms Low Latency - Ash Black" [ref=e954]
+                  - generic [ref=e955]: Add to cart
+            - listitem [ref=e956]:
+              - generic [ref=e957]:
+                - generic [ref=e958]:
+                  - link "Ambrane Unbreakable 3A Fast Charging 1.5m Braided Type C Cable for Smartphones, Tablets & other Type C devices, 480Mbps Data" [ref=e959] [cursor=pointer]:
+                    - /url: /Ambrane-Unbreakable-Charging-Braided-Cable/dp/B098NS6PVG/ref=sw_img_d_ts_crc_1?_encoding=UTF8&pd_rd_i=B098NS6PVG&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                    - img "Ambrane Unbreakable 3A Fast Charging 1.5m Braided Type C Cable for Smartphones, Tablets & other Type C devices, 480Mbps Data" [ref=e961]
+                  - generic [ref=e962]:
+                    - link "Ambrane Unbreakable 3A Fast Charging 1.5m Braided Type C Cable for Smartphones, Tablets & other Type C devices, 480Mbps Data Sync, Quick Charge 3.0 (RCT15A, Black)" [ref=e963] [cursor=pointer]:
+                      - /url: /Ambrane-Unbreakable-Charging-Braided-Cable/dp/B098NS6PVG/ref=sw_ttl_d_ts_crc_1?_encoding=UTF8&pd_rd_i=B098NS6PVG&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e965]: Ambrane Unbreakable 3A Fast Charging 1.5m Braided Type C Cable for Smartphones, Tablets & other Type C devices, 480Mbps Data Sync, Quick Charge 3.0 (RCT15A, Black)
+                    - link "4.0 out of 5 stars 37,414" [ref=e967] [cursor=pointer]:
+                      - /url: /product-reviews/B098NS6PVG/ref=sw_cr_d_ts_crc_1?_encoding=UTF8&pd_rd_i=B098NS6PVG&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e969]: 4.0 out of 5 stars
+                      - text: 37,414
+                    - generic [ref=e970]:
+                      - generic [ref=e971]:
+                        - generic [ref=e972]: ₹179.00
+                        - generic [ref=e973]:
+                          - text: ₹
+                          - generic [ref=e974]:
+                            - text: "179"
+                            - generic [ref=e975]: .
+                          - text: "00"
+                      - generic [ref=e976]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e977]:
+                          - generic [ref=e978]: Previous Price ₹349.00
+                          - text: ₹349.00
+                - generic [ref=e987] [cursor=pointer]:
+                  - button "Add to cart, Ambrane Unbreakable 3A Fast Charging 1.5m Braided Type C Cable for Smartphones, Tablets & other Type C devices, 480Mbps Data Sync, Quick Charge 3.0 (RCT15A, Black)" [ref=e988]
+                  - generic [ref=e989]: Add to cart
+            - listitem [ref=e990]:
+              - generic [ref=e991]:
+                - generic [ref=e992]:
+                  - link "Samsung Galaxy M17 5G Mobile (Sapphire Black, 6GB RAM, 128GB Storage) | 50MP OIS Triple Camera | Gorilla Glass Victus | IP54" [ref=e993] [cursor=pointer]:
+                    - /url: /Samsung-Sapphire-Storage-Upgrades-Lag-Free/dp/B0G81P4MPG/ref=sw_img_d_ts_crc_2?_encoding=UTF8&pd_rd_i=B0G81P4MPG&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                    - img "Samsung Galaxy M17 5G Mobile (Sapphire Black, 6GB RAM, 128GB Storage) | 50MP OIS Triple Camera | Gorilla Glass Victus | IP54" [ref=e995]
+                  - generic [ref=e996]:
+                    - link "Samsung Galaxy M17 5G Mobile (Sapphire Black, 6GB RAM, 128GB Storage) | 50MP OIS Triple Camera | Gorilla Glass Victus | IP54 | 6 Gen OS Upgrades | AI | Gemini Live | Lag-Free Gaming | Without Charger" [ref=e997] [cursor=pointer]:
+                      - /url: /Samsung-Sapphire-Storage-Upgrades-Lag-Free/dp/B0G81P4MPG/ref=sw_ttl_d_ts_crc_2?_encoding=UTF8&pd_rd_i=B0G81P4MPG&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e999]: Samsung Galaxy M17 5G Mobile (Sapphire Black, 6GB RAM, 128GB Storage) | 50MP OIS Triple Camera | Gorilla Glass Victus | IP54 | 6 Gen OS Upgrades | AI | Gemini Live | Lag-Free Gaming | Without Charger
+                    - link "4.0 out of 5 stars 3,497" [ref=e1001] [cursor=pointer]:
+                      - /url: /product-reviews/B0G81P4MPG/ref=sw_cr_d_ts_crc_2?_encoding=UTF8&pd_rd_i=B0G81P4MPG&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e1003]: 4.0 out of 5 stars
+                      - text: 3,497
+                    - generic [ref=e1004]:
+                      - generic [ref=e1005]:
+                        - generic [ref=e1006]: ₹16,499.00
+                        - generic [ref=e1007]:
+                          - text: ₹
+                          - generic [ref=e1008]:
+                            - text: 16,499
+                            - generic [ref=e1009]: .
+                          - text: "00"
+                      - generic [ref=e1010]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e1011]:
+                          - generic [ref=e1012]: Previous Price ₹23,999.00
+                          - text: ₹23,999.00
+                - generic [ref=e1021] [cursor=pointer]:
+                  - button "Add to cart, Samsung Galaxy M17 5G Mobile (Sapphire Black, 6GB RAM, 128GB Storage) | 50MP OIS Triple Camera | Gorilla Glass Victus | IP54 | 6 Gen OS Upgrades | AI | Gemini Live | Lag-Free Gaming | Without Charger" [ref=e1022]
+                  - generic [ref=e1023]: Add to cart
+            - listitem [ref=e1024]:
+              - generic [ref=e1025]:
+                - generic [ref=e1026]:
+                  - link "Boat Airdopes 219, 4Mics ENx, 40H Battery, Best in Segment for Calling, Stream Ad Free Music via App Support, Bluetooth Earbu" [ref=e1027] [cursor=pointer]:
+                    - /url: /boAt-Airdopes-Bluetooth-Wireless-Earphones/dp/B0FC2Y3XGV/ref=sw_img_d_ts_crc_3?_encoding=UTF8&pd_rd_i=B0FC2Y3XGV&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                    - img "Boat Airdopes 219, 4Mics ENx, 40H Battery, Best in Segment for Calling, Stream Ad Free Music via App Support, Bluetooth Earbu" [ref=e1029]
+                  - generic [ref=e1030]:
+                    - link "Boat Airdopes 219, 4Mics ENx, 40H Battery, Best in Segment for Calling, Stream Ad Free Music via App Support, Bluetooth Earbuds, TWS Ear Buds Wireless Earphones with mic (Carbon Black)" [ref=e1031] [cursor=pointer]:
+                      - /url: /boAt-Airdopes-Bluetooth-Wireless-Earphones/dp/B0FC2Y3XGV/ref=sw_ttl_d_ts_crc_3?_encoding=UTF8&pd_rd_i=B0FC2Y3XGV&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e1033]: Boat Airdopes 219, 4Mics ENx, 40H Battery, Best in Segment for Calling, Stream Ad Free Music via App Support, Bluetooth Earbuds, TWS Ear Buds Wireless Earphones with mic (Carbon Black)
+                    - link "3.9 out of 5 stars 5,807" [ref=e1035] [cursor=pointer]:
+                      - /url: /product-reviews/B0FC2Y3XGV/ref=sw_cr_d_ts_crc_3?_encoding=UTF8&pd_rd_i=B0FC2Y3XGV&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e1037]: 3.9 out of 5 stars
+                      - text: 5,807
+                    - generic [ref=e1039]: 75% off Limited time deal
+                    - generic [ref=e1040]:
+                      - generic [ref=e1041]:
+                        - generic [ref=e1042]: ₹999.00
+                        - generic [ref=e1043]:
+                          - text: ₹
+                          - generic [ref=e1044]:
+                            - text: "999"
+                            - generic [ref=e1045]: .
+                          - text: "00"
+                      - generic [ref=e1046]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e1047]:
+                          - generic [ref=e1048]: Previous Price ₹3,990.00
+                          - text: ₹3,990.00
+                - generic [ref=e1057] [cursor=pointer]:
+                  - button "Add to cart, Boat Airdopes 219, 4Mics ENx, 40H Battery, Best in Segment for Calling, Stream Ad Free Music via App Support, Bluetooth Earbuds, TWS Ear Buds Wireless Earphones with mic (Carbon Black)" [ref=e1058]
+                  - generic [ref=e1059]: Add to cart
+            - listitem [ref=e1060]:
+              - generic [ref=e1061]:
+                - generic [ref=e1062]:
+                  - link "Boat Bassheads 300C Wired Earphones,Type-C Jack, 10mm Drivers, Signature Sound, in-Line Microphone, Integrated Controls, Voic" [ref=e1063] [cursor=pointer]:
+                    - /url: /Bassheads-Earphones-Signature-Microphone-Integrated/dp/B0FM38916Y/ref=sw_img_d_ts_crc_4?_encoding=UTF8&pd_rd_i=B0FM38916Y&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                    - img "Boat Bassheads 300C Wired Earphones,Type-C Jack, 10mm Drivers, Signature Sound, in-Line Microphone, Integrated Controls, Voic" [ref=e1065]
+                  - generic [ref=e1066]:
+                    - link "Boat Bassheads 300C Wired Earphones,Type-C Jack, 10mm Drivers, Signature Sound, in-Line Microphone, Integrated Controls, Voice Assistant & 120cm Cable (Active Black)" [ref=e1067] [cursor=pointer]:
+                      - /url: /Bassheads-Earphones-Signature-Microphone-Integrated/dp/B0FM38916Y/ref=sw_ttl_d_ts_crc_4?_encoding=UTF8&pd_rd_i=B0FM38916Y&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e1069]: Boat Bassheads 300C Wired Earphones,Type-C Jack, 10mm Drivers, Signature Sound, in-Line Microphone, Integrated Controls, Voice Assistant & 120cm Cable (Active Black)
+                    - link "4.0 out of 5 stars 119,206" [ref=e1071] [cursor=pointer]:
+                      - /url: /product-reviews/B0FM38916Y/ref=sw_cr_d_ts_crc_4?_encoding=UTF8&pd_rd_i=B0FM38916Y&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e1073]: 4.0 out of 5 stars
+                      - text: 119,206
+                    - generic [ref=e1074]:
+                      - generic [ref=e1075]:
+                        - generic [ref=e1076]: ₹499.00
+                        - generic [ref=e1077]:
+                          - text: ₹
+                          - generic [ref=e1078]:
+                            - text: "499"
+                            - generic [ref=e1079]: .
+                          - text: "00"
+                      - generic [ref=e1080]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e1081]:
+                          - generic [ref=e1082]: Previous Price ₹999.00
+                          - text: ₹999.00
+                - generic [ref=e1091] [cursor=pointer]:
+                  - button "Add to cart, Boat Bassheads 300C Wired Earphones,Type-C Jack, 10mm Drivers, Signature Sound, in-Line Microphone, Integrated Controls, Voice Assistant & 120cm Cable (Active Black)" [ref=e1092]
+                  - generic [ref=e1093]: Add to cart
+            - listitem [ref=e1094]:
+              - generic [ref=e1095]:
+                - generic [ref=e1096]:
+                  - link "Samsung Original 25W USB Type-C Travel Adaptor Without Cable for Google Pixel, Xiaomi, Motorola, iPhone, Samsung Galaxy Tab S" [ref=e1097] [cursor=pointer]:
+                    - /url: /Samsung-Original-Type-C-Adaptor-without/dp/B0D2R2MXXJ/ref=sw_img_d_ts_crc_5?_encoding=UTF8&pd_rd_i=B0D2R2MXXJ&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                    - img "Samsung Original 25W USB Type-C Travel Adaptor Without Cable for Google Pixel, Xiaomi, Motorola, iPhone, Samsung Galaxy Tab S" [ref=e1099]
+                  - generic [ref=e1100]:
+                    - link "Samsung Original 25W USB Type-C Travel Adaptor Without Cable for Google Pixel, Xiaomi, Motorola, iPhone, Samsung Galaxy Tab S/A Series, Galaxy S10/M54/M55/A80/A90/S25/S24, White" [ref=e1101] [cursor=pointer]:
+                      - /url: /Samsung-Original-Type-C-Adaptor-without/dp/B0D2R2MXXJ/ref=sw_ttl_d_ts_crc_5?_encoding=UTF8&pd_rd_i=B0D2R2MXXJ&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e1103]: Samsung Original 25W USB Type-C Travel Adaptor Without Cable for Google Pixel, Xiaomi, Motorola, iPhone, Samsung Galaxy Tab S/A Series, Galaxy S10/M54/M55/A80/A90/S25/S24, White
+                    - link "4.4 out of 5 stars 21,200" [ref=e1105] [cursor=pointer]:
+                      - /url: /product-reviews/B0D2R2MXXJ/ref=sw_cr_d_ts_crc_5?_encoding=UTF8&pd_rd_i=B0D2R2MXXJ&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e1107]: 4.4 out of 5 stars
+                      - text: 21,200
+                    - generic [ref=e1108]:
+                      - generic [ref=e1109]:
+                        - generic [ref=e1110]: ₹750.00
+                        - generic [ref=e1111]:
+                          - text: ₹
+                          - generic [ref=e1112]:
+                            - text: "750"
+                            - generic [ref=e1113]: .
+                          - text: "00"
+                      - generic [ref=e1114]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e1115]:
+                          - generic [ref=e1116]: Previous Price ₹1,699.00
+                          - text: ₹1,699.00
+                - generic [ref=e1125] [cursor=pointer]:
+                  - button "Add to cart, Samsung Original 25W USB Type-C Travel Adaptor Without Cable for Google Pixel, Xiaomi, Motorola, iPhone, Samsung Galaxy Tab S/A Series, Galaxy S10/M54/M55/A80/A90/S25/S24, White" [ref=e1126]
+                  - generic [ref=e1127]: Add to cart
+            - listitem [ref=e1128]:
+              - generic [ref=e1129]:
+                - generic [ref=e1130]:
+                  - link "Portronics Conch Theta C in Ear Type C Wired Earphones with in Line HD Mic, Powerful Audio, 14.2mm Driver, Unique Earbuds Des" [ref=e1131] [cursor=pointer]:
+                    - /url: /Portronics-Earphones-Powerful-Controls-Compatibility/dp/B0DDHM6D3L/ref=sw_img_d_ts_crc_6?_encoding=UTF8&pd_rd_i=B0DDHM6D3L&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                    - img "Portronics Conch Theta C in Ear Type C Wired Earphones with in Line HD Mic, Powerful Audio, 14.2mm Driver, Unique Earbuds Des" [ref=e1133]
+                  - generic [ref=e1134]:
+                    - link "Portronics Conch Theta C in Ear Type C Wired Earphones with in Line HD Mic, Powerful Audio, 14.2mm Driver, Unique Earbuds Design, TPE Anti Tangle Wire, in line Controls, Wide Compatibility(White)" [ref=e1135] [cursor=pointer]:
+                      - /url: /Portronics-Earphones-Powerful-Controls-Compatibility/dp/B0DDHM6D3L/ref=sw_ttl_d_ts_crc_6?_encoding=UTF8&pd_rd_i=B0DDHM6D3L&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e1137]: Portronics Conch Theta C in Ear Type C Wired Earphones with in Line HD Mic, Powerful Audio, 14.2mm Driver, Unique Earbuds Design, TPE Anti Tangle Wire, in line Controls, Wide Compatibility(White)
+                    - link "4.1 out of 5 stars 10,215" [ref=e1139] [cursor=pointer]:
+                      - /url: /product-reviews/B0DDHM6D3L/ref=sw_cr_d_ts_crc_6?_encoding=UTF8&pd_rd_i=B0DDHM6D3L&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e1141]: 4.1 out of 5 stars
+                      - text: 10,215
+                    - generic [ref=e1142]:
+                      - generic [ref=e1143]:
+                        - generic [ref=e1144]: ₹322.54
+                        - generic [ref=e1145]:
+                          - text: ₹
+                          - generic [ref=e1146]:
+                            - text: "322"
+                            - generic [ref=e1147]: .
+                          - text: "54"
+                      - generic [ref=e1148]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e1149]:
+                          - generic [ref=e1150]: Previous Price ₹799.00
+                          - text: ₹799.00
+                - generic [ref=e1159] [cursor=pointer]:
+                  - button "Add to cart, Portronics Conch Theta C in Ear Type C Wired Earphones with in Line HD Mic, Powerful Audio, 14.2mm Driver, Unique Earbuds Design, TPE Anti Tangle Wire, in line Controls, Wide Compatibility(White)" [ref=e1160]
+                  - generic [ref=e1161]: Add to cart
+            - listitem [ref=e1162]:
+              - generic [ref=e1163]:
+                - generic [ref=e1164]:
+                  - link "Boat Rockerz 255 Pro+, 60HRS Battery, Fast Charge, IPX7, Dual Pairing, Low Latency, Magnetic Earbuds, in Ear Bluetooth Neckba" [ref=e1165] [cursor=pointer]:
+                    - /url: /boAt-Rockerz-255-Pro-Earphones/dp/B08TV2P1N8/ref=sw_img_d_ts_crc_7?_encoding=UTF8&pd_rd_i=B08TV2P1N8&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                    - img "Boat Rockerz 255 Pro+, 60HRS Battery, Fast Charge, IPX7, Dual Pairing, Low Latency, Magnetic Earbuds, in Ear Bluetooth Neckba" [ref=e1167]
+                  - generic [ref=e1168]:
+                    - link "Boat Rockerz 255 Pro+, 60HRS Battery, Fast Charge, IPX7, Dual Pairing, Low Latency, Magnetic Earbuds, in Ear Bluetooth Neckband, Wireless with Mic Earphones (Active Black)" [ref=e1169] [cursor=pointer]:
+                      - /url: /boAt-Rockerz-255-Pro-Earphones/dp/B08TV2P1N8/ref=sw_ttl_d_ts_crc_7?_encoding=UTF8&pd_rd_i=B08TV2P1N8&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e1171]: Boat Rockerz 255 Pro+, 60HRS Battery, Fast Charge, IPX7, Dual Pairing, Low Latency, Magnetic Earbuds, in Ear Bluetooth Neckband, Wireless with Mic Earphones (Active Black)
+                    - link "4.0 out of 5 stars 150,286" [ref=e1173] [cursor=pointer]:
+                      - /url: /product-reviews/B08TV2P1N8/ref=sw_cr_d_ts_crc_7?_encoding=UTF8&pd_rd_i=B08TV2P1N8&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e1175]: 4.0 out of 5 stars
+                      - text: 150,286
+                    - generic [ref=e1176]:
+                      - generic [ref=e1177]:
+                        - generic [ref=e1178]: ₹1,085.00
+                        - generic [ref=e1179]:
+                          - text: ₹
+                          - generic [ref=e1180]:
+                            - text: 1,085
+                            - generic [ref=e1181]: .
+                          - text: "00"
+                      - generic [ref=e1182]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e1183]:
+                          - generic [ref=e1184]: Previous Price ₹3,990.00
+                          - text: ₹3,990.00
+                - generic [ref=e1193] [cursor=pointer]:
+                  - button "Add to cart, Boat Rockerz 255 Pro+, 60HRS Battery, Fast Charge, IPX7, Dual Pairing, Low Latency, Magnetic Earbuds, in Ear Bluetooth Neckband, Wireless with Mic Earphones (Active Black)" [ref=e1194]
+                  - generic [ref=e1195]: Add to cart
+            - listitem [ref=e1196]:
+              - generic [ref=e1197]:
+                - generic [ref=e1198]:
+                  - link "YATWIN Silicone Case for iPhone 17, Soft-Touch, Shockproof, DustProof, Antiskid Phone Cover for Apple iPhone 17 - Black" [ref=e1199] [cursor=pointer]:
+                    - /url: /YATWIN-iPhone-17-Soft-Touch-Shockproof/dp/B0FVFJHZBP/ref=sw_img_d_ts_crc_8?_encoding=UTF8&pd_rd_i=B0FVFJHZBP&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                    - img "YATWIN Silicone Case for iPhone 17, Soft-Touch, Shockproof, DustProof, Antiskid Phone Cover for Apple iPhone 17 - Black" [ref=e1201]
+                  - generic [ref=e1202]:
+                    - link "YATWIN Silicone Case for iPhone 17, Soft-Touch, Shockproof, DustProof, Antiskid Phone Cover for Apple iPhone 17 - Black" [ref=e1203] [cursor=pointer]:
+                      - /url: /YATWIN-iPhone-17-Soft-Touch-Shockproof/dp/B0FVFJHZBP/ref=sw_ttl_d_ts_crc_8?_encoding=UTF8&pd_rd_i=B0FVFJHZBP&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e1205]: YATWIN Silicone Case for iPhone 17, Soft-Touch, Shockproof, DustProof, Antiskid Phone Cover for Apple iPhone 17 - Black
+                    - link "4.0 out of 5 stars 4,812" [ref=e1207] [cursor=pointer]:
+                      - /url: /product-reviews/B0FVFJHZBP/ref=sw_cr_d_ts_crc_8?_encoding=UTF8&pd_rd_i=B0FVFJHZBP&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e1209]: 4.0 out of 5 stars
+                      - text: 4,812
+                    - generic [ref=e1210]:
+                      - generic [ref=e1211]:
+                        - generic [ref=e1212]: ₹331.00
+                        - generic [ref=e1213]:
+                          - text: ₹
+                          - generic [ref=e1214]:
+                            - text: "331"
+                            - generic [ref=e1215]: .
+                          - text: "00"
+                      - generic [ref=e1216]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e1217]:
+                          - generic [ref=e1218]: Previous Price ₹450.00
+                          - text: ₹450.00
+                - generic [ref=e1227] [cursor=pointer]:
+                  - button "Add to cart, YATWIN Silicone Case for iPhone 17, Soft-Touch, Shockproof, DustProof, Antiskid Phone Cover for Apple iPhone 17 - Black" [ref=e1228]
+                  - generic [ref=e1229]: Add to cart
+            - listitem [ref=e1230]:
+              - generic [ref=e1231]:
+                - generic [ref=e1232]:
+                  - link "iQOO Z11x 5G (Titan Black, 8GB RAM, 256 GB Storage) | Dimensity 7400-Turbo Processor | 7200 mAh Battery | 4K Video Recording" [ref=e1233] [cursor=pointer]:
+                    - /url: /iQOO-Dimensity-7400-Turbo-Processor-Recording/dp/B0GP7L5J2J/ref=sw_img_d_ts_crc_9?_encoding=UTF8&pd_rd_i=B0GP7L5J2J&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                    - img "iQOO Z11x 5G (Titan Black, 8GB RAM, 256 GB Storage) | Dimensity 7400-Turbo Processor | 7200 mAh Battery | 4K Video Recording" [ref=e1235]
+                  - generic [ref=e1236]:
+                    - link "iQOO Z11x 5G (Titan Black, 8GB RAM, 256 GB Storage) | Dimensity 7400-Turbo Processor | 7200 mAh Battery | 4K Video Recording Front & Back | IP68 & IP69+ | Powered by OriginOS 6" [ref=e1237] [cursor=pointer]:
+                      - /url: /iQOO-Dimensity-7400-Turbo-Processor-Recording/dp/B0GP7L5J2J/ref=sw_ttl_d_ts_crc_9?_encoding=UTF8&pd_rd_i=B0GP7L5J2J&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e1239]: iQOO Z11x 5G (Titan Black, 8GB RAM, 256 GB Storage) | Dimensity 7400-Turbo Processor | 7200 mAh Battery | 4K Video Recording Front & Back | IP68 & IP69+ | Powered by OriginOS 6
+                    - link "4.2 out of 5 stars 1,076" [ref=e1241] [cursor=pointer]:
+                      - /url: /product-reviews/B0GP7L5J2J/ref=sw_cr_d_ts_crc_9?_encoding=UTF8&pd_rd_i=B0GP7L5J2J&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e1243]: 4.2 out of 5 stars
+                      - text: 1,076
+                    - generic [ref=e1244]:
+                      - generic [ref=e1245]:
+                        - generic [ref=e1246]: ₹26,999.00
+                        - generic [ref=e1247]:
+                          - text: ₹
+                          - generic [ref=e1248]:
+                            - text: 26,999
+                            - generic [ref=e1249]: .
+                          - text: "00"
+                      - generic [ref=e1250]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e1251]:
+                          - generic [ref=e1252]: Previous Price ₹33,999.00
+                          - text: ₹33,999.00
+                - generic [ref=e1261] [cursor=pointer]:
+                  - button "Add to cart, iQOO Z11x 5G (Titan Black, 8GB RAM, 256 GB Storage) | Dimensity 7400-Turbo Processor | 7200 mAh Battery | 4K Video Recording Front & Back | IP68 & IP69+ | Powered by OriginOS 6" [ref=e1262]
+                  - generic [ref=e1263]: Add to cart
+            - listitem [ref=e1264]:
+              - generic [ref=e1265]:
+                - generic [ref=e1266]:
+                  - link "Samsung Galaxy M17e 5G Mobile (Vibe Violet, 6GB RAM, 128GB Storage) | Smoothest 120 Hz Refresh Rate| Monster 6000 mAh Battery" [ref=e1267] [cursor=pointer]:
+                    - /url: /Samsung-Storage-Smoothest-Refresh-Upgrades/dp/B0GN1GWMBD/ref=sw_img_d_ts_crc_10?_encoding=UTF8&pd_rd_i=B0GN1GWMBD&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                    - img "Samsung Galaxy M17e 5G Mobile (Vibe Violet, 6GB RAM, 128GB Storage) | Smoothest 120 Hz Refresh Rate| Monster 6000 mAh Battery" [ref=e1269]
+                  - generic [ref=e1270]:
+                    - link "Samsung Galaxy M17e 5G Mobile (Vibe Violet, 6GB RAM, 128GB Storage) | Smoothest 120 Hz Refresh Rate| Monster 6000 mAh Battery | IP54 | 6 Gen OS Upgrades | AI | Gemini Live | Without Charger" [ref=e1271] [cursor=pointer]:
+                      - /url: /Samsung-Storage-Smoothest-Refresh-Upgrades/dp/B0GN1GWMBD/ref=sw_ttl_d_ts_crc_10?_encoding=UTF8&pd_rd_i=B0GN1GWMBD&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e1273]: Samsung Galaxy M17e 5G Mobile (Vibe Violet, 6GB RAM, 128GB Storage) | Smoothest 120 Hz Refresh Rate| Monster 6000 mAh Battery | IP54 | 6 Gen OS Upgrades | AI | Gemini Live | Without Charger
+                    - link "4.0 out of 5 stars 501" [ref=e1275] [cursor=pointer]:
+                      - /url: /product-reviews/B0GN1GWMBD/ref=sw_cr_d_ts_crc_10?_encoding=UTF8&pd_rd_i=B0GN1GWMBD&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e1277]: 4.0 out of 5 stars
+                      - text: "501"
+                    - generic [ref=e1278]:
+                      - generic [ref=e1279]:
+                        - generic [ref=e1280]: ₹14,999.00
+                        - generic [ref=e1281]:
+                          - text: ₹
+                          - generic [ref=e1282]:
+                            - text: 14,999
+                            - generic [ref=e1283]: .
+                          - text: "00"
+                      - generic [ref=e1284]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e1285]:
+                          - generic [ref=e1286]: Previous Price ₹20,999.00
+                          - text: ₹20,999.00
+                - generic [ref=e1295] [cursor=pointer]:
+                  - button "Add to cart, Samsung Galaxy M17e 5G Mobile (Vibe Violet, 6GB RAM, 128GB Storage) | Smoothest 120 Hz Refresh Rate| Monster 6000 mAh Battery | IP54 | 6 Gen OS Upgrades | AI | Gemini Live | Without Charger" [ref=e1296]
+                  - generic [ref=e1297]: Add to cart
+            - listitem [ref=e1298]:
+              - generic [ref=e1299]:
+                - generic [ref=e1300]:
+                  - link "OnePlus Bullets Wireless Z3 in-Ear Neckband with 12.4mm Drivers, 3D Spatial Audio,10 mins Charge for 27 hrs Playback, 4 EQ pr" [ref=e1301] [cursor=pointer]:
+                    - /url: /OnePlus-Wireless-Neckband-Playback-Enhancement/dp/B0FBRGKXHG/ref=sw_img_d_ts_crc_11?_encoding=UTF8&pd_rd_i=B0FBRGKXHG&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                    - img "OnePlus Bullets Wireless Z3 in-Ear Neckband with 12.4mm Drivers, 3D Spatial Audio,10 mins Charge for 27 hrs Playback, 4 EQ pr" [ref=e1303]
+                  - generic [ref=e1304]:
+                    - link "OnePlus Bullets Wireless Z3 in-Ear Neckband with 12.4mm Drivers, 3D Spatial Audio,10 mins Charge for 27 hrs Playback, 4 EQ preset, Dynamic bass Enhancement & BT5.4" [ref=e1305] [cursor=pointer]:
+                      - /url: /OnePlus-Wireless-Neckband-Playback-Enhancement/dp/B0FBRGKXHG/ref=sw_ttl_d_ts_crc_11?_encoding=UTF8&pd_rd_i=B0FBRGKXHG&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e1307]: OnePlus Bullets Wireless Z3 in-Ear Neckband with 12.4mm Drivers, 3D Spatial Audio,10 mins Charge for 27 hrs Playback, 4 EQ preset, Dynamic bass Enhancement & BT5.4
+                    - link "4.2 out of 5 stars 232,900" [ref=e1309] [cursor=pointer]:
+                      - /url: /product-reviews/B0FBRGKXHG/ref=sw_cr_d_ts_crc_11?_encoding=UTF8&pd_rd_i=B0FBRGKXHG&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e1311]: 4.2 out of 5 stars
+                      - text: 232,900
+                    - generic [ref=e1313]:
+                      - generic [ref=e1314]: ₹1,999.00
+                      - generic [ref=e1315]:
+                        - text: ₹
+                        - generic [ref=e1316]:
+                          - text: 1,999
+                          - generic [ref=e1317]: .
+                        - text: "00"
+                - generic [ref=e1326] [cursor=pointer]:
+                  - button "Add to cart, OnePlus Bullets Wireless Z3 in-Ear Neckband with 12.4mm Drivers, 3D Spatial Audio,10 mins Charge for 27 hrs Playback, 4 EQ preset, Dynamic bass Enhancement & BT5.4" [ref=e1327]
+                  - generic [ref=e1328]: Add to cart
+            - listitem [ref=e1329]:
+              - generic [ref=e1330]:
+                - generic [ref=e1331]:
+                  - link "OnePlus Nord 6 | 8GB+256GB | Pitch Black | Snapdragon 8s Gen 4 | Segment's First Stable 165FPS Gaming | Segment's Largest 900" [ref=e1332] [cursor=pointer]:
+                    - /url: /OnePlus-Snapdragon-Segments-Complete-Personalized/dp/B0GRB3FBBB/ref=sw_img_d_ts_crc_12?_encoding=UTF8&pd_rd_i=B0GRB3FBBB&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                    - img "OnePlus Nord 6 | 8GB+256GB | Pitch Black | Snapdragon 8s Gen 4 | Segment's First Stable 165FPS Gaming | Segment's Largest 900" [ref=e1334]
+                  - generic [ref=e1335]:
+                    - link "OnePlus Nord 6 | 8GB+256GB | Pitch Black | Snapdragon 8s Gen 4 | Segment's First Stable 165FPS Gaming | Segment's Largest 9000mAh Battery | Most Complete IP Rating | Personalized AI" [ref=e1336] [cursor=pointer]:
+                      - /url: /OnePlus-Snapdragon-Segments-Complete-Personalized/dp/B0GRB3FBBB/ref=sw_ttl_d_ts_crc_12?_encoding=UTF8&pd_rd_i=B0GRB3FBBB&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e1338]: OnePlus Nord 6 | 8GB+256GB | Pitch Black | Snapdragon 8s Gen 4 | Segment's First Stable 165FPS Gaming | Segment's Largest 9000mAh Battery | Most Complete IP Rating | Personalized AI
+                    - link "4.3 out of 5 stars 1,672" [ref=e1340] [cursor=pointer]:
+                      - /url: /product-reviews/B0GRB3FBBB/ref=sw_cr_d_ts_crc_12?_encoding=UTF8&pd_rd_i=B0GRB3FBBB&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e1342]: 4.3 out of 5 stars
+                      - text: 1,672
+                    - generic [ref=e1343]:
+                      - generic [ref=e1344]:
+                        - generic [ref=e1345]: ₹42,999.00
+                        - generic [ref=e1346]:
+                          - text: ₹
+                          - generic [ref=e1347]:
+                            - text: 42,999
+                            - generic [ref=e1348]: .
+                          - text: "00"
+                      - generic [ref=e1349]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e1350]:
+                          - generic [ref=e1351]: Previous Price ₹52,999.00
+                          - text: ₹52,999.00
+                - generic [ref=e1360] [cursor=pointer]:
+                  - button "Add to cart, OnePlus Nord 6 | 8GB+256GB | Pitch Black | Snapdragon 8s Gen 4 | Segment's First Stable 165FPS Gaming | Segment's Largest 9000mAh Battery | Most Complete IP Rating | Personalized AI" [ref=e1361]
+                  - generic [ref=e1362]: Add to cart
+            - listitem [ref=e1363]:
+              - generic [ref=e1364]:
+                - generic [ref=e1365]:
+                  - link "Fire-Boltt Aero TWS Earbuds Custom EQ, Wireless Bluetooth 5.4, Music & App Support, 50H Playtime, Fast Charging Case, 50ms Lo" [ref=e1366] [cursor=pointer]:
+                    - /url: /Fire-Boltt-Wireless-Bluetooth-Playtime-Waterproof/dp/B0FVS5PRCH/ref=sw_img_d_ts_crc_13?_encoding=UTF8&pd_rd_i=B0FVS5PRCH&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                    - img "Fire-Boltt Aero TWS Earbuds Custom EQ, Wireless Bluetooth 5.4, Music & App Support, 50H Playtime, Fast Charging Case, 50ms Lo" [ref=e1368]
+                  - generic [ref=e1369]:
+                    - link "Fire-Boltt Aero TWS Earbuds Custom EQ, Wireless Bluetooth 5.4, Music & App Support, 50H Playtime, Fast Charging Case, 50ms Low Latency for Gaming, Touch Controls, IPX4 Waterproof, Clear Calls - Blue" [ref=e1370] [cursor=pointer]:
+                      - /url: /Fire-Boltt-Wireless-Bluetooth-Playtime-Waterproof/dp/B0FVS5PRCH/ref=sw_ttl_d_ts_crc_13?_encoding=UTF8&pd_rd_i=B0FVS5PRCH&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e1372]: Fire-Boltt Aero TWS Earbuds Custom EQ, Wireless Bluetooth 5.4, Music & App Support, 50H Playtime, Fast Charging Case, 50ms Low Latency for Gaming, Touch Controls, IPX4 Waterproof, Clear Calls - Blue
+                    - link "3.8 out of 5 stars 11,628" [ref=e1374] [cursor=pointer]:
+                      - /url: /product-reviews/B0FVS5PRCH/ref=sw_cr_d_ts_crc_13?_encoding=UTF8&pd_rd_i=B0FVS5PRCH&pd_rd_w=uCdTx&content-id=amzn1.sym.ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_p=ef16e072-b7b4-4595-9563-4fa8fc55d09f&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe
+                      - generic [ref=e1376]: 3.8 out of 5 stars
+                      - text: 11,628
+                    - generic [ref=e1377]:
+                      - generic [ref=e1378]:
+                        - generic [ref=e1379]: ₹699.00
+                        - generic [ref=e1380]:
+                          - text: ₹
+                          - generic [ref=e1381]:
+                            - text: "699"
+                            - generic [ref=e1382]: .
+                          - text: "00"
+                      - generic [ref=e1383]:
+                        - text: "M.R.P.:"
+                        - generic [ref=e1384]:
+                          - generic [ref=e1385]: Previous Price ₹8,999.00
+                          - text: ₹8,999.00
+                - generic [ref=e1394] [cursor=pointer]:
+                  - button "Add to cart, Fire-Boltt Aero TWS Earbuds Custom EQ, Wireless Bluetooth 5.4, Music & App Support, 50H Playtime, Fast Charging Case, 50ms Low Latency for Gaming, Touch Controls, IPX4 Waterproof, Clear Calls - Blue" [ref=e1395]
+                  - generic [ref=e1396]: Add to cart
+      - generic [ref=e1400]:
+        - iframe [ref=e1401]:
+          - generic [ref=f14e4]:
+            - generic [ref=f14e5]: "Click to navigate to product detail page Sponsored Ad. Product image. Branded image. Campus Men Camp-Glacier Running Shoes. Price: ₹1,259.00."
+            - img "Product image" [ref=f14e13]
+            - link "Click to navigate to product detail page" [ref=f14e17] [cursor=pointer]:
+              - /url: https://aax-eu.amazon.in/x/c/RDfWHqXZMBDTcHsCax1toucAAAGfA3UVCwMAAAH_AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICDp67Rz/clv1c_ek-YwvHTLcbWDfn3UR0cnmu0iU-K87TFjEkl-P2-nMiN3Daxy7LJvwWg2m15YQNqwwnpbqJNbhBo_ZuQxE-G7gwZx6ULbIOU6Wzzjy1uYXvfjbkTG5gnblD4IK_yOITzUhkjibrHjtcmJPU3WAFu8XlYiMtmN0Bqn8g4jxSquSd8EwwcYIwjP0SDVlW27BteVGIeiZH7OELdMF3H41yLsgVnR5o_Fl2r-odFrAE3xfnLtNkya05K6ckJ9Zjqg3Dp3glFp67TAk2sh4iWPrJ7RpgL6Q8Vg7xsIq40vhK1Cu39os8FSVf9oGIMKSMSaMD2q8wGBZyhZQIlXGt9O4b_GqZ9DZasRuaytA5kMZHZqNGqatRUpFGtm2K5EVLRjXg_fRUlrqbbgETgDveukK0p151FH5xByroEBY74cT50YDX-BxlxxTAtFNYu5KlxAnZxjFZh1qn4OO-BP3BrjwI0G5H4CMlXIXB_I4hc801vKOpCYDqop_r8cQFwXmb9B2TSkp0IPKIbWZxJaL3v_V04FbXBkCtggrnEHs2rRbD0ePa1X_1q53tP21h01zum_VhSOCsQ9kyPRKnmyE_lyfdAFCrc395fUyOhKAJsSXvKy7ckbFvHLaYJM436tca0ih4466Uwjw7CNwIxLBsPXlUgprshoN-hTiW0kT_-QOHfXiJxWKaIIC2f8QBNeJ_AGho3XUplu8sA_SpOvzPeBlKIFhpUd_oUwcqol9DERGy9hNI9WyiV5eaAPtBbCKxVof7GXVBOQ1yHaAq5je_l3oDPDcCejVjjqSLIkk54tDmmrutnvDBi1Kggm1tohrX_Yb09AhWnfWfAhmM5JOnEJ0TyaRrU5WgXpJ7mqHkuokho4Qcesf4jOoPcz9c-s1-3AcImWvZy_PJgleD2n4e3PVzzoWphC107SyzpK3CmkZErt3xqk4fK7wpyADEAF17toS_BlBYoSwsR9XXL_yCN25IA-uULY_hLzdmnD4zAtcbQmf0O6nce0i8j703XP1jXYSF4Jn6C6R2xvqnDMHXEBArRAUPzToG-zluste_kH3u75CZtYL1IKVxdFTAyf01hPxCy97QI3eZMo-SLFZKtiYTNWlZwmOhZshjbTHd9Y5CvamsvtsCwkF-dfcN0zL5p5Ju81_RDH8EbGAFZaqA/http://www.amazon.in/dp/B0BCQVX4LT/ref=syn_sd_onsite_desktop_0?ie=UTF8&psc=1&pf_rd_p=596fd33d-b943-43fc-9617-5c791f1b1c47&pf_rd_r=CNB9TPV0JJT776P0BERZ&pd_rd_wg=SbRgR&pd_rd_w=SN69S&pd_rd_r=6705badb-a7b6-4c09-9458-f9f4cd802ebe&aref=pFCRqcKA1d
+        - button "Leave feedback on Sponsored advertisement" [ref=e1403] [cursor=pointer]:
+          - generic [ref=e1404]: Sponsored
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=e1406]:
+    - button "Back to top" [ref=e1407] [cursor=pointer]:
+      - generic [ref=e1408]: Back to top
+    - generic [ref=e1409]:
+      - generic [ref=e1410]:
+        - heading "Get to Know Us" [level=6] [ref=e1411]
+        - list [ref=e1412]:
+          - listitem [ref=e1413]:
+            - link "About Amazon" [ref=e1414] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e1415]:
+            - link "Careers" [ref=e1416] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=e1417]:
+            - link "Press Releases" [ref=e1418] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e1419]:
+            - link "Amazon Science" [ref=e1420] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e1422]:
+        - heading "Connect with Us" [level=6] [ref=e1423]
+        - list [ref=e1424]:
+          - listitem [ref=e1425]:
+            - link "Facebook" [ref=e1426] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=e1427]:
+            - link "Twitter" [ref=e1428] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=e1429]:
+            - link "Instagram" [ref=e1430] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=e1432]:
+        - heading "Make Money with Us" [level=6] [ref=e1433]
+        - list [ref=e1434]:
+          - listitem [ref=e1435]:
+            - link "Sell on Amazon" [ref=e1436] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=e1437]:
+            - link "Sell under Amazon Accelerator" [ref=e1438] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=e1439]:
+            - link "Protect and Build Your Brand" [ref=e1440] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=e1441]:
+            - link "Amazon Global Selling" [ref=e1442] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=e1443]:
+            - link "Supply to Amazon" [ref=e1444] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=e1445]:
+            - link "Become an Affiliate" [ref=e1446] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=e1447]:
+            - link "Fulfilment by Amazon" [ref=e1448] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=e1449]:
+            - link "Advertise Your Products" [ref=e1450] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=e1451]:
+            - link "Amazon Pay on Merchants" [ref=e1452] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant
+      - generic [ref=e1454]:
+        - heading "Let Us Help You" [level=6] [ref=e1455]
+        - list [ref=e1456]:
+          - listitem [ref=e1457]:
+            - link "Your Account" [ref=e1458] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e1459]:
+            - link "Returns Centre" [ref=e1460] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e1461]:
+            - link "Recalls and Product Safety Alerts" [ref=e1462] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e1463]:
+            - link "100% Purchase Protection" [ref=e1464] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=e1465]:
+            - link "Amazon App Download" [ref=e1466] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=e1467]:
+            - link "Help" [ref=e1468] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=e1470]:
+      - link "Amazon India Home" [ref=e1473] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=e1476]:
+        - generic [ref=e1477]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e1478] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e1480]: English
+          - button "Expand to Change Language or Country" [ref=e1481] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=e1482] [cursor=pointer]:
+          - generic [ref=e1484]: India
+    - generic "More on Amazon" [ref=e1485]:
+      - generic "More on Amazon" [ref=e1486]:
+        - list [ref=e1487]:
+          - listitem [ref=e1488]:
+            - link "AbeBooks Books, art & collectibles" [ref=e1489] [cursor=pointer]:
+              - /url: https://www.abebooks.com/
+              - heading "AbeBooks" [level=5] [ref=e1490]
+              - generic [ref=e1491]:
+                - text: Books, art
+                - text: "& collectibles"
+          - listitem [ref=e1492]
+          - listitem [ref=e1493]:
+            - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e1494] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e1495]
+              - generic [ref=e1496]:
+                - text: Scalable Cloud
+                - text: Computing Services
+          - listitem [ref=e1497]
+          - listitem [ref=e1498]:
+            - link "Audible Download Audio Books" [ref=e1499] [cursor=pointer]:
+              - /url: https://www.audible.in/
+              - heading "Audible" [level=5] [ref=e1500]
+              - generic [ref=e1501]:
+                - text: Download
+                - text: Audio Books
+          - listitem [ref=e1502]
+          - listitem [ref=e1503]:
+            - link "IMDb Movies, TV & Celebrities" [ref=e1504] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=e1505]
+              - generic [ref=e1506]:
+                - text: Movies, TV
+                - text: "& Celebrities"
+        - list [ref=e1507]:
+          - listitem [ref=e1508]:
+            - link "Shopbop Designer Fashion Brands" [ref=e1509] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=e1510]
+              - generic [ref=e1511]:
+                - text: Designer
+                - text: Fashion Brands
+          - listitem [ref=e1512]
+          - listitem [ref=e1513]:
+            - link "Amazon Business Everything For Your Business" [ref=e1514] [cursor=pointer]:
+              - /url: /business?ref=footer_aingw
+              - heading "Amazon Business" [level=5] [ref=e1515]
+              - generic [ref=e1516]:
+                - text: Everything For
+                - text: Your Business
+          - listitem [ref=e1517]
+          - listitem [ref=e1518]:
+            - link "Amazon Music Stream millions of songs" [ref=e1519] [cursor=pointer]:
+              - /url: /music/player?ref=footer_apm
+              - heading "Amazon Music" [level=5] [ref=e1520]
+              - generic [ref=e1521]: Stream millions of songs
+          - listitem [ref=e1522]
+          - listitem [ref=e1523]
+    - generic [ref=e1524]:
+      - list [ref=e1525]:
+        - listitem [ref=e1526]:
+          - link "Conditions of Use & Sale" [ref=e1527] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=e1528]:
+          - link "Privacy Notice" [ref=e1529] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=e1530]:
+          - link "Interest-Based Ads" [ref=e1531] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=e1532]: © 1996-2026, Amazon.com, Inc. or its affiliates

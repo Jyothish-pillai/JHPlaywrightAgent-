@@ -1,0 +1,97 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - link "MB PYRAMID MagicBox Next" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: MB
+        - generic [ref=e6]:
+          - generic [ref=e7]: PYRAMID
+          - generic [ref=e8]: MagicBox Next
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /
+      - group [ref=e10]:
+        - generic "Staffing & Recruitment" [ref=e11] [cursor=pointer]
+        - link "Onboarding Dashboard" [ref=e12] [cursor=pointer]:
+          - /url: /ui/onboarding/dashboard
+        - link "Start New Placement" [ref=e13] [cursor=pointer]:
+          - /url: /ui/onboarding/start
+        - link "Create Pre-Placements" [ref=e14] [cursor=pointer]:
+          - /url: /ui/onboarding/placement-new
+        - link "Change Requests stub" [ref=e15] [cursor=pointer]:
+          - /url: /ui/onboarding/change-requests
+        - link "Placement List stub" [ref=e16] [cursor=pointer]:
+          - /url: /ui/onboarding/placements
+        - link "Approval Queue stub" [ref=e17] [cursor=pointer]:
+          - /url: /ui/onboarding/approvals
+        - link "HR Onboarding Queue stub" [ref=e18] [cursor=pointer]:
+          - /url: /ui/onboarding/hr-queue
+        - link "Requisitions stub" [ref=e19] [cursor=pointer]:
+          - /url: /ui/recruiting/requisitions
+        - link "Candidate Pipeline stub" [ref=e20] [cursor=pointer]:
+          - /url: /ui/recruiting/pipeline
+      - group [ref=e21]:
+        - generic "Sales & CRM" [ref=e22] [cursor=pointer]
+      - group [ref=e23]:
+        - generic "Finance & Payroll" [ref=e24] [cursor=pointer]
+      - group [ref=e25]:
+        - generic "Employee & HR" [ref=e26] [cursor=pointer]
+      - group [ref=e27]:
+        - generic "Vendor & MSP" [ref=e28] [cursor=pointer]
+      - group [ref=e29]:
+        - generic "External Access" [ref=e30] [cursor=pointer]
+      - group [ref=e31]:
+        - generic "Other generated screens" [ref=e32] [cursor=pointer]
+    - main [ref=e146]:
+      - navigation [ref=e147]:
+        - link "Onboarding" [ref=e148] [cursor=pointer]:
+          - /url: /ui/onboarding/dashboard
+        - text: ·
+        - link "Start Pre-Placement" [ref=e149] [cursor=pointer]:
+          - /url: /ui/onboarding/start
+        - text: ·Wizard
+      - heading "Pre-Placement Onboarding" [level=1] [ref=e150]
+      - paragraph [ref=e151]: Step 1 of 8
+      - heading "Initiate Preplacement" [level=2] [ref=e161]
+      - 'button "Net GM Regular : ₹0.00 / hr (0.0%) indicative" [ref=e163] [cursor=pointer]':
+        - generic [ref=e164]: "Net GM Regular : ₹0.00 / hr (0.0%)"
+        - generic [ref=e165]:
+          - generic "No burden reference data matched this placement - margin is unburdened and reads high." [ref=e166]: indicative
+          - generic [ref=e167]: +
+      - generic [ref=e170]:
+        - generic [ref=e171]:
+          - generic [ref=e172]:
+            - generic [ref=e173]: Consultant First Name *
+            - textbox "Consultant First Name *" [ref=e174]: Priya
+          - generic [ref=e175]:
+            - text: Consultant Middle Name
+            - textbox "Consultant Middle Name" [ref=e176]: S
+          - generic [ref=e177]:
+            - generic [ref=e178]: Consultant Last Name *
+            - textbox "Consultant Last Name *" [ref=e179]: Nair
+        - generic [ref=e180]:
+          - text: Suffix
+          - combobox "Suffix" [ref=e181]:
+            - option "Select…" [selected]
+            - option "Jr."
+            - option "Sr."
+            - option "II"
+            - option "III"
+        - generic [ref=e182]:
+          - generic [ref=e183]: Govt. ID No. (Last 4 Char. Only) *
+          - textbox "Govt. ID No. (Last 4 Char. Only) *" [ref=e184]: "1234"
+        - generic [ref=e185]:
+          - generic [ref=e186]: Contract Type *
+          - combobox "Contract Type *" [ref=e187]:
+            - option "Select…" [disabled]
+            - option "C2C India" [selected]
+        - generic [ref=e188]:
+          - generic [ref=e189]: Client Name *
+          - generic [ref=e190]:
+            - textbox "Client Name *" [active] [ref=e191]:
+              - /placeholder: Type to search…
+              - text: Pyramid Consulting Inc
+            - button "Clear" [ref=e204] [cursor=pointer]: ×
+      - generic [ref=e192]:
+        - button "Back" [disabled] [ref=e193]
+        - button "Save & Next" [ref=e194] [cursor=pointer]
+  - alert [ref=e60]

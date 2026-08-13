@@ -1,0 +1,1086 @@
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=e8]:
+        - link "Shopping cart" [ref=e9] [cursor=pointer]:
+          - /url: "#sc-active-cart"
+          - text: Your Amazon Cart
+      - listitem [ref=e10]:
+        - link "Saved for later" [ref=e11] [cursor=pointer]:
+          - /url: "#sc-saved-cart-caption"
+          - text: Saved for Later
+      - listitem [ref=e12]:
+        - link "Buy it again" [ref=e13] [cursor=pointer]:
+          - /url: "#sc-buy-it-again-caption"
+          - text: Buy it Again
+    - separator [ref=e14]
+    - heading "Keyboard shortcuts" [level=2] [ref=e15]
+    - list "Keyboard shortcuts" [ref=e16]:
+      - listitem [ref=e17]:
+        - link "Search, alt, forward slash" [ref=e18] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e19]:
+            - generic [ref=e20]: Search
+            - generic [ref=e21]:
+              - generic [ref=e22]: alt
+              - generic [ref=e23]: +
+              - generic [ref=e24]: /
+      - listitem [ref=e25]:
+        - link "Cart, shift, alt, c" [ref=e26] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e27]:
+            - generic [ref=e28]: Cart
+            - generic [ref=e29]:
+              - generic [ref=e30]: shift
+              - generic [ref=e31]: +
+              - generic [ref=e32]: alt
+              - generic [ref=e33]: +
+              - generic [ref=e34]: C
+      - listitem [ref=e35]:
+        - link "Home, shift, alt, h" [ref=e36] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e37]:
+            - generic [ref=e38]: Home
+            - generic [ref=e39]:
+              - generic [ref=e40]: shift
+              - generic [ref=e41]: +
+              - generic [ref=e42]: alt
+              - generic [ref=e43]: +
+              - generic [ref=e44]: H
+      - listitem [ref=e45]:
+        - link "Your orders, shift, alt, o" [ref=e46] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e47]:
+            - generic [ref=e48]: Orders
+            - generic [ref=e49]:
+              - generic [ref=e50]: shift
+              - generic [ref=e51]: +
+              - generic [ref=e52]: alt
+              - generic [ref=e53]: +
+              - generic [ref=e54]: O
+      - listitem [ref=e55]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]:
+            - generic [ref=e58]: Show/Hide shortcuts
+            - generic [ref=e59]:
+              - generic [ref=e60]: shift
+              - generic [ref=e61]: +
+              - generic [ref=e62]: alt
+              - generic [ref=e63]: +
+              - generic [ref=e64]: Z
+    - generic [ref=e70]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e71]:
+    - navigation "Primary" [ref=e72]:
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - link "Amazon.in" [ref=e76] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Deliver to New Noida 201301‌" [ref=e79] [cursor=pointer]:
+            - generic [ref=e81]:
+              - generic [ref=e82]: Deliver to New
+              - generic [ref=e83]: Noida 201301‌
+        - search [ref=e86]:
+          - generic [ref=e89]:
+            - generic [ref=e91]: All
+            - combobox "Select the department you want to search in" [ref=e93] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh"
+              - option "Amazon Fresh Meat"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=e96]
+          - generic "Go" [ref=e99] [cursor=pointer]:
+            - button "Go" [ref=e100]
+        - generic [ref=e102]:
+          - generic [ref=e103]:
+            - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=e104] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e107]:
+                - img "India" [ref=e108]
+                - generic [ref=e109]: EN
+            - button "Expand to Change Language or Country" [ref=e110] [cursor=pointer]
+          - generic [ref=e111]:
+            - link "Hello, Celsior Account & Lists" [ref=e112] [cursor=pointer]:
+              - /url: https://www.amazon.in/gp/css/homepage.html?ref_=nav_youraccount_btn
+              - generic [ref=e114]: Hello, Celsior
+              - generic [ref=e115]: Account & Lists
+            - button "Expand Account and Lists" [ref=e116] [cursor=pointer]
+          - link "Returns & Orders" [ref=e117] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e118]: Returns
+            - generic [ref=e119]: "& Orders"
+          - link "1 item in cart" [ref=e120] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e122]: "1"
+            - generic [ref=e125]: Cart
+      - generic [ref=e126]:
+        - generic [ref=e127]:
+          - button "Open All Categories Menu" [ref=e128] [cursor=pointer]:
+            - generic [ref=e130]: All
+          - button "Open Rufus panel" [ref=e131] [cursor=pointer]:
+            - generic [ref=e133]: Rufus
+        - list [ref=e137]:
+          - listitem [ref=e138]:
+            - generic [ref=e139]:
+              - link "Fresh" [ref=e140] [cursor=pointer]:
+                - /url: /tez/browse?qcbrand=ctnow&ref_=nav_cs_grocery
+              - button "Fresh Details" [ref=e141] [cursor=pointer]
+          - listitem [ref=e142]:
+            - generic [ref=e143]:
+              - link "Prime" [ref=e144] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=e145] [cursor=pointer]
+          - listitem [ref=e146]:
+            - link "MX Player" [ref=e148] [cursor=pointer]:
+              - /url: /minitv?ref_=nav_avod_desktop_topnav
+          - listitem [ref=e149]:
+            - link "Sell" [ref=e151] [cursor=pointer]:
+              - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+          - listitem [ref=e152]:
+            - link "Gift Cards" [ref=e154] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=e155]:
+            - link "Amazon Pay" [ref=e157] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=e158]:
+            - link "Buy Again" [ref=e160] [cursor=pointer]:
+              - /url: /gp/buyagain?ie=UTF8&ref_=nav_cs_buy_again
+          - listitem [ref=e161]:
+            - link "Gift Ideas" [ref=e163] [cursor=pointer]:
+              - /url: /gcx/-/gfhz/?ref_=nav_cs_giftfinder
+          - listitem [ref=e164]:
+            - link "AmazonBasics" [ref=e166] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=e167]:
+            - link "Subscribe & Save" [ref=e169] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e170]:
+            - link "Health, Household & Personal Care" [ref=e172] [cursor=pointer]:
+              - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+          - listitem [ref=e173]:
+            - link "Home Improvement" [ref=e175] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=e176]:
+            - generic [ref=e177]:
+              - link "Browsing History" [ref=e178] [cursor=pointer]:
+                - /url: /gp/history?ref_=nav_cs_timeline
+              - button "Browsing History Details" [ref=e179] [cursor=pointer]
+          - listitem [ref=e180]:
+            - link "Today's Deals" [ref=e182] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e183]:
+            - link "Celsior 's Amazon.in" [ref=e185] [cursor=pointer]:
+              - /url: /gp/yourstore/home?ref_=nav_cs_ys
+              - generic [ref=e186]:
+                - generic [ref=e187]: Celsior
+                - text: "'s Amazon.in"
+          - listitem [ref=e188]:
+            - link "Audible" [ref=e190] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=e191]:
+            - link "Customer Service" [ref=e193] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=e194]:
+            - link "Books" [ref=e196] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=e197]:
+            - link "Sports, Fitness & Outdoors" [ref=e199] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=e200]:
+            - link "Bestsellers" [ref=e202] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e203]:
+            - link "Home & Kitchen" [ref=e205] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=e206]:
+            - link "Kindle eBooks" [ref=e208] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books
+          - listitem [ref=e209]:
+            - link "Toys & Games" [ref=e211] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=e212]:
+            - link "Electronics" [ref=e214] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=e215]:
+            - link "Beauty & Personal Care" [ref=e217] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=e218]:
+            - link "Pet Supplies" [ref=e220] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=e221]:
+            - link "Computers" [ref=e223] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=e224]:
+            - link "Fashion" [ref=e226] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=e227]:
+            - link "Video Games" [ref=e229] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=e230]:
+            - link "Car & Motorbike" [ref=e232] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=e233]:
+            - link "New Releases" [ref=e235] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e236]:
+            - link "Mobiles" [ref=e238] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+          - listitem [ref=e239]:
+            - link "Baby" [ref=e241] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+  - main [ref=e246]:
+    - heading "All Carts" [level=1] [ref=e247]
+    - generic [ref=e249]:
+      - generic [ref=e250]:
+        - generic [ref=e254]:
+          - status [ref=e255]:
+            - generic [ref=e257]:
+              - generic [ref=e258]:
+                - progressbar [ref=e261]
+                - generic [ref=e263]: ₹499
+              - generic [ref=e269]:
+                - text: Your order is eligible for FREE Delivery.
+                - generic [ref=e270]:
+                  - text: Choose
+                  - link "FREE Delivery" [ref=e271] [cursor=pointer]:
+                    - /url: /gp/help/customer/display.html?nodeId=200904360&pop-up=1
+                  - text: option at checkout.
+          - generic [ref=e272]:
+            - 'heading "Amazon Subtotal (1 item): ₹79,990.00" [level=3] [ref=e273]':
+              - generic [ref=e274]: Amazon
+              - generic [ref=e275]:
+                - text: "Subtotal (1 item):"
+                - generic [ref=e276]: ₹79,990.00
+            - generic [ref=e280]:
+              - checkbox "This order contains a gift" [ref=e281]
+              - generic [ref=e283]: This order contains a gift
+            - generic [ref=e287] [cursor=pointer]:
+              - button "Proceed to Buy Buy Amazon items" [ref=e288]: Proceed to checkout
+              - generic [ref=e291]: Proceed to Buy
+          - button "EMI Available" [ref=e296] [cursor=pointer]:
+            - heading "EMI Available" [level=5] [ref=e298]
+        - generic [ref=e307]:
+          - heading "Customers Who Bought HP OmniBook 5 OLED (Previously Pavilion), Snapdrag... Also Bought" [level=3] [ref=e308]
+          - list [ref=e309]:
+            - listitem [ref=e310]:
+              - generic [ref=e315]:
+                - link [ref=e318] [cursor=pointer]:
+                  - /url: /RAYA-Silicone-Keyboard-OmniBook-Transparent/dp/B0H1JM34TD/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_1/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0H1JM34TD&psc=1
+                  - img [ref=e319]
+                - generic [ref=e320]:
+                  - generic [ref=e322]:
+                    - link "RAYA Silicone Keyboard Cover for HP OmniBook 5 Flip 14inch [ fp0789TU / fp0790TU / fp0690TU / fp0141TU ] & HP OmniBook 7 14inch [ fr0116TU / fr0789TU ] Laptop (Transparent)" [ref=e323] [cursor=pointer]:
+                      - /url: /RAYA-Silicone-Keyboard-OmniBook-Transparent/dp/B0H1JM34TD/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_1/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0H1JM34TD&psc=1
+                      - generic [ref=e325]: RAYA Silicone Keyboard Cover for HP OmniBook 5 Flip 14inch [ fp0789TU / fp0790TU / fp0690TU / fp0141TU ] & HP OmniBook 7 14inch [ fr0116TU / fr0789TU ] Laptop (Transparent)
+                    - link "4.5 out of 5 stars, 6 ratings" [ref=e328] [cursor=pointer]:
+                      - /url: /product-reviews/B0H1JM34TD/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_1_cr/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0H1JM34TD
+                      - generic [ref=e330]: 4.5 out of 5 stars
+                      - text: "6"
+                    - generic [ref=e331]:
+                      - generic [ref=e333]:
+                        - generic [ref=e334]:
+                          - link "-70%" [ref=e335] [cursor=pointer]:
+                            - /url: /RAYA-Silicone-Keyboard-OmniBook-Transparent/dp/B0H1JM34TD/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_1/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0H1JM34TD&psc=1
+                            - text: "-70%"
+                          - link "₹299.00" [ref=e336] [cursor=pointer]:
+                            - /url: /RAYA-Silicone-Keyboard-OmniBook-Transparent/dp/B0H1JM34TD/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_1/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0H1JM34TD&psc=1
+                            - generic [ref=e337]:
+                              - generic [ref=e338]: ₹299.00
+                              - generic [ref=e339]:
+                                - text: ₹
+                                - generic [ref=e340]:
+                                  - text: "299"
+                                  - generic [ref=e341]: .
+                                - text: "00"
+                        - 'link "M.R.P: ₹999.00" [ref=e343] [cursor=pointer]':
+                          - /url: /RAYA-Silicone-Keyboard-OmniBook-Transparent/dp/B0H1JM34TD/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_1/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0H1JM34TD&psc=1
+                          - generic [ref=e345]: "M.R.P: ₹999.00"
+                      - generic [ref=e347]: Get it by Saturday, July 18
+                    - text: FREE Delivery by Amazon
+                  - generic [ref=e355] [cursor=pointer]:
+                    - button "Add to cart, RAYA Silicone Keyboard Cover for HP OmniBook 5 Flip 14inch [ fp0789TU / fp0790TU / fp0690TU / fp0141TU ] & HP OmniBook 7 14inch [ fr0116TU / fr0789TU ] Laptop (Transparent)" [ref=e356]
+                    - generic [ref=e357]: Add to cart
+            - listitem [ref=e358]:
+              - generic [ref=e363]:
+                - link [ref=e366] [cursor=pointer]:
+                  - /url: /HP-Omnibook-Snapdragon-Processor-Anti-Glare/dp/B0GY8KNSFC/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_2/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0GY8KNSFC&psc=1
+                  - img [ref=e367]
+                - generic [ref=e368]:
+                  - generic [ref=e370]:
+                    - link "HP Omnibook 3, Snapdragon X Processor 45 TOPS (16GB LPDDR5x,512GB SSD) 2K WUXGA, Anti-Glare, 14''/35.6cm, Win 11, M365*Office 24,Silver,1.42kg, hz0026QU, Lighter mini Charger, FHD IR Camera, AI Laptop" [ref=e371] [cursor=pointer]:
+                      - /url: /HP-Omnibook-Snapdragon-Processor-Anti-Glare/dp/B0GY8KNSFC/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_2/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0GY8KNSFC&psc=1
+                      - generic [ref=e373]: HP Omnibook 3, Snapdragon X Processor 45 TOPS (16GB LPDDR5x,512GB SSD) 2K WUXGA, Anti-Glare, 14''/35.6cm, Win 11, M365*Office 24,Silver,1.42kg, hz0026QU, Lighter mini Charger, FHD IR Camera, AI Laptop
+                    - link "3.0 out of 5 stars, 10 ratings" [ref=e376] [cursor=pointer]:
+                      - /url: /product-reviews/B0GY8KNSFC/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_2_cr/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0GY8KNSFC
+                      - generic [ref=e378]: 3.0 out of 5 stars
+                      - text: "10"
+                    - generic [ref=e379]:
+                      - generic [ref=e381]:
+                        - generic [ref=e382]:
+                          - link "-45%" [ref=e383] [cursor=pointer]:
+                            - /url: /HP-Omnibook-Snapdragon-Processor-Anti-Glare/dp/B0GY8KNSFC/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_2/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0GY8KNSFC&psc=1
+                            - text: "-45%"
+                          - link "₹79,990.00" [ref=e384] [cursor=pointer]:
+                            - /url: /HP-Omnibook-Snapdragon-Processor-Anti-Glare/dp/B0GY8KNSFC/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_2/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0GY8KNSFC&psc=1
+                            - generic [ref=e385]:
+                              - generic [ref=e386]: ₹79,990.00
+                              - generic [ref=e387]:
+                                - text: ₹
+                                - generic [ref=e388]:
+                                  - text: 79,990
+                                  - generic [ref=e389]: .
+                                - text: "00"
+                        - 'link "M.R.P: ₹1,46,518.00" [ref=e391] [cursor=pointer]':
+                          - /url: /HP-Omnibook-Snapdragon-Processor-Anti-Glare/dp/B0GY8KNSFC/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_2/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0GY8KNSFC&psc=1
+                          - generic [ref=e393]: "M.R.P: ₹1,46,518.00"
+                      - generic [ref=e395]: Get it by Saturday, July 18
+                    - text: FREE Delivery by Amazon
+                  - generic [ref=e403] [cursor=pointer]:
+                    - button "Add to cart, HP Omnibook 3, Snapdragon X Processor 45 TOPS (16GB LPDDR5x,512GB SSD) 2K WUXGA, Anti-Glare, 14''/35.6cm, Win 11, M365*Office 24,Silver,1.42kg, hz0026QU, Lighter mini Charger, FHD IR Camera, AI Laptop" [ref=e404]
+                    - generic [ref=e405]: Add to cart
+            - listitem [ref=e406]:
+              - generic [ref=e411]:
+                - link [ref=e414] [cursor=pointer]:
+                  - /url: /HP-Office24-fd1254TU-Graphics-Shutter/dp/B0F5B2X1SD/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_3/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0F5B2X1SD&psc=1
+                  - img [ref=e415]
+                - generic [ref=e416]:
+                  - generic [ref=e418]:
+                    - link "HP 15 Smartchoice, Intel Core Ultra 5 125H, 12 Tops (16GB DDR5, 512GB SSD) FHD, IPS, 15.6''/39.6cm, Win11, M365(1yr)* Office24, Silver, 1.65kg, fd1254TU, FHD Camera w/Shutter, AI Powered Laptop" [ref=e419] [cursor=pointer]:
+                      - /url: /HP-Office24-fd1254TU-Graphics-Shutter/dp/B0F5B2X1SD/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_3/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0F5B2X1SD&psc=1
+                      - generic [ref=e421]: HP 15 Smartchoice, Intel Core Ultra 5 125H, 12 Tops (16GB DDR5, 512GB SSD) FHD, IPS, 15.6''/39.6cm, Win11, M365(1yr)* Office24, Silver, 1.65kg, fd1254TU, FHD Camera w/Shutter, AI Powered Laptop
+                    - link "3.7 out of 5 stars, 59 ratings" [ref=e424] [cursor=pointer]:
+                      - /url: /product-reviews/B0F5B2X1SD/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_3_cr/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0F5B2X1SD
+                      - generic [ref=e426]: 3.7 out of 5 stars
+                      - text: "59"
+                    - generic [ref=e427]:
+                      - generic [ref=e429]:
+                        - generic [ref=e430]:
+                          - link "-9%" [ref=e431] [cursor=pointer]:
+                            - /url: /HP-Office24-fd1254TU-Graphics-Shutter/dp/B0F5B2X1SD/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_3/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0F5B2X1SD&psc=1
+                            - text: "-9%"
+                          - link "₹75,490.00" [ref=e432] [cursor=pointer]:
+                            - /url: /HP-Office24-fd1254TU-Graphics-Shutter/dp/B0F5B2X1SD/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_3/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0F5B2X1SD&psc=1
+                            - generic [ref=e433]:
+                              - generic [ref=e434]: ₹75,490.00
+                              - generic [ref=e435]:
+                                - text: ₹
+                                - generic [ref=e436]:
+                                  - text: 75,490
+                                  - generic [ref=e437]: .
+                                - text: "00"
+                        - 'link "M.R.P: ₹83,033.15" [ref=e439] [cursor=pointer]':
+                          - /url: /HP-Office24-fd1254TU-Graphics-Shutter/dp/B0F5B2X1SD/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_3/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0F5B2X1SD&psc=1
+                          - generic [ref=e441]: "M.R.P: ₹83,033.15"
+                      - generic [ref=e443]: Get it by Saturday, July 18
+                    - text: FREE Delivery by Amazon
+                  - generic [ref=e451] [cursor=pointer]:
+                    - button "Add to cart, HP 15 Smartchoice, Intel Core Ultra 5 125H, 12 Tops (16GB DDR5, 512GB SSD) FHD, IPS, 15.6''/39.6cm, Win11, M365(1yr)* Office24, Silver, 1.65kg, fd1254TU, FHD Camera w/Shutter, AI Powered Laptop" [ref=e452]
+                    - generic [ref=e453]: Add to cart
+            - listitem [ref=e454]:
+              - generic [ref=e459]:
+                - link [ref=e462] [cursor=pointer]:
+                  - /url: /HP-Smartchoice-Victus-Upgradeable-Gamepass/dp/B0GWQ7MQ1Q/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_4/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0GWQ7MQ1Q&psc=1
+                  - img [ref=e463]
+                - generic [ref=e464]:
+                  - generic [ref=e466]:
+                    - link "HP Smartchoice Victus, AMD Ryzen 7 7445HS, 6GB RTX 3050, 16GB DDR5(Upgradeable) 512GB SSD, 144Hz, 300 nits, 15.6''/39.6cm, Win 11, Office 24, Blue, 2.29kg, fb3134/20ax, Xbox Gamepass*, Gaming Laptop" [ref=e467] [cursor=pointer]:
+                      - /url: /HP-Smartchoice-Victus-Upgradeable-Gamepass/dp/B0GWQ7MQ1Q/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_4/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0GWQ7MQ1Q&psc=1
+                      - generic [ref=e469]: HP Smartchoice Victus, AMD Ryzen 7 7445HS, 6GB RTX 3050, 16GB DDR5(Upgradeable) 512GB SSD, 144Hz, 300 nits, 15.6''/39.6cm, Win 11, Office 24, Blue, 2.29kg, fb3134/20ax, Xbox Gamepass*, Gaming Laptop
+                    - link "3.0 out of 5 stars, 2 ratings" [ref=e472] [cursor=pointer]:
+                      - /url: /product-reviews/B0GWQ7MQ1Q/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_4_cr/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0GWQ7MQ1Q
+                      - generic [ref=e474]: 3.0 out of 5 stars
+                      - text: "2"
+                    - generic [ref=e475]:
+                      - link "₹1,06,990.00" [ref=e479] [cursor=pointer]:
+                        - /url: /HP-Smartchoice-Victus-Upgradeable-Gamepass/dp/B0GWQ7MQ1Q/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_4/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0GWQ7MQ1Q&psc=1
+                        - generic [ref=e480]:
+                          - generic [ref=e481]: ₹1,06,990.00
+                          - generic [ref=e482]:
+                            - text: ₹
+                            - generic [ref=e483]:
+                              - text: 1,06,990
+                              - generic [ref=e484]: .
+                            - text: "00"
+                      - generic [ref=e486]: Get it by Saturday, July 18
+                    - text: FREE Delivery by Amazon
+                  - generic [ref=e494] [cursor=pointer]:
+                    - button "Add to cart, HP Smartchoice Victus, AMD Ryzen 7 7445HS, 6GB RTX 3050, 16GB DDR5(Upgradeable) 512GB SSD, 144Hz, 300 nits, 15.6''/39.6cm, Win 11, Office 24, Blue, 2.29kg, fb3134/20ax, Xbox Gamepass*, Gaming Laptop" [ref=e495]
+                    - generic [ref=e496]: Add to cart
+            - listitem [ref=e497]:
+              - generic [ref=e502]:
+                - link [ref=e505] [cursor=pointer]:
+                  - /url: /HP-Smartchoice-i7-13620H-Upgradeable-Office24/dp/B0FDKS93JV/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_5/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0FDKS93JV&psc=1
+                  - img [ref=e506]
+                - generic [ref=e507]:
+                  - generic [ref=e509]:
+                    - link "HP Smartchoice Victus, 13th Gen i7-13620H, 6GB RTX 4050, 16GB DDR4(Upgradeable) 512GB SSD, 144Hz, 300nits, 15.6''/39.6cm, Win11, Office24, Mica Silver, 2.3kg, fa2100tx, Xbox Gamepass* Gaming Laptop" [ref=e510] [cursor=pointer]:
+                      - /url: /HP-Smartchoice-i7-13620H-Upgradeable-Office24/dp/B0FDKS93JV/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_5/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0FDKS93JV&psc=1
+                      - generic [ref=e512]: HP Smartchoice Victus, 13th Gen i7-13620H, 6GB RTX 4050, 16GB DDR4(Upgradeable) 512GB SSD, 144Hz, 300nits, 15.6''/39.6cm, Win11, Office24, Mica Silver, 2.3kg, fa2100tx, Xbox Gamepass* Gaming Laptop
+                    - link "4.2 out of 5 stars, 137 ratings" [ref=e515] [cursor=pointer]:
+                      - /url: /product-reviews/B0FDKS93JV/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_5_cr/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0FDKS93JV
+                      - generic [ref=e517]: 4.2 out of 5 stars
+                      - text: "137"
+                    - generic [ref=e518]:
+                      - link "₹1,03,990.00" [ref=e522] [cursor=pointer]:
+                        - /url: /HP-Smartchoice-i7-13620H-Upgradeable-Office24/dp/B0FDKS93JV/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_5/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0FDKS93JV&psc=1
+                        - generic [ref=e523]:
+                          - generic [ref=e524]: ₹1,03,990.00
+                          - generic [ref=e525]:
+                            - text: ₹
+                            - generic [ref=e526]:
+                              - text: 1,03,990
+                              - generic [ref=e527]: .
+                            - text: "00"
+                      - generic [ref=e529]: Get it by Monday, July 20
+                    - text: FREE Delivery by Amazon
+                  - generic [ref=e537] [cursor=pointer]:
+                    - button "Add to cart, HP Smartchoice Victus, 13th Gen i7-13620H, 6GB RTX 4050, 16GB DDR4(Upgradeable) 512GB SSD, 144Hz, 300nits, 15.6''/39.6cm, Win11, Office24, Mica Silver, 2.3kg, fa2100tx, Xbox Gamepass* Gaming Laptop" [ref=e538]
+                    - generic [ref=e539]: Add to cart
+            - listitem [ref=e540]:
+              - generic [ref=e545]:
+                - link [ref=e548] [cursor=pointer]:
+                  - /url: /HP-Smartchoice-i5-13420H-Upgradeable-Office24/dp/B0F6CVT23B/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_6/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0F6CVT23B&psc=1
+                  - img [ref=e549]
+                - generic [ref=e550]:
+                  - generic [ref=e552]:
+                    - link "HP Smartchoice Victus, 13th Gen Intel Core i5-13420H, 4GB RTX 3050,16GB (Upgradeable) 512GB SSD, 144Hz, 300nits, 15.6’’/39.6cm, Win11, Office24, Blue, 2.3kg, fa2190/91tx, Xbox Gamepass*, Gaming Laptop" [ref=e553] [cursor=pointer]:
+                      - /url: /HP-Smartchoice-i5-13420H-Upgradeable-Office24/dp/B0F6CVT23B/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_6/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0F6CVT23B&psc=1
+                      - generic [ref=e555]: HP Smartchoice Victus, 13th Gen Intel Core i5-13420H, 4GB RTX 3050,16GB (Upgradeable) 512GB SSD, 144Hz, 300nits, 15.6’’/39.6cm, Win11, Office24, Blue, 2.3kg, fa2190/91tx, Xbox Gamepass*, Gaming Laptop
+                    - link "4.2 out of 5 stars, 183 ratings" [ref=e558] [cursor=pointer]:
+                      - /url: /product-reviews/B0F6CVT23B/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_6_cr/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0F6CVT23B
+                      - generic [ref=e560]: 4.2 out of 5 stars
+                      - text: "183"
+                    - generic [ref=e561]:
+                      - generic [ref=e563]:
+                        - generic [ref=e564]:
+                          - link "-4%" [ref=e565] [cursor=pointer]:
+                            - /url: /HP-Smartchoice-i5-13420H-Upgradeable-Office24/dp/B0F6CVT23B/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_6/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0F6CVT23B&psc=1
+                            - text: "-4%"
+                          - link "₹77,990.00" [ref=e566] [cursor=pointer]:
+                            - /url: /HP-Smartchoice-i5-13420H-Upgradeable-Office24/dp/B0F6CVT23B/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_6/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0F6CVT23B&psc=1
+                            - generic [ref=e567]:
+                              - generic [ref=e568]: ₹77,990.00
+                              - generic [ref=e569]:
+                                - text: ₹
+                                - generic [ref=e570]:
+                                  - text: 77,990
+                                  - generic [ref=e571]: .
+                                - text: "00"
+                        - 'link "M.R.P: ₹81,201.00" [ref=e573] [cursor=pointer]':
+                          - /url: /HP-Smartchoice-i5-13420H-Upgradeable-Office24/dp/B0F6CVT23B/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_6/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0F6CVT23B&psc=1
+                          - generic [ref=e575]: "M.R.P: ₹81,201.00"
+                      - generic [ref=e577]: Get it by Monday, July 20
+                    - text: FREE Delivery by Amazon
+                    - generic [ref=e580]: Only 2 left in stock.
+                  - generic [ref=e588] [cursor=pointer]:
+                    - button "Add to cart, HP Smartchoice Victus, 13th Gen Intel Core i5-13420H, 4GB RTX 3050,16GB (Upgradeable) 512GB SSD, 144Hz, 300nits, 15.6’’/39.6cm, Win11, Office24, Blue, 2.3kg, fa2190/91tx, Xbox Gamepass*, Gaming Laptop" [ref=e589]
+                    - generic [ref=e590]: Add to cart
+            - listitem [ref=e591]:
+              - generic [ref=e596]:
+                - link [ref=e599] [cursor=pointer]:
+                  - /url: /Dell-i5-1334U-Anti-Glare-Vostro-3530/dp/B0D2Y1BLDT/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_7/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0D2Y1BLDT&psc=1
+                  - img [ref=e600]
+                - generic [ref=e601]:
+                  - generic [ref=e603]:
+                    - link "Dell 15, Intel Core 13th Gen i5-1334U, FHD, 15.6\"/39.62cm, Windows 11, MSO'24, Grey, 1.66kg, Vostro 3530, (16GB DDR4, 512GB SSD) Anti-Glare FHD 15.6\"/39.62cm, 12 Month McAfee, Thin & Light Laptop" [ref=e604] [cursor=pointer]:
+                      - /url: /Dell-i5-1334U-Anti-Glare-Vostro-3530/dp/B0D2Y1BLDT/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_7/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0D2Y1BLDT&psc=1
+                      - generic [ref=e606]: Dell 15, Intel Core 13th Gen i5-1334U, FHD, 15.6"/39.62cm, Windows 11, MSO'24, Grey, 1.66kg, Vostro 3530, (16GB DDR4, 512GB SSD) Anti-Glare FHD 15.6"/39.62cm, 12 Month McAfee, Thin & Light Laptop
+                    - link "3.8 out of 5 stars, 591 ratings" [ref=e609] [cursor=pointer]:
+                      - /url: /product-reviews/B0D2Y1BLDT/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_7_cr/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0D2Y1BLDT
+                      - generic [ref=e611]: 3.8 out of 5 stars
+                      - text: "591"
+                    - generic [ref=e612]:
+                      - generic [ref=e614]:
+                        - generic [ref=e615]:
+                          - link "-7%" [ref=e616] [cursor=pointer]:
+                            - /url: /Dell-i5-1334U-Anti-Glare-Vostro-3530/dp/B0D2Y1BLDT/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_7/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0D2Y1BLDT&psc=1
+                            - text: "-7%"
+                          - link "₹67,990.00" [ref=e617] [cursor=pointer]:
+                            - /url: /Dell-i5-1334U-Anti-Glare-Vostro-3530/dp/B0D2Y1BLDT/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_7/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0D2Y1BLDT&psc=1
+                            - generic [ref=e618]:
+                              - generic [ref=e619]: ₹67,990.00
+                              - generic [ref=e620]:
+                                - text: ₹
+                                - generic [ref=e621]:
+                                  - text: 67,990
+                                  - generic [ref=e622]: .
+                                - text: "00"
+                        - 'link "M.R.P: ₹73,163.00" [ref=e624] [cursor=pointer]':
+                          - /url: /Dell-i5-1334U-Anti-Glare-Vostro-3530/dp/B0D2Y1BLDT/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_7/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0D2Y1BLDT&psc=1
+                          - generic [ref=e626]: "M.R.P: ₹73,163.00"
+                      - generic [ref=e628]: Get it by Saturday, July 18
+                    - text: FREE Delivery by Amazon
+                  - generic [ref=e636] [cursor=pointer]:
+                    - button "Add to cart, Dell 15, Intel Core 13th Gen i5-1334U, FHD, 15.6\"/39.62cm, Windows 11, MSO'24, Grey, 1.66kg, Vostro 3530, (16GB DDR4, 512GB SSD) Anti-Glare FHD 15.6\"/39.62cm, 12 Month McAfee, Thin & Light Laptop" [ref=e637]
+                    - generic [ref=e638]: Add to cart
+            - listitem [ref=e639]:
+              - generic [ref=e644]:
+                - link [ref=e647] [cursor=pointer]:
+                  - /url: /TELTREK-Compatible-OmniBook-Previously-Pavilion/dp/B0GXC7LCCG/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_8/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0GXC7LCCG&psc=1
+                  - img [ref=e648]
+                - generic [ref=e649]:
+                  - generic [ref=e651]:
+                    - link "TELTREK Matte Screen Guard Compatible With Laptops With HP OmniBook 5 OLED & OmniBook 7 (Previously Pavilion) / HP Elite 640 G11 / OmniBook X Flip (14 Inch, 16:10 Ratio Laptop) Not a Tempered Glass" [ref=e652] [cursor=pointer]:
+                      - /url: /TELTREK-Compatible-OmniBook-Previously-Pavilion/dp/B0GXC7LCCG/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_8/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0GXC7LCCG&psc=1
+                      - generic [ref=e654]: TELTREK Matte Screen Guard Compatible With Laptops With HP OmniBook 5 OLED & OmniBook 7 (Previously Pavilion) / HP Elite 640 G11 / OmniBook X Flip (14 Inch, 16:10 Ratio Laptop) Not a Tempered Glass
+                    - generic [ref=e657]:
+                      - generic [ref=e658]:
+                        - link "-63%" [ref=e659] [cursor=pointer]:
+                          - /url: /TELTREK-Compatible-OmniBook-Previously-Pavilion/dp/B0GXC7LCCG/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_8/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0GXC7LCCG&psc=1
+                          - text: "-63%"
+                        - link "₹299.00" [ref=e660] [cursor=pointer]:
+                          - /url: /TELTREK-Compatible-OmniBook-Previously-Pavilion/dp/B0GXC7LCCG/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_8/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0GXC7LCCG&psc=1
+                          - generic [ref=e661]:
+                            - generic [ref=e662]: ₹299.00
+                            - generic [ref=e663]:
+                              - text: ₹
+                              - generic [ref=e664]:
+                                - text: "299"
+                                - generic [ref=e665]: .
+                              - text: "00"
+                      - 'link "M.R.P: ₹799.00" [ref=e667] [cursor=pointer]':
+                        - /url: /TELTREK-Compatible-OmniBook-Previously-Pavilion/dp/B0GXC7LCCG/ref=pd_cart_crc_cko_mrai_reranked_d_sccl_1_8/520-2719826-2014458?pd_rd_w=X1WNj&content-id=amzn1.sym.7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_p=7325c834-35fd-46fa-9184-eedb7bf23ddc&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0GXC7LCCG&psc=1
+                        - generic [ref=e669]: "M.R.P: ₹799.00"
+                    - text: FREE Delivery
+                  - generic [ref=e677] [cursor=pointer]:
+                    - button "Add to cart, TELTREK Matte Screen Guard Compatible With Laptops With HP OmniBook 5 OLED & OmniBook 7 (Previously Pavilion) / HP Elite 640 G11 / OmniBook X Flip (14 Inch, 16:10 Ratio Laptop) Not a Tempered Glass" [ref=e678]
+                    - generic [ref=e679]: Add to cart
+      - generic [ref=e680]:
+        - generic [ref=e682]:
+          - generic [ref=e683]:
+            - heading "Shopping Cart" [level=2] [ref=e686]
+            - link "Deselect all items" [ref=e691] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e692]:
+            - generic [ref=e696]: Price
+            - list "Shopping Cart" [ref=e697]:
+              - listitem [ref=e698]:
+                - generic [ref=e700]:
+                  - checkbox "Select HP OmniBook 5 OLED (Previously Pavilion), Snapdragon X Processor 45 Tops (16GB LPDDR5x, 512GB SSD), 2K 14&amp;#39;&amp;#39;/35.6cm, Win11, Office24, Silver, 1.29kg, he0014QU, Multi-Day Battery, AI Laptop for checkout" [checked] [ref=e703]
+                  - link [ref=e706] [cursor=pointer]:
+                    - /url: /gp/product/B0F8P4Y7VF/ref=ox_sc_act_image_1?smid=AJ6SIZC8YQDZX&psc=1
+                  - generic [ref=e707]:
+                    - link "HP OmniBook 5 OLED (Previously Pavilion), Snapdragon X Processor 45 Tops (16GB LPDDR5x, 512GB SSD), 2K 14''/35.6cm, Win11, Office24, Silver, 1.29kg, he0014QU, Multi-Day Battery, AI Laptop" [ref=e709] [cursor=pointer]:
+                      - /url: /gp/product/B0F8P4Y7VF/ref=ox_sc_act_title_1?smid=AJ6SIZC8YQDZX&psc=1
+                      - heading "HP OmniBook 5 OLED (Previously Pavilion), Snapdragon X Processor 45 Tops (16GB LPDDR5x, 512GB SSD), 2K 14''/35.6cm, Win11, Office24, Silver, 1.29kg, he0014QU, Multi-Day Battery, AI Laptop" [level=3] [ref=e711]:
+                        - generic [ref=e712]:
+                          - generic [ref=e713]: HP OmniBook 5 OLED (Previously Pavilion), Snapdragon X Processor 45 Tops (16GB LPDDR5x, 512GB SSD), 2K 14''/35.6cm, Win11, Office24, Silver, 1.29kg, he0014QU, Multi-Day Battery, AI Laptop
+                          - generic [ref=e714]: HP OmniBook 5 OLED (Previously Pavilion), Snapdragon X Processor 45 Tops (16GB LPDDR5x, 512GB SSD), 2K 14''/35.6cm, Win11, Office24, Silver, 1.29kg, he0014QU,…
+                    - generic [ref=e715]:
+                      - generic [ref=e719]:
+                        - generic [ref=e720]: ₹79,990.00
+                        - generic [ref=e721]:
+                          - text: ₹
+                          - generic [ref=e722]:
+                            - text: 79,990
+                            - generic [ref=e723]: .
+                          - text: "00"
+                      - generic [ref=e728]:
+                        - text: Up to 5% back with Amazon Pay ICICI card
+                        - link "Terms" [ref=e731] [cursor=pointer]:
+                          - /url: "#"
+                          - generic [ref=e732]: Terms
+                    - generic [ref=e733]:
+                      - generic [ref=e734]: In stock
+                      - generic [ref=e738]: FREE delivery Mon, 20 Jul available at checkout
+                      - paragraph [ref=e739]
+                      - generic [ref=e743]:
+                        - checkbox "This will be a gift This is a gift Learn more" [ref=e744]
+                        - generic [ref=e746]:
+                          - text: This will be a gift
+                          - link "This is a gift Learn more" [ref=e748] [cursor=pointer]:
+                            - /url: /gp/help/customer/display.html/ref=ord_cart_shr?pop-up=1&nodeId=200507630
+                            - generic [ref=e749]:
+                              - generic [ref=e750]: This is a gift
+                              - text: Learn more
+                      - list [ref=e751]:
+                        - generic [ref=e752]: "Style Name: 14inch/ 512GB"
+                        - generic [ref=e753]: "Configuration: Without HP Care"
+                    - generic [ref=e754]:
+                      - group "Quantity is 1" [ref=e757]:
+                        - generic [ref=e758]: Quantity is 1
+                        - generic [ref=e760]:
+                          - button "Delete HP OmniBook 5 OLED (Previously Pavilion), Snapdragon X Processor 45 Tops (16GB LPDDR5x, 512GB SSD), 2K 14&#39;&#39;/35.6cm, Win11, Office24, Silver, 1.29kg, he0014QU, Multi-Day Battery, AI Laptop" [ref=e761] [cursor=pointer]
+                          - generic [ref=e765]: "1"
+                          - generic [ref=e767]: "1"
+                          - button "Increase quantity by one HP OmniBook 5 OLED (Previously Pavilion), Snapdragon X Processor 45 Tops (16GB LPDDR5x, 512GB SSD), 2K 14&#39;&#39;/35.6cm, Win11, Office24, Silver, 1.29kg, he0014QU, Multi-Day Battery, AI Laptop" [ref=e768] [cursor=pointer]
+                      - button "Delete HP OmniBook 5 OLED (Previously Pavilion), Snapdragon X Processor 45 Tops (16GB LPDDR5x, 512GB SSD), 2K 14&#39;&#39;/35.6cm, Win11, Office24, Silver, 1.29kg, he0014QU, Multi-Day Battery, AI Laptop" [ref=e772] [cursor=pointer]: Delete
+                      - button "Save for later HP OmniBook 5 OLED (Previously Pavilion), Snapdragon X Processor 45 Tops (16GB LPDDR5x, 512GB SSD), 2K 14&#39;&#39;/35.6cm, Win11, Office24, Silver, 1.29kg, he0014QU, Multi-Day Battery, AI Laptop" [ref=e775] [cursor=pointer]: Save for later
+                      - button "See more like this HP OmniBook 5 OLED (Previously Pavilion), Snapdragon X Processor 45 Tops (16GB LPDDR5x, 512GB SSD), 2K 14&#39;&#39;/35.6cm, Win11, Office24, Silver, 1.29kg, he0014QU, Multi-Day Battery, AI Laptop" [ref=e778] [cursor=pointer]: See more like this
+                      - link "Share HP OmniBook 5 OLED (Previously Pavilion), Snapdragon X Processor 45 Tops (16GB LPDDR5x, 512GB SSD), 2K 14&amp;#39;&amp;#39;/35.6cm, Win11, Office24, Silver, 1.29kg, he0014QU, Multi-Day Battery, AI Laptop" [ref=e781] [cursor=pointer]:
+                        - /url: "#"
+                        - text: Share
+            - generic [ref=e783]:
+              - text: "Subtotal (1 item):"
+              - generic [ref=e784]: ₹79,990.00
+        - generic [ref=e786]:
+          - heading "Your Items" [level=3] [ref=e788]
+          - generic [ref=e789]:
+            - tablist [ref=e790]:
+              - tab "No items saved for later" [ref=e791] [cursor=pointer]:
+                - generic [ref=e792]: No items saved for later
+              - tab "Buy it again" [selected] [ref=e793] [cursor=pointer]:
+                - generic [ref=e794]: Buy it again
+            - tabpanel "Buy it again" [ref=e795]:
+              - generic [ref=e798]: No items
+        - generic [ref=e799]:
+          - paragraph [ref=e801]: The price and availability of items at Amazon.in are subject to change. The shopping cart is a temporary place to store a list of your items and reflects each item's most recent price.
+          - paragraph [ref=e802]: Do you have a gift card or promotional code? We'll ask you to enter your claim code when it's time to pay.
+  - group [ref=e810]:
+    - generic [ref=e812]:
+      - generic [ref=e813]:
+        - heading "Customers who bought items in your cart also bought" [level=2] [ref=e815]
+        - generic [ref=e818]: Page 1 of 2
+      - button "Not interested in specific items" [ref=e822] [cursor=pointer]
+    - generic [ref=e824]:
+      - button "Previous set of slides" [ref=e826] [cursor=pointer]:
+        - generic [ref=e829]: Previous set of slides
+      - group [ref=e831]:
+        - list [ref=e832]:
+          - listitem [ref=e833]:
+            - generic [ref=e835]:
+              - link [ref=e837] [cursor=pointer]:
+                - /url: /HP-i5-13420H-Upgrade-Office24-fa2700TX/dp/B0DTYZ2CG8/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_1/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0DTYZ2CG8&psc=1
+                - img [ref=e838]
+              - generic [ref=e840]:
+                - link "HP Victus, 13th Gen Intel Core i5-13420H, 6GB RTX 3050, 16GB DDR4(Upgradeable) 512GB SSD, FHD, 144Hz, 300 nits, IPS, 15.6''/39.6cm, Win11, M365* Office24, Mica Silver, 2.3kg, fa2700TX, Gaming Laptop" [ref=e841] [cursor=pointer]:
+                  - /url: /HP-i5-13420H-Upgrade-Office24-fa2700TX/dp/B0DTYZ2CG8/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_1/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0DTYZ2CG8&psc=1
+                  - generic [ref=e843]: HP Victus, 13th Gen Intel Core i5-13420H, 6GB RTX 3050, 16GB DDR4(Upgradeable) 512GB SSD, FHD, 144Hz, 300 nits, IPS, 15.6''/39.6cm, Win11, M365* Office24, Mica Silver, 2.3kg, fa2700TX, Gaming Laptop
+                - link "4.0 out of 5 stars, 232 ratings" [ref=e846] [cursor=pointer]:
+                  - /url: /product-reviews/B0DTYZ2CG8/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_1_cr/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0DTYZ2CG8
+                  - generic [ref=e848]: 4.0 out of 5 stars
+                  - text: "232"
+                - generic [ref=e849]:
+                  - generic [ref=e851]:
+                    - generic [ref=e852]:
+                      - link "-3%" [ref=e853] [cursor=pointer]:
+                        - /url: /HP-i5-13420H-Upgrade-Office24-fa2700TX/dp/B0DTYZ2CG8/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_1/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0DTYZ2CG8&psc=1
+                        - text: "-3%"
+                      - link "₹85,777.00" [ref=e854] [cursor=pointer]:
+                        - /url: /HP-i5-13420H-Upgrade-Office24-fa2700TX/dp/B0DTYZ2CG8/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_1/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0DTYZ2CG8&psc=1
+                        - generic [ref=e855]:
+                          - generic [ref=e856]: ₹85,777.00
+                          - generic [ref=e857]:
+                            - text: ₹
+                            - generic [ref=e858]:
+                              - text: 85,777
+                              - generic [ref=e859]: .
+                            - text: "00"
+                    - 'link "M.R.P: ₹88,473.00" [ref=e861] [cursor=pointer]':
+                      - /url: /HP-i5-13420H-Upgrade-Office24-fa2700TX/dp/B0DTYZ2CG8/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_1/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0DTYZ2CG8&psc=1
+                      - generic [ref=e863]: "M.R.P: ₹88,473.00"
+                  - generic [ref=e865]: Get it by Saturday, July 18
+                - text: FREE Delivery by Amazon
+              - generic [ref=e873] [cursor=pointer]:
+                - button "Add to cart, HP Victus, 13th Gen Intel Core i5-13420H, 6GB RTX 3050, 16GB DDR4(Upgradeable) 512GB SSD, FHD, 144Hz, 300 nits, IPS, 15.6''/39.6cm, Win11, M365* Office24, Mica Silver, 2.3kg, fa2700TX, Gaming Laptop" [ref=e874]
+                - generic [ref=e875]: Add to cart
+          - listitem [ref=e876]:
+            - generic [ref=e878]:
+              - link [ref=e880] [cursor=pointer]:
+                - /url: /OnePlus-Midnight-Segments-Military-Grade-Durability/dp/B0H3LB843J/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_2/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0H3LB843J&psc=1
+                - img [ref=e881]
+              - generic [ref=e883]:
+                - link "OnePlus N6 | 4GB+128GB | Midnight Green | Segment's Biggest 8000mAh Battery | Segment's Fastest 45W Charging | Smooth 120Hz Display | 50MP Camera | Military-Grade Durability" [ref=e884] [cursor=pointer]:
+                  - /url: /OnePlus-Midnight-Segments-Military-Grade-Durability/dp/B0H3LB843J/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_2/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0H3LB843J&psc=1
+                  - generic [ref=e886]: OnePlus N6 | 4GB+128GB | Midnight Green | Segment's Biggest 8000mAh Battery | Segment's Fastest 45W Charging | Smooth 120Hz Display | 50MP Camera | Military-Grade Durability
+                - link "2.9 out of 5 stars, 34 ratings" [ref=e889] [cursor=pointer]:
+                  - /url: /product-reviews/B0H3LB843J/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_2_cr/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0H3LB843J
+                  - generic [ref=e891]: 2.9 out of 5 stars
+                  - text: "34"
+                - generic [ref=e892]:
+                  - link "#1 Best Seller":
+                    - /url: /gp/bestsellers/electronics/ref=zg_b_bs_ce_display_on_website_1/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_2_bsb/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0H3LB843J
+                    - generic [ref=e896] [cursor=pointer]: "#1 Best Seller"
+                - generic [ref=e897]:
+                  - generic [ref=e899]:
+                    - generic [ref=e900]:
+                      - link "-26%" [ref=e901] [cursor=pointer]:
+                        - /url: /OnePlus-Midnight-Segments-Military-Grade-Durability/dp/B0H3LB843J/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_2/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0H3LB843J&psc=1
+                        - text: "-26%"
+                      - link "₹22,999.00" [ref=e902] [cursor=pointer]:
+                        - /url: /OnePlus-Midnight-Segments-Military-Grade-Durability/dp/B0H3LB843J/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_2/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0H3LB843J&psc=1
+                        - generic [ref=e903]:
+                          - generic [ref=e904]: ₹22,999.00
+                          - generic [ref=e905]:
+                            - text: ₹
+                            - generic [ref=e906]:
+                              - text: 22,999
+                              - generic [ref=e907]: .
+                            - text: "00"
+                    - 'link "M.R.P: ₹30,999.00" [ref=e909] [cursor=pointer]':
+                      - /url: /OnePlus-Midnight-Segments-Military-Grade-Durability/dp/B0H3LB843J/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_2/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0H3LB843J&psc=1
+                      - generic [ref=e911]: "M.R.P: ₹30,999.00"
+                  - generic [ref=e913]: Get it by Saturday, July 18
+                - text: FREE Delivery by Amazon
+              - generic [ref=e921] [cursor=pointer]:
+                - button "Add to cart, OnePlus N6 | 4GB+128GB | Midnight Green | Segment's Biggest 8000mAh Battery | Segment's Fastest 45W Charging | Smooth 120Hz Display | 50MP Camera | Military-Grade Durability" [ref=e922]
+                - generic [ref=e923]: Add to cart
+          - listitem [ref=e924]:
+            - generic [ref=e926]:
+              - link [ref=e928] [cursor=pointer]:
+                - /url: /HP-Laptop-Window-15-FD0533TU-Natural/dp/B0GR9Q34RL/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_3/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0GR9Q34RL&psc=1
+                - img [ref=e929]
+              - generic [ref=e931]:
+                - link "HP Laptop 15 Intel Core i3 13th Gen (8GB|512 GB SSD)/Window 11 Home 15-FD0533TU Laptop (15.6 inch,Natural Silver,1.59 kg, with MS Office" [ref=e932] [cursor=pointer]:
+                  - /url: /HP-Laptop-Window-15-FD0533TU-Natural/dp/B0GR9Q34RL/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_3/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0GR9Q34RL&psc=1
+                  - generic [ref=e934]: HP Laptop 15 Intel Core i3 13th Gen (8GB|512 GB SSD)/Window 11 Home 15-FD0533TU Laptop (15.6 inch,Natural Silver,1.59 kg, with MS Office
+                - link "3.0 out of 5 stars, 4 ratings" [ref=e937] [cursor=pointer]:
+                  - /url: /product-reviews/B0GR9Q34RL/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_3_cr/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0GR9Q34RL
+                  - generic [ref=e939]: 3.0 out of 5 stars
+                  - text: "4"
+                - generic [ref=e942]: 100+ bought in past month
+                - generic [ref=e943]:
+                  - generic [ref=e945]:
+                    - generic [ref=e946]:
+                      - link "-4%" [ref=e947] [cursor=pointer]:
+                        - /url: /HP-Laptop-Window-15-FD0533TU-Natural/dp/B0GR9Q34RL/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_3/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0GR9Q34RL&psc=1
+                        - text: "-4%"
+                      - link "₹47,490.00" [ref=e948] [cursor=pointer]:
+                        - /url: /HP-Laptop-Window-15-FD0533TU-Natural/dp/B0GR9Q34RL/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_3/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0GR9Q34RL&psc=1
+                        - generic [ref=e949]:
+                          - generic [ref=e950]: ₹47,490.00
+                          - generic [ref=e951]:
+                            - text: ₹
+                            - generic [ref=e952]:
+                              - text: 47,490
+                              - generic [ref=e953]: .
+                            - text: "00"
+                    - 'link "M.R.P: ₹49,631.00" [ref=e955] [cursor=pointer]':
+                      - /url: /HP-Laptop-Window-15-FD0533TU-Natural/dp/B0GR9Q34RL/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_3/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0GR9Q34RL&psc=1
+                      - generic [ref=e957]: "M.R.P: ₹49,631.00"
+                  - generic [ref=e959]: Get it by Monday, July 20
+                - text: FREE Delivery by Amazon
+              - generic [ref=e967] [cursor=pointer]:
+                - button "Add to cart, HP Laptop 15 Intel Core i3 13th Gen (8GB|512 GB SSD)/Window 11 Home 15-FD0533TU Laptop (15.6 inch,Natural Silver,1.59 kg, with MS Office" [ref=e968]
+                - generic [ref=e969]: Add to cart
+          - listitem [ref=e970]:
+            - generic [ref=e972]:
+              - link [ref=e974] [cursor=pointer]:
+                - /url: /HP-40-6cm-Office24-2-42kg-an0015TX/dp/B0FM3S8R19/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_4/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0FM3S8R19&psc=1
+                - img [ref=e975]
+              - generic [ref=e977]:
+                - link "HP Omen, Intel Core Ultra 7 255H, 8GB RTX 5060 (24GB DDR5, 1TB SSD) 165Hz, 2k WUXGA, 3ms, 400 nits, 16''/40.6cm, Win11, M365* Office24, Black, 2.42kg, an0015TX, RGB, Gaming Laptop" [ref=e978] [cursor=pointer]:
+                  - /url: /HP-40-6cm-Office24-2-42kg-an0015TX/dp/B0FM3S8R19/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_4/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0FM3S8R19&psc=1
+                  - generic [ref=e980]: HP Omen, Intel Core Ultra 7 255H, 8GB RTX 5060 (24GB DDR5, 1TB SSD) 165Hz, 2k WUXGA, 3ms, 400 nits, 16''/40.6cm, Win11, M365* Office24, Black, 2.42kg, an0015TX, RGB, Gaming Laptop
+                - link "4.2 out of 5 stars, 21 ratings" [ref=e983] [cursor=pointer]:
+                  - /url: /product-reviews/B0FM3S8R19/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_4_cr/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0FM3S8R19
+                  - generic [ref=e985]: 4.2 out of 5 stars
+                  - text: "21"
+                - generic [ref=e988]: 100+ bought in past month
+                - generic [ref=e989]:
+                  - generic [ref=e991]:
+                    - generic [ref=e992]:
+                      - link "-4%" [ref=e993] [cursor=pointer]:
+                        - /url: /HP-40-6cm-Office24-2-42kg-an0015TX/dp/B0FM3S8R19/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_4/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0FM3S8R19&psc=1
+                        - text: "-4%"
+                      - link "₹1,66,990.00" [ref=e994] [cursor=pointer]:
+                        - /url: /HP-40-6cm-Office24-2-42kg-an0015TX/dp/B0FM3S8R19/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_4/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0FM3S8R19&psc=1
+                        - generic [ref=e995]:
+                          - generic [ref=e996]: ₹1,66,990.00
+                          - generic [ref=e997]:
+                            - text: ₹
+                            - generic [ref=e998]:
+                              - text: 1,66,990
+                              - generic [ref=e999]: .
+                            - text: "00"
+                    - 'link "M.R.P: ₹1,74,237.00" [ref=e1001] [cursor=pointer]':
+                      - /url: /HP-40-6cm-Office24-2-42kg-an0015TX/dp/B0FM3S8R19/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_4/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0FM3S8R19&psc=1
+                      - generic [ref=e1003]: "M.R.P: ₹1,74,237.00"
+                  - generic [ref=e1005]: Get it by Monday, July 20
+                - text: FREE Delivery by Amazon
+              - generic [ref=e1013] [cursor=pointer]:
+                - button "Add to cart, HP Omen, Intel Core Ultra 7 255H, 8GB RTX 5060 (24GB DDR5, 1TB SSD) 165Hz, 2k WUXGA, 3ms, 400 nits, 16''/40.6cm, Win11, M365* Office24, Black, 2.42kg, an0015TX, RGB, Gaming Laptop" [ref=e1014]
+                - generic [ref=e1015]: Add to cart
+          - listitem [ref=e1016]:
+            - generic [ref=e1018]:
+              - link [ref=e1020] [cursor=pointer]:
+                - /url: /Portronics-C-Konnect-Adapter-Project-Projector/dp/B083DY9RXW/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_5/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B083DY9RXW&psc=1
+                - img [ref=e1021]
+              - generic [ref=e1023]:
+                - link "Portronics C-Konnect Type C to HDMI Adapter (3-in-1), Multiport USB C Hub with 4K@30Hz, USB 3.0 @ 5Gbps, 100 W PD Charging Port for Laptop, MacBook, PC and Other Type C Devices (White)" [ref=e1024] [cursor=pointer]:
+                  - /url: /Portronics-C-Konnect-Adapter-Project-Projector/dp/B083DY9RXW/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_5/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B083DY9RXW&psc=1
+                  - generic [ref=e1026]: Portronics C-Konnect Type C to HDMI Adapter (3-in-1), Multiport USB C Hub with 4K@30Hz, USB 3.0 @ 5Gbps, 100 W PD Charging Port for Laptop, MacBook, PC and Other Type C Devices (White)
+                - link "4.0 out of 5 stars, 10,460 ratings" [ref=e1029] [cursor=pointer]:
+                  - /url: /product-reviews/B083DY9RXW/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_5_cr/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B083DY9RXW
+                  - generic [ref=e1031]: 4.0 out of 5 stars
+                  - text: 10,460
+                - generic [ref=e1034]: 4K+ bought in past month
+                - generic [ref=e1035]:
+                  - generic [ref=e1037]:
+                    - generic [ref=e1038]:
+                      - link "-83%" [ref=e1039] [cursor=pointer]:
+                        - /url: /Portronics-C-Konnect-Adapter-Project-Projector/dp/B083DY9RXW/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_5/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B083DY9RXW&psc=1
+                        - text: "-83%"
+                      - link "₹429.00" [ref=e1040] [cursor=pointer]:
+                        - /url: /Portronics-C-Konnect-Adapter-Project-Projector/dp/B083DY9RXW/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_5/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B083DY9RXW&psc=1
+                        - generic [ref=e1041]:
+                          - generic [ref=e1042]: ₹429.00
+                          - generic [ref=e1043]:
+                            - text: ₹
+                            - generic [ref=e1044]:
+                              - text: "429"
+                              - generic [ref=e1045]: .
+                            - text: "00"
+                    - 'link "M.R.P: ₹2,499.00" [ref=e1047] [cursor=pointer]':
+                      - /url: /Portronics-C-Konnect-Adapter-Project-Projector/dp/B083DY9RXW/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_5/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B083DY9RXW&psc=1
+                      - generic [ref=e1049]: "M.R.P: ₹2,499.00"
+                  - generic [ref=e1051]: Get it by Saturday, July 18
+                - text: FREE Delivery by Amazon
+              - generic [ref=e1059] [cursor=pointer]:
+                - button "Add to cart, Portronics C-Konnect Type C to HDMI Adapter (3-in-1), Multiport USB C Hub with 4K@30Hz, USB 3.0 @ 5Gbps, 100 W PD Charging Port for Laptop, MacBook, PC and Other Type C Devices (White)" [ref=e1060]
+                - generic [ref=e1061]: Add to cart
+          - listitem [ref=e1062]:
+            - generic [ref=e1064]:
+              - link [ref=e1066] [cursor=pointer]:
+                - /url: /HP-K270-Wireless-Keyboard-Black/dp/B0DXPHFMLX/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_6/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0DXPHFMLX&psc=1
+                - img [ref=e1067]
+              - generic [ref=e1069]:
+                - link "HP K270 Wireless Keyboard" [ref=e1070] [cursor=pointer]:
+                  - /url: /HP-K270-Wireless-Keyboard-Black/dp/B0DXPHFMLX/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_6/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0DXPHFMLX&psc=1
+                  - generic [ref=e1072]: HP K270 Wireless Keyboard
+                - link "4.1 out of 5 stars, 256 ratings" [ref=e1075] [cursor=pointer]:
+                  - /url: /product-reviews/B0DXPHFMLX/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_6_cr/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0DXPHFMLX
+                  - generic [ref=e1077]: 4.1 out of 5 stars
+                  - text: "256"
+                - generic [ref=e1080]: 300+ bought in past month
+                - generic [ref=e1081]:
+                  - generic [ref=e1083]:
+                    - generic [ref=e1084]:
+                      - link "-56%" [ref=e1085] [cursor=pointer]:
+                        - /url: /HP-K270-Wireless-Keyboard-Black/dp/B0DXPHFMLX/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_6/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0DXPHFMLX&psc=1
+                        - text: "-56%"
+                      - link "₹749.00" [ref=e1086] [cursor=pointer]:
+                        - /url: /HP-K270-Wireless-Keyboard-Black/dp/B0DXPHFMLX/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_6/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0DXPHFMLX&psc=1
+                        - generic [ref=e1087]:
+                          - generic [ref=e1088]: ₹749.00
+                          - generic [ref=e1089]:
+                            - text: ₹
+                            - generic [ref=e1090]:
+                              - text: "749"
+                              - generic [ref=e1091]: .
+                            - text: "00"
+                    - generic [ref=e1094]: Limited time deal
+                    - 'link "M.R.P: ₹1,699.00" [ref=e1096] [cursor=pointer]':
+                      - /url: /HP-K270-Wireless-Keyboard-Black/dp/B0DXPHFMLX/ref=pd_cart_crc_cko_cart_reranked_d_sccl_2_6/520-2719826-2014458?pd_rd_w=qdzf6&content-id=amzn1.sym.21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_p=21e23159-834e-4cf2-bb64-38d687ac3a93&pf_rd_r=M35MDX6JJV9V37NCGQHK&pd_rd_wg=vFrIo&pd_rd_r=23d0caee-ae3e-4709-9f12-0dcda125af72&pd_rd_i=B0DXPHFMLX&psc=1
+                      - generic [ref=e1098]: "M.R.P: ₹1,699.00"
+                  - generic [ref=e1100]: Get it by Saturday, July 18
+                - text: FREE Delivery by Amazon
+              - generic [ref=e1108] [cursor=pointer]:
+                - button "Add to cart, HP K270 Wireless Keyboard" [ref=e1109]
+                - generic [ref=e1110]: Add to cart
+          - listitem [ref=e1111]
+          - listitem [ref=e1112]
+          - listitem [ref=e1113]
+      - button "Next set of slides" [ref=e1115] [cursor=pointer]:
+        - generic [ref=e1118]: Next set of slides
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=e1119]:
+    - button "Back to top" [ref=e1120] [cursor=pointer]:
+      - generic [ref=e1121]: Back to top
+    - generic [ref=e1122]:
+      - generic [ref=e1123]:
+        - heading "Get to Know Us" [level=6] [ref=e1124]
+        - list [ref=e1125]:
+          - listitem [ref=e1126]:
+            - link "About Amazon" [ref=e1127] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e1128]:
+            - link "Careers" [ref=e1129] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=e1130]:
+            - link "Press Releases" [ref=e1131] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e1132]:
+            - link "Amazon Science" [ref=e1133] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e1135]:
+        - heading "Connect with Us" [level=6] [ref=e1136]
+        - list [ref=e1137]:
+          - listitem [ref=e1138]:
+            - link "Facebook" [ref=e1139] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=e1140]:
+            - link "Twitter" [ref=e1141] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=e1142]:
+            - link "Instagram" [ref=e1143] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=e1145]:
+        - heading "Make Money with Us" [level=6] [ref=e1146]
+        - list [ref=e1147]:
+          - listitem [ref=e1148]:
+            - link "Sell on Amazon" [ref=e1149] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=e1150]:
+            - link "Sell under Amazon Accelerator" [ref=e1151] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=e1152]:
+            - link "Protect and Build Your Brand" [ref=e1153] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=e1154]:
+            - link "Amazon Global Selling" [ref=e1155] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=e1156]:
+            - link "Supply to Amazon" [ref=e1157] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=e1158]:
+            - link "Become an Affiliate" [ref=e1159] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=e1160]:
+            - link "Fulfilment by Amazon" [ref=e1161] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=e1162]:
+            - link "Advertise Your Products" [ref=e1163] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=e1164]:
+            - link "Amazon Pay on Merchants" [ref=e1165] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant
+      - generic [ref=e1167]:
+        - heading "Let Us Help You" [level=6] [ref=e1168]
+        - list [ref=e1169]:
+          - listitem [ref=e1170]:
+            - link "Your Account" [ref=e1171] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e1172]:
+            - link "Returns Centre" [ref=e1173] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e1174]:
+            - link "Recalls and Product Safety Alerts" [ref=e1175] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e1176]:
+            - link "100% Purchase Protection" [ref=e1177] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=e1178]:
+            - link "Amazon App Download" [ref=e1179] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=e1180]:
+            - link "Help" [ref=e1181] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=e1183]:
+      - link "Amazon India Home" [ref=e1186] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=e1189]:
+        - generic [ref=e1190]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e1191] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e1193]: English
+          - button "Expand to Change Language or Country" [ref=e1194] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=e1195] [cursor=pointer]:
+          - generic [ref=e1197]: India
+    - generic "More on Amazon" [ref=e1198]:
+      - generic "More on Amazon" [ref=e1199]:
+        - list [ref=e1200]:
+          - listitem [ref=e1201]:
+            - link "AbeBooks Books, art & collectibles" [ref=e1202] [cursor=pointer]:
+              - /url: https://www.abebooks.com/
+              - heading "AbeBooks" [level=5] [ref=e1203]
+              - generic [ref=e1204]:
+                - text: Books, art
+                - text: "& collectibles"
+          - listitem [ref=e1205]
+          - listitem [ref=e1206]:
+            - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e1207] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e1208]
+              - generic [ref=e1209]:
+                - text: Scalable Cloud
+                - text: Computing Services
+          - listitem [ref=e1210]
+          - listitem [ref=e1211]:
+            - link "Audible Download Audio Books" [ref=e1212] [cursor=pointer]:
+              - /url: https://www.audible.in/
+              - heading "Audible" [level=5] [ref=e1213]
+              - generic [ref=e1214]:
+                - text: Download
+                - text: Audio Books
+          - listitem [ref=e1215]
+          - listitem [ref=e1216]:
+            - link "IMDb Movies, TV & Celebrities" [ref=e1217] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=e1218]
+              - generic [ref=e1219]:
+                - text: Movies, TV
+                - text: "& Celebrities"
+        - list [ref=e1220]:
+          - listitem [ref=e1221]:
+            - link "Shopbop Designer Fashion Brands" [ref=e1222] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=e1223]
+              - generic [ref=e1224]:
+                - text: Designer
+                - text: Fashion Brands
+          - listitem [ref=e1225]
+          - listitem [ref=e1226]:
+            - link "Amazon Business Everything For Your Business" [ref=e1227] [cursor=pointer]:
+              - /url: /business?ref=footer_aingw
+              - heading "Amazon Business" [level=5] [ref=e1228]
+              - generic [ref=e1229]:
+                - text: Everything For
+                - text: Your Business
+          - listitem [ref=e1230]
+          - listitem [ref=e1231]:
+            - link "Amazon Music Stream millions of songs" [ref=e1232] [cursor=pointer]:
+              - /url: /music/player?ref=footer_apm
+              - heading "Amazon Music" [level=5] [ref=e1233]
+              - generic [ref=e1234]: Stream millions of songs
+          - listitem [ref=e1235]
+          - listitem [ref=e1236]
+    - generic [ref=e1237]:
+      - list [ref=e1238]:
+        - listitem [ref=e1239]:
+          - link "Conditions of Use & Sale" [ref=e1240] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=e1241]:
+          - link "Privacy Notice" [ref=e1242] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=e1243]:
+          - link "Interest-Based Ads" [ref=e1244] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=e1245]: © 1996-2026, Amazon.com, Inc. or its affiliates

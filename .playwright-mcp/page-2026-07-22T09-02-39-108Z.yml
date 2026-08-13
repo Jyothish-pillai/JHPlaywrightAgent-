@@ -1,0 +1,1807 @@
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=e8]:
+        - link "Shopping cart" [ref=e9] [cursor=pointer]:
+          - /url: "#sc-active-cart"
+          - text: Your Amazon Cart
+      - listitem [ref=e10]:
+        - link "Saved for later" [ref=e11] [cursor=pointer]:
+          - /url: "#sc-saved-cart-caption"
+          - text: Saved for Later
+      - listitem [ref=e12]:
+        - link "Buy it again" [ref=e13] [cursor=pointer]:
+          - /url: "#sc-buy-it-again-caption"
+          - text: Buy it Again
+    - separator [ref=e14]
+    - heading "Keyboard shortcuts" [level=2] [ref=e15]
+    - list "Keyboard shortcuts" [ref=e16]:
+      - listitem [ref=e17]:
+        - link "Search, alt, forward slash" [ref=e18] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e19]:
+            - generic [ref=e20]: Search
+            - generic [ref=e21]:
+              - generic [ref=e22]: alt
+              - generic [ref=e23]: +
+              - generic [ref=e24]: /
+      - listitem [ref=e25]:
+        - link "Cart, shift, alt, c" [ref=e26] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e27]:
+            - generic [ref=e28]: Cart
+            - generic [ref=e29]:
+              - generic [ref=e30]: shift
+              - generic [ref=e31]: +
+              - generic [ref=e32]: alt
+              - generic [ref=e33]: +
+              - generic [ref=e34]: C
+      - listitem [ref=e35]:
+        - link "Home, shift, alt, h" [ref=e36] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e37]:
+            - generic [ref=e38]: Home
+            - generic [ref=e39]:
+              - generic [ref=e40]: shift
+              - generic [ref=e41]: +
+              - generic [ref=e42]: alt
+              - generic [ref=e43]: +
+              - generic [ref=e44]: H
+      - listitem [ref=e45]:
+        - link "Your orders, shift, alt, o" [ref=e46] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e47]:
+            - generic [ref=e48]: Orders
+            - generic [ref=e49]:
+              - generic [ref=e50]: shift
+              - generic [ref=e51]: +
+              - generic [ref=e52]: alt
+              - generic [ref=e53]: +
+              - generic [ref=e54]: O
+      - listitem [ref=e55]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]:
+            - generic [ref=e58]: Show/Hide shortcuts
+            - generic [ref=e59]:
+              - generic [ref=e60]: shift
+              - generic [ref=e61]: +
+              - generic [ref=e62]: alt
+              - generic [ref=e63]: +
+              - generic [ref=e64]: Z
+    - generic [ref=e70]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e71]:
+    - navigation "Primary" [ref=e72]:
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - link "Amazon.in" [ref=e76] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Deliver to New Noida 201301‌" [ref=e79] [cursor=pointer]:
+            - generic [ref=e81]:
+              - generic [ref=e82]: Deliver to New
+              - generic [ref=e83]: Noida 201301‌
+        - search [ref=e86]:
+          - generic [ref=e89]:
+            - generic [ref=e91]: All
+            - combobox "Select the department you want to search in" [ref=e93] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh"
+              - option "Amazon Fresh Meat"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=e96]
+          - generic "Go" [ref=e99] [cursor=pointer]:
+            - button "Go" [ref=e100]
+        - generic [ref=e102]:
+          - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=e104] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+            - generic [ref=e107]:
+              - img "India" [ref=e108]
+              - generic [ref=e109]: EN
+          - generic [ref=e110]:
+            - link "Hello, Celsior Account & Lists" [ref=e111] [cursor=pointer]:
+              - /url: https://www.amazon.in/gp/css/homepage.html?ref_=nav_youraccount_btn
+              - generic [ref=e113]: Hello, Celsior
+              - generic [ref=e114]: Account & Lists
+            - button "Expand Account and Lists" [ref=e115] [cursor=pointer]
+          - link "Returns & Orders" [ref=e116] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e117]: Returns
+            - generic [ref=e118]: "& Orders"
+          - link "1 item in cart" [ref=e119] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e121]: "1"
+            - generic [ref=e124]: Cart
+      - generic [ref=e125]:
+        - generic [ref=e126]:
+          - button "Open All Categories Menu" [ref=e127] [cursor=pointer]:
+            - generic [ref=e129]: All
+          - button "Open Rufus panel" [ref=e130] [cursor=pointer]:
+            - generic [ref=e132]: Rufus
+        - list [ref=e136]:
+          - listitem [ref=e137]:
+            - generic [ref=e138]:
+              - link "Fresh" [ref=e139] [cursor=pointer]:
+                - /url: /tez/browse?qcbrand=ctnow&ref_=nav_cs_grocery
+              - button "Fresh Details" [ref=e140] [cursor=pointer]
+          - listitem [ref=e141]:
+            - generic [ref=e142]:
+              - link "Prime" [ref=e143] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=e144] [cursor=pointer]
+          - listitem [ref=e145]:
+            - link "Prime Video" [ref=e147] [cursor=pointer]:
+              - /url: https://www.primevideo.com/offers/nonprimehomepage/ref_=nav_dvm_crs_in_s_gw_bt_dk_p_hamburgr?ref_=avod_desktop_topnav
+          - listitem [ref=e148]:
+            - link "Sell" [ref=e150] [cursor=pointer]:
+              - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+          - listitem [ref=e151]:
+            - link "Gift Cards" [ref=e153] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=e154]:
+            - link "Amazon Pay" [ref=e156] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=e157]:
+            - link "Buy Again" [ref=e159] [cursor=pointer]:
+              - /url: /gp/buyagain?ie=UTF8&ref_=nav_cs_buy_again
+          - listitem [ref=e160]:
+            - link "Gift Ideas" [ref=e162] [cursor=pointer]:
+              - /url: /gcx/-/gfhz/?ref_=nav_cs_giftfinder
+          - listitem [ref=e163]:
+            - link "AmazonBasics" [ref=e165] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=e166]:
+            - link "Subscribe & Save" [ref=e168] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e169]:
+            - link "Health, Household & Personal Care" [ref=e171] [cursor=pointer]:
+              - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+          - listitem [ref=e172]:
+            - link "Home Improvement" [ref=e174] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=e175]:
+            - link "Today's Deals" [ref=e177] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e178]:
+            - generic [ref=e179]:
+              - link "Browsing History" [ref=e180] [cursor=pointer]:
+                - /url: /gp/history?ref_=nav_cs_timeline
+              - button "Browsing History Details" [ref=e181] [cursor=pointer]
+          - listitem [ref=e182]:
+            - link "Audible" [ref=e184] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=e185]:
+            - link "Celsior 's Amazon.in" [ref=e187] [cursor=pointer]:
+              - /url: /gp/yourstore/home?ref_=nav_cs_ys
+              - generic [ref=e188]:
+                - generic [ref=e189]: Celsior
+                - text: "'s Amazon.in"
+          - listitem [ref=e190]:
+            - link "Customer Service" [ref=e192] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=e193]:
+            - link "Sports, Fitness & Outdoors" [ref=e195] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=e196]:
+            - link "Books" [ref=e198] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=e199]:
+            - link "Home & Kitchen" [ref=e201] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=e202]:
+            - link "Bestsellers" [ref=e204] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e205]:
+            - link "Electronics" [ref=e207] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=e208]:
+            - link "Toys & Games" [ref=e210] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=e211]:
+            - link "Beauty & Personal Care" [ref=e213] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=e214]:
+            - link "Kindle eBooks" [ref=e216] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books
+          - listitem [ref=e217]:
+            - link "Video Games" [ref=e219] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=e220]:
+            - link "Computers" [ref=e222] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=e223]:
+            - link "Fashion" [ref=e225] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=e226]:
+            - link "Car & Motorbike" [ref=e228] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=e229]:
+            - link "Baby" [ref=e231] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+          - listitem [ref=e232]:
+            - link "New Releases" [ref=e234] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e235]:
+            - link "Mobiles" [ref=e237] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+          - listitem [ref=e238]:
+            - link "Pet Supplies" [ref=e240] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+        - link [ref=e244] [cursor=pointer]:
+          - /url: /gp/video/ssoredirect/?ie=UTF8&pvp=%2F%3Fref_%3Ddvm_crs_in_s_gw_swm_dk_np_masofuni&ref_=nav_swm_dvm_crs_in_s_gw_swm_dk_np_masofuni&pf_rd_p=6989c243-ad20-4767-b43e-8fbc1043d967&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A21TJRUUN4KGV&pf_rd_r=8HDH23Z5ABRQCBBNTPNK
+  - main [ref=e247]:
+    - heading "All Carts" [level=1] [ref=e248]
+    - generic [ref=e250]:
+      - generic [ref=e251]:
+        - generic [ref=e255]:
+          - status [ref=e256]:
+            - generic [ref=e258]:
+              - generic [ref=e259]:
+                - progressbar [ref=e262]
+                - generic [ref=e264]: ₹499
+              - generic [ref=e270]:
+                - text: Your order is eligible for FREE Delivery.
+                - generic [ref=e271]:
+                  - text: Choose
+                  - link "FREE Delivery" [ref=e272] [cursor=pointer]:
+                    - /url: /gp/help/customer/display.html?nodeId=200904360&pop-up=1
+                  - text: option at checkout.
+          - generic [ref=e273]:
+            - 'heading "Amazon Subtotal (1 item): ₹1,099.00" [level=3] [ref=e274]':
+              - generic [ref=e275]: Amazon
+              - generic [ref=e276]:
+                - text: "Subtotal (1 item):"
+                - generic [ref=e277]: ₹1,099.00
+            - generic [ref=e281]:
+              - checkbox "This order contains a gift" [ref=e282]
+              - generic [ref=e284]: This order contains a gift
+            - generic [ref=e288] [cursor=pointer]:
+              - button "Proceed to Buy Buy Amazon items" [ref=e289]: Proceed to checkout
+              - generic [ref=e292]: Proceed to Buy
+          - button "EMI Available" [ref=e297] [cursor=pointer]:
+            - heading "EMI Available" [level=5] [ref=e299]
+        - generic [ref=e308]:
+          - heading "You might also like" [level=3] [ref=e309]
+          - list [ref=e310]:
+            - listitem [ref=e311]:
+              - generic [ref=e316]:
+                - link [ref=e319] [cursor=pointer]:
+                  - /url: /boAt-Rockerz-480-Bluetooth-Headphones/dp/B0DGTSRX3R/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_1/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0DGTSRX3R&psc=1
+                  - img [ref=e320]
+                - generic [ref=e321]:
+                  - generic [ref=e323]:
+                    - link "boAt Rockerz 480, RGB LEDs,6 Light Modes, 40mm Drivers,Beast Mode, 60H Battery, ENx Tech, Stream Ad Free Music via App Support, Bluetooth Headphones, Wireless Over Ear Headphone with Mic (Black Sabre)" [ref=e324] [cursor=pointer]:
+                      - /url: /boAt-Rockerz-480-Bluetooth-Headphones/dp/B0DGTSRX3R/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_1/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0DGTSRX3R&psc=1
+                      - generic [ref=e326]: boAt Rockerz 480, RGB LEDs,6 Light Modes, 40mm Drivers,Beast Mode, 60H Battery, ENx Tech, Stream Ad Free Music via App Support, Bluetooth Headphones, Wireless Over Ear Headphone with Mic (Black Sabre)
+                    - link "4.1 out of 5 stars, 4,493 ratings" [ref=e329] [cursor=pointer]:
+                      - /url: /product-reviews/B0DGTSRX3R/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_1_cr/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0DGTSRX3R
+                      - generic [ref=e331]: 4.1 out of 5 stars
+                      - text: 4,493
+                    - generic [ref=e332]:
+                      - generic [ref=e334]:
+                        - generic [ref=e335]:
+                          - link "-50%" [ref=e336] [cursor=pointer]:
+                            - /url: /boAt-Rockerz-480-Bluetooth-Headphones/dp/B0DGTSRX3R/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_1/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0DGTSRX3R&psc=1
+                            - text: "-50%"
+                          - link "₹1,899.00" [ref=e337] [cursor=pointer]:
+                            - /url: /boAt-Rockerz-480-Bluetooth-Headphones/dp/B0DGTSRX3R/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_1/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0DGTSRX3R&psc=1
+                            - generic [ref=e338]:
+                              - generic [ref=e339]: ₹1,899.00
+                              - generic [ref=e340]:
+                                - text: ₹
+                                - generic [ref=e341]:
+                                  - text: 1,899
+                                  - generic [ref=e342]: .
+                                - text: "00"
+                        - 'link "M.R.P: ₹3,790.00" [ref=e344] [cursor=pointer]':
+                          - /url: /boAt-Rockerz-480-Bluetooth-Headphones/dp/B0DGTSRX3R/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_1/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0DGTSRX3R&psc=1
+                          - generic [ref=e346]: "M.R.P: ₹3,790.00"
+                      - generic [ref=e348]: Get it by Tomorrow, July 23
+                    - text: FREE Delivery by Amazon
+                  - generic [ref=e356] [cursor=pointer]:
+                    - button "Add to cart, boAt Rockerz 480, RGB LEDs,6 Light Modes, 40mm Drivers,Beast Mode, 60H Battery, ENx Tech, Stream Ad Free Music via App Support, Bluetooth Headphones, Wireless Over Ear Headphone with Mic (Black Sabre)" [ref=e357]
+                    - generic [ref=e358]: Add to cart
+            - listitem [ref=e359]:
+              - generic [ref=e364]:
+                - link [ref=e367] [cursor=pointer]:
+                  - /url: /boAt-Playback-Bluetooth-Headphones-Headphone/dp/B0FG2PWNRC/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_2/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0FG2PWNRC&psc=1
+                  - img [ref=e368]
+                - generic [ref=e369]:
+                  - generic [ref=e371]:
+                    - link "boAt Rockerz 512 ANC, 40Db Hybrid ANC, 80Hrs Playback, 40Mm Drivers, 40Ms Latency Beast Mode, Enx Tech, App Support, Over Ear Bluetooth Headphones, Wireless Headphone with Mic (Bold White)" [ref=e372] [cursor=pointer]:
+                      - /url: /boAt-Playback-Bluetooth-Headphones-Headphone/dp/B0FG2PWNRC/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_2/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0FG2PWNRC&psc=1
+                      - generic [ref=e374]: boAt Rockerz 512 ANC, 40Db Hybrid ANC, 80Hrs Playback, 40Mm Drivers, 40Ms Latency Beast Mode, Enx Tech, App Support, Over Ear Bluetooth Headphones, Wireless Headphone with Mic (Bold White)
+                    - link "4.2 out of 5 stars, 31,331 ratings" [ref=e377] [cursor=pointer]:
+                      - /url: /product-reviews/B0FG2PWNRC/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_2_cr/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0FG2PWNRC
+                      - generic [ref=e379]: 4.2 out of 5 stars
+                      - text: 31,331
+                    - generic [ref=e380]:
+                      - generic [ref=e382]:
+                        - generic [ref=e383]:
+                          - link "-61%" [ref=e384] [cursor=pointer]:
+                            - /url: /boAt-Playback-Bluetooth-Headphones-Headphone/dp/B0FG2PWNRC/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_2/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0FG2PWNRC&psc=1
+                            - text: "-61%"
+                          - link "₹3,099.00" [ref=e385] [cursor=pointer]:
+                            - /url: /boAt-Playback-Bluetooth-Headphones-Headphone/dp/B0FG2PWNRC/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_2/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0FG2PWNRC&psc=1
+                            - generic [ref=e386]:
+                              - generic [ref=e387]: ₹3,099.00
+                              - generic [ref=e388]:
+                                - text: ₹
+                                - generic [ref=e389]:
+                                  - text: 3,099
+                                  - generic [ref=e390]: .
+                                - text: "00"
+                        - 'link "M.R.P: ₹7,990.00" [ref=e392] [cursor=pointer]':
+                          - /url: /boAt-Playback-Bluetooth-Headphones-Headphone/dp/B0FG2PWNRC/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_2/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0FG2PWNRC&psc=1
+                          - generic [ref=e394]: "M.R.P: ₹7,990.00"
+                      - generic [ref=e396]: Get it by Tomorrow, July 23
+                    - text: FREE Delivery by Amazon
+                  - generic [ref=e404] [cursor=pointer]:
+                    - button "Add to cart, boAt Rockerz 512 ANC, 40Db Hybrid ANC, 80Hrs Playback, 40Mm Drivers, 40Ms Latency Beast Mode, Enx Tech, App Support, Over Ear Bluetooth Headphones, Wireless Headphone with Mic (Bold White)" [ref=e405]
+                    - generic [ref=e406]: Add to cart
+            - listitem [ref=e407]:
+              - generic [ref=e412]:
+                - link [ref=e415] [cursor=pointer]:
+                  - /url: /boAt-Rockerz-Bluetooth-Headphones-Headphone/dp/B0F7LZ2GW2/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_3/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0F7LZ2GW2&psc=1
+                  - img [ref=e416]
+                - generic [ref=e417]:
+                  - generic [ref=e419]:
+                    - link "boAt Rockerz 421, 60H Battery, Low Latency(40Ms), 40Mm Drivers, ENx Tech, Stream Ad Free Music via App Support, Bluetooth Headphones, Wireless Over Ear Headphone with Mic (Sage Green)" [ref=e420] [cursor=pointer]:
+                      - /url: /boAt-Rockerz-Bluetooth-Headphones-Headphone/dp/B0F7LZ2GW2/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_3/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0F7LZ2GW2&psc=1
+                      - generic [ref=e422]: boAt Rockerz 421, 60H Battery, Low Latency(40Ms), 40Mm Drivers, ENx Tech, Stream Ad Free Music via App Support, Bluetooth Headphones, Wireless Over Ear Headphone with Mic (Sage Green)
+                    - link "3.9 out of 5 stars, 2,336 ratings" [ref=e425] [cursor=pointer]:
+                      - /url: /product-reviews/B0F7LZ2GW2/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_3_cr/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0F7LZ2GW2
+                      - generic [ref=e427]: 3.9 out of 5 stars
+                      - text: 2,336
+                    - generic [ref=e428]:
+                      - generic [ref=e430]:
+                        - generic [ref=e431]:
+                          - link "-40%" [ref=e432] [cursor=pointer]:
+                            - /url: /boAt-Rockerz-Bluetooth-Headphones-Headphone/dp/B0F7LZ2GW2/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_3/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0F7LZ2GW2&psc=1
+                            - text: "-40%"
+                          - link "₹1,499.00" [ref=e433] [cursor=pointer]:
+                            - /url: /boAt-Rockerz-Bluetooth-Headphones-Headphone/dp/B0F7LZ2GW2/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_3/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0F7LZ2GW2&psc=1
+                            - generic [ref=e434]:
+                              - generic [ref=e435]: ₹1,499.00
+                              - generic [ref=e436]:
+                                - text: ₹
+                                - generic [ref=e437]:
+                                  - text: 1,499
+                                  - generic [ref=e438]: .
+                                - text: "00"
+                        - 'link "M.R.P: ₹2,490.00" [ref=e440] [cursor=pointer]':
+                          - /url: /boAt-Rockerz-Bluetooth-Headphones-Headphone/dp/B0F7LZ2GW2/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_3/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0F7LZ2GW2&psc=1
+                          - generic [ref=e442]: "M.R.P: ₹2,490.00"
+                      - generic [ref=e444]: Get it by Tomorrow, July 23
+                    - text: FREE Delivery by Amazon
+                  - generic [ref=e452] [cursor=pointer]:
+                    - button "Add to cart, boAt Rockerz 421, 60H Battery, Low Latency(40Ms), 40Mm Drivers, ENx Tech, Stream Ad Free Music via App Support, Bluetooth Headphones, Wireless Over Ear Headphone with Mic (Sage Green)" [ref=e453]
+                    - generic [ref=e454]: Add to cart
+            - listitem [ref=e455]:
+              - generic [ref=e460]:
+                - link [ref=e463] [cursor=pointer]:
+                  - /url: /Wireless-Headphones-Bluetooth-Playtime-Lightweight/dp/B0FGPQ68XD/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_4/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0FGPQ68XD&psc=1
+                  - img [ref=e464]
+                - generic [ref=e465]:
+                  - generic [ref=e467]:
+                    - link "Amazon Basics Wireless Over Ear Headphones, Bluetooth 5.4, 40mm Drivers, 18H Playtime, Foldable Lightweight Design with Aux Support, Deep Bass & Mic, Black" [ref=e468] [cursor=pointer]:
+                      - /url: /Wireless-Headphones-Bluetooth-Playtime-Lightweight/dp/B0FGPQ68XD/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_4/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0FGPQ68XD&psc=1
+                      - generic [ref=e470]: Amazon Basics Wireless Over Ear Headphones, Bluetooth 5.4, 40mm Drivers, 18H Playtime, Foldable Lightweight Design with Aux Support, Deep Bass & Mic, Black
+                    - link "5.0 out of 5 stars, 5 ratings" [ref=e473] [cursor=pointer]:
+                      - /url: /product-reviews/B0FGPQ68XD/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_4_cr/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0FGPQ68XD
+                      - generic [ref=e475]: 5.0 out of 5 stars
+                      - text: "5"
+                    - generic [ref=e476]:
+                      - generic [ref=e478]:
+                        - generic [ref=e479]:
+                          - link "-54%" [ref=e480] [cursor=pointer]:
+                            - /url: /Wireless-Headphones-Bluetooth-Playtime-Lightweight/dp/B0FGPQ68XD/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_4/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0FGPQ68XD&psc=1
+                            - text: "-54%"
+                          - link "₹1,159.00" [ref=e481] [cursor=pointer]:
+                            - /url: /Wireless-Headphones-Bluetooth-Playtime-Lightweight/dp/B0FGPQ68XD/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_4/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0FGPQ68XD&psc=1
+                            - generic [ref=e482]:
+                              - generic [ref=e483]: ₹1,159.00
+                              - generic [ref=e484]:
+                                - text: ₹
+                                - generic [ref=e485]:
+                                  - text: 1,159
+                                  - generic [ref=e486]: .
+                                - text: "00"
+                        - 'link "M.R.P: ₹2,499.00" [ref=e488] [cursor=pointer]':
+                          - /url: /Wireless-Headphones-Bluetooth-Playtime-Lightweight/dp/B0FGPQ68XD/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_4/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0FGPQ68XD&psc=1
+                          - generic [ref=e490]: "M.R.P: ₹2,499.00"
+                      - generic [ref=e492]: Get it by Tomorrow, July 23
+                    - text: FREE Delivery by Amazon
+                  - generic [ref=e500] [cursor=pointer]:
+                    - button "Add to cart, Amazon Basics Wireless Over Ear Headphones, Bluetooth 5.4, 40mm Drivers, 18H Playtime, Foldable Lightweight Design with Aux Support, Deep Bass & Mic, Black" [ref=e501]
+                    - generic [ref=e502]: Add to cart
+            - listitem [ref=e503]:
+              - generic [ref=e508]:
+                - link [ref=e511] [cursor=pointer]:
+                  - /url: /Portronics-Wireless-Bluetooth-Headphone-Playtime/dp/B0G599TLD9/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_5/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0G599TLD9&psc=1
+                  - img [ref=e512]
+                - generic [ref=e513]:
+                  - generic [ref=e515]:
+                    - link "Portronics Muffs M6 Over Ear Wireless Bluetooth Headphone with Upto 40 Hours Playtime, Dual Pairing, 40mm Driver, HD Mic, Bluetooth 5.4V, Foldable Design, Type C Fast Charging (Biege)" [ref=e516] [cursor=pointer]:
+                      - /url: /Portronics-Wireless-Bluetooth-Headphone-Playtime/dp/B0G599TLD9/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_5/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0G599TLD9&psc=1
+                      - generic [ref=e518]: Portronics Muffs M6 Over Ear Wireless Bluetooth Headphone with Upto 40 Hours Playtime, Dual Pairing, 40mm Driver, HD Mic, Bluetooth 5.4V, Foldable Design, Type C Fast Charging (Biege)
+                    - link "4.2 out of 5 stars, 654 ratings" [ref=e521] [cursor=pointer]:
+                      - /url: /product-reviews/B0G599TLD9/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_5_cr/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0G599TLD9
+                      - generic [ref=e523]: 4.2 out of 5 stars
+                      - text: "654"
+                    - generic [ref=e524]:
+                      - generic [ref=e526]:
+                        - generic [ref=e527]:
+                          - link "-54%" [ref=e528] [cursor=pointer]:
+                            - /url: /Portronics-Wireless-Bluetooth-Headphone-Playtime/dp/B0G599TLD9/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_5/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0G599TLD9&psc=1
+                            - text: "-54%"
+                          - link "₹1,149.00" [ref=e529] [cursor=pointer]:
+                            - /url: /Portronics-Wireless-Bluetooth-Headphone-Playtime/dp/B0G599TLD9/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_5/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0G599TLD9&psc=1
+                            - generic [ref=e530]:
+                              - generic [ref=e531]: ₹1,149.00
+                              - generic [ref=e532]:
+                                - text: ₹
+                                - generic [ref=e533]:
+                                  - text: 1,149
+                                  - generic [ref=e534]: .
+                                - text: "00"
+                        - 'link "M.R.P: ₹2,499.00" [ref=e536] [cursor=pointer]':
+                          - /url: /Portronics-Wireless-Bluetooth-Headphone-Playtime/dp/B0G599TLD9/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_5/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0G599TLD9&psc=1
+                          - generic [ref=e538]: "M.R.P: ₹2,499.00"
+                      - generic [ref=e540]: Get it by Tomorrow, July 23
+                    - text: FREE Delivery by Amazon
+                  - generic [ref=e548] [cursor=pointer]:
+                    - button "Add to cart, Portronics Muffs M6 Over Ear Wireless Bluetooth Headphone with Upto 40 Hours Playtime, Dual Pairing, 40mm Driver, HD Mic, Bluetooth 5.4V, Foldable Design, Type C Fast Charging (Biege)" [ref=e549]
+                    - generic [ref=e550]: Add to cart
+            - listitem [ref=e551]:
+              - generic [ref=e556]:
+                - link [ref=e559] [cursor=pointer]:
+                  - /url: /Elevea-%F0%9D%90%98%F0%9D%90%9E%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%AC-%F0%9D%90%86%F0%9D%90%AE%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%9E-Headphones-Bluetooth/dp/B0G5QFQ4XW/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_6/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0G5QFQ4XW&psc=1
+                  - img [ref=e560]
+                - generic [ref=e561]:
+                  - generic [ref=e563]:
+                    - link "Elevea 𝟏𝟓 𝐘𝐞𝐚𝐫𝐬 𝐆𝐮𝐚𝐫𝐚𝐧𝐭𝐞𝐞 Foldable Wireless Over-Ear Headphones, Bluetooth 5.3, Comfort Cushioned Earpads, 20H Long Battery Life for Music, Movies, Travel, Office & Gaming." [ref=e564] [cursor=pointer]:
+                      - /url: /Elevea-%F0%9D%90%98%F0%9D%90%9E%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%AC-%F0%9D%90%86%F0%9D%90%AE%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%9E-Headphones-Bluetooth/dp/B0G5QFQ4XW/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_6/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0G5QFQ4XW&psc=1
+                      - generic [ref=e566]: Elevea 𝟏𝟓 𝐘𝐞𝐚𝐫𝐬 𝐆𝐮𝐚𝐫𝐚𝐧𝐭𝐞𝐞 Foldable Wireless Over-Ear Headphones, Bluetooth 5.3, Comfort Cushioned Earpads, 20H Long Battery Life for Music, Movies, Travel, Office & Gaming.
+                    - link "5.0 out of 5 stars, 1 ratings" [ref=e569] [cursor=pointer]:
+                      - /url: /product-reviews/B0G5QFQ4XW/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_6_cr/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0G5QFQ4XW
+                      - generic [ref=e571]: 5.0 out of 5 stars
+                      - text: "1"
+                    - generic [ref=e574]:
+                      - generic [ref=e575]:
+                        - link "-68%" [ref=e576] [cursor=pointer]:
+                          - /url: /Elevea-%F0%9D%90%98%F0%9D%90%9E%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%AC-%F0%9D%90%86%F0%9D%90%AE%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%9E-Headphones-Bluetooth/dp/B0G5QFQ4XW/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_6/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0G5QFQ4XW&psc=1
+                          - text: "-68%"
+                        - link "₹2,259.00" [ref=e577] [cursor=pointer]:
+                          - /url: /Elevea-%F0%9D%90%98%F0%9D%90%9E%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%AC-%F0%9D%90%86%F0%9D%90%AE%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%9E-Headphones-Bluetooth/dp/B0G5QFQ4XW/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_6/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0G5QFQ4XW&psc=1
+                          - generic [ref=e578]:
+                            - generic [ref=e579]: ₹2,259.00
+                            - generic [ref=e580]:
+                              - text: ₹
+                              - generic [ref=e581]:
+                                - text: 2,259
+                                - generic [ref=e582]: .
+                              - text: "00"
+                      - 'link "M.R.P: ₹6,999.00" [ref=e584] [cursor=pointer]':
+                        - /url: /Elevea-%F0%9D%90%98%F0%9D%90%9E%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%AC-%F0%9D%90%86%F0%9D%90%AE%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%9E-Headphones-Bluetooth/dp/B0G5QFQ4XW/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_6/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0G5QFQ4XW&psc=1
+                        - generic [ref=e586]: "M.R.P: ₹6,999.00"
+                    - text: FREE Delivery
+                    - generic [ref=e589]: Only 2 left in stock.
+                  - generic [ref=e597] [cursor=pointer]:
+                    - button "Add to cart, Elevea 𝟏𝟓 𝐘𝐞𝐚𝐫𝐬 𝐆𝐮𝐚𝐫𝐚𝐧𝐭𝐞𝐞 Foldable Wireless Over-Ear Headphones, Bluetooth 5.3, Comfort Cushioned Earpads, 20H Long Battery Life for Music, Movies, Travel, Office & Gaming." [ref=e598]
+                    - generic [ref=e599]: Add to cart
+            - listitem [ref=e600]:
+              - generic [ref=e605]:
+                - link [ref=e608] [cursor=pointer]:
+                  - /url: /Drumstone-%F0%9D%90%98%F0%9D%90%9E%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%AC-%F0%9D%90%B0%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%AD%F0%9D%90%B2-Headphones-Noise-Cancelling/dp/B0G6NB4TTF/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_7/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0G6NB4TTF&psc=1
+                  - img [ref=e609]
+                - generic [ref=e610]:
+                  - generic [ref=e612]:
+                    - link "Drumstone (𝟏𝟓 𝐘𝐞𝐚𝐫𝐬 𝐰𝐚𝐫𝐫𝐚𝐧𝐭𝐲 Wireless Deep Bass Headphones | Foldable Noise-Cancelling Over-Ear Bluetooth Headset with Built-in Microphone & Premium Comfort Design" [ref=e613] [cursor=pointer]:
+                      - /url: /Drumstone-%F0%9D%90%98%F0%9D%90%9E%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%AC-%F0%9D%90%B0%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%AD%F0%9D%90%B2-Headphones-Noise-Cancelling/dp/B0G6NB4TTF/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_7/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0G6NB4TTF&psc=1
+                      - generic [ref=e615]: Drumstone (𝟏𝟓 𝐘𝐞𝐚𝐫𝐬 𝐰𝐚𝐫𝐫𝐚𝐧𝐭𝐲 Wireless Deep Bass Headphones | Foldable Noise-Cancelling Over-Ear Bluetooth Headset with Built-in Microphone & Premium Comfort Design
+                    - link "5.0 out of 5 stars, 1 ratings" [ref=e618] [cursor=pointer]:
+                      - /url: /product-reviews/B0G6NB4TTF/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_7_cr/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0G6NB4TTF
+                      - generic [ref=e620]: 5.0 out of 5 stars
+                      - text: "1"
+                    - generic [ref=e623]:
+                      - generic [ref=e624]:
+                        - link "-71%" [ref=e625] [cursor=pointer]:
+                          - /url: /Drumstone-%F0%9D%90%98%F0%9D%90%9E%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%AC-%F0%9D%90%B0%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%AD%F0%9D%90%B2-Headphones-Noise-Cancelling/dp/B0G6NB4TTF/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_7/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0G6NB4TTF&psc=1
+                          - text: "-71%"
+                        - link "₹1,429.00" [ref=e626] [cursor=pointer]:
+                          - /url: /Drumstone-%F0%9D%90%98%F0%9D%90%9E%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%AC-%F0%9D%90%B0%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%AD%F0%9D%90%B2-Headphones-Noise-Cancelling/dp/B0G6NB4TTF/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_7/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0G6NB4TTF&psc=1
+                          - generic [ref=e627]:
+                            - generic [ref=e628]: ₹1,429.00
+                            - generic [ref=e629]:
+                              - text: ₹
+                              - generic [ref=e630]:
+                                - text: 1,429
+                                - generic [ref=e631]: .
+                              - text: "00"
+                      - 'link "M.R.P: ₹4,999.00" [ref=e633] [cursor=pointer]':
+                        - /url: /Drumstone-%F0%9D%90%98%F0%9D%90%9E%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%AC-%F0%9D%90%B0%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%AD%F0%9D%90%B2-Headphones-Noise-Cancelling/dp/B0G6NB4TTF/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_7/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0G6NB4TTF&psc=1
+                        - generic [ref=e635]: "M.R.P: ₹4,999.00"
+                    - text: FREE Delivery
+                    - generic [ref=e638]: Only 2 left in stock.
+                  - generic [ref=e646] [cursor=pointer]:
+                    - button "Add to cart, Drumstone (𝟏𝟓 𝐘𝐞𝐚𝐫𝐬 𝐰𝐚𝐫𝐫𝐚𝐧𝐭𝐲 Wireless Deep Bass Headphones | Foldable Noise-Cancelling Over-Ear Bluetooth Headset with Built-in Microphone & Premium Comfort Design" [ref=e647]
+                    - generic [ref=e648]: Add to cart
+            - listitem [ref=e649]:
+              - generic [ref=e654]:
+                - link [ref=e657] [cursor=pointer]:
+                  - /url: /pTron-Studio-Headphones-Low-Latency-Assistant/dp/B0DQ212KP4/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_8/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0DQ212KP4&psc=1
+                  - img [ref=e658]
+                - generic [ref=e659]:
+                  - generic [ref=e661]:
+                    - link "pTron Studio Evo 70hrs Playtime Wireless Over Ear Headphones with HD Mic, Low-Latency Game/Movie/Music Modes, Punchy Bass, BT5.3, Dual Device Pairing, Voice Assistant & Type-C Fast Charging (Black)" [ref=e662] [cursor=pointer]:
+                      - /url: /pTron-Studio-Headphones-Low-Latency-Assistant/dp/B0DQ212KP4/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_8/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0DQ212KP4&psc=1
+                      - generic [ref=e664]: pTron Studio Evo 70hrs Playtime Wireless Over Ear Headphones with HD Mic, Low-Latency Game/Movie/Music Modes, Punchy Bass, BT5.3, Dual Device Pairing, Voice Assistant & Type-C Fast Charging (Black)
+                    - link "4.0 out of 5 stars, 2,438 ratings" [ref=e667] [cursor=pointer]:
+                      - /url: /product-reviews/B0DQ212KP4/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_8_cr/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0DQ212KP4
+                      - generic [ref=e669]: 4.0 out of 5 stars
+                      - text: 2,438
+                    - generic [ref=e670]:
+                      - generic [ref=e672]:
+                        - generic [ref=e673]:
+                          - link "-75%" [ref=e674] [cursor=pointer]:
+                            - /url: /pTron-Studio-Headphones-Low-Latency-Assistant/dp/B0DQ212KP4/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_8/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0DQ212KP4&psc=1
+                            - text: "-75%"
+                          - link "₹804.00" [ref=e675] [cursor=pointer]:
+                            - /url: /pTron-Studio-Headphones-Low-Latency-Assistant/dp/B0DQ212KP4/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_8/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0DQ212KP4&psc=1
+                            - generic [ref=e676]:
+                              - generic [ref=e677]: ₹804.00
+                              - generic [ref=e678]:
+                                - text: ₹
+                                - generic [ref=e679]:
+                                  - text: "804"
+                                  - generic [ref=e680]: .
+                                - text: "00"
+                        - 'link "M.R.P: ₹3,199.00" [ref=e682] [cursor=pointer]':
+                          - /url: /pTron-Studio-Headphones-Low-Latency-Assistant/dp/B0DQ212KP4/ref=pd_cart_pd_pss_cart_d_0_d_sccl_1_8/523-6929950-0807250?pd_rd_w=gNS2w&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&pd_rd_i=B0DQ212KP4&psc=1
+                          - generic [ref=e684]: "M.R.P: ₹3,199.00"
+                      - generic [ref=e686]: Get it by Friday, July 24
+                    - text: FREE Delivery by Amazon
+                  - generic [ref=e694] [cursor=pointer]:
+                    - button "Add to cart, pTron Studio Evo 70hrs Playtime Wireless Over Ear Headphones with HD Mic, Low-Latency Game/Movie/Music Modes, Punchy Bass, BT5.3, Dual Device Pairing, Voice Assistant & Type-C Fast Charging (Black)" [ref=e695]
+                    - generic [ref=e696]: Add to cart
+      - generic [ref=e697]:
+        - generic [ref=e699]:
+          - generic [ref=e700]:
+            - heading "Shopping Cart" [level=2] [ref=e703]
+            - link "Deselect all items" [ref=e709] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e710]:
+            - generic [ref=e714]: Price
+            - list "Shopping Cart" [ref=e715]:
+              - listitem [ref=e716]:
+                - generic [ref=e718]:
+                  - checkbox "Select boAt Rockerz 371, 40mm Drivers, 50hrs Battery, 60ms Low Latency, ENx Tech, BT v5.4, Foldable Cups, Voice Assistant, Bluetooth Headphones, Wireless Headphone with Mic (Black Sabre) for checkout" [checked] [ref=e722]
+                  - link [ref=e725] [cursor=pointer]:
+                    - /url: /gp/product/B0FM38MRWL/ref=ox_sc_act_image_1?smid=AJ6SIZC8YQDZX&psc=1
+                  - generic [ref=e726]:
+                    - link "boAt Rockerz 371, 40mm Drivers, 50hrs Battery, 60ms Low Latency, ENx Tech, BT v5.4, Foldable Cups, Voice Assistant, Bluetooth Headphones, Wireless Headphone with Mic (Black Sabre)" [ref=e728] [cursor=pointer]:
+                      - /url: /gp/product/B0FM38MRWL/ref=ox_sc_act_title_1?smid=AJ6SIZC8YQDZX&psc=1
+                      - heading "boAt Rockerz 371, 40mm Drivers, 50hrs Battery, 60ms Low Latency, ENx Tech, BT v5.4, Foldable Cups, Voice Assistant, Bluetooth Headphones, Wireless Headphone with Mic (Black Sabre)" [level=3] [ref=e730]:
+                        - generic [ref=e731]:
+                          - generic [ref=e732]: boAt Rockerz 371, 40mm Drivers, 50hrs Battery, 60ms Low Latency, ENx Tech, BT v5.4, Foldable Cups, Voice Assistant, Bluetooth Headphones, Wireless Headphone with Mic (Black Sabre)
+                          - generic [ref=e733]: boAt Rockerz 371, 40mm Drivers, 50hrs Battery, 60ms Low Latency, ENx Tech, BT v5.4, Foldable Cups, Voice Assistant, Bluetooth Headphones, Wireless Headphone w…
+                    - generic [ref=e734]:
+                      - generic [ref=e738]:
+                        - generic [ref=e739]: ₹1,099.00
+                        - generic [ref=e740]:
+                          - text: ₹
+                          - generic [ref=e741]:
+                            - text: 1,099
+                            - generic [ref=e742]: .
+                          - text: "00"
+                      - generic [ref=e747]:
+                        - text: Up to 5% back with Amazon Pay ICICI card
+                        - link "Terms" [ref=e750] [cursor=pointer]:
+                          - /url: "#"
+                          - generic [ref=e751]: Terms
+                    - generic [ref=e752]:
+                      - generic [ref=e753]: In stock
+                      - generic [ref=e758]: FREE delivery Tomorrow, 23 Jul
+                      - paragraph [ref=e759]
+                      - generic [ref=e763]:
+                        - checkbox "This will be a gift This is a gift Learn more" [ref=e764]
+                        - generic [ref=e766]:
+                          - text: This will be a gift
+                          - link "This is a gift Learn more" [ref=e768] [cursor=pointer]:
+                            - /url: /gp/help/customer/display.html/ref=ord_cart_shr?pop-up=1&nodeId=200507630
+                            - generic [ref=e769]:
+                              - generic [ref=e770]: This is a gift
+                              - text: Learn more
+                      - list [ref=e771]:
+                        - generic [ref=e772]: "Colour: Black Sabre"
+                    - generic [ref=e773]:
+                      - group "Quantity is 1" [ref=e776]:
+                        - generic [ref=e777]: Quantity is 1
+                        - generic [ref=e779]:
+                          - button "Delete boAt Rockerz 371, 40mm Drivers, 50hrs Battery, 60ms Low Latency, ENx Tech, BT v5.4, Foldable Cups, Voice Assistant, Bluetooth Headphones, Wireless Headphone with Mic (Black Sabre)" [ref=e780] [cursor=pointer]
+                          - generic [ref=e784]: "1"
+                          - generic [ref=e786]: "1"
+                          - button "Increase quantity by one boAt Rockerz 371, 40mm Drivers, 50hrs Battery, 60ms Low Latency, ENx Tech, BT v5.4, Foldable Cups, Voice Assistant, Bluetooth Headphones, Wireless Headphone with Mic (Black Sabre)" [ref=e787] [cursor=pointer]
+                      - button "Delete boAt Rockerz 371, 40mm Drivers, 50hrs Battery, 60ms Low Latency, ENx Tech, BT v5.4, Foldable Cups, Voice Assistant, Bluetooth Headphones, Wireless Headphone with Mic (Black Sabre)" [ref=e791] [cursor=pointer]: Delete
+                      - button "Save for later boAt Rockerz 371, 40mm Drivers, 50hrs Battery, 60ms Low Latency, ENx Tech, BT v5.4, Foldable Cups, Voice Assistant, Bluetooth Headphones, Wireless Headphone with Mic (Black Sabre)" [ref=e794] [cursor=pointer]: Save for later
+                      - button "See more like this boAt Rockerz 371, 40mm Drivers, 50hrs Battery, 60ms Low Latency, ENx Tech, BT v5.4, Foldable Cups, Voice Assistant, Bluetooth Headphones, Wireless Headphone with Mic (Black Sabre)" [ref=e797] [cursor=pointer]: See more like this
+                      - link "Share boAt Rockerz 371, 40mm Drivers, 50hrs Battery, 60ms Low Latency, ENx Tech, BT v5.4, Foldable Cups, Voice Assistant, Bluetooth Headphones, Wireless Headphone with Mic (Black Sabre)" [ref=e800] [cursor=pointer]:
+                        - /url: "#"
+                        - text: Share
+            - generic [ref=e802]:
+              - text: "Subtotal (1 item):"
+              - generic [ref=e803]: ₹1,099.00
+        - generic [ref=e805]:
+          - heading "Your Items" [level=3] [ref=e807]
+          - generic [ref=e808]:
+            - tablist [ref=e809]:
+              - tab "No items saved for later" [ref=e810] [cursor=pointer]:
+                - generic [ref=e811]: No items saved for later
+              - tab "Buy it again" [selected] [ref=e812] [cursor=pointer]:
+                - generic [ref=e813]: Buy it again
+            - tabpanel "Buy it again" [ref=e814]:
+              - generic [ref=e817]: No items
+        - generic [ref=e818]:
+          - paragraph [ref=e820]: The price and availability of items at Amazon.in are subject to change. The shopping cart is a temporary place to store a list of your items and reflects each item's most recent price.
+          - paragraph [ref=e821]: Do you have a gift card or promotional code? We'll ask you to enter your claim code when it's time to pay.
+  - generic [ref=e822]:
+    - generic [ref=e829]:
+      - heading "Save up to ₹60 with Eco-Friendly Grouped Delivery. Shop now!" [level=2] [ref=e830]
+      - generic [ref=e831]:
+        - text: ₹20 back for every additional item.
+        - link "Buy more, Save more" [ref=e833] [cursor=pointer]:
+          - /url: /promotion/details/AERUAIDBJ7KL7?ref=cbc_bmsm_cw_AERUAIDBJ7KL7_lm&ref_=iCartWidgetCart_d_lm_c
+          - text: Learn more
+      - region [ref=e834]:
+        - list [ref=e839]:
+          - listitem [ref=e840]:
+            - link "Serplex Serplex® 6.6FT Self Adhesive Cord Protector Sleeve, Floor Cord Cover Cable Hider Hide Extension Cords, Self-Adhesive Power Cable Protector Extension Cord Cover to Protect Wires On Floor 31 ₹632.00" [ref=e841] [cursor=pointer]:
+              - /url: /dp/B0DKSHWBGK/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_1?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT9waW28NARO%2B%2BoEntryyEhYAOac3ncauyJ%2B45D9hDAQbkYkYqXvRmGdIRMu2gSzM%2BjsS7yFafqj1PZq4PEGeTgZiHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "Serplex" [ref=e844]
+              - generic [ref=e845]: Serplex® 6.6FT Self Adhesive Cord Protector Sleeve, Floor Cord Cover Cable Hider Hide Extension Cords, Self-Adhesive Power Cable Protector Extension Cord Cover to Protect Wires On Floor
+              - generic [ref=e846]: "31"
+              - generic [ref=e848]: ₹632.00
+            - generic [ref=e852] [cursor=pointer]:
+              - button "Submit" [ref=e853]
+              - generic [ref=e854]: Add to Cart
+          - listitem [ref=e855]:
+            - link "Dyazo Dyazo 13.3 Inch Laptop Case | Cover | Hard Shell Protector Compatible for Apple MacBook 13 Inch 2020/2019 / 2018 Mac Book Air M1 A2337 A2179 A1932 (Transparent) 740 ₹499.00" [ref=e856] [cursor=pointer]:
+              - /url: /dp/B0CTHVMHQF/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_2?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT4fLKNba7zpz%2BtYKWuO7DIaTp%2FDDorXTXa%2FWJb%2BpFdK2kYkYqXvRmGdIRMu2gSzM%2BjsS7yFafqj1PZq4PEGeTgZiHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "Dyazo" [ref=e859]
+              - generic [ref=e860]: Dyazo 13.3 Inch Laptop Case | Cover | Hard Shell Protector Compatible for Apple MacBook 13 Inch 2020/2019 / 2018 Mac Book Air M1 A2337 A2179 A1932 (Transparent)
+              - generic [ref=e861]: "740"
+              - generic [ref=e863]: ₹499.00
+            - generic [ref=e867] [cursor=pointer]:
+              - button "Submit" [ref=e868]
+              - generic [ref=e869]: Add to Cart
+          - listitem [ref=e870]:
+            - link "Karam Karam EP21 High Noise Reduction Safety Ear Muff | Adjustable, Comfortable & Lightweight Hearing Protection for Construction, Shooting & Industrial Use | Noise Cancelling Earmuffs with SNR 27dB 84 ₹420.00" [ref=e871] [cursor=pointer]:
+              - /url: /dp/B00IM6X9X4/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_3?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkTzpH8pMSU3tnaUfjVv5orG2Tp%2FDDorXTXa%2FWJb%2BpFdK2kYkYqXvRmGdIRMu2gSzM%2BjsS7yFafqj1PZq4PEGeTgZiHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "Karam" [ref=e874]
+              - generic [ref=e875]: Karam EP21 High Noise Reduction Safety Ear Muff | Adjustable, Comfortable & Lightweight Hearing Protection for Construction, Shooting & Industrial Use | Noise Cancelling Earmuffs with SNR 27dB
+              - generic [ref=e876]: "84"
+              - generic [ref=e878]: ₹420.00
+            - generic [ref=e882] [cursor=pointer]:
+              - button "Submit" [ref=e883]
+              - generic [ref=e884]: Add to Cart
+          - listitem [ref=e885]:
+            - link "UNIGEN UNIGEN USB 3.0 Type C Female to USB-A Male OTG Adapter | 5Gbps High-Speed Data Transfer | 5V/2A Charging | Compact, Portable & Durable Aluminum Alloy | Universal Compatibility for Laptops & More 243 ₹189.00" [ref=e886] [cursor=pointer]:
+              - /url: /dp/B0D9P7987G/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_4?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT9GlC1IJmiCQTsjm64qicmkh6ZfTkfQCFhWZs0Z3oGjx08tejjNm%2BHQfOwCwkFNGmf1B1CyQR6hWAOLqhoFHdsHwT9L2he1eBP9ybiTewa%2BUNlrI%2BUhQq7usZb1%2FXgNcDg%3D%3D
+              - img "UNIGEN" [ref=e889]
+              - generic [ref=e890]: UNIGEN USB 3.0 Type C Female to USB-A Male OTG Adapter | 5Gbps High-Speed Data Transfer | 5V/2A Charging | Compact, Portable & Durable Aluminum Alloy | Universal Compatibility for Laptops & More
+              - generic [ref=e891]: "243"
+              - generic [ref=e893]: ₹189.00
+            - generic [ref=e897] [cursor=pointer]:
+              - button "Submit" [ref=e898]
+              - generic [ref=e899]: Add to Cart
+          - listitem [ref=e900]:
+            - link "EDNITA EDNITA (5 Pair - 10 Pcs) Pubg Anti-Slip Thumb Sleeve, Slip-Proof Sweat-Proof Professional Touch Screen Thumbs Finger Sleeve for Pubg Mobile Phone Game Gaming Gloves Multi Colour 576 ₹129.00" [ref=e901] [cursor=pointer]:
+              - /url: /dp/B0D8FHQ34B/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_5?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkTy%2BlBt4uNFyUeaLDOKemhT41Tyj5TwgU6N9V6f2ewWYp08tejjNm%2BHQfOwCwkFNGmf1B1CyQR6hWAOLqhoFHdsHwT9L2he1eBP9ybiTewa%2BUNlrI%2BUhQq7usZb1%2FXgNcDg%3D%3D
+              - img "EDNITA" [ref=e904]
+              - generic [ref=e905]: EDNITA (5 Pair - 10 Pcs) Pubg Anti-Slip Thumb Sleeve, Slip-Proof Sweat-Proof Professional Touch Screen Thumbs Finger Sleeve for Pubg Mobile Phone Game Gaming Gloves Multi Colour
+              - generic [ref=e906]: "576"
+              - generic [ref=e908]: ₹129.00
+            - generic [ref=e912] [cursor=pointer]:
+              - button "Submit" [ref=e913]
+              - generic [ref=e914]: Add to Cart
+          - listitem [ref=e915]:
+            - link "amazon basics Amazon Basics Laptop Bag Sleeve Case Cover Pouch for Men & Women | 14.1 Inch Laptop/MacBook, Office/College Laptop Bag | Side Handle | Multiple Pockets | Water Repellent | Shock Absorber (Grey) 1021 ₹409.00" [ref=e916] [cursor=pointer]:
+              - /url: /dp/B0CPJ79L8L/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_6?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT4e2XNIq%2BKj55QKpQLmTkAyTp%2FDDorXTXa%2FWJb%2BpFdK2kYkYqXvRmGdIRMu2gSzM%2BjsS7yFafqj1PZq4PEGeTgZiHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - generic [ref=e918]:
+                - img "amazon basics"
+              - generic [ref=e919]: Amazon Basics Laptop Bag Sleeve Case Cover Pouch for Men & Women | 14.1 Inch Laptop/MacBook, Office/College Laptop Bag | Side Handle | Multiple Pockets | Water Repellent | Shock Absorber (Grey)
+              - generic [ref=e920]: "1021"
+              - generic [ref=e922]: ₹409.00
+            - generic [ref=e926] [cursor=pointer]:
+              - button "Submit" [ref=e927]
+              - generic [ref=e928]: Add to Cart
+          - listitem [ref=e929]:
+            - link "HUMBLE Humble Thumb & Finger Sleeves for Mobile Game (4 Pieces) Pubg, Cod, Freefire Anti-Slip Gaming Sleeve, Sweat-Proof, Pro Mobile Gaming Accuracy, Breathable, Washable & Universal Fit with Metal Carry Box 432 ₹259.00" [ref=e930] [cursor=pointer]:
+              - /url: /dp/B0F3JNJ53G/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_7?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkTwYFwlqGshz3cVFFIfCg4Zo1Tyj5TwgU6N9V6f2ewWYp08tejjNm%2BHQfOwCwkFNGmf1B1CyQR6hWAOLqhoFHdsHwT9L2he1eBP9ybiTewa%2BUNlrI%2BUhQq7usZb1%2FXgNcDg%3D%3D
+              - generic [ref=e932]:
+                - img "HUMBLE"
+              - generic [ref=e933]: Humble Thumb & Finger Sleeves for Mobile Game (4 Pieces) Pubg, Cod, Freefire Anti-Slip Gaming Sleeve, Sweat-Proof, Pro Mobile Gaming Accuracy, Breathable, Washable & Universal Fit with Metal Carry Box
+              - generic [ref=e934]: "432"
+              - generic [ref=e936]: ₹259.00
+            - generic [ref=e940] [cursor=pointer]:
+              - button "Submit" [ref=e941]
+              - generic [ref=e942]: Add to Cart
+          - listitem [ref=e943]:
+            - link "GLOBOMOTIVE GLOBOMOTIVE Spiral Cable Wire Wrap Cord for Computer - Flexible Electrical Wire Organizer Protection Sleeve Hose for TV, PC (Size:8 mm, Length 10 Meters) 443 ₹279.00" [ref=e944] [cursor=pointer]:
+              - /url: /dp/B09DT9BRJW/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_8?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT3XXWLCGSqB%2BMRgG06W6A1uTp%2FDDorXTXa%2FWJb%2BpFdK2kYkYqXvRmGdIRMu2gSzM%2BjsS7yFafqj1PZq4PEGeTgZiHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "GLOBOMOTIVE" [ref=e947]
+              - generic [ref=e948]: GLOBOMOTIVE Spiral Cable Wire Wrap Cord for Computer - Flexible Electrical Wire Organizer Protection Sleeve Hose for TV, PC (Size:8 mm, Length 10 Meters)
+              - generic [ref=e949]: "443"
+              - generic [ref=e951]: ₹279.00
+            - generic [ref=e955] [cursor=pointer]:
+              - button "Submit" [ref=e956]
+              - generic [ref=e957]: Add to Cart
+          - listitem [ref=e958]:
+            - link "Vero Forza Vero Forza Glide V2 (6 Pieces) | Mobile Gaming Sleeve | VFiber 2.0 Technology 832 ₹399.00" [ref=e959] [cursor=pointer]:
+              - /url: /dp/B0B7NPNRC7/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_9?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT3OteKdbj%2FEGvdnr82RKoNdq32WP2GItC%2BwLXXWtN8Ia08tejjNm%2BHQfOwCwkFNGmf1B1CyQR6hWAOLqhoFHdsHwT9L2he1eBP9ybiTewa%2BUNlrI%2BUhQq7usZb1%2FXgNcDg%3D%3D
+              - generic [ref=e961]:
+                - img "Vero Forza"
+              - generic [ref=e962]: Vero Forza Glide V2 (6 Pieces) | Mobile Gaming Sleeve | VFiber 2.0 Technology
+              - generic [ref=e963]: "832"
+              - generic [ref=e965]: ₹399.00
+            - generic [ref=e969] [cursor=pointer]:
+              - button "Submit" [ref=e970]
+              - generic [ref=e971]: Add to Cart
+          - listitem [ref=e972]:
+            - link "Sounce Sounce Replacement Earpads Cushion Ear Muffs Headphone Cushion (60mm / 6cm) 6Pcs 5mm Thick Replacement Earpads for Headphone Sponge Cover, High-Density Foam Ear Cushion Earmuffs - Black 2222 ₹249.00" [ref=e973] [cursor=pointer]:
+              - /url: /dp/B0D4F1NVLT/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_10?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT5wKdpfvQ6jr5SVMTtDIMzqTp%2FDDorXTXa%2FWJb%2BpFdK2kYkYqXvRmGdIRMu2gSzM%2BjsS7yFafqj1PZq4PEGeTgZiHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "Sounce" [ref=e976]
+              - generic [ref=e977]: Sounce Replacement Earpads Cushion Ear Muffs Headphone Cushion (60mm / 6cm) 6Pcs 5mm Thick Replacement Earpads for Headphone Sponge Cover, High-Density Foam Ear Cushion Earmuffs - Black
+              - generic [ref=e978]: "2222"
+              - generic [ref=e980]: ₹249.00
+            - generic [ref=e984] [cursor=pointer]:
+              - button "Submit" [ref=e985]
+              - generic [ref=e986]: Add to Cart
+          - listitem [ref=e987]:
+            - link "Sounce Sounce Headphone Case for Boat Rockerz 450, 480, 480 w/RGB, 450 Pro, 425, 410, 370, ZEBRONICS Thunder, Sony WH-CH520, MDR-ZX310AP, JBL Tune 510BT Hard EVA Shell Travel Pouch (Black) 1241 ₹249.00" [ref=e988] [cursor=pointer]:
+              - /url: /dp/B0DRK7X4CS/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_11?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkTwWYAA0tNHlOOvZnMv0HiLuTp%2FDDorXTXa%2FWJb%2BpFdK2kYkYqXvRmGdIRMu2gSzM%2BjsS7yFafqj1PZq4PEGeTgZiHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - generic [ref=e990]:
+                - img "Sounce"
+              - generic [ref=e991]: Sounce Headphone Case for Boat Rockerz 450, 480, 480 w/RGB, 450 Pro, 425, 410, 370, ZEBRONICS Thunder, Sony WH-CH520, MDR-ZX310AP, JBL Tune 510BT Hard EVA Shell Travel Pouch (Black)
+              - generic [ref=e992]: "1241"
+              - generic [ref=e994]: ₹249.00
+            - generic [ref=e998] [cursor=pointer]:
+              - button "Submit" [ref=e999]
+              - generic [ref=e1000]: Add to Cart
+          - listitem [ref=e1001]:
+            - link "Portronics Portronics C-Konnect Type C to HDMI Adapter (3-in-1), Multiport USB C Hub with 4K@30Hz, USB 3.0 @ 5Gbps, 100 W PD Charging Port for Laptop, MacBook, PC and Other Type C Devices (White) 10486 ₹429.00" [ref=e1002] [cursor=pointer]:
+              - /url: /dp/B083DY9RXW/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_12?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT3PUcLcZuy6Axb7mSoMFlAGTp%2FDDorXTXa%2FWJb%2BpFdK2kYkYqXvRmGdIRMu2gSzM%2BjsS7yFafqj1PZq4PEGeTgZiHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - generic [ref=e1004]:
+                - img "Portronics"
+              - generic [ref=e1005]: Portronics C-Konnect Type C to HDMI Adapter (3-in-1), Multiport USB C Hub with 4K@30Hz, USB 3.0 @ 5Gbps, 100 W PD Charging Port for Laptop, MacBook, PC and Other Type C Devices (White)
+              - generic [ref=e1006]: "10486"
+              - generic [ref=e1008]: ₹429.00
+            - generic [ref=e1012] [cursor=pointer]:
+              - button "Submit" [ref=e1013]
+              - generic [ref=e1014]: Add to Cart
+          - listitem [ref=e1015]:
+            - link "Robustt Robustt Cable Oragnizer - White (Pack of 1) | 30 MM Diameter Cable Sleeve | 1.5 Meter Cable Organiser with Clip Zipper | Flexible | Protect Cats Dogs Pets from Chewing Cords 138 ₹349.00" [ref=e1016] [cursor=pointer]:
+              - /url: /dp/B0D2LK4S81/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_13?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkTzPEKiBMEqD0MTVPT%2FhyNCCTp%2FDDorXTXa%2FWJb%2BpFdK2kYkYqXvRmGdIRMu2gSzM%2BjsS7yFafqj1PZq4PEGeTgZiHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "Robustt" [ref=e1019]
+              - generic [ref=e1020]: Robustt Cable Oragnizer - White (Pack of 1) | 30 MM Diameter Cable Sleeve | 1.5 Meter Cable Organiser with Clip Zipper | Flexible | Protect Cats Dogs Pets from Chewing Cords
+              - generic [ref=e1021]: "138"
+              - generic [ref=e1023]: ₹349.00
+            - generic [ref=e1027] [cursor=pointer]:
+              - button "Submit" [ref=e1028]
+              - generic [ref=e1029]: Add to Cart
+          - listitem [ref=e1030]:
+            - link "ProElite ProElite Smart Case for iPad (A16) 11th/10th Generation (2025/2022) [Auto Sleep/Wake Cover] [Pencil Holder] [Soft Flexible Case] Recoil Series for Apple iPad 10th/11th Gen - Dark Blue 5395 ₹549.00" [ref=e1031] [cursor=pointer]:
+              - /url: /dp/B0BL6S8KHM/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_14?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT1vsTAVIRguGZOygkg9%2BirCTp%2FDDorXTXa%2FWJb%2BpFdK2kYkYqXvRmGdIRMu2gSzM%2BjsS7yFafqj1PZq4PEGeTgZiHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "ProElite" [ref=e1034]
+              - generic [ref=e1035]: ProElite Smart Case for iPad (A16) 11th/10th Generation (2025/2022) [Auto Sleep/Wake Cover] [Pencil Holder] [Soft Flexible Case] Recoil Series for Apple iPad 10th/11th Gen - Dark Blue
+              - generic [ref=e1036]: "5395"
+              - generic [ref=e1038]: ₹549.00
+            - generic [ref=e1042] [cursor=pointer]:
+              - button "Submit" [ref=e1043]
+              - generic [ref=e1044]: Add to Cart
+          - listitem [ref=e1045]:
+            - link "ZEBRONICS Zebronics Thunder Wireless Headphones, BT v6.0, Up to 60h Playback, Dual Pairing, 40mm Drivers, ENC, Gaming Mode, AUX & microSD, Rapid Charging, Type-C Charging (Black) 82654 ₹732.00" [ref=e1046] [cursor=pointer]:
+              - /url: /dp/B07L8KNP5F/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_15?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT9g5wKZZIFP3S%2BEtQK224nyTp%2FDDorXTXa%2FWJb%2BpFdK2kYkYqXvRmGdIRMu2gSzM%2BjsS7yFafqj1PZq4PEGeTgZiHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - generic [ref=e1048]:
+                - img "ZEBRONICS"
+              - generic [ref=e1049]: Zebronics Thunder Wireless Headphones, BT v6.0, Up to 60h Playback, Dual Pairing, 40mm Drivers, ENC, Gaming Mode, AUX & microSD, Rapid Charging, Type-C Charging (Black)
+              - generic [ref=e1050]: "82654"
+              - generic [ref=e1052]: ₹732.00
+            - generic [ref=e1056] [cursor=pointer]:
+              - button "Submit" [ref=e1057]
+              - generic [ref=e1058]: Add to Cart
+          - listitem [ref=e1059]:
+            - link "Supvox Supvox® 6.6ft Cable Organizer Sleeve Self-Closing Cable Protector Sleeve | Cable Organizer Sleeve Self Closing Cable Protector Management Sleeve Cuttable Organizer Wrap Resistant Heat Wire Manager 191 ₹399.00" [ref=e1060] [cursor=pointer]:
+              - /url: /dp/B0D9PZKNLD/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_16?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT%2B8U7Qc9rBL7%2Bo7MeDOLnyJUslv7AtfVmHS%2FBfW%2BuUtUkYkYqXvRmGdIRMu2gSzM%2BjsS7yFafqj1PZq4PEGeTgZiHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "Supvox" [ref=e1063]
+              - generic [ref=e1064]: Supvox® 6.6ft Cable Organizer Sleeve Self-Closing Cable Protector Sleeve | Cable Organizer Sleeve Self Closing Cable Protector Management Sleeve Cuttable Organizer Wrap Resistant Heat Wire Manager
+              - generic [ref=e1065]: "191"
+              - generic [ref=e1067]: ₹399.00
+            - generic [ref=e1071] [cursor=pointer]:
+              - button "Submit" [ref=e1072]
+              - generic [ref=e1073]: Add to Cart
+          - listitem [ref=e1074]:
+            - link "HUMBLE Humble® Mobile Gaming Thumb & Finger Sleeves, Anti-Slip Sweat-Proof High Precision Touch-Sensitive for PUBG, BGMI, COD Mobile & Free Fire - Breathable, Washable & Universal Fit – 2 Pairs (4 Pcs) 141 ₹259.00" [ref=e1075] [cursor=pointer]:
+              - /url: /dp/B0GDPDQMFJ/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_17?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT%2FU9%2Fc6hkfBwS49Q4zDEvrY1Tyj5TwgU6N9V6f2ewWYp08tejjNm%2BHQfOwCwkFNGmf1B1CyQR6hWAOLqhoFHdsHwT9L2he1eBP9ybiTewa%2BUNlrI%2BUhQq7usZb1%2FXgNcDg%3D%3D
+              - generic [ref=e1077]:
+                - img "HUMBLE"
+              - generic [ref=e1078]: Humble® Mobile Gaming Thumb & Finger Sleeves, Anti-Slip Sweat-Proof High Precision Touch-Sensitive for PUBG, BGMI, COD Mobile & Free Fire - Breathable, Washable & Universal Fit – 2 Pairs (4 Pcs)
+              - generic [ref=e1079]: "141"
+              - generic [ref=e1081]: ₹259.00
+            - generic [ref=e1085] [cursor=pointer]:
+              - button "Submit" [ref=e1086]
+              - generic [ref=e1087]: Add to Cart
+          - listitem [ref=e1088]:
+            - link "Zibuyu ZIBUYU® Zipper Pouch Bag Backpack Earphone Bag with Quick Connect Clasp, Small Oxford Cloth Accessories Bag Coin Pouch Utility Pouch for Backpack, Bag, Keyring 80 ₹289.00" [ref=e1089] [cursor=pointer]:
+              - /url: /dp/B0F4WSTLR4/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_18?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkTxLlpN5%2Fox0bV6CHiGJ1HPgc7qY%2FgcPjGoMJQVHnGfgjPICYIkxX6eAkW9Msgh6SEKRlcEaXCD68lVC8HHE%2BMwJe%2FI8vsNUPtSl3lXCUdxxBylbny7kCx8Cqf2w2JfPhHg%3D%3D
+              - img "Zibuyu" [ref=e1092]
+              - generic [ref=e1093]: ZIBUYU® Zipper Pouch Bag Backpack Earphone Bag with Quick Connect Clasp, Small Oxford Cloth Accessories Bag Coin Pouch Utility Pouch for Backpack, Bag, Keyring
+              - generic [ref=e1094]: "80"
+              - generic [ref=e1096]: ₹289.00
+            - generic [ref=e1100] [cursor=pointer]:
+              - button "Submit" [ref=e1101]
+              - generic [ref=e1102]: Add to Cart
+          - listitem [ref=e1103]:
+            - link "GIZGA essentials GIZGA Essentials Cable Organiser, Cord Management System for PC, TV, Home Theater, Speaker & Cables, Reusable Cable Organizer for Desk, WFH Accessories, Organizer Tape Roll, Reusable Cable Ties Strap 6975 ₹198.00" [ref=e1104] [cursor=pointer]:
+              - /url: /dp/B07R99NBVB/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_19?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT1kf3x2m1GpsDorDoeNZE66Tp%2FDDorXTXa%2FWJb%2BpFdK2kYkYqXvRmGdIRMu2gSzM%2BjsS7yFafqj1PZq4PEGeTgZiHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - generic [ref=e1106]:
+                - img "GIZGA essentials"
+              - generic [ref=e1107]: GIZGA Essentials Cable Organiser, Cord Management System for PC, TV, Home Theater, Speaker & Cables, Reusable Cable Organizer for Desk, WFH Accessories, Organizer Tape Roll, Reusable Cable Ties Strap
+              - generic [ref=e1108]: "6975"
+              - generic [ref=e1110]: ₹198.00
+            - generic [ref=e1114] [cursor=pointer]:
+              - button "Submit" [ref=e1115]
+              - generic [ref=e1116]: Add to Cart
+          - listitem [ref=e1117]:
+            - link "Sounce Sounce Headphone Cushion (50mm / 5cm) – 5mm Thick Replacement Earpads Foam Covers for On-Ear Headphones High-Density Soft Sponge Ear Cushions for Comfortable Listening (6 Pcs / 3 Pairs, Black) 2222 ₹249.00" [ref=e1118] [cursor=pointer]:
+              - /url: /dp/B0FN78RLDP/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_20?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkTwi41X4rRd0cRGcvt7tGlTCTp%2FDDorXTXa%2FWJb%2BpFdK2kYkYqXvRmGdIRMu2gSzM%2BjsS7yFafqj1PZq4PEGeTgZiHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - generic [ref=e1120]:
+                - img "Sounce"
+              - generic [ref=e1121]: Sounce Headphone Cushion (50mm / 5cm) – 5mm Thick Replacement Earpads Foam Covers for On-Ear Headphones High-Density Soft Sponge Ear Cushions for Comfortable Listening (6 Pcs / 3 Pairs, Black)
+              - generic [ref=e1122]: "2222"
+              - generic [ref=e1124]: ₹249.00
+            - generic [ref=e1128] [cursor=pointer]:
+              - button "Submit" [ref=e1129]
+              - generic [ref=e1130]: Add to Cart
+          - listitem [ref=e1131]:
+            - link "ZEBRONICS ZEBRONICS Thunder Neo (2026 Upgrade) Wireless Headphone, BT v6.0, True 50hrs Playback, 40mm Driver, ENC, Rapid Charge, Gaming Mode, Dual Pairing, 3 EQ Modes, AUX, Voice Assistant (Black) 399 ₹599.00" [ref=e1132] [cursor=pointer]:
+              - /url: /dp/B0FDPZ868C/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_21?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT%2FMDXNE%2BRd9dAnC09H2gY3KTp%2FDDorXTXa%2FWJb%2BpFdK2kYkYqXvRmGdIRMu2gSzM%2BjsS7yFafqj1PZq4PEGeTgZiHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - generic [ref=e1134]:
+                - img "ZEBRONICS"
+              - generic [ref=e1135]: ZEBRONICS Thunder Neo (2026 Upgrade) Wireless Headphone, BT v6.0, True 50hrs Playback, 40mm Driver, ENC, Rapid Charge, Gaming Mode, Dual Pairing, 3 EQ Modes, AUX, Voice Assistant (Black)
+              - generic [ref=e1136]: "399"
+              - generic [ref=e1138]: ₹599.00
+            - generic [ref=e1142] [cursor=pointer]:
+              - button "Submit" [ref=e1143]
+              - generic [ref=e1144]: Add to Cart
+          - listitem [ref=e1145]:
+            - link "M.G.R.J M.G.R.J® Portable Carrying Case Cover for Logitech Lift Vertical Ergonomic Wireless Mouse (Hard|EVA|Black) 113 ₹503.00" [ref=e1146] [cursor=pointer]:
+              - /url: /dp/B0BNXL9B22/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_22?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT7AHQV0MocH5wyV%2FAyluSUqTp%2FDDorXTXa%2FWJb%2BpFdK2kYkYqXvRmGdIRMu2gSzM%2BjsS7yFafqj1PZq4PEGeTgZiHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "M.G.R.J" [ref=e1149]
+              - generic [ref=e1150]: M.G.R.J® Portable Carrying Case Cover for Logitech Lift Vertical Ergonomic Wireless Mouse (Hard|EVA|Black)
+              - generic [ref=e1151]: "113"
+              - generic [ref=e1153]: ₹503.00
+            - generic [ref=e1157] [cursor=pointer]:
+              - button "Submit" [ref=e1158]
+              - generic [ref=e1159]: Add to Cart
+          - listitem [ref=e1160]:
+            - link "pTron pTron Studio Pro w/ 65Hrs Playtime, Wireless Over Ear Headphones w/HD Mic, Dual Device Pairing, TruTalk AI-ENC Calls, Low-Latency Game & Music, 40mm Drivers, BT5.4, Type-C Fast Charging (Jet Black) 814 ₹699.00" [ref=e1161] [cursor=pointer]:
+              - /url: /dp/B0FPRCDS5J/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_23?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT899uV6BqIkaRJo3g5RLEjQ1Tyj5TwgU6N9V6f2ewWYp08tejjNm%2BHQfOwCwkFNGmf1B1CyQR6hWAOLqhoFHdsHwT9L2he1eBP9ybiTewa%2BUNlrI%2BUhQq7usZb1%2FXgNcDg%3D%3D
+              - img "pTron" [ref=e1164]
+              - generic [ref=e1165]: pTron Studio Pro w/ 65Hrs Playtime, Wireless Over Ear Headphones w/HD Mic, Dual Device Pairing, TruTalk AI-ENC Calls, Low-Latency Game & Music, 40mm Drivers, BT5.4, Type-C Fast Charging (Jet Black)
+              - generic [ref=e1166]: "814"
+              - generic [ref=e1168]: ₹699.00
+            - generic [ref=e1172] [cursor=pointer]:
+              - button "Submit" [ref=e1173]
+              - generic [ref=e1174]: Add to Cart
+          - listitem [ref=e1175]:
+            - link "ZEBRONICS Zebronics Zeb-Storm On Ear Wired Headphone with 3.5mm Jack, Built in Microphone for Calling, 1.5 Meter Cable, Soft Ear Cushion, Adjustable Headband, Foldable Ear Cups and Lightweight Design (Black) 4828 ₹499.00" [ref=e1176] [cursor=pointer]:
+              - /url: /dp/B0B4G44RFS/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_24?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT5Rp3JyrsvfxIsIVk%2BujupSTp%2FDDorXTXa%2FWJb%2BpFdK2kYkYqXvRmGdIRMu2gSzM%2BjsS7yFafqj1PZq4PEGeTgZiHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - img "ZEBRONICS" [ref=e1179]
+              - generic [ref=e1180]: Zebronics Zeb-Storm On Ear Wired Headphone with 3.5mm Jack, Built in Microphone for Calling, 1.5 Meter Cable, Soft Ear Cushion, Adjustable Headband, Foldable Ear Cups and Lightweight Design (Black)
+              - generic [ref=e1181]: "4828"
+              - generic [ref=e1183]: ₹499.00
+            - generic [ref=e1187] [cursor=pointer]:
+              - button "Submit" [ref=e1188]
+              - generic [ref=e1189]: Add to Cart
+          - listitem [ref=e1190]:
+            - link "Portronics Portronics iKonnect C Pro Type C to 3.5 mm Audio Jack Connector with DAC Headphone Converter Adapter Compatible with iPhone 15 Pro Max/15 Pro/15 Plus, Galaxy S23/S22/S21/S208 & Other Type C Phones 12472 ₹169.00" [ref=e1191] [cursor=pointer]:
+              - /url: /dp/B0CVN4DNWY/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_25?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT43AFw0Gxw3ZlQz8GxObxH01Tyj5TwgU6N9V6f2ewWYp08tejjNm%2BHQfOwCwkFNGmf1B1CyQR6hWAOLqhoFHdsHwT9L2he1eBP9ybiTewa%2BUNlrI%2BUhQq7usZb1%2FXgNcDg%3D%3D
+              - img "Portronics" [ref=e1194]
+              - generic [ref=e1195]: Portronics iKonnect C Pro Type C to 3.5 mm Audio Jack Connector with DAC Headphone Converter Adapter Compatible with iPhone 15 Pro Max/15 Pro/15 Plus, Galaxy S23/S22/S21/S208 & Other Type C Phones
+              - generic [ref=e1196]: "12472"
+              - generic [ref=e1198]: ₹169.00
+            - generic [ref=e1202] [cursor=pointer]:
+              - button "Submit" [ref=e1203]
+              - generic [ref=e1204]: Add to Cart
+          - listitem [ref=e1205]:
+            - link "ZEBRONICS ZEBRONICS CTAux10 Type C to 3.5mm Converter, Built-in DAC Chip, Supports Mic & Audio, Metal Body, Braided Cable, for iPhone 16 series, 15 series, Samsung, Android & Type C Smartphones, Tablets, Laptop 4294 ₹199.00" [ref=e1206] [cursor=pointer]:
+              - /url: /dp/B0D67745WS/ref=cbc_bmsm_cw_d_AERUAIDBJ7KL7_np_dp_26?bmsmDPRedirect=ht%2FxJL2jwUIWxMNe9m0D0Y3gvRkcbmKBFXe6VluCyuifaA2qPKssQKgYRSB6hdYDtd5LjS7zbLiHiqb5NBMkT2%2Fer1CSxnNM7TsuboPSdwGTp%2FDDorXTXa%2FWJb%2BpFdK2kYkYqXvRmGdIRMu2gSzM%2BjsS7yFafqj1PZq4PEGeTgZiHsqpxIDSFgjE45QezoGNgwiCsf5X9Iortu8JUGY9xg%3D%3D
+              - generic [ref=e1208]:
+                - img "ZEBRONICS"
+              - generic [ref=e1209]: ZEBRONICS CTAux10 Type C to 3.5mm Converter, Built-in DAC Chip, Supports Mic & Audio, Metal Body, Braided Cable, for iPhone 16 series, 15 series, Samsung, Android & Type C Smartphones, Tablets, Laptop
+              - generic [ref=e1210]: "4294"
+              - generic [ref=e1212]: ₹199.00
+            - generic [ref=e1216] [cursor=pointer]:
+              - button "Submit" [ref=e1217]
+              - generic [ref=e1218]: Add to Cart
+    - group [ref=e1223]:
+      - generic [ref=e1224]:
+        - heading "Products related to items in your cart" [level=2] [ref=e1226]
+        - generic [ref=e1229]: Page 1 of 2
+      - button "Leave feedback on Sponsored ad" [ref=e1235] [cursor=pointer]: Sponsored
+      - generic [ref=e1238]:
+        - button "Previous page of related Sponsored Products" [disabled] [ref=e1240] [cursor=pointer]:
+          - generic [ref=e1243]: Previous page of related Sponsored Products
+        - group [ref=e1245]:
+          - list [ref=e1246]:
+            - listitem [ref=e1247]:
+              - generic [ref=e1250]:
+                - link "boAt Nirvana Eutopia 2 ANC, (~45dB) Adaptive Hybrid ANC, 80H Playtime, 3D Spatial Audio, Dual Drivers, Hi-Res Ldac, ASAP™ Charge, AI-ENx™ and Adaptive Fit Wireless Bluetooth Headphones (Utopian White)" [ref=e1251] [cursor=pointer]:
+                  - /url: /dp/B0GXBFBFYV/ref=pd_cart_sspa_dk_ct_pt_expsub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDExNzg5OTAzODg5MzI6MDowOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=zl87lOAqlb&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e1254]
+                  - generic [ref=e1256]:
+                    - generic [ref=e1257]: boAt Nirvana Eutopia 2 ANC, (~45dB) Adaptive Hybrid ANC, 80H Playtime, 3D Spatial Audio, Dual Drivers, Hi-Res Ldac, ASAP™ Charge, AI-ENx™ and Adaptive Fit Wireless Bluetooth Headphones (Utopian White)
+                    - generic [ref=e1258]: boAt Nirvana Eutopia…
+                - link "5.0 out of 5 stars 2 ratings" [ref=e1260] [cursor=pointer]:
+                  - /url: /dp/B0GXBFBFYV/ref=pd_cart_sspa_dk_ct_pt_expsub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDExNzg5OTAzODg5MzI6MDowOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=zl87lOAqlb&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - generic [ref=e1262]: 5.0 out of 5 stars
+                  - text: "2"
+                - link "₹5,999.00 Amazon Prime" [ref=e1264] [cursor=pointer]:
+                  - /url: /dp/B0GXBFBFYV/ref=pd_cart_sspa_dk_ct_pt_expsub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDExNzg5OTAzODg5MzI6MDowOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=zl87lOAqlb&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - generic [ref=e1266]:
+                    - generic [ref=e1267]: ₹5,999.00
+                    - generic [ref=e1268]:
+                      - text: ₹
+                      - generic [ref=e1269]:
+                        - text: 5,999
+                        - generic [ref=e1270]: .
+                      - text: "00"
+                  - img "Amazon Prime" [ref=e1272]
+                - link "See all buying options" [ref=e1277] [cursor=pointer]:
+                  - /url: /dp/B0GXBFBFYV/ref=pd_cart_sspa_dk_ct_pt_expsub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDExNzg5OTAzODg5MzI6MDowOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=zl87lOAqlb&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+            - listitem [ref=e1278]:
+              - generic [ref=e1281]:
+                - link "Zebronics Envy Pro ANC Wireless Headphones, BT v6.0 + Type-C Dongle, 40mm Drivers, Up to 40h Playback, App Support, Gaming Mode, ENC, 3 EQ Modes, RGB, Rapid Charging, Foldable Design (White)" [ref=e1282] [cursor=pointer]:
+                  - /url: /dp/B0H5BR488V/ref=pd_cart_sspa_dk_ct_pt_expsub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDExODA2MzQ0OTY5MzI6MDoxOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=hbllAbV9KG&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e1285]
+                  - generic [ref=e1287]:
+                    - generic [ref=e1288]: Zebronics Envy Pro ANC Wireless Headphones, BT v6.0 + Type-C Dongle, 40mm Drivers, Up to 40h Playback, App Support, Gaming Mode, ENC, 3 EQ Modes, RGB, Rapid Charging, Foldable Design (White)
+                    - generic [ref=e1289]: Zebronics Envy Pro AN…
+                - link "3.5 out of 5 stars 3 ratings" [ref=e1291] [cursor=pointer]:
+                  - /url: /dp/B0H5BR488V/ref=pd_cart_sspa_dk_ct_pt_expsub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDExODA2MzQ0OTY5MzI6MDoxOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=hbllAbV9KG&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - generic [ref=e1293]: 3.5 out of 5 stars
+                  - text: "3"
+                - link "₹3,499.00 Amazon Prime" [ref=e1295] [cursor=pointer]:
+                  - /url: /dp/B0H5BR488V/ref=pd_cart_sspa_dk_ct_pt_expsub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDExODA2MzQ0OTY5MzI6MDoxOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=hbllAbV9KG&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - generic [ref=e1297]:
+                    - generic [ref=e1298]: ₹3,499.00
+                    - generic [ref=e1299]:
+                      - text: ₹
+                      - generic [ref=e1300]:
+                        - text: 3,499
+                        - generic [ref=e1301]: .
+                      - text: "00"
+                  - img "Amazon Prime" [ref=e1303]
+                - link "See all buying options" [ref=e1308] [cursor=pointer]:
+                  - /url: /dp/B0H5BR488V/ref=pd_cart_sspa_dk_ct_pt_expsub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDExODA2MzQ0OTY5MzI6MDoxOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=hbllAbV9KG&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+            - listitem [ref=e1309]:
+              - generic [ref=e1312]:
+                - link "GOBOULT Mustang Thunder Bluetooth Headphones with Upto 70H Playtime, BoomX Technology, Brightness LEDs, 40mm Driver, Zen ENC Mic, BTv 5.4, Type-C Fast Charging, Over Ear Wireless Headphone with Mic" [ref=e1313] [cursor=pointer]:
+                  - /url: /dp/B0FWJSVD1F/ref=pd_cart_sspa_dk_ct_pt_expsub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDA4MTk2NTk0NzA4MzI6MDoyOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=QSB77XpETO&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e1316]
+                  - generic [ref=e1318]:
+                    - generic [ref=e1319]: GOBOULT Mustang Thunder Bluetooth Headphones with Upto 70H Playtime, BoomX Technology, Brightness LEDs, 40mm Driver, Zen ENC Mic, BTv 5.4, Type-C Fast Charging, Over Ear Wireless Headphone with Mic
+                    - generic [ref=e1320]: GOBOULT Mustang Th…
+                - link "4.0 out of 5 stars 1,359 ratings" [ref=e1322] [cursor=pointer]:
+                  - /url: /dp/B0FWJSVD1F/ref=pd_cart_sspa_dk_ct_pt_expsub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDA4MTk2NTk0NzA4MzI6MDoyOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=QSB77XpETO&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - generic [ref=e1324]: 4.0 out of 5 stars
+                  - text: 1,359
+                - link "₹2,999.00 Amazon Prime" [ref=e1326] [cursor=pointer]:
+                  - /url: /dp/B0FWJSVD1F/ref=pd_cart_sspa_dk_ct_pt_expsub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDA4MTk2NTk0NzA4MzI6MDoyOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=QSB77XpETO&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - generic [ref=e1328]:
+                    - generic [ref=e1329]: ₹2,999.00
+                    - generic [ref=e1330]:
+                      - text: ₹
+                      - generic [ref=e1331]:
+                        - text: 2,999
+                        - generic [ref=e1332]: .
+                      - text: "00"
+                  - img "Amazon Prime" [ref=e1334]
+                - link "See all buying options" [ref=e1339] [cursor=pointer]:
+                  - /url: /dp/B0FWJSVD1F/ref=pd_cart_sspa_dk_ct_pt_expsub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDA4MTk2NTk0NzA4MzI6MDoyOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=QSB77XpETO&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+            - listitem [ref=e1340]:
+              - generic [ref=e1343]:
+                - link "GM G+ Headphones, 70H Playtime Over The Ear Headphones with Mic, BT 5.3, Pure Bass, 45ms Low Latency, Dual Pairing, 4 Play Modes (FM, Radio, SD Card & Aux), 1 Year Warranty - Beige" [ref=e1344] [cursor=pointer]:
+                  - /url: /dp/B0CT2P4TXP/ref=pd_cart_sspa_dk_ct_pt_expsub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDAxNzYxMDc1NjIxMzI6MDozOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=aDKVbVGD9P&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e1347]
+                  - generic [ref=e1349]:
+                    - generic [ref=e1350]: GM G+ Headphones, 70H Playtime Over The Ear Headphones with Mic, BT 5.3, Pure Bass, 45ms Low Latency, Dual Pairing, 4 Play Modes (FM, Radio, SD Card & Aux), 1 Year Warranty - Beige
+                    - generic [ref=e1351]: GM G+ Headphones, 7…
+                - link "4.2 out of 5 stars 358 ratings" [ref=e1353] [cursor=pointer]:
+                  - /url: /dp/B0CT2P4TXP/ref=pd_cart_sspa_dk_ct_pt_expsub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDAxNzYxMDc1NjIxMzI6MDozOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=aDKVbVGD9P&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - generic [ref=e1355]: 4.2 out of 5 stars
+                  - text: "358"
+                - link "₹1,799.00 Amazon Prime" [ref=e1357] [cursor=pointer]:
+                  - /url: /dp/B0CT2P4TXP/ref=pd_cart_sspa_dk_ct_pt_expsub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDAxNzYxMDc1NjIxMzI6MDozOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=aDKVbVGD9P&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - generic [ref=e1359]:
+                    - generic [ref=e1360]: ₹1,799.00
+                    - generic [ref=e1361]:
+                      - text: ₹
+                      - generic [ref=e1362]:
+                        - text: 1,799
+                        - generic [ref=e1363]: .
+                      - text: "00"
+                  - img "Amazon Prime" [ref=e1365]
+                - link "See all buying options" [ref=e1370] [cursor=pointer]:
+                  - /url: /dp/B0CT2P4TXP/ref=pd_cart_sspa_dk_ct_pt_expsub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDAxNzYxMDc1NjIxMzI6MDozOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=aDKVbVGD9P&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+            - listitem [ref=e1371]:
+              - generic [ref=e1374]:
+                - link "Truke Newly Launched Buds Liberty Open Ear Wireless Earbuds with 360Spatial™ Audio Experience, 16mm Beryllium Speaker, 60H Playtime, Quad Mic for Crystal-Clear Calls, Fast Charging, BT5.4 (Slate Blue)" [ref=e1375] [cursor=pointer]:
+                  - /url: /dp/B0D5R2L3GB/ref=pd_cart_sspa_dk_ct_pt_expsub_4/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDAzMTMxNDg5OTI0MzI6MDo0Ojo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=lf4m00TNDt&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e1378]
+                  - generic [ref=e1380]:
+                    - generic [ref=e1381]: Truke Newly Launched Buds Liberty Open Ear Wireless Earbuds with 360Spatial™ Audio Experience, 16mm Beryllium Speaker, 60H Playtime, Quad Mic for Crystal-Clear Calls, Fast Charging, BT5.4 (Slate Blue)
+                    - generic [ref=e1382]: Truke Newly Launched…
+                - link "3.7 out of 5 stars 2,509 ratings" [ref=e1384] [cursor=pointer]:
+                  - /url: /dp/B0D5R2L3GB/ref=pd_cart_sspa_dk_ct_pt_expsub_4/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDAzMTMxNDg5OTI0MzI6MDo0Ojo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=lf4m00TNDt&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - generic [ref=e1386]: 3.7 out of 5 stars
+                  - text: 2,509
+                - link "₹1,799.00 Amazon Prime" [ref=e1388] [cursor=pointer]:
+                  - /url: /dp/B0D5R2L3GB/ref=pd_cart_sspa_dk_ct_pt_expsub_4/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDAzMTMxNDg5OTI0MzI6MDo0Ojo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=lf4m00TNDt&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - generic [ref=e1390]:
+                    - generic [ref=e1391]: ₹1,799.00
+                    - generic [ref=e1392]:
+                      - text: ₹
+                      - generic [ref=e1393]:
+                        - text: 1,799
+                        - generic [ref=e1394]: .
+                      - text: "00"
+                  - img "Amazon Prime" [ref=e1396]
+                - link "See all buying options" [ref=e1401] [cursor=pointer]:
+                  - /url: /dp/B0D5R2L3GB/ref=pd_cart_sspa_dk_ct_pt_expsub_4/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDAzMTMxNDg5OTI0MzI6MDo0Ojo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=lf4m00TNDt&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+            - listitem [ref=e1402]:
+              - generic [ref=e1405]:
+                - link "Avantree Ensemble Bluetooth 5.0 Wireless Headphones for TV Watching w/Bluetooth Transmitter & Charging Dock 2 in 1 (Digital Optical AUX RCA), 35 Hrs Playtime Wireless Headset, Plug n Play, No Delay | Easy Setup & Charging Dock, Works via Optical, AUX or Bluetooth on Compatible TVs, 35H Playtime, Comfortable Fit" [ref=e1406] [cursor=pointer]:
+                  - /url: /dp/B08629PFFQ/ref=pd_cart_sspa_dk_ct_pt_expsub_5/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDExOTc2NTExODQ5MzI6MDo1Ojo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=GR1CygFJhz&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e1409]
+                  - generic [ref=e1411]:
+                    - generic [ref=e1412]: Avantree Ensemble Bluetooth 5.0 Wireless Headphones for TV Watching w/Bluetooth Transmitter & Charging Dock 2 in 1 (Digital Optical AUX RCA), 35 Hrs Playtime Wireless Headset, Plug n Play, No Delay | Easy Setup & Charging Dock, Works via Optical, AUX or Bluetooth on Compatible TVs, 35H Playtime, Comfortable Fit
+                    - generic [ref=e1413]: Avantree Ensemble Bl…
+                - link "4.3 out of 5 stars 14,710 ratings" [ref=e1415] [cursor=pointer]:
+                  - /url: /dp/B08629PFFQ/ref=pd_cart_sspa_dk_ct_pt_expsub_5/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDExOTc2NTExODQ5MzI6MDo1Ojo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=GR1CygFJhz&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - generic [ref=e1417]: 4.3 out of 5 stars
+                  - text: 14,710
+                - link "₹10,999.00 Amazon Prime" [ref=e1419] [cursor=pointer]:
+                  - /url: /dp/B08629PFFQ/ref=pd_cart_sspa_dk_ct_pt_expsub_5/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDExOTc2NTExODQ5MzI6MDo1Ojo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=GR1CygFJhz&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - generic [ref=e1421]:
+                    - generic [ref=e1422]: ₹10,999.00
+                    - generic [ref=e1423]:
+                      - text: ₹
+                      - generic [ref=e1424]:
+                        - text: 10,999
+                        - generic [ref=e1425]: .
+                      - text: "00"
+                  - img "Amazon Prime" [ref=e1427]
+                - link "See all buying options" [ref=e1432] [cursor=pointer]:
+                  - /url: /dp/B08629PFFQ/ref=pd_cart_sspa_dk_ct_pt_expsub_5/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDExOTc2NTExODQ5MzI6MDo1Ojo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=GR1CygFJhz&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+            - listitem [ref=e1433]:
+              - generic [ref=e1436]:
+                - link "HP 320C USB-C Wired Headset, Black, 212 gm (CH8D5AA)" [ref=e1437] [cursor=pointer]:
+                  - /url: /dp/B0GQ4KHKB3/ref=pd_cart_sspa_dk_ct_pt_expsub_6/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDExNTQ1MTYwNTI2MzI6MDo2Ojo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=9BtWF0jJgW&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e1440]
+                  - generic [ref=e1442]:
+                    - generic [ref=e1443]: HP 320C USB-C Wired Headset, Black, 212 gm (CH8D5AA)
+                    - generic [ref=e1444]: HP 320C USB-C Wired…
+                - link "3.6 out of 5 stars 9 ratings" [ref=e1446] [cursor=pointer]:
+                  - /url: /dp/B0GQ4KHKB3/ref=pd_cart_sspa_dk_ct_pt_expsub_6/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDExNTQ1MTYwNTI2MzI6MDo2Ojo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=9BtWF0jJgW&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - generic [ref=e1448]: 3.6 out of 5 stars
+                  - text: "9"
+                - link "₹1,495.00" [ref=e1450] [cursor=pointer]:
+                  - /url: /dp/B0GQ4KHKB3/ref=pd_cart_sspa_dk_ct_pt_expsub_6/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDExNTQ1MTYwNTI2MzI6MDo2Ojo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=9BtWF0jJgW&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - generic [ref=e1452]:
+                    - generic [ref=e1453]: ₹1,495.00
+                    - generic [ref=e1454]:
+                      - text: ₹
+                      - generic [ref=e1455]:
+                        - text: 1,495
+                        - generic [ref=e1456]: .
+                      - text: "00"
+                - link "See all buying options" [ref=e1461] [cursor=pointer]:
+                  - /url: /dp/B0GQ4KHKB3/ref=pd_cart_sspa_dk_ct_pt_expsub_6/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDExNTQ1MTYwNTI2MzI6MDo2Ojo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=9BtWF0jJgW&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+            - listitem [ref=e1462]:
+              - generic [ref=e1465]:
+                - link "Noise Airwave Max 6 Wireless Bluetooth Headphones (2026 Launch), Hi-Res LDAC Audio, Adaptive ANC 45dB, 120H Battery, Low Latency 80ms, Deep Bass, Over-Ear Noise Cancelling Headphones (Carbon Black)" [ref=e1466] [cursor=pointer]:
+                  - /url: /dp/B0FS1XYCGF/ref=pd_cart_sspa_dk_ct_pt_expsub_7/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDA5NjA2NjA1Mzk2MzI6MDo3Ojo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=usuuOcWdGc&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e1469]
+                  - generic [ref=e1471]:
+                    - generic [ref=e1472]: Noise Airwave Max 6 Wireless Bluetooth Headphones (2026 Launch), Hi-Res LDAC Audio, Adaptive ANC 45dB, 120H Battery, Low Latency 80ms, Deep Bass, Over-Ear Noise Cancelling Headphones (Carbon Black)
+                    - generic [ref=e1473]: Noise Airwave Max 6…
+                - link "3.7 out of 5 stars 48 ratings" [ref=e1475] [cursor=pointer]:
+                  - /url: /dp/B0FS1XYCGF/ref=pd_cart_sspa_dk_ct_pt_expsub_7/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDA5NjA2NjA1Mzk2MzI6MDo3Ojo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=usuuOcWdGc&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - generic [ref=e1477]: 3.7 out of 5 stars
+                  - text: "48"
+                - link "₹6,499.00 Amazon Prime" [ref=e1479] [cursor=pointer]:
+                  - /url: /dp/B0FS1XYCGF/ref=pd_cart_sspa_dk_ct_pt_expsub_7/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDA5NjA2NjA1Mzk2MzI6MDo3Ojo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=usuuOcWdGc&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - generic [ref=e1481]:
+                    - generic [ref=e1482]: ₹6,499.00
+                    - generic [ref=e1483]:
+                      - text: ₹
+                      - generic [ref=e1484]:
+                        - text: 6,499
+                        - generic [ref=e1485]: .
+                      - text: "00"
+                  - img "Amazon Prime" [ref=e1487]
+                - link "See all buying options" [ref=e1492] [cursor=pointer]:
+                  - /url: /dp/B0FS1XYCGF/ref=pd_cart_sspa_dk_ct_pt_expsub_7/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDA5NjA2NjA1Mzk2MzI6MDo3Ojo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=usuuOcWdGc&pd_rd_w=1u9E7&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_p=07ee13b1-4c26-4b61-98ea-082b6c9d24ab&pf_rd_r=8HDH23Z5ABRQCBBNTPNK&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&ref_=pd_cart_sspa_dk_ct_pt_expsub
+            - listitem [ref=e1493]:
+              - generic [ref=e1496]:
+                - link "boAt Rockerz 512 ANC,(~40dB) Hybrid ANC, 80H Battery, 40mm Drivers, 40ms Low Latency, ENx Tech,Stream Ad Free Music via App Support, Bluetooth Headphones, Wireless Headphone with Mic (Cosmic Black)" [ref=e1497] [cursor=pointer]:
+                  - /url: /dp/B0FG2QT7H2/ref=pd_cart_sspa_dk_ct_pt_expsub_8/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDA2NTAzNjE5Nzc2MzI6ODo4Ojo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=NEaK5If4HC&pd_rd_w=1u9E7&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e1500]
+                  - generic [ref=e1503]: boAt Rockerz 512 ANC,(~40dB) Hybrid ANC, 80H Battery, 40mm Drivers, 40ms Low Latency, ENx Tech,Stream Ad Free Music via App Support, Bluetooth Headphones, Wireless Headphone with Mic (Cosmic Black)
+                - link "4.2 out of 5 stars 31,331 ratings" [ref=e1505] [cursor=pointer]:
+                  - /url: /dp/B0FG2QT7H2/ref=pd_cart_sspa_dk_ct_pt_expsub_8/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDA2NTAzNjE5Nzc2MzI6ODo4Ojo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=NEaK5If4HC&pd_rd_w=1u9E7&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - generic [ref=e1507]: 4.2 out of 5 stars
+                  - text: 31,331
+                - link "₹3,099.00 Amazon Prime" [ref=e1509] [cursor=pointer]:
+                  - /url: /dp/B0FG2QT7H2/ref=pd_cart_sspa_dk_ct_pt_expsub_8/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDA2NTAzNjE5Nzc2MzI6ODo4Ojo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=NEaK5If4HC&pd_rd_w=1u9E7&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - generic [ref=e1511]:
+                    - generic [ref=e1512]: ₹3,099.00
+                    - generic [ref=e1513]:
+                      - text: ₹
+                      - generic [ref=e1514]:
+                        - text: 3,099
+                        - generic [ref=e1515]: .
+                      - text: "00"
+                  - img "Amazon Prime" [ref=e1517]
+                - link "See all buying options" [ref=e1522] [cursor=pointer]:
+                  - /url: /dp/B0FG2QT7H2/ref=pd_cart_sspa_dk_ct_pt_expsub_8/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDA2NTAzNjE5Nzc2MzI6ODo4Ojo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=NEaK5If4HC&pd_rd_w=1u9E7&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&ref_=pd_cart_sspa_dk_ct_pt_expsub
+            - listitem [ref=e1523]:
+              - generic [ref=e1526]:
+                - link "HyperX Cloud Stinger 2 Core Essential PC Gaming Wired Headset, Lightweight Over Ear Headset with mic, Swivel-to-Mute Function, 40mm Drivers (683L9AA), Black" [ref=e1527] [cursor=pointer]:
+                  - /url: /dp/B0BCFKG49M/ref=pd_cart_sspa_dk_ct_pt_expsub_9/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDAyODY1OTgyODM5MzI6ODo5Ojo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=sold9tMl78&pd_rd_w=1u9E7&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e1530]
+                  - generic [ref=e1533]: HyperX Cloud Stinger 2 Core Essential PC Gaming Wired Headset, Lightweight Over Ear Headset with mic, Swivel-to-Mute Function, 40mm Drivers (683L9AA), Black
+                - link "4.0 out of 5 stars 4,505 ratings" [ref=e1535] [cursor=pointer]:
+                  - /url: /dp/B0BCFKG49M/ref=pd_cart_sspa_dk_ct_pt_expsub_9/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDAyODY1OTgyODM5MzI6ODo5Ojo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=sold9tMl78&pd_rd_w=1u9E7&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - generic [ref=e1537]: 4.0 out of 5 stars
+                  - text: 4,505
+                - link "₹2,799.00 Amazon Prime" [ref=e1539] [cursor=pointer]:
+                  - /url: /dp/B0BCFKG49M/ref=pd_cart_sspa_dk_ct_pt_expsub_9/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDAyODY1OTgyODM5MzI6ODo5Ojo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=sold9tMl78&pd_rd_w=1u9E7&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - generic [ref=e1541]:
+                    - generic [ref=e1542]: ₹2,799.00
+                    - generic [ref=e1543]:
+                      - text: ₹
+                      - generic [ref=e1544]:
+                        - text: 2,799
+                        - generic [ref=e1545]: .
+                      - text: "00"
+                  - img "Amazon Prime" [ref=e1547]
+                - link "See all buying options" [ref=e1552] [cursor=pointer]:
+                  - /url: /dp/B0BCFKG49M/ref=pd_cart_sspa_dk_ct_pt_expsub_9/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NzkzOTAxODQ3MzYzNjk6MTk0MjM5MDk1MjpzcF9jYXJ0X3BlcmNvbGF0ZTozMDAyODY1OTgyODM5MzI6ODo5Ojo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=ZAZ&aref=sold9tMl78&pd_rd_w=1u9E7&pd_rd_wg=mRnh4&pd_rd_r=0f4e6ca0-fc7a-4951-b186-f8bf67c69ab3&content-id=amzn1.sym.07ee13b1-4c26-4b61-98ea-082b6c9d24ab&ref_=pd_cart_sspa_dk_ct_pt_expsub
+        - button "Next page of related Sponsored Products" [ref=e1554] [cursor=pointer]:
+          - generic [ref=e1557]: Next page of related Sponsored Products
+  - complementary "Your recently viewed items and featured recommendations" [ref=e1558]:
+    - generic [ref=e1561]:
+      - generic [ref=e1562]:
+        - group [ref=e1565]:
+          - heading "Recommended based on your shopping trends" [level=2] [ref=e1568]
+          - button "Leave feedback on Sponsored ad" [ref=e1575] [cursor=pointer]: Sponsored
+          - group [ref=e1580]:
+            - list [ref=e1581]:
+              - listitem [ref=e1582]:
+                - generic [ref=e1585]:
+                  - link "boAt Nirvana Eutopia 2 ANC, (~45dB) Adaptive Hybrid ANC, 80H Playtime, 3D Spatial Audio, Dual Drivers, Hi-Res Ldac, ASAP™ Charge, AI-ENx™ and Adaptive Fit Wireless Bluetooth Headphones (Utopian White)" [ref=e1586] [cursor=pointer]:
+                    - /url: /dp/B0GXBFBFYV/ref=sspa_dk_rhf_cart_pt_sub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NDI3MTM3NzM0MzgzMzg0OjE5NDIzOTA5NTQ6c3BfcmhmX2NhcnQ6MzAxMTc4OTkwMzg4OTMyOjA6MDo6&sp_csd=d2lkZ2V0TmFtZT1zcF9yaGZfY2FydA%3D%3D&sp_cr=ZAZ&aref=zl87lOAqlb&pd_rd_w=vi035&content-id=amzn1.sym.81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_p=81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&ref_=sspa_dk_rhf_cart_pt_sub
+                    - img [ref=e1589]
+                    - generic [ref=e1592]: boAt Nirvana Eutopia 2 ANC, (~45dB) Adaptive Hybrid ANC, 80H Playtime, 3D Spatial Audio, Dual Drivers, Hi-Res Ldac, ASAP™ Charge, AI-ENx™ and Adaptive Fit Wireless Bluetooth Headphones (Utopian White)
+                  - link "5.0 out of 5 stars 2 ratings" [ref=e1594] [cursor=pointer]:
+                    - /url: /dp/B0GXBFBFYV/ref=sspa_dk_rhf_cart_pt_sub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NDI3MTM3NzM0MzgzMzg0OjE5NDIzOTA5NTQ6c3BfcmhmX2NhcnQ6MzAxMTc4OTkwMzg4OTMyOjA6MDo6&sp_csd=d2lkZ2V0TmFtZT1zcF9yaGZfY2FydA%3D%3D&sp_cr=ZAZ&aref=zl87lOAqlb&pd_rd_w=vi035&content-id=amzn1.sym.81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_p=81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&ref_=sspa_dk_rhf_cart_pt_sub
+                    - generic [ref=e1596]: 5.0 out of 5 stars
+                    - text: "2"
+                  - link "Limited time deal" [ref=e1598] [cursor=pointer]:
+                    - /url: /dp/B0GXBFBFYV/ref=sspa_dk_rhf_cart_pt_sub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NDI3MTM3NzM0MzgzMzg0OjE5NDIzOTA5NTQ6c3BfcmhmX2NhcnQ6MzAxMTc4OTkwMzg4OTMyOjA6MDo6&sp_csd=d2lkZ2V0TmFtZT1zcF9yaGZfY2FydA%3D%3D&sp_cr=ZAZ&aref=zl87lOAqlb&pd_rd_w=vi035&content-id=amzn1.sym.81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_p=81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&ref_=sspa_dk_rhf_cart_pt_sub
+                    - generic [ref=e1600]: Limited time deal
+                  - 'link "-40% ₹5,999.00 M.R.P: ₹9,990.00 Amazon Prime" [ref=e1602] [cursor=pointer]':
+                    - /url: /dp/B0GXBFBFYV/ref=sspa_dk_rhf_cart_pt_sub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NDI3MTM3NzM0MzgzMzg0OjE5NDIzOTA5NTQ6c3BfcmhmX2NhcnQ6MzAxMTc4OTkwMzg4OTMyOjA6MDo6&sp_csd=d2lkZ2V0TmFtZT1zcF9yaGZfY2FydA%3D%3D&sp_cr=ZAZ&aref=zl87lOAqlb&pd_rd_w=vi035&content-id=amzn1.sym.81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_p=81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&ref_=sspa_dk_rhf_cart_pt_sub
+                    - generic [ref=e1603]:
+                      - text: "-40%"
+                      - generic [ref=e1604]:
+                        - generic [ref=e1605]: ₹5,999.00
+                        - generic [ref=e1606]:
+                          - text: ₹
+                          - generic [ref=e1607]:
+                            - text: 5,999
+                            - generic [ref=e1608]: .
+                          - text: "00"
+                    - generic [ref=e1609]:
+                      - text: "M.R.P:"
+                      - generic [ref=e1610]:
+                        - generic [ref=e1611]: ₹9,990.00
+                        - text: ₹9,990.00
+                    - img "Amazon Prime" [ref=e1613]
+              - listitem [ref=e1614]:
+                - generic [ref=e1617]:
+                  - link "Zebronics Envy Pro ANC Wireless Headphones, BT v6.0 + Type-C Dongle, 40mm Drivers, Up to 40h Playback, App Support, Gaming Mode, ENC, 3 EQ Modes, RGB, Rapid Charging, Foldable Design (White)" [ref=e1618] [cursor=pointer]:
+                    - /url: /dp/B0H5BR488V/ref=sspa_dk_rhf_cart_pt_sub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NDI3MTM3NzM0MzgzMzg0OjE5NDIzOTA5NTQ6c3BfcmhmX2NhcnQ6MzAxMTgwNjM0NDk2OTMyOjA6MTo6&sp_csd=d2lkZ2V0TmFtZT1zcF9yaGZfY2FydA%3D%3D&sp_cr=ZAZ&aref=hbllAbV9KG&pd_rd_w=vi035&content-id=amzn1.sym.81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_p=81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&ref_=sspa_dk_rhf_cart_pt_sub
+                    - img [ref=e1621]
+                    - generic [ref=e1624]: Zebronics Envy Pro ANC Wireless Headphones, BT v6.0 + Type-C Dongle, 40mm Drivers, Up to 40h Playback, App Support, Gaming Mode, ENC, 3 EQ Modes, RGB, Rapid Charging, Foldable Design (White)
+                  - link "3.5 out of 5 stars 3 ratings" [ref=e1626] [cursor=pointer]:
+                    - /url: /dp/B0H5BR488V/ref=sspa_dk_rhf_cart_pt_sub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NDI3MTM3NzM0MzgzMzg0OjE5NDIzOTA5NTQ6c3BfcmhmX2NhcnQ6MzAxMTgwNjM0NDk2OTMyOjA6MTo6&sp_csd=d2lkZ2V0TmFtZT1zcF9yaGZfY2FydA%3D%3D&sp_cr=ZAZ&aref=hbllAbV9KG&pd_rd_w=vi035&content-id=amzn1.sym.81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_p=81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&ref_=sspa_dk_rhf_cart_pt_sub
+                    - generic [ref=e1628]: 3.5 out of 5 stars
+                    - text: "3"
+                  - link "₹3,499.00 Amazon Prime" [ref=e1630] [cursor=pointer]:
+                    - /url: /dp/B0H5BR488V/ref=sspa_dk_rhf_cart_pt_sub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NDI3MTM3NzM0MzgzMzg0OjE5NDIzOTA5NTQ6c3BfcmhmX2NhcnQ6MzAxMTgwNjM0NDk2OTMyOjA6MTo6&sp_csd=d2lkZ2V0TmFtZT1zcF9yaGZfY2FydA%3D%3D&sp_cr=ZAZ&aref=hbllAbV9KG&pd_rd_w=vi035&content-id=amzn1.sym.81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_p=81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&ref_=sspa_dk_rhf_cart_pt_sub
+                    - generic [ref=e1632]:
+                      - generic [ref=e1633]: ₹3,499.00
+                      - generic [ref=e1634]:
+                        - text: ₹
+                        - generic [ref=e1635]:
+                          - text: 3,499
+                          - generic [ref=e1636]: .
+                        - text: "00"
+                    - img "Amazon Prime" [ref=e1638]
+              - listitem [ref=e1639]:
+                - generic [ref=e1642]:
+                  - link "Avantree Ensemble Bluetooth 5.0 Wireless Headphones for TV Watching w/Bluetooth Transmitter & Charging Dock 2 in 1 (Digital Optical AUX RCA), 35 Hrs Playtime Wireless Headset, Plug n Play, No Delay | Easy Setup & Charging Dock, Works via Optical, AUX or Bluetooth on Compatible TVs, 35H Playtime, Comfortable Fit" [ref=e1643] [cursor=pointer]:
+                    - /url: /dp/B08629PFFQ/ref=sspa_dk_rhf_cart_pt_sub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NDI3MTM3NzM0MzgzMzg0OjE5NDIzOTA5NTQ6c3BfcmhmX2NhcnQ6MzAxMTk3NjUxMTg0OTMyOjA6Mjo6&sp_csd=d2lkZ2V0TmFtZT1zcF9yaGZfY2FydA%3D%3D&sp_cr=ZAZ&aref=GR1CygFJhz&pd_rd_w=vi035&content-id=amzn1.sym.81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_p=81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&ref_=sspa_dk_rhf_cart_pt_sub
+                    - img [ref=e1646]
+                    - generic [ref=e1649]: Avantree Ensemble Bluetooth 5.0 Wireless Headphones for TV Watching w/Bluetooth Transmitter & Charging Dock 2 in 1 (Digital Optical AUX RCA), 35 Hrs Playtime Wireless Headset, Plug n Play, No Delay | Easy Setup & Charging Dock, Works via Optical, AUX or Bluetooth on Compatible TVs, 35H Playtime, Comfortable Fit
+                  - link "4.3 out of 5 stars 14,710 ratings" [ref=e1651] [cursor=pointer]:
+                    - /url: /dp/B08629PFFQ/ref=sspa_dk_rhf_cart_pt_sub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NDI3MTM3NzM0MzgzMzg0OjE5NDIzOTA5NTQ6c3BfcmhmX2NhcnQ6MzAxMTk3NjUxMTg0OTMyOjA6Mjo6&sp_csd=d2lkZ2V0TmFtZT1zcF9yaGZfY2FydA%3D%3D&sp_cr=ZAZ&aref=GR1CygFJhz&pd_rd_w=vi035&content-id=amzn1.sym.81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_p=81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&ref_=sspa_dk_rhf_cart_pt_sub
+                    - generic [ref=e1653]: 4.3 out of 5 stars
+                    - text: 14,710
+                  - link "₹10,999.00 Amazon Prime" [ref=e1655] [cursor=pointer]:
+                    - /url: /dp/B08629PFFQ/ref=sspa_dk_rhf_cart_pt_sub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NDI3MTM3NzM0MzgzMzg0OjE5NDIzOTA5NTQ6c3BfcmhmX2NhcnQ6MzAxMTk3NjUxMTg0OTMyOjA6Mjo6&sp_csd=d2lkZ2V0TmFtZT1zcF9yaGZfY2FydA%3D%3D&sp_cr=ZAZ&aref=GR1CygFJhz&pd_rd_w=vi035&content-id=amzn1.sym.81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_p=81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&ref_=sspa_dk_rhf_cart_pt_sub
+                    - generic [ref=e1657]:
+                      - generic [ref=e1658]: ₹10,999.00
+                      - generic [ref=e1659]:
+                        - text: ₹
+                        - generic [ref=e1660]:
+                          - text: 10,999
+                          - generic [ref=e1661]: .
+                        - text: "00"
+                    - img "Amazon Prime" [ref=e1663]
+              - listitem [ref=e1664]:
+                - generic [ref=e1667]:
+                  - link "Noise Airwave Max 6 Wireless Bluetooth Headphones (2026 Launch), Hi-Res LDAC Audio, Adaptive ANC 45dB, 120H Battery, Low Latency 80ms, Deep Bass, Over-Ear Noise Cancelling Headphones (Carbon Black)" [ref=e1668] [cursor=pointer]:
+                    - /url: /dp/B0FS1XYCGF/ref=sspa_dk_rhf_cart_pt_sub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NDI3MTM3NzM0MzgzMzg0OjE5NDIzOTA5NTQ6c3BfcmhmX2NhcnQ6MzAwOTYwNjYwNTM5NjMyOjA6Mzo6&sp_csd=d2lkZ2V0TmFtZT1zcF9yaGZfY2FydA%3D%3D&sp_cr=ZAZ&aref=usuuOcWdGc&pd_rd_w=vi035&content-id=amzn1.sym.81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_p=81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&ref_=sspa_dk_rhf_cart_pt_sub
+                    - img [ref=e1671]
+                    - generic [ref=e1674]: Noise Airwave Max 6 Wireless Bluetooth Headphones (2026 Launch), Hi-Res LDAC Audio, Adaptive ANC 45dB, 120H Battery, Low Latency 80ms, Deep Bass, Over-Ear Noise Cancelling Headphones (Carbon Black)
+                  - link "3.7 out of 5 stars 48 ratings" [ref=e1676] [cursor=pointer]:
+                    - /url: /dp/B0FS1XYCGF/ref=sspa_dk_rhf_cart_pt_sub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NDI3MTM3NzM0MzgzMzg0OjE5NDIzOTA5NTQ6c3BfcmhmX2NhcnQ6MzAwOTYwNjYwNTM5NjMyOjA6Mzo6&sp_csd=d2lkZ2V0TmFtZT1zcF9yaGZfY2FydA%3D%3D&sp_cr=ZAZ&aref=usuuOcWdGc&pd_rd_w=vi035&content-id=amzn1.sym.81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_p=81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&ref_=sspa_dk_rhf_cart_pt_sub
+                    - generic [ref=e1678]: 3.7 out of 5 stars
+                    - text: "48"
+                  - link "₹6,499.00 Amazon Prime" [ref=e1680] [cursor=pointer]:
+                    - /url: /dp/B0FS1XYCGF/ref=sspa_dk_rhf_cart_pt_sub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NDI3MTM3NzM0MzgzMzg0OjE5NDIzOTA5NTQ6c3BfcmhmX2NhcnQ6MzAwOTYwNjYwNTM5NjMyOjA6Mzo6&sp_csd=d2lkZ2V0TmFtZT1zcF9yaGZfY2FydA%3D%3D&sp_cr=ZAZ&aref=usuuOcWdGc&pd_rd_w=vi035&content-id=amzn1.sym.81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_p=81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&ref_=sspa_dk_rhf_cart_pt_sub
+                    - generic [ref=e1682]:
+                      - generic [ref=e1683]: ₹6,499.00
+                      - generic [ref=e1684]:
+                        - text: ₹
+                        - generic [ref=e1685]:
+                          - text: 6,499
+                          - generic [ref=e1686]: .
+                        - text: "00"
+                    - img "Amazon Prime" [ref=e1688]
+              - listitem [ref=e1689]:
+                - generic [ref=e1692]:
+                  - link "HP 320C USB-C Wired Headset, Black, 212 gm (CH8D5AA)" [ref=e1693] [cursor=pointer]:
+                    - /url: /dp/B0GQ4KHKB3/ref=sspa_dk_rhf_cart_pt_sub_4/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NDI3MTM3NzM0MzgzMzg0OjE5NDIzOTA5NTQ6c3BfcmhmX2NhcnQ6MzAxMTU0NTE2MDUyNjMyOjA6NDo6&sp_csd=d2lkZ2V0TmFtZT1zcF9yaGZfY2FydA%3D%3D&sp_cr=ZAZ&aref=9BtWF0jJgW&pd_rd_w=vi035&content-id=amzn1.sym.81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_p=81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&ref_=sspa_dk_rhf_cart_pt_sub
+                    - img [ref=e1696]
+                    - generic [ref=e1699]: HP 320C USB-C Wired Headset, Black, 212 gm (CH8D5AA)
+                  - link "3.6 out of 5 stars 9 ratings" [ref=e1701] [cursor=pointer]:
+                    - /url: /dp/B0GQ4KHKB3/ref=sspa_dk_rhf_cart_pt_sub_4/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NDI3MTM3NzM0MzgzMzg0OjE5NDIzOTA5NTQ6c3BfcmhmX2NhcnQ6MzAxMTU0NTE2MDUyNjMyOjA6NDo6&sp_csd=d2lkZ2V0TmFtZT1zcF9yaGZfY2FydA%3D%3D&sp_cr=ZAZ&aref=9BtWF0jJgW&pd_rd_w=vi035&content-id=amzn1.sym.81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_p=81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&ref_=sspa_dk_rhf_cart_pt_sub
+                    - generic [ref=e1703]: 3.6 out of 5 stars
+                    - text: "9"
+                  - link "Limited time deal" [ref=e1705] [cursor=pointer]:
+                    - /url: /dp/B0GQ4KHKB3/ref=sspa_dk_rhf_cart_pt_sub_4/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NDI3MTM3NzM0MzgzMzg0OjE5NDIzOTA5NTQ6c3BfcmhmX2NhcnQ6MzAxMTU0NTE2MDUyNjMyOjA6NDo6&sp_csd=d2lkZ2V0TmFtZT1zcF9yaGZfY2FydA%3D%3D&sp_cr=ZAZ&aref=9BtWF0jJgW&pd_rd_w=vi035&content-id=amzn1.sym.81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_p=81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&ref_=sspa_dk_rhf_cart_pt_sub
+                    - generic [ref=e1707]: Limited time deal
+                  - 'link "-61% ₹1,495.00 M.R.P: ₹3,800.00" [ref=e1709] [cursor=pointer]':
+                    - /url: /dp/B0GQ4KHKB3/ref=sspa_dk_rhf_cart_pt_sub_4/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NDI3MTM3NzM0MzgzMzg0OjE5NDIzOTA5NTQ6c3BfcmhmX2NhcnQ6MzAxMTU0NTE2MDUyNjMyOjA6NDo6&sp_csd=d2lkZ2V0TmFtZT1zcF9yaGZfY2FydA%3D%3D&sp_cr=ZAZ&aref=9BtWF0jJgW&pd_rd_w=vi035&content-id=amzn1.sym.81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_p=81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&ref_=sspa_dk_rhf_cart_pt_sub
+                    - generic [ref=e1710]:
+                      - text: "-61%"
+                      - generic [ref=e1711]:
+                        - generic [ref=e1712]: ₹1,495.00
+                        - generic [ref=e1713]:
+                          - text: ₹
+                          - generic [ref=e1714]:
+                            - text: 1,495
+                            - generic [ref=e1715]: .
+                          - text: "00"
+                    - generic [ref=e1716]:
+                      - text: "M.R.P:"
+                      - generic [ref=e1717]:
+                        - generic [ref=e1718]: ₹3,800.00
+                        - text: ₹3,800.00
+              - listitem [ref=e1719]:
+                - generic [ref=e1722]:
+                  - link "HyperX Cloud Stinger 2 Core Essential PC Gaming Wired Headset, Lightweight Over Ear Headset with mic, Swivel-to-Mute Function, 40mm Drivers (683L9AA), Black" [ref=e1723] [cursor=pointer]:
+                    - /url: /dp/B0BCFKG49M/ref=sspa_dk_rhf_cart_pt_sub_5/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NDI3MTM3NzM0MzgzMzg0OjE5NDIzOTA5NTQ6c3BfcmhmX2NhcnQ6MzAwMjg2NTk4MjgzOTMyOjA6NTo6&sp_csd=d2lkZ2V0TmFtZT1zcF9yaGZfY2FydA%3D%3D&sp_cr=ZAZ&aref=sold9tMl78&pd_rd_w=vi035&content-id=amzn1.sym.81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_p=81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&ref_=sspa_dk_rhf_cart_pt_sub
+                    - img [ref=e1726]
+                    - generic [ref=e1729]: HyperX Cloud Stinger 2 Core Essential PC Gaming Wired Headset, Lightweight Over Ear Headset with mic, Swivel-to-Mute Function, 40mm Drivers (683L9AA), Black
+                  - link "4.0 out of 5 stars 4,505 ratings" [ref=e1731] [cursor=pointer]:
+                    - /url: /dp/B0BCFKG49M/ref=sspa_dk_rhf_cart_pt_sub_5/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NDI3MTM3NzM0MzgzMzg0OjE5NDIzOTA5NTQ6c3BfcmhmX2NhcnQ6MzAwMjg2NTk4MjgzOTMyOjA6NTo6&sp_csd=d2lkZ2V0TmFtZT1zcF9yaGZfY2FydA%3D%3D&sp_cr=ZAZ&aref=sold9tMl78&pd_rd_w=vi035&content-id=amzn1.sym.81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_p=81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&ref_=sspa_dk_rhf_cart_pt_sub
+                    - generic [ref=e1733]: 4.0 out of 5 stars
+                    - text: 4,505
+                  - link "₹2,799.00 Amazon Prime" [ref=e1735] [cursor=pointer]:
+                    - /url: /dp/B0BCFKG49M/ref=sspa_dk_rhf_cart_pt_sub_5/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NDI3MTM3NzM0MzgzMzg0OjE5NDIzOTA5NTQ6c3BfcmhmX2NhcnQ6MzAwMjg2NTk4MjgzOTMyOjA6NTo6&sp_csd=d2lkZ2V0TmFtZT1zcF9yaGZfY2FydA%3D%3D&sp_cr=ZAZ&aref=sold9tMl78&pd_rd_w=vi035&content-id=amzn1.sym.81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_p=81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&ref_=sspa_dk_rhf_cart_pt_sub
+                    - generic [ref=e1737]:
+                      - generic [ref=e1738]: ₹2,799.00
+                      - generic [ref=e1739]:
+                        - text: ₹
+                        - generic [ref=e1740]:
+                          - text: 2,799
+                          - generic [ref=e1741]: .
+                        - text: "00"
+                    - img "Amazon Prime" [ref=e1743]
+              - listitem [ref=e1744]:
+                - generic [ref=e1747]:
+                  - link "Amazon Basics Pro Series Wired USB On Ear Headset with Mic | 40 mm Driver | Computer/PC or Laptop Headphone | Noise Cancellation Microphone | in-line Control for Home, Office, Teams or Zoom, Black" [ref=e1748] [cursor=pointer]:
+                    - /url: /dp/B0DG2PVL35/ref=sspa_dk_rhf_cart_pt_sub_6/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NDI3MTM3NzM0MzgzMzg0OjE5NDIzOTA5NTQ6c3BfcmhmX2NhcnQ6MzAwNTYwMjAzMzkwMTMyOjA6Njo6&sp_csd=d2lkZ2V0TmFtZT1zcF9yaGZfY2FydA%3D%3D&sp_cr=ZAZ&aref=QKzlHK5LWU&pd_rd_w=vi035&content-id=amzn1.sym.81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_p=81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&ref_=sspa_dk_rhf_cart_pt_sub
+                    - img [ref=e1751]
+                    - generic [ref=e1754]: Amazon Basics Pro Series Wired USB On Ear Headset with Mic | 40 mm Driver | Computer/PC or Laptop Headphone | Noise Cancellation Microphone | in-line Control for Home, Office, Teams or Zoom, Black
+                  - link "4.0 out of 5 stars 722 ratings" [ref=e1756] [cursor=pointer]:
+                    - /url: /dp/B0DG2PVL35/ref=sspa_dk_rhf_cart_pt_sub_6/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NDI3MTM3NzM0MzgzMzg0OjE5NDIzOTA5NTQ6c3BfcmhmX2NhcnQ6MzAwNTYwMjAzMzkwMTMyOjA6Njo6&sp_csd=d2lkZ2V0TmFtZT1zcF9yaGZfY2FydA%3D%3D&sp_cr=ZAZ&aref=QKzlHK5LWU&pd_rd_w=vi035&content-id=amzn1.sym.81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_p=81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&ref_=sspa_dk_rhf_cart_pt_sub
+                    - generic [ref=e1758]: 4.0 out of 5 stars
+                    - text: "722"
+                  - link "₹2,199.00 Amazon Prime" [ref=e1760] [cursor=pointer]:
+                    - /url: /dp/B0DG2PVL35/ref=sspa_dk_rhf_cart_pt_sub_6/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo0NDI3MTM3NzM0MzgzMzg0OjE5NDIzOTA5NTQ6c3BfcmhmX2NhcnQ6MzAwNTYwMjAzMzkwMTMyOjA6Njo6&sp_csd=d2lkZ2V0TmFtZT1zcF9yaGZfY2FydA%3D%3D&sp_cr=ZAZ&aref=QKzlHK5LWU&pd_rd_w=vi035&content-id=amzn1.sym.81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_p=81d661fb-f3db-44fa-beb5-ea7206f167d9&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&ref_=sspa_dk_rhf_cart_pt_sub
+                    - generic [ref=e1762]:
+                      - generic [ref=e1763]: ₹2,199.00
+                      - generic [ref=e1764]:
+                        - text: ₹
+                        - generic [ref=e1765]:
+                          - text: 2,199
+                          - generic [ref=e1766]: .
+                        - text: "00"
+                    - img "Amazon Prime" [ref=e1768]
+        - group [ref=e1773]:
+          - heading "Inspired by your browsing history" [level=2] [ref=e1778]
+          - group [ref=e1783]:
+            - list [ref=e1784]:
+              - listitem [ref=e1785]:
+                - generic [ref=e1787]:
+                  - link [ref=e1789] [cursor=pointer]:
+                    - /url: /Rockerz-Assistant-Bluetooth-Headphones-Headphone/dp/B0FRSPKL34/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_1/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0FRSPKL34&psc=1
+                    - img [ref=e1790]
+                  - generic [ref=e1792]:
+                    - link "boAt Rockerz Trendz, 40mm Drivers, 50hrs Battery, 60ms Low Latency, ENx Tech, BT v5.4, Foldable Cups, Voice Assistant, Bluetooth Headphones, Wireless Headphone with Mic (Black Sabre)" [ref=e1793] [cursor=pointer]:
+                      - /url: /Rockerz-Assistant-Bluetooth-Headphones-Headphone/dp/B0FRSPKL34/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_1/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0FRSPKL34&psc=1
+                      - generic [ref=e1795]: boAt Rockerz Trendz, 40mm Drivers, 50hrs Battery, 60ms Low Latency, ENx Tech, BT v5.4, Foldable Cups, Voice Assistant, Bluetooth Headphones, Wireless Headphone with Mic (Black Sabre)
+                    - link "3.9 out of 5 stars, 192 ratings" [ref=e1798] [cursor=pointer]:
+                      - /url: /product-reviews/B0FRSPKL34/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_1_cr/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0FRSPKL34
+                      - generic [ref=e1800]: 3.9 out of 5 stars
+                      - text: "192"
+                    - generic [ref=e1801]:
+                      - generic [ref=e1803]:
+                        - generic [ref=e1804]:
+                          - link "-68%" [ref=e1805] [cursor=pointer]:
+                            - /url: /Rockerz-Assistant-Bluetooth-Headphones-Headphone/dp/B0FRSPKL34/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_1/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0FRSPKL34&psc=1
+                            - text: "-68%"
+                          - link "₹969.00" [ref=e1806] [cursor=pointer]:
+                            - /url: /Rockerz-Assistant-Bluetooth-Headphones-Headphone/dp/B0FRSPKL34/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_1/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0FRSPKL34&psc=1
+                            - generic [ref=e1807]:
+                              - generic [ref=e1808]: ₹969.00
+                              - generic [ref=e1809]:
+                                - text: ₹
+                                - generic [ref=e1810]:
+                                  - text: "969"
+                                  - generic [ref=e1811]: .
+                                - text: "00"
+                        - 'link "M.R.P: ₹2,999.00" [ref=e1813] [cursor=pointer]':
+                          - /url: /Rockerz-Assistant-Bluetooth-Headphones-Headphone/dp/B0FRSPKL34/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_1/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0FRSPKL34&psc=1
+                          - generic [ref=e1815]: "M.R.P: ₹2,999.00"
+                      - generic [ref=e1817]: Get it by Friday, July 24
+                    - text: FREE Delivery by Amazon
+              - listitem [ref=e1818]:
+                - generic [ref=e1820]:
+                  - link [ref=e1822] [cursor=pointer]:
+                    - /url: /HP-99Y16AA-H200-Wireless-Headset/dp/B0DHKJ5HWL/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_2/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0DHKJ5HWL&psc=1
+                    - img [ref=e1823]
+                  - generic [ref=e1825]:
+                    - link "HP H200 Wireless Headset" [ref=e1826] [cursor=pointer]:
+                      - /url: /HP-99Y16AA-H200-Wireless-Headset/dp/B0DHKJ5HWL/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_2/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0DHKJ5HWL&psc=1
+                      - generic [ref=e1828]: HP H200 Wireless Headset
+                    - link "4.0 out of 5 stars, 1,562 ratings" [ref=e1831] [cursor=pointer]:
+                      - /url: /product-reviews/B0DHKJ5HWL/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_2_cr/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0DHKJ5HWL
+                      - generic [ref=e1833]: 4.0 out of 5 stars
+                      - text: 1,562
+                    - generic [ref=e1834]:
+                      - generic [ref=e1836]:
+                        - generic [ref=e1837]:
+                          - link "-75%" [ref=e1838] [cursor=pointer]:
+                            - /url: /HP-99Y16AA-H200-Wireless-Headset/dp/B0DHKJ5HWL/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_2/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0DHKJ5HWL&psc=1
+                            - text: "-75%"
+                          - link "₹949.00" [ref=e1839] [cursor=pointer]:
+                            - /url: /HP-99Y16AA-H200-Wireless-Headset/dp/B0DHKJ5HWL/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_2/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0DHKJ5HWL&psc=1
+                            - generic [ref=e1840]:
+                              - generic [ref=e1841]: ₹949.00
+                              - generic [ref=e1842]:
+                                - text: ₹
+                                - generic [ref=e1843]:
+                                  - text: "949"
+                                  - generic [ref=e1844]: .
+                                - text: "00"
+                        - 'link "M.R.P: ₹3,749.00" [ref=e1846] [cursor=pointer]':
+                          - /url: /HP-99Y16AA-H200-Wireless-Headset/dp/B0DHKJ5HWL/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_2/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0DHKJ5HWL&psc=1
+                          - generic [ref=e1848]: "M.R.P: ₹3,749.00"
+                      - generic [ref=e1850]: Get it by Monday, July 27
+                    - text: FREE Delivery by Amazon
+              - listitem [ref=e1851]:
+                - generic [ref=e1853]:
+                  - link [ref=e1855] [cursor=pointer]:
+                    - /url: /Shining-Diva-Fashion-Earrings-15724er/dp/B0CRBBB6B5/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_3/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0CRB8WB4G&psc=1
+                    - img [ref=e1856]
+                  - generic [ref=e1858]:
+                    - link "Shining Diva Fashion 24 pairs Combo Celebrity Inspired Trendy Latest Stylish Gold Plated Geometric Twist Pearl Hoop Dangle Earrings for Women and Girls" [ref=e1859] [cursor=pointer]:
+                      - /url: /Shining-Diva-Fashion-Earrings-15724er/dp/B0CRBBB6B5/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_3/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0CRB8WB4G&psc=1
+                      - generic [ref=e1861]: Shining Diva Fashion 24 pairs Combo Celebrity Inspired Trendy Latest Stylish Gold Plated Geometric Twist Pearl Hoop Dangle Earrings for Women and Girls
+                    - link "4.0 out of 5 stars, 965 ratings" [ref=e1864] [cursor=pointer]:
+                      - /url: /product-reviews/B0CRB8WB4G/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_3_cr/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0CRB8WB4G
+                      - generic [ref=e1866]: 4.0 out of 5 stars
+                      - text: "965"
+                    - link "₹259.00 ₹549.00" [ref=e1871] [cursor=pointer]:
+                      - /url: /Shining-Diva-Fashion-Earrings-15724er/dp/B0CRBBB6B5/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_3/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0CRB8WB4G&psc=1
+                      - generic:
+                        - generic [ref=e1872]:
+                          - generic [ref=e1873]: ₹259.00
+                          - generic [ref=e1874]:
+                            - text: ₹
+                            - generic [ref=e1875]:
+                              - text: "259"
+                              - generic [ref=e1876]: .
+                            - text: "00"
+                        - text: "-"
+                        - generic [ref=e1877]:
+                          - generic [ref=e1878]: ₹549.00
+                          - generic [ref=e1879]:
+                            - text: ₹
+                            - generic [ref=e1880]:
+                              - text: "549"
+                              - generic [ref=e1881]: .
+                            - text: "00"
+              - listitem [ref=e1882]:
+                - generic [ref=e1884]:
+                  - link [ref=e1886] [cursor=pointer]:
+                    - /url: /Zebronics-Zeb-Thunder-PRO-Headphone-Supporting/dp/B097JPDQR8/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_4/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B097JPDQR8&psc=1
+                    - img [ref=e1887]
+                  - generic [ref=e1889]:
+                    - link "Zebronics Thunder Pro (2026 Upgrade) Wireless Headphones, BT v6.0, Up to 60h Playback, Dual Pairing, 40mm Drivers, ENC, Gaming Mode, Deep Bass, AUX & microSD, Rapid Charging (Black)" [ref=e1890] [cursor=pointer]:
+                      - /url: /Zebronics-Zeb-Thunder-PRO-Headphone-Supporting/dp/B097JPDQR8/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_4/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B097JPDQR8&psc=1
+                      - generic [ref=e1892]: Zebronics Thunder Pro (2026 Upgrade) Wireless Headphones, BT v6.0, Up to 60h Playback, Dual Pairing, 40mm Drivers, ENC, Gaming Mode, Deep Bass, AUX & microSD, Rapid Charging (Black)
+                    - link "3.8 out of 5 stars, 6,409 ratings" [ref=e1895] [cursor=pointer]:
+                      - /url: /product-reviews/B097JPDQR8/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_4_cr/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B097JPDQR8
+                      - generic [ref=e1897]: 3.8 out of 5 stars
+                      - text: 6,409
+                    - generic [ref=e1898]:
+                      - generic [ref=e1900]:
+                        - generic [ref=e1901]:
+                          - link "-57%" [ref=e1902] [cursor=pointer]:
+                            - /url: /Zebronics-Zeb-Thunder-PRO-Headphone-Supporting/dp/B097JPDQR8/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_4/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B097JPDQR8&psc=1
+                            - text: "-57%"
+                          - link "₹808.00" [ref=e1903] [cursor=pointer]:
+                            - /url: /Zebronics-Zeb-Thunder-PRO-Headphone-Supporting/dp/B097JPDQR8/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_4/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B097JPDQR8&psc=1
+                            - generic [ref=e1904]:
+                              - generic [ref=e1905]: ₹808.00
+                              - generic [ref=e1906]:
+                                - text: ₹
+                                - generic [ref=e1907]:
+                                  - text: "808"
+                                  - generic [ref=e1908]: .
+                                - text: "00"
+                        - 'link "M.R.P: ₹1,899.00" [ref=e1910] [cursor=pointer]':
+                          - /url: /Zebronics-Zeb-Thunder-PRO-Headphone-Supporting/dp/B097JPDQR8/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_4/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B097JPDQR8&psc=1
+                          - generic [ref=e1912]: "M.R.P: ₹1,899.00"
+                      - generic [ref=e1914]: Get it by Tomorrow, July 23
+                    - text: FREE Delivery by Amazon
+              - listitem [ref=e1915]:
+                - generic [ref=e1917]:
+                  - link [ref=e1919] [cursor=pointer]:
+                    - /url: /BULLMER-Clothing-Oversized-T-Shirt-Co-ords/dp/B0DB8VCC2F/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_5/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0DBD5SFL2&psc=1
+                    - img [ref=e1920]
+                  - generic [ref=e1922]:
+                    - link "BULLMER Trendy Clothing Set with Oversized T-Shirt & Pants Co-ords for Men" [ref=e1923] [cursor=pointer]:
+                      - /url: /BULLMER-Clothing-Oversized-T-Shirt-Co-ords/dp/B0DB8VCC2F/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_5/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0DBD5SFL2&psc=1
+                      - generic [ref=e1925]: BULLMER Trendy Clothing Set with Oversized T-Shirt & Pants Co-ords for Men
+                    - link "3.6 out of 5 stars, 843 ratings" [ref=e1928] [cursor=pointer]:
+                      - /url: /product-reviews/B0DBD5SFL2/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_5_cr/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0DBD5SFL2
+                      - generic [ref=e1930]: 3.6 out of 5 stars
+                      - text: "843"
+                    - link "₹615.00 ₹679.00" [ref=e1935] [cursor=pointer]:
+                      - /url: /BULLMER-Clothing-Oversized-T-Shirt-Co-ords/dp/B0DB8VCC2F/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_5/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0DBD5SFL2&psc=1
+                      - generic:
+                        - generic [ref=e1936]:
+                          - generic [ref=e1937]: ₹615.00
+                          - generic [ref=e1938]:
+                            - text: ₹
+                            - generic [ref=e1939]:
+                              - text: "615"
+                              - generic [ref=e1940]: .
+                            - text: "00"
+                        - text: "-"
+                        - generic [ref=e1941]:
+                          - generic [ref=e1942]: ₹679.00
+                          - generic [ref=e1943]:
+                            - text: ₹
+                            - generic [ref=e1944]:
+                              - text: "679"
+                              - generic [ref=e1945]: .
+                            - text: "00"
+              - listitem [ref=e1946]:
+                - generic [ref=e1948]:
+                  - link [ref=e1950] [cursor=pointer]:
+                    - /url: /boAt-Signature-Subwoofer-Multiple-Bluetooth/dp/B0FDFRGWLQ/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_6/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0FDFRGWLQ&psc=1
+                    - img [ref=e1951]
+                  - generic [ref=e1953]:
+                    - link "boAt Aavante 2.1 1600D / Orion Plus, Dolby Audio, 160W Signature Sound, 2.1CH Wired Subwoofer,Multiple Ports & EQ Modes, Bluetooth Sound bar, Home Theatre Soundbar Speaker (Premium Black)" [ref=e1954] [cursor=pointer]:
+                      - /url: /boAt-Signature-Subwoofer-Multiple-Bluetooth/dp/B0FDFRGWLQ/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_6/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0FDFRGWLQ&psc=1
+                      - generic [ref=e1956]: boAt Aavante 2.1 1600D / Orion Plus, Dolby Audio, 160W Signature Sound, 2.1CH Wired Subwoofer,Multiple Ports & EQ Modes, Bluetooth Sound bar, Home Theatre Soundbar Speaker (Premium Black)
+                    - link "4.2 out of 5 stars, 721 ratings" [ref=e1959] [cursor=pointer]:
+                      - /url: /product-reviews/B0FDFRGWLQ/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_6_cr/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0FDFRGWLQ
+                      - generic [ref=e1961]: 4.2 out of 5 stars
+                      - text: "721"
+                    - generic [ref=e1964]: In 60+ carts
+                    - generic [ref=e1965]:
+                      - generic [ref=e1967]:
+                        - generic [ref=e1968]:
+                          - link "-68%" [ref=e1969] [cursor=pointer]:
+                            - /url: /boAt-Signature-Subwoofer-Multiple-Bluetooth/dp/B0FDFRGWLQ/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_6/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0FDFRGWLQ&psc=1
+                            - text: "-68%"
+                          - link "₹6,999.00" [ref=e1970] [cursor=pointer]:
+                            - /url: /boAt-Signature-Subwoofer-Multiple-Bluetooth/dp/B0FDFRGWLQ/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_6/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0FDFRGWLQ&psc=1
+                            - generic [ref=e1971]:
+                              - generic [ref=e1972]: ₹6,999.00
+                              - generic [ref=e1973]:
+                                - text: ₹
+                                - generic [ref=e1974]:
+                                  - text: 6,999
+                                  - generic [ref=e1975]: .
+                                - text: "00"
+                        - 'link "M.R.P: ₹21,990.00" [ref=e1977] [cursor=pointer]':
+                          - /url: /boAt-Signature-Subwoofer-Multiple-Bluetooth/dp/B0FDFRGWLQ/ref=pd_rhf_sc_s_pd_crcd_d_sccl_2_6/523-6929950-0807250?pd_rd_w=sDpQx&content-id=amzn1.sym.7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_p=7edc8fe7-49c8-4837-acf4-779a8e8647e2&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=xoCaM&pd_rd_r=89e62165-8f21-40a3-97f4-c4753de12695&pd_rd_i=B0FDFRGWLQ&psc=1
+                          - generic [ref=e1979]: "M.R.P: ₹21,990.00"
+                      - generic [ref=e1981]: Get it by Monday, July 27
+                    - text: FREE Delivery by Amazon
+      - group [ref=e1988]:
+        - generic [ref=e1992]:
+          - heading "Your browsing history" [level=2] [ref=e1993]
+          - link "Your browsing history - View or edit your browsing history" [ref=e1995] [cursor=pointer]:
+            - /url: /gp/history
+            - text: View or edit your browsing history
+        - group [ref=e2000]:
+          - list [ref=e2001]:
+            - listitem [ref=e2002]:
+              - link "boAt Rockerz 371, 40mm Drivers, 50hrs Battery, 60ms Low Latency, ENx Tech, BT v5.4, Foldable Cups, Voice Assistant, Bluetooth" [ref=e2005] [cursor=pointer]:
+                - /url: /Foldable-Assistant-Bluetooth-Headphones-Headphone/dp/B0FM38MRWL/ref=rvi_d_sccl_1/523-6929950-0807250?pd_rd_w=Pv5UJ&content-id=amzn1.sym.2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_p=2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=Edvnj&pd_rd_r=e502f54e-bf72-4b00-85a0-c3c45fe24840&pd_rd_i=B0FM38MRWL&psc=1
+                - img "boAt Rockerz 371, 40mm Drivers, 50hrs Battery, 60ms Low Latency, ENx Tech, BT v5.4, Foldable Cups, Voice Assistant, Bluetooth" [ref=e2007]
+            - listitem [ref=e2008]:
+              - link "HP Omnibook 5 OLED (Previously Pavilion), Snapdragon X Processor 45 Tops (16GB LPDDR5x, 1TB SSD) 2K,16''/40.6cm, Win11, Offic" [ref=e2011] [cursor=pointer]:
+                - /url: /HP-Previously-Snapdragon-Processor-fb0001QU/dp/B0FRM3G9JF/ref=rvi_d_sccl_2/523-6929950-0807250?pd_rd_w=Pv5UJ&content-id=amzn1.sym.2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_p=2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=Edvnj&pd_rd_r=e502f54e-bf72-4b00-85a0-c3c45fe24840&pd_rd_i=B0FRM3G9JF&psc=1
+                - img "HP Omnibook 5 OLED (Previously Pavilion), Snapdragon X Processor 45 Tops (16GB LPDDR5x, 1TB SSD) 2K,16''/40.6cm, Win11, Offic" [ref=e2013]
+            - listitem [ref=e2014]:
+              - link "Lenovo IdeaPad Slim 3 13th Gen Core i7-13620H 15.3\" (38.8cm) WUXGA IPS Laptop (16GB RAM/512GB SSD/Win 11/Office 2024/Backlit/" [ref=e2017] [cursor=pointer]:
+                - /url: /Lenovo-IdeaPad-i7-13620H-Backlit-83K1011BIN/dp/B0G495PMV8/ref=rvi_d_sccl_3/523-6929950-0807250?pd_rd_w=Pv5UJ&content-id=amzn1.sym.2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_p=2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=Edvnj&pd_rd_r=e502f54e-bf72-4b00-85a0-c3c45fe24840&pd_rd_i=B0G495PMV8&psc=1
+                - img "Lenovo IdeaPad Slim 3 13th Gen Core i7-13620H 15.3\" (38.8cm) WUXGA IPS Laptop (16GB RAM/512GB SSD/Win 11/Office 2024/Backlit/" [ref=e2019]
+            - listitem [ref=e2020]:
+              - link "Lenovo IdeaPad Slim 3 13th Gen Intel Core i7 13620H, 16GB RAM, 512GB SSD, WUXGA IPS, 15.3\"/38.8cm, Win 11, Office 2024, Top M" [ref=e2023] [cursor=pointer]:
+                - /url: /Lenovo-Smartchoice-I7-13620H-Keyboard-83K100CJIN/dp/B0F2162VGQ/ref=rvi_d_sccl_4/523-6929950-0807250?pd_rd_w=Pv5UJ&content-id=amzn1.sym.2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_p=2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=Edvnj&pd_rd_r=e502f54e-bf72-4b00-85a0-c3c45fe24840&pd_rd_i=B0F2162VGQ&psc=1
+                - img "Lenovo IdeaPad Slim 3 13th Gen Intel Core i7 13620H, 16GB RAM, 512GB SSD, WUXGA IPS, 15.3\"/38.8cm, Win 11, Office 2024, Top M" [ref=e2025]
+            - listitem [ref=e2026]:
+              - link "HP OmniBook 5 OLED (Previously Pavilion), Snapdragon X Processor 45 Tops (16GB LPDDR5x, 512GB SSD), 2K 14''/35.6cm, Win11, Of" [ref=e2029] [cursor=pointer]:
+                - /url: /HP-Previously-Snapdragon-Processor-Light-Weight/dp/B0F8P4Y7VF/ref=rvi_d_sccl_5/523-6929950-0807250?pd_rd_w=Pv5UJ&content-id=amzn1.sym.2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_p=2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=Edvnj&pd_rd_r=e502f54e-bf72-4b00-85a0-c3c45fe24840&pd_rd_i=B0F8P4Y7VF&psc=1
+                - img "HP OmniBook 5 OLED (Previously Pavilion), Snapdragon X Processor 45 Tops (16GB LPDDR5x, 512GB SSD), 2K 14''/35.6cm, Win11, Of" [ref=e2031]
+            - listitem [ref=e2032]:
+              - link "Sheaffer Legacy 9065 Glossy Black and Chrome Bi-color Fountain Pen with 14K PVD Gold-Plated, Stainless Steel Inlaid Nib and T" [ref=e2035] [cursor=pointer]:
+                - /url: /Sheaffer-9065-Bi-color-Gold-Plated-Stainless/dp/B0GQ4XKVCV/ref=rvi_d_sccl_6/523-6929950-0807250?pd_rd_w=Pv5UJ&content-id=amzn1.sym.2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_p=2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_r=9N1FZ1GFMMEJ8EMGZJ73&pd_rd_wg=Edvnj&pd_rd_r=e502f54e-bf72-4b00-85a0-c3c45fe24840&pd_rd_i=B0GQ4XKVCV&psc=1
+                - img "Sheaffer Legacy 9065 Glossy Black and Chrome Bi-color Fountain Pen with 14K PVD Gold-Plated, Stainless Steel Inlaid Nib and T" [ref=e2037]
+  - generic [ref=e2038]:
+    - button "Back to top" [ref=e2039] [cursor=pointer]:
+      - generic [ref=e2040]: Back to top
+    - generic [ref=e2041]:
+      - generic [ref=e2042]:
+        - heading "Get to Know Us" [level=6] [ref=e2043]
+        - list [ref=e2044]:
+          - listitem [ref=e2045]:
+            - link "About Amazon" [ref=e2046] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e2047]:
+            - link "Careers" [ref=e2048] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=e2049]:
+            - link "Press Releases" [ref=e2050] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e2051]:
+            - link "Amazon Science" [ref=e2052] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e2054]:
+        - heading "Connect with Us" [level=6] [ref=e2055]
+        - list [ref=e2056]:
+          - listitem [ref=e2057]:
+            - link "Facebook" [ref=e2058] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=e2059]:
+            - link "Twitter" [ref=e2060] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=e2061]:
+            - link "Instagram" [ref=e2062] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=e2064]:
+        - heading "Make Money with Us" [level=6] [ref=e2065]
+        - list [ref=e2066]:
+          - listitem [ref=e2067]:
+            - link "Sell on Amazon" [ref=e2068] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=e2069]:
+            - link "Sell under Amazon Accelerator" [ref=e2070] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=e2071]:
+            - link "Protect and Build Your Brand" [ref=e2072] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=e2073]:
+            - link "Amazon Global Selling" [ref=e2074] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=e2075]:
+            - link "Supply to Amazon" [ref=e2076] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=e2077]:
+            - link "Become an Affiliate" [ref=e2078] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=e2079]:
+            - link "Fulfilment by Amazon" [ref=e2080] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=e2081]:
+            - link "Advertise Your Products" [ref=e2082] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=e2083]:
+            - link "Amazon Pay on Merchants" [ref=e2084] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant
+      - generic [ref=e2086]:
+        - heading "Let Us Help You" [level=6] [ref=e2087]
+        - list [ref=e2088]:
+          - listitem [ref=e2089]:
+            - link "Your Account" [ref=e2090] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e2091]:
+            - link "Returns Centre" [ref=e2092] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e2093]:
+            - link "Recalls and Product Safety Alerts" [ref=e2094] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e2095]:
+            - link "100% Purchase Protection" [ref=e2096] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=e2097]:
+            - link "Amazon App Download" [ref=e2098] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=e2099]:
+            - link "Help" [ref=e2100] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=e2102]:
+      - link "Amazon India Home" [ref=e2105] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=e2108]:
+        - generic [ref=e2109]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e2110] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e2112]: English
+          - button "Expand to Change Language or Country" [ref=e2113] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=e2114] [cursor=pointer]:
+          - generic [ref=e2116]: India
+    - generic "More on Amazon" [ref=e2117]:
+      - generic "More on Amazon" [ref=e2118]:
+        - list [ref=e2119]:
+          - listitem [ref=e2120]:
+            - link "AbeBooks Books, art & collectibles" [ref=e2121] [cursor=pointer]:
+              - /url: https://www.abebooks.com/
+              - heading "AbeBooks" [level=5] [ref=e2122]
+              - generic [ref=e2123]:
+                - text: Books, art
+                - text: "& collectibles"
+          - listitem [ref=e2124]
+          - listitem [ref=e2125]:
+            - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e2126] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e2127]
+              - generic [ref=e2128]:
+                - text: Scalable Cloud
+                - text: Computing Services
+          - listitem [ref=e2129]
+          - listitem [ref=e2130]:
+            - link "Audible Download Audio Books" [ref=e2131] [cursor=pointer]:
+              - /url: https://www.audible.in/
+              - heading "Audible" [level=5] [ref=e2132]
+              - generic [ref=e2133]:
+                - text: Download
+                - text: Audio Books
+          - listitem [ref=e2134]
+          - listitem [ref=e2135]:
+            - link "IMDb Movies, TV & Celebrities" [ref=e2136] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=e2137]
+              - generic [ref=e2138]:
+                - text: Movies, TV
+                - text: "& Celebrities"
+        - list [ref=e2139]:
+          - listitem [ref=e2140]:
+            - link "Shopbop Designer Fashion Brands" [ref=e2141] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=e2142]
+              - generic [ref=e2143]:
+                - text: Designer
+                - text: Fashion Brands
+          - listitem [ref=e2144]
+          - listitem [ref=e2145]:
+            - link "Amazon Business Everything For Your Business" [ref=e2146] [cursor=pointer]:
+              - /url: /business?ref=footer_aingw
+              - heading "Amazon Business" [level=5] [ref=e2147]
+              - generic [ref=e2148]:
+                - text: Everything For
+                - text: Your Business
+          - listitem [ref=e2149]
+          - listitem [ref=e2150]:
+            - link "Amazon Music Stream millions of songs" [ref=e2151] [cursor=pointer]:
+              - /url: /music/player?ref=footer_apm
+              - heading "Amazon Music" [level=5] [ref=e2152]
+              - generic [ref=e2153]: Stream millions of songs
+          - listitem [ref=e2154]
+          - listitem [ref=e2155]
+    - generic [ref=e2156]:
+      - list [ref=e2157]:
+        - listitem [ref=e2158]:
+          - link "Conditions of Use & Sale" [ref=e2159] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=e2160]:
+          - link "Privacy Notice" [ref=e2161] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=e2162]:
+          - link "Interest-Based Ads" [ref=e2163] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=e2164]: © 1996-2026, Amazon.com, Inc. or its affiliates
