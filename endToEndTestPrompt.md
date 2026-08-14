@@ -250,6 +250,33 @@ Derived path placeholder:
 - `{user_story_path}` = `{application}/{functionality_path}/{user_story_name}`
 - `{story_folder_path}` = `{application}/{functionality_path}`
 
+## Story Type Detection (Mandatory First Decision)
+
+⚠️ **Decide this BEFORE running any step. Several steps below behave differently per story type.**
+
+Read the user story and classify it:
+
+| Story type | Indicators | Playwright fixture used |
+|---|---|---|
+| **UI story** | Application URL to navigate, pages/screens, forms, clicks, logins, element labels | `page` |
+| **API story** | HTTP method + endpoint, request headers/payload, status codes, response field assertions | `request` |
+
+Classification rules:
+
+- If the story specifies an HTTP method and endpoint and asserts on status codes or response fields → **API story**
+- If the story describes navigating screens and interacting with elements → **UI story**
+- A story that does both is a **hybrid**: apply the UI rules for the browser portion and the API rules for every HTTP call.
+
+Step behaviour by story type:
+
+| Step | UI story | API story |
+|---|---|---|
+| STEP 2 exploration | Launch Chrome and navigate the live app (as written below) | **Substitute a live API probe** — see STEP 2 gate |
+| STEP 3 evidence contract | Not applicable | **Mandatory** — see "API Test Evidence Capture Contract" |
+| STEP 4 healing | Locator/selector healing applies | Locator healing is N/A; heal transport + contract drift |
+
+---
+
 ## Folder Structure Enforcement (Mandatory)
 
 Use only the mirrored user story structure for all generated artifacts.
@@ -268,11 +295,11 @@ Do not create any alternate structure.
 
 Current value for this run:
 
-- `{application}` = `Alloy`
-- `{functionality_path}` = `alloyJourney`
-- `{user_story_name}` = `TC009_Webhook`
-- `{user_story_path}` = `Alloy/alloyJourney/TC009_Webhook`
-- `{story_folder_path}` = `Alloy/alloyJourney`
+- `{application}` = `FakeRestAPI`
+- `{functionality_path}` = `User`
+- `{user_story_name}` = `create_user`
+- `{user_story_path}` = `FakeRestAPI/User/create_user`
+- `{story_folder_path}` = `FakeRestAPI/User`
 
 Derived artifact paths:
 
@@ -344,7 +371,28 @@ Provide:
 
 ## STEP 2 - CREATE TEST PLAN (INTERACTIVE EXPLORATION REQUIRED)
 
-⚠️ **CRITICAL REQUIREMENT**: The test planner agent MUST launch a browser and actively navigate through the entire workflow before creating any test plan. NO test plan should be created purely from assumptions or documentation review. The agent must interact with the live application to observe and capture each step precisely.
+> ### ⚠️ Story-type gate for STEP 2
+>
+> **UI stories:** follow sections 2.1 – 2.4 exactly as written below.
+>
+> **API stories:** sections 2.1 – 2.3 describe browser exploration, which does not
+> apply — there is no UI to observe. Substitute a **live API probe** and keep the
+> same "observe before planning" discipline:
+>
+> 1. Issue the real request(s) from the user story against the live endpoint
+>    (curl or a scratch Playwright call) before writing any plan.
+> 2. Record the **actual** observed status line, response headers, response body,
+>    and any `Location`/pagination/rate-limit headers.
+> 3. Note behaviours that must shape the plan — server-assigned fields, values
+>    that are not persisted, `charset` suffixes on `Content-Type`, echoed inputs.
+> 4. Include an "Observations" table in the test plan quoting those actual values.
+> 5. Do **not** launch a browser for an API story; there is nothing to explore.
+>
+> ⚠️ **Do not write assertions against values you have not actually observed.**
+> If the live probe shows a mock/non-persisted resource, assert the field's
+> *type and shape*, not a literal value that only holds for the mock.
+
+⚠️ **CRITICAL REQUIREMENT (UI stories)**: The test planner agent MUST launch a browser and actively navigate through the entire workflow before creating any test plan. NO test plan should be created purely from assumptions or documentation review. The agent must interact with the live application to observe and capture each step precisely.
 
 Use the `playwright-test-planner` agent with the following mandatory workflow:
 
@@ -680,6 +728,108 @@ test.describe('Complete Placement Workflow', () => {
 await page.goto('https://app.example.com');
 await page.locator('#username').fill('john.doe@example.com');
 ```
+
+### API Test Evidence Capture Contract (API stories only — MANDATORY)
+
+⚠️ **APPLIES ONLY TO API STORIES.** UI stories skip this section entirely; nothing here changes how UI scripts are generated.
+
+**The rule: Execute → Capture → Validate. In that order, always.**
+
+| Phase | What happens | Where it lives |
+|---|---|---|
+| 1. EXECUTE | Issue the HTTP call | inside `callApi()` |
+| 2. CAPTURE | Read the body once, attach all evidence | inside `callApi()` |
+| 3. VALIDATE | Assert against the returned snapshot | the spec's `test.step()` blocks |
+
+**Why this is non-negotiable:** a failing `expect()` **throws**. It does not
+mark-and-continue. Every remaining `test.step()` after the first failed
+assertion is dead code for that run. So any `attach()` placed after an
+assertion runs **only when the test passes** — exactly when the evidence isn't
+needed. Specs that attached the response body in a later step produced failure
+reports reading `"No response"`, because the test died on the status assertion
+several steps earlier. The failing run is the one that needs evidence most, and
+it was the only run guaranteed not to have it.
+
+**Requirements:**
+
+1. **Every** HTTP call in a generated API spec MUST go through
+   `callApi()` from `tests/support/api-evidence.ts`.
+2. **Never** call `request.get/post/put/patch/delete/fetch` directly in a spec.
+3. **Never** call `test.info().attach()` for `api-*` evidence in a spec — the
+   helper owns all evidence capture.
+4. **Never** call `response.text()` / `response.json()` in a spec — use
+   `snapshot.json<T>()`, which parses the already-captured body.
+5. Validation steps must be **pure**: assertions over the snapshot only, no I/O.
+6. Read response headers via `snapshot.header('name')` (case-insensitive).
+
+**✅ Correct pattern:**
+```typescript
+import { test, expect } from '@playwright/test';
+import { callApi, type ApiSnapshot } from '../../support/api-evidence';
+
+const URL = 'https://api.example.com/posts';
+const PAYLOAD = { title: 'API Testing Post', userId: 1 };
+const EXPECTED_STATUS = 201;
+
+test.describe('Create a Post', () => {
+  let api: ApiSnapshot;
+  let created: { id: number; title: string };
+
+  test('should create a post', async ({ request }) => {
+    // ── PHASE 1 + 2: EXECUTE AND CAPTURE ──
+    await test.step('Send a POST request to create a new post', async () => {
+      api = await callApi(request, {
+        method: 'POST',
+        url: URL,
+        headers: { 'Content-Type': 'application/json' },
+        data: PAYLOAD,
+        label: 'Create a post',
+      });
+      expect(api.url).toBe(URL);
+    });
+
+    // ── PHASE 3: VALIDATE (pure assertions over the captured snapshot) ──
+    await test.step('Verify the API responds with HTTP status 201 Created', async () => {
+      expect(api.status).toBe(EXPECTED_STATUS);      // evidence already captured
+    });
+
+    await test.step('Read and parse the created post from the response body', async () => {
+      created = api.json();                          // parses captured text
+    });
+
+    await test.step('Verify the returned title matches the submitted title', async () => {
+      expect(created.title).toBe(PAYLOAD.title);
+    });
+  });
+});
+```
+
+**❌ FORBIDDEN — capture placed after validation (loses evidence on failure):**
+```typescript
+await test.step('Validate status', async () => {
+  test.info().attach('api-response-status', { body: String(response.status()) });
+  expect(response.status()).toBe(200);              // ❌ throws here...
+});
+
+await test.step('Parse body', async () => {
+  const text = await response.text();
+  test.info().attach('api-response-body', { body: text });  // ❌ ...so this NEVER runs
+});
+```
+
+**❌ FORBIDDEN — raw fixture calls and manual attachment in a spec:**
+```typescript
+const response = await request.post(url, { data });          // ❌ bypasses capture
+test.info().attach('api-request-method', { body: 'POST' });  // ❌ helper owns this
+const body = await response.text();                          // ❌ use snapshot.json()
+test.info().attach('api-request-headers', {
+  body: JSON.stringify(request.defaultHeaders),              // ❌ not a real API — always undefined
+});
+```
+
+**Self-check before finishing STEP 3 (API stories):** search the generated spec
+for `attach(` and for `request.` — if either appears, the contract is violated
+and the spec must be rewritten around `callApi()`.
 
 ### test.step() Requirement (Mandatory for All Generated Scripts)
 

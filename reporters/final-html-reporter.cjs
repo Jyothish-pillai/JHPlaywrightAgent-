@@ -30,6 +30,13 @@ function formatDuration(ms) {
   return `${m}m ${pad2(s)}s`;
 }
 
+function formatMilliseconds(ms) {
+  if (!Number.isFinite(ms) || ms <= 0) return '0 ms';
+  // Group thousands so long-running cases stay readable (e.g. 12,345 ms).
+  const grouped = String(Math.round(ms)).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  return `${grouped} ms`;
+}
+
 function htmlEscape(value) {
   return String(value == null ? '' : value)
     .replace(/&/g, '&amp;')
@@ -302,6 +309,13 @@ class FinalHtmlReporter {
     const traces = [];
     let apiResponseCode = null;
     let apiResponseBody = null;
+    let apiRequestMethod = null;
+    let apiRequestUrl = null;
+    let apiRequestBodyDisplay = null;
+    let apiRequestHeaders = null;
+    let apiResponseStatus = null;
+    let apiResponseStatusText = null;
+    let apiResponseHeaders = null;
 
     for (const att of result.attachments || []) {
       if (att.path && ((att.contentType && att.contentType.startsWith('image/')) || /screenshot/i.test(att.name || ''))) {
@@ -309,6 +323,27 @@ class FinalHtmlReporter {
       }
       if (att.path && ((att.contentType && att.contentType.includes('zip')) || /trace/i.test(att.name || ''))) {
         traces.push(att.path);
+      }
+      // Capture API request data
+      if (att.name === 'api-request-method' && att.body) {
+        try {
+          apiRequestMethod = typeof att.body === 'string' ? att.body : Buffer.from(att.body).toString('utf-8');
+        } catch {}
+      }
+      if (att.name === 'api-request-url' && att.body) {
+        try {
+          apiRequestUrl = typeof att.body === 'string' ? att.body : Buffer.from(att.body).toString('utf-8');
+        } catch {}
+      }
+      if (att.name === 'api-request-body-display' && att.body) {
+        try {
+          apiRequestBodyDisplay = typeof att.body === 'string' ? att.body : Buffer.from(att.body).toString('utf-8');
+        } catch {}
+      }
+      if (att.name === 'api-request-headers' && att.body) {
+        try {
+          apiRequestHeaders = typeof att.body === 'string' ? att.body : Buffer.from(att.body).toString('utf-8');
+        } catch {}
       }
       // Capture API response data from attachments
       if (att.name && att.name.startsWith('api-response-code-')) {
@@ -319,6 +354,21 @@ class FinalHtmlReporter {
       if (att.name === 'api-response-body' && att.body) {
         try {
           apiResponseBody = typeof att.body === 'string' ? att.body : Buffer.from(att.body).toString('utf-8');
+        } catch {}
+      }
+      if (att.name === 'api-response-status' && att.body) {
+        try {
+          apiResponseStatus = typeof att.body === 'string' ? att.body : Buffer.from(att.body).toString('utf-8');
+        } catch {}
+      }
+      if (att.name === 'api-response-status-text' && att.body) {
+        try {
+          apiResponseStatusText = typeof att.body === 'string' ? att.body : Buffer.from(att.body).toString('utf-8');
+        } catch {}
+      }
+      if (att.name === 'api-response-headers' && att.body) {
+        try {
+          apiResponseHeaders = typeof att.body === 'string' ? att.body : Buffer.from(att.body).toString('utf-8');
         } catch {}
       }
     }
@@ -340,7 +390,14 @@ class FinalHtmlReporter {
       screenshots: Array.from(new Set(screenshots)),
       traces: Array.from(new Set(traces)),
       project: (test.parent && test.parent.project && test.parent.project().name) || '',
+      apiRequestMethod,
+      apiRequestUrl,
+      apiRequestBodyDisplay,
+      apiRequestHeaders,
       apiResponseCode,
+      apiResponseStatus,
+      apiResponseStatusText,
+      apiResponseHeaders,
       apiResponseBody,
     });
 
@@ -444,6 +501,7 @@ class FinalHtmlReporter {
           <td class="center">${totalSteps}</td>
           <td class="center ok">${passedSteps}</td>
           <td class="center bad">${failedSteps}</td>
+          <td class="center" data-duration-ms="${Math.max(0, Math.round(record.duration || 0))}">${formatMilliseconds(record.duration)}</td>
           <td class="center" style="font-weight:700;color:${record.status === 'PASS' ? '#2e7d32' : record.status === 'FAIL' ? '#c62828' : '#9c6b00'};">${record.status}</td>
         </tr>`;
     }).join('');
@@ -504,11 +562,17 @@ class FinalHtmlReporter {
           '<tr><td colspan="5" class="center">No step telemetry captured</td></tr>';
 
         const isApiTestCase = isApiTest(record.file);
-        const apiResponseHtml = isApiTestCase && (record.apiResponseCode !== null || record.apiResponseBody)
-          ? `<div class="api-response-section">
-              <strong>API Response Details</strong>
-              ${record.apiResponseCode !== null ? `<div><strong>Status Code:</strong> <span class="response-code">${record.apiResponseCode}</span></div>` : ''}
-              ${record.apiResponseBody ? `<div><strong>Response Body:</strong><pre class="response-body">${htmlEscape(formatResponseBody(record.apiResponseBody))}</pre></div>` : ''}
+
+        // Show the response link when ANY response telemetry was captured, not just the body.
+        // A test that fails before attaching the body still has status/headers worth triaging.
+        const hasResponseData = Boolean(record.apiResponseBody || record.apiResponseStatus || record.apiResponseHeaders);
+        const hasRequestData = Boolean(record.apiRequestMethod || record.apiRequestUrl);
+
+        const apiLinksHtml = isApiTestCase && (hasRequestData || hasResponseData)
+          ? `<div class="api-links-section">
+              <strong>API Details:</strong>
+              ${hasRequestData ? `<a href="javascript:void(0)" onclick="openApiContentInNewTab('request', '${toSafeId(record.safeCaseId)}', event)" class="api-link">📄 Request Body</a>` : ''}
+              ${hasResponseData ? `<a href="javascript:void(0)" onclick="openApiContentInNewTab('response', '${toSafeId(record.safeCaseId)}', event)" class="api-link">📄 Response Body</a>` : ''}
             </div>`
           : '';
 
@@ -518,11 +582,17 @@ class FinalHtmlReporter {
           </div>
           <div id="body_${record.safeCaseId}" class="testcase-body${testcaseOpen ? ' open' : ''}" style="display:${testcaseOpen ? 'block' : 'none'};">
             ${firstFailureHtml}
-            ${apiResponseHtml}
             <table>
               <tr><th>Step #</th><th>Test Steps</th><th>Actual Result</th><th>Status</th><th>Screenshot</th></tr>
               ${stepsRowsHtml}
             </table>
+            ${apiLinksHtml}
+            <script type="application/json" id="apiData_${toSafeId(record.safeCaseId)}_request" style="display:none;">
+              {"method":"${(record.apiRequestMethod || 'N/A').replace(/\\/g, '\\\\').replace(/"/g, '\\"')}","url":"${(record.apiRequestUrl || 'N/A').replace(/\\/g, '\\\\').replace(/"/g, '\\"')}","headers":"${(record.apiRequestHeaders || '{}').replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\n/g, '\\n')}","body":"${(record.apiRequestBodyDisplay || 'No Request Body').replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\n/g, '\\n')}"}
+            </script>
+            <script type="application/json" id="apiData_${toSafeId(record.safeCaseId)}_response" style="display:none;">
+              {"status":"${record.apiResponseStatus || 'N/A'}","statusText":"${(record.apiResponseStatusText || 'N/A').replace(/\\/g, '\\\\').replace(/"/g, '\\"')}","headers":"${(record.apiResponseHeaders || '{}').replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\n/g, '\\n')}","body":"${(record.apiResponseBody ? (typeof record.apiResponseBody === 'string' ? record.apiResponseBody : JSON.stringify(record.apiResponseBody)) : 'No response').replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\n/g, '\\n').replace(/\r/g, '\\r')}"}
+            </script>
           </div>`;
       }).join('');
 
@@ -631,10 +701,10 @@ td{border:1px solid #333;padding:9px;font-size:13px;vertical-align:top;}
 .rec-item{display:flex;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);} 
 .rec-item:last-child{border-bottom:none;} 
 .rec-dot{flex-shrink:0;width:8px;height:8px;border-radius:50%;background:var(--info);margin-top:5px;} 
-.api-response-section{background:#f5f5f5;border-left:4px solid #0066cc;border-radius:4px;padding:12px;margin:10px 0;font-size:13px;} 
-.api-response-section strong{color:#0066cc;display:block;margin-bottom:6px;} 
-.response-code{font-family:monospace;font-weight:600;padding:4px 8px;background:#e3f2fd;border-radius:3px;display:inline-block;color:#1565c0;} 
-.response-body{background:#fff;border:1px solid #ccc;border-radius:4px;padding:10px;font-family:Consolas,monospace;white-space:pre-wrap;word-break:break-word;max-height:300px;overflow:auto;font-size:12px;} 
+.api-links-section{background:#e8f4f8;border:1px solid #0066cc;border-radius:4px;padding:12px;margin:12px 0;font-size:13px;} 
+.api-links-section strong{color:#0066cc;display:block;margin-bottom:8px;} 
+.api-link{color:#0066cc;text-decoration:none;padding:6px 12px;background:#cce5ff;border-radius:4px;display:inline-block;margin-right:8px;margin-bottom:8px;cursor:pointer;font-weight:500;} 
+.api-link:hover{background:#b3d9ff;text-decoration:underline;} 
 @media print{.hdr-actions,.toolbar{display:none!important;}body{background:#fff!important;padding:0;}.report{max-width:100%;}} 
 @media (max-width:860px){.title{font-size:20px;}th,td{font-size:12px;padding:8px;}.functionality-header{font-size:16px;}.testcase-header{font-size:14px;}}
 </style>
@@ -680,11 +750,12 @@ td{border:1px solid #333;padding:9px;font-size:13px;vertical-align:top;}
             <th>Total Steps</th>
             <th>Passed Steps</th>
             <th>Failed Steps</th>
+            <th>Execution Time</th>
             <th>Result</th>
           </tr>
         </thead>
         <tbody>
-          ${summaryRowsHtml || '<tr><td colspan="7" class="center">No test results recorded</td></tr>'}
+          ${summaryRowsHtml || '<tr><td colspan="8" class="center">No test results recorded</td></tr>'}
         </tbody>
       </table>
     </div>
@@ -764,6 +835,116 @@ td{border:1px solid #333;padding:9px;font-size:13px;vertical-align:top;}
       const matchesStatus = currentFilter === 'all' || status === currentFilter;
       const matchesQuery = !q || search.indexOf(q) >= 0 || row.textContent.toLowerCase().indexOf(q) >= 0;
       row.style.display = (matchesStatus && matchesQuery) ? '' : 'none';
+    }
+  }
+
+  function openApiContentInNewTab(type, testcaseId, event) {
+    event.preventDefault();
+    const dataElement = document.getElementById('apiData_' + testcaseId + '_' + type);
+    if (!dataElement) {
+      alert('No ' + type + ' data found for this test case');
+      return;
+    }
+    
+    try {
+      const data = JSON.parse(dataElement.textContent);
+      let content = '';
+      
+      if (type === 'request') {
+        content = '<h2>Request Details</h2>';
+        content += '<p><strong>Method:</strong> ' + (data.method || 'N/A') + '</p>';
+        content += '<p><strong>URL:</strong> ' + (data.url || 'N/A') + '</p>';
+        
+        // Display headers
+        if (data.headers) {
+          content += '<h3>Headers:</h3>';
+          try {
+            const headers = JSON.parse(data.headers);
+            Object.keys(headers).forEach(function(key) {
+              content += '<p style="margin-left:20px;"><strong>' + key + ':</strong> ' + headers[key] + '</p>';
+            });
+          } catch (e) {
+            content += '<p>' + data.headers + '</p>';
+          }
+        }
+        
+        // Display body
+        if (data.body && data.body !== 'No Request Body (GET request)') {
+          content += '<h3>Request Body:</h3>';
+          let bodyContent = data.body;
+          try {
+            const parsed = JSON.parse(bodyContent);
+            bodyContent = JSON.stringify(parsed, null, 2);
+          } catch (e) {
+            // Keep as-is if not JSON
+          }
+          content += '<pre style="background:#f9f9f9;padding:15px;border:1px solid #ddd;border-radius:4px;overflow:auto;font-family:Consolas,monospace;font-size:14px;line-height:1.5;white-space:pre-wrap;word-wrap:break-word;">' + bodyContent.replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</pre>';
+        } else {
+          content += '<h3>Request Body:</h3>';
+          content += '<pre style="background:#f9f9f9;padding:15px;border:1px solid #ddd;border-radius:4px;overflow:auto;font-family:Consolas,monospace;font-size:14px;line-height:1.5;">' + (data.body || 'No Request Body') + '</pre>';
+        }
+      } else if (type === 'response') {
+        content = '<h2>Response Details</h2>';
+        content += '<p><strong>Status Code:</strong> ' + (data.status || 'N/A') + '</p>';
+        if (data.statusText) {
+          content += '<p><strong>Status Message:</strong> ' + data.statusText + '</p>';
+        }
+        if (data.responseTime) {
+          content += '<p><strong>Response Time:</strong> ' + data.responseTime + '</p>';
+        }
+        
+        // Display headers
+        if (data.headers) {
+          content += '<h3>Response Headers:</h3>';
+          try {
+            const headers = JSON.parse(data.headers);
+            Object.keys(headers).forEach(function(key) {
+              content += '<p style="margin-left:20px;"><strong>' + key + ':</strong> ' + headers[key] + '</p>';
+            });
+          } catch (e) {
+            content += '<p>' + data.headers + '</p>';
+          }
+        }
+        
+        // Display body
+        content += '<h3>Response Body:</h3>';
+        let bodyContent = data.body || 'No body';
+        try {
+          const parsed = JSON.parse(bodyContent);
+          bodyContent = JSON.stringify(parsed, null, 2);
+        } catch (e) {
+          // If not JSON, just use as-is
+        }
+        content += '<pre style="background:#f9f9f9;padding:15px;border:1px solid #ddd;border-radius:4px;overflow:auto;font-family:Consolas,monospace;font-size:14px;line-height:1.5;white-space:pre-wrap;word-wrap:break-word;">' + bodyContent.replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</pre>';
+      }
+      
+      const newWindow = window.open('', 'apiContent_' + testcaseId + '_' + type, 'width=1000,height=800,scrollbars=yes');
+      if (newWindow) {
+        newWindow.document.write('<!DOCTYPE html>');
+        newWindow.document.write('<html>');
+        newWindow.document.write('<head>');
+        newWindow.document.write('<meta charset="UTF-8">');
+        newWindow.document.write('<title>API ' + type.charAt(0).toUpperCase() + type.slice(1) + ' - ' + testcaseId + '</title>');
+        newWindow.document.write('<style>');
+        newWindow.document.write('body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; margin: 20px; background: #f5f5f5; color: #333; }');
+        newWindow.document.write('.container { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }');
+        newWindow.document.write('h2 { color: #0066cc; border-bottom: 2px solid #0066cc; padding-bottom: 10px; margin-bottom: 15px; font-size: 24px; }');
+        newWindow.document.write('h3 { color: #333; margin-top: 20px; margin-bottom: 10px; font-size: 18px; }');
+        newWindow.document.write('p { line-height: 1.8; margin: 10px 0; font-size: 15px; }');
+        newWindow.document.write('strong { color: #0066cc; }');
+        newWindow.document.write('pre { background: #f9f9f9; padding: 15px; border: 1px solid #ddd; border-radius: 4px; overflow: auto; max-height: 600px; font-size: 14px; line-height: 1.5; }');
+        newWindow.document.write('</style>');
+        newWindow.document.write('</head>');
+        newWindow.document.write('<body>');
+        newWindow.document.write('<div class="container">');
+        newWindow.document.write(content);
+        newWindow.document.write('</div>');
+        newWindow.document.write('</body>');
+        newWindow.document.write('</html>');
+        newWindow.document.close();
+      }
+    } catch (e) {
+      alert('Error opening ' + type + ' content: ' + e.message);
     }
   }
 </script>

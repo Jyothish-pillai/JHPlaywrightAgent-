@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>CombinedExecution - Test Execution Report</title>
+<style>
+:root{--bg:#f4f7fb;--surface:#ffffff;--ink:#172033;--muted:#5f6b84;--line:#d8deeb;--ok:#28a745;--bad:#dc3545;--warn:#ffc107;--info:#0dcaf0;--shadow:0 4px 14px rgba(20,34,66,.08);} 
+[data-theme="dark"]{--bg:#0f172a;--surface:#1e293b;--ink:#e2e8f0;--muted:#94a3b8;--line:#334155;--shadow:0 4px 14px rgba(0,0,0,.45);} 
+*{box-sizing:border-box;margin:0;padding:0;} 
+body{font-family:"Segoe UI",Tahoma,Arial,sans-serif;background:radial-gradient(circle at top right,#e9f0ff 0%,var(--bg) 45%);color:var(--ink);padding:20px;transition:background .25s,color .25s;} 
+.report{max-width:1320px;margin:0 auto;} 
+.title{background:linear-gradient(135deg,#243b8b 0%,#1b2a6b 100%);color:#fff;padding:18px;text-align:center;border-radius:8px 8px 0 0;font-size:24px;font-weight:700;letter-spacing:.3px;} 
+.meta{background:#fff;border:1px solid var(--line);border-top:none;padding:12px 14px;display:flex;flex-wrap:wrap;gap:14px;color:var(--muted);border-radius:0 0 8px 8px;margin-bottom:16px;box-shadow:var(--shadow);font-size:13px;} 
+.hdr-actions{margin-left:auto;display:flex;gap:8px;} 
+.btn{padding:7px 12px;border-radius:6px;border:1px solid var(--line);cursor:pointer;font-size:12px;font-weight:600;background:var(--surface);color:var(--ink);} 
+.btn:hover{opacity:.9;} 
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-bottom:18px;} 
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px;box-shadow:var(--shadow);} 
+.kpi .label{font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);margin-bottom:7px;} 
+.kpi .value{font-size:27px;font-weight:700;line-height:1;} 
+.kpi .sub{margin-top:6px;color:var(--muted);font-size:12px;} 
+.ok{color:var(--ok);} .bad{color:var(--bad);} .warn{color:#9c6b00;} 
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:8px;box-shadow:var(--shadow);margin-bottom:16px;overflow:hidden;} 
+.panel-head{background:linear-gradient(135deg,#ff9800 0%,#ef6c00 100%);color:#fff;padding:12px 14px;font-size:16px;font-weight:700;letter-spacing:.3px;} 
+.panel-body{padding:12px;} 
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px;align-items:center;} 
+.toolbar input{flex:1;min-width:220px;border:1px solid var(--line);border-radius:6px;padding:8px 10px;font-size:13px;color:var(--ink);background:var(--surface);} 
+.filter-btn{border:1px solid var(--line);border-radius:16px;padding:6px 12px;font-size:12px;cursor:pointer;background:var(--surface);font-weight:600;color:var(--ink);} 
+.filter-btn.active{background:#1b2a6b;color:#fff;border-color:#1b2a6b;} 
+table{width:100%;border-collapse:collapse;background:#fff;} 
+th{text-align:center;background:#dff0df;border:1px solid #333;padding:10px;font-size:12px;} 
+td{border:1px solid #333;padding:9px;font-size:13px;vertical-align:top;} 
+.center{text-align:center;} 
+.status-pass,.status-fail,.status-skip{color:#fff;font-weight:700;text-align:center;width:90px;} 
+.status-pass{background:#43a047;} .status-fail{background:#e53935;} .status-skip{background:#fbc02d;color:#222;} 
+.functionality-header,.testcase-header{cursor:pointer;user-select:none;} 
+.functionality-header{background:#1b2a6b;color:#fff;padding:12px 14px;font-size:18px;font-weight:700;margin-top:12px;border-radius:6px;} 
+.testcase-header{background:#fff;border:1px solid #ccc;padding:10px 12px;font-size:16px;font-weight:700;margin-top:8px;border-radius:6px;} 
+.toggle-icon{display:inline-block;width:18px;text-align:center;margin-right:8px;font-weight:700;} 
+.functionality-body,.testcase-body{display:none;margin-left:10px;margin-top:8px;margin-bottom:10px;} 
+.testcase-body.open{display:block;} 
+.failure-digest{border:1px solid #f3b6b6;background:#fff5f5;border-radius:6px;padding:10px;margin:10px 0;} 
+.failure-digest h4{margin-bottom:8px;color:#a22020;font-size:13px;text-transform:uppercase;letter-spacing:.4px;} 
+.failure-digest p{font-size:13px;margin:4px 0;} 
+.err-pre{background:#fff5f5;border:1px solid #fecaca;border-radius:6px;padding:10px;font-size:12px;font-family:Consolas,monospace;white-space:pre-wrap;word-break:break-word;max-height:180px;overflow:auto;color:#7f1d1d;} 
+.screenshot-link{color:#1976d2;text-decoration:none;} .screenshot-link:hover{text-decoration:underline;} 
+.sec{background:var(--surface);border:1px solid var(--line);border-radius:8px;box-shadow:var(--shadow);margin-top:16px;overflow:hidden;} 
+.sec-hdr{padding:12px 14px;background:#f8fafc;border-bottom:1px solid var(--line);font-size:14px;font-weight:700;} 
+.sec-body{padding:12px;} 
+.status-chip{display:inline-flex;align-items:center;padding:3px 10px;border-radius:16px;font-size:12px;font-weight:600;} 
+.status-chip.warn{background:#fff3cd;color:#856404;} 
+.status-chip.info{background:#cce5ff;color:#004085;} 
+.no-defects{padding:12px;border-radius:6px;background:#d4edda;color:#155724;font-weight:700;} 
+.heal-list{margin:6px 0 0 18px;font-size:13px;} 
+.heal-list li{padding:3px 0;border-bottom:1px solid var(--line);} 
+.heal-list li:last-child{border-bottom:none;} 
+.no-data{color:var(--muted);font-size:13px;} 
+.env-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px;} 
+.env-item{display:flex;flex-direction:column;gap:3px;} 
+.env-lbl{font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:var(--muted);} 
+.env-val{font-size:13px;font-weight:500;} 
+.rec-list{list-style:none;} 
+.rec-item{display:flex;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);} 
+.rec-item:last-child{border-bottom:none;} 
+.rec-dot{flex-shrink:0;width:8px;height:8px;border-radius:50%;background:var(--info);margin-top:5px;} 
+.api-links-section{background:#e8f4f8;border:1px solid #0066cc;border-radius:4px;padding:12px;margin:12px 0;font-size:13px;} 
+.api-links-section strong{color:#0066cc;display:block;margin-bottom:8px;} 
+.api-link{color:#0066cc;text-decoration:none;padding:6px 12px;background:#cce5ff;border-radius:4px;display:inline-block;margin-right:8px;margin-bottom:8px;cursor:pointer;font-weight:500;} 
+.api-link:hover{background:#b3d9ff;text-decoration:underline;} 
+@media print{.hdr-actions,.toolbar{display:none!important;}body{background:#fff!important;padding:0;}.report{max-width:100%;}} 
+@media (max-width:860px){.title{font-size:20px;}th,td{font-size:12px;padding:8px;}.functionality-header{font-size:16px;}.testcase-header{font-size:14px;}}
+</style>
+</head>
+<body>
+<div class="report">
+  <div class="title">Automation Execution Summary Report</div>
+  <div class="meta">
+    <div><strong>Application:</strong> CombinedExecution</div>
+    <div><strong>Environment:</strong> QA</div>
+    <div><strong>Browser:</strong> Chromium</div>
+    <div><strong>Execution Time:</strong> 14-Aug-2026 14:51:41 IST</div>
+    <div><strong>Run Duration:</strong> 4.1s</div>
+    <div class="hdr-actions">
+      <button class="btn" onclick="toggleTheme()">Dark Mode</button>
+      <button class="btn" onclick="window.print()">Print</button>
+    </div>
+  </div>
+
+  <div class="kpi-grid">
+    <div class="kpi"><div class="label">Total Tests</div><div class="value">4</div><div class="sub">4 executed</div></div>
+    <div class="kpi"><div class="label">Passed</div><div class="value ok">4</div><div class="sub">100% pass rate</div></div>
+    <div class="kpi"><div class="label">Failed</div><div class="value bad">0</div><div class="sub">No failures</div></div>
+    <div class="kpi"><div class="label">Skipped</div><div class="value warn">0</div><div class="sub">No skips</div></div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-head">Execution Summary</div>
+    <div class="panel-body">
+      <div class="toolbar">
+        <input id="searchInput" type="text" placeholder="Search by Test Case ID, Name, or Functionality" oninput="applyFilters()" />
+        <button class="filter-btn active" onclick="setStatusFilter('all', this)">All</button>
+        <button class="filter-btn" onclick="setStatusFilter('PASS', this)">PASS</button>
+        <button class="filter-btn" onclick="setStatusFilter('FAIL', this)">FAIL</button>
+        <button class="filter-btn" onclick="setStatusFilter('SKIP', this)">SKIP</button>
+      </div>
+      <table id="summaryTable">
+        <thead>
+          <tr>
+            <th>Test Case ID</th>
+            <th>Test Case Name</th>
+            <th>Functionality</th>
+            <th>Total Steps</th>
+            <th>Passed Steps</th>
+            <th>Failed Steps</th>
+            <th>Execution Time</th>
+            <th>Result</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+        <tr data-status="PASS" data-search="TC001 should successfully create a user with valid data and return the created user details User">
+          <td class="center"><a href="#User_TC001" onclick="openTestCase('User','User_TC001')">TC001</a></td>
+          <td class="center">should successfully create a user with valid data and return the created user details</td>
+          <td class="center">User</td>
+          <td class="center">9</td>
+          <td class="center ok">9</td>
+          <td class="center bad">0</td>
+          <td class="center" data-duration-ms="1007">1,007 ms</td>
+          <td class="center" style="font-weight:700;color:#2e7d32;">PASS</td>
+        </tr>
+        <tr data-status="PASS" data-search="TC002 should successfully create a post and return the created post details APITests">
+          <td class="center"><a href="#APITests_TC002" onclick="openTestCase('APITests','APITests_TC002')">TC002</a></td>
+          <td class="center">should successfully create a post and return the created post details</td>
+          <td class="center">APITests</td>
+          <td class="center">10</td>
+          <td class="center ok">10</td>
+          <td class="center bad">0</td>
+          <td class="center" data-duration-ms="408">408 ms</td>
+          <td class="center" style="font-weight:700;color:#2e7d32;">PASS</td>
+        </tr>
+        <tr data-status="PASS" data-search="TC003 should successfully retrieve post by ID with complete validation APITests">
+          <td class="center"><a href="#APITests_TC003" onclick="openTestCase('APITests','APITests_TC003')">TC003</a></td>
+          <td class="center">should successfully retrieve post by ID with complete validation</td>
+          <td class="center">APITests</td>
+          <td class="center">10</td>
+          <td class="center ok">10</td>
+          <td class="center bad">0</td>
+          <td class="center" data-duration-ms="80">80 ms</td>
+          <td class="center" style="font-weight:700;color:#2e7d32;">PASS</td>
+        </tr>
+        <tr data-status="PASS" data-search="TC004 SAUCEDEMO_ADDTOCART_TC001 - Add Sauce Labs Backpack to the cart and remove it from the cart AddToCart">
+          <td class="center"><a href="#AddToCart_TC004" onclick="openTestCase('AddToCart','AddToCart_TC004')">TC004</a></td>
+          <td class="center">SAUCEDEMO_ADDTOCART_TC001 - Add Sauce Labs Backpack to the cart and remove it from the cart</td>
+          <td class="center">AddToCart</td>
+          <td class="center">11</td>
+          <td class="center ok">11</td>
+          <td class="center bad">0</td>
+          <td class="center" data-duration-ms="2647">2,647 ms</td>
+          <td class="center" style="font-weight:700;color:#2e7d32;">PASS</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  
+        <div class="functionality-header" onclick="toggleFunctionality('User')">
+          <span id="icon_func_User" class="toggle-icon">-</span>User
+        </div>
+        <div id="body_func_User" class="functionality-body" style="display:block;">
+          
+          <div id="User_TC001" class="testcase-header" onclick="toggleTestCase('User_TC001')">
+            <span id="icon_User_TC001" class="toggle-icon">-</span>TC001 should successfully create a user with valid data and return the created user details
+          </div>
+          <div id="body_User_TC001" class="testcase-body open" style="display:block;">
+            
+            <table>
+              <tr><th>Step #</th><th>Test Steps</th><th>Actual Result</th><th>Status</th><th>Screenshot</th></tr>
+              
+          <tr>
+            <td class="center">1</td>
+            <td>Send a POST request to create a new user with a valid JSON payload</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">2</td>
+            <td>Verify the API responds with a successful HTTP status 200 OK</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">3</td>
+            <td>Verify the response Content-Type header is application/json</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">4</td>
+            <td>Read and parse the created user from the JSON response body</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">5</td>
+            <td>Verify the response contains an id field returned as an integer</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">6</td>
+            <td>Verify the returned id echoes the id submitted in the request</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">7</td>
+            <td>Verify the returned userName matches the submitted userName</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">8</td>
+            <td>Verify the returned password matches the submitted password</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">9</td>
+            <td>Verify the response follows the expected user schema with no missing or unexpected fields</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+            </table>
+            <div class="api-links-section">
+              <strong>API Details:</strong>
+              <a href="javascript:void(0)" onclick="openApiContentInNewTab('request', 'User_TC001', event)" class="api-link">📄 Request Body</a>
+              <a href="javascript:void(0)" onclick="openApiContentInNewTab('response', 'User_TC001', event)" class="api-link">📄 Response Body</a>
+            </div>
+            <script type="application/json" id="apiData_User_TC001_request" style="display:none;">
+              {"method":"POST","url":"https://fakerestapi.azurewebsites.net/api/v1/Users","headers":"{\n  \"Content-Type\": \"application/json\",\n  \"Accept\": \"application/json\"\n}","body":"{\n  \"id\": 0,\n  \"userName\": \"testuser\",\n  \"password\": \"Test@123\"\n}"}
+            </script>
+            <script type="application/json" id="apiData_User_TC001_response" style="display:none;">
+              {"status":"200","statusText":"OK","headers":"{\n  \"content-type\": \"application/json; charset=utf-8; v=1.0\",\n  \"date\": \"Fri, 14 Aug 2026 09:21:36 GMT\",\n  \"server\": \"Kestrel\",\n  \"transfer-encoding\": \"chunked\",\n  \"api-supported-versions\": \"1.0\"\n}","body":"{\"id\":0,\"userName\":\"testuser\",\"password\":\"Test@123\"}"}
+            </script>
+          </div>
+        </div>
+        <div class="functionality-header" onclick="toggleFunctionality('APITests')">
+          <span id="icon_func_APITests" class="toggle-icon">-</span>APITests
+        </div>
+        <div id="body_func_APITests" class="functionality-body" style="display:block;">
+          
+          <div id="APITests_TC002" class="testcase-header" onclick="toggleTestCase('APITests_TC002')">
+            <span id="icon_APITests_TC002" class="toggle-icon">-</span>TC002 should successfully create a post and return the created post details
+          </div>
+          <div id="body_APITests_TC002" class="testcase-body open" style="display:block;">
+            
+            <table>
+              <tr><th>Step #</th><th>Test Steps</th><th>Actual Result</th><th>Status</th><th>Screenshot</th></tr>
+              
+          <tr>
+            <td class="center">1</td>
+            <td>Send a POST request to create a new post with a valid JSON payload</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">2</td>
+            <td>Verify the API responds with HTTP status 201 Created</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">3</td>
+            <td>Verify the response Content-Type header is application/json</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">4</td>
+            <td>Read and parse the created post from the JSON response body</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">5</td>
+            <td>Verify the server assigned a numeric id to the newly created post</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">6</td>
+            <td>Verify the returned title matches the submitted title</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">7</td>
+            <td>Verify the returned body text matches the submitted body text</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">8</td>
+            <td>Verify the returned userId matches the submitted userId</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">9</td>
+            <td>Verify the response contains all required post fields and no unexpected fields</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">10</td>
+            <td>Verify the Location header points to the newly created post resource</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+            </table>
+            <div class="api-links-section">
+              <strong>API Details:</strong>
+              <a href="javascript:void(0)" onclick="openApiContentInNewTab('request', 'APITests_TC002', event)" class="api-link">📄 Request Body</a>
+              <a href="javascript:void(0)" onclick="openApiContentInNewTab('response', 'APITests_TC002', event)" class="api-link">📄 Response Body</a>
+            </div>
+            <script type="application/json" id="apiData_APITests_TC002_request" style="display:none;">
+              {"method":"POST","url":"https://jsonplaceholder.typicode.com/posts","headers":"{\n  \"Content-Type\": \"application/json\"\n}","body":"{\n  \"title\": \"API Testing Post\",\n  \"body\": \"This post was created for API automation testing.\",\n  \"userId\": 1\n}"}
+            </script>
+            <script type="application/json" id="apiData_APITests_TC002_response" style="display:none;">
+              {"status":"201","statusText":"Created","headers":"{\n  \"date\": \"Fri, 14 Aug 2026 09:21:37 GMT\",\n  \"content-type\": \"application/json; charset=utf-8\",\n  \"content-length\": \"124\",\n  \"connection\": \"keep-alive\",\n  \"access-control-allow-credentials\": \"true\",\n  \"access-control-expose-headers\": \"Location\",\n  \"cache-control\": \"no-cache\",\n  \"etag\": \"W/\\\"7c-QhVSmCMwW9ZwdlmvcbhsTo5YLKo\\\"\",\n  \"expires\": \"-1\",\n  \"location\": \"https://jsonplaceholder.typicode.com/posts/101\",\n  \"nel\": \"{\\\"report_to\\\":\\\"heroku-nel\\\",\\\"response_headers\\\":[\\\"Via\\\"],\\\"max_age\\\":3600,\\\"success_fraction\\\":0.01,\\\"failure_fraction\\\":0.1}\",\n  \"pragma\": \"no-cache\",\n  \"report-to\": \"{\\\"group\\\":\\\"heroku-nel\\\",\\\"endpoints\\\":[{\\\"url\\\":\\\"https://nel.heroku.com/reports?s=m8B%2BigVKK%2Fd06oW2lS0oXC5uAvYU82uh8%2BKxnvsDyH8%3D\\\\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\\\\u0026ts=1786699297\\\"}],\\\"max_age\\\":3600}\",\n  \"reporting-endpoints\": \"heroku-nel=\\\"https://nel.heroku.com/reports?s=m8B%2BigVKK%2Fd06oW2lS0oXC5uAvYU82uh8%2BKxnvsDyH8%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1786699297\\\"\",\n  \"server\": \"cloudflare\",\n  \"vary\": \"Origin, X-HTTP-Method-Override, Accept-Encoding\",\n  \"via\": \"2.0 heroku-router\",\n  \"x-content-type-options\": \"nosniff\",\n  \"x-powered-by\": \"Express\",\n  \"x-ratelimit-limit\": \"1000\",\n  \"x-ratelimit-remaining\": \"999\",\n  \"x-ratelimit-reset\": \"1786699330\",\n  \"cf-cache-status\": \"DYNAMIC\",\n  \"cf-ray\": \"a2aee3f04d033b39-BOM\",\n  \"alt-svc\": \"h3=\\\":443\\\"; ma=86400\"\n}","body":"{\n  \"title\": \"API Testing Post\",\n  \"body\": \"This post was created for API automation testing.\",\n  \"userId\": 1,\n  \"id\": 101\n}"}
+            </script>
+          </div>
+          <div id="APITests_TC003" class="testcase-header" onclick="toggleTestCase('APITests_TC003')">
+            <span id="icon_APITests_TC003" class="toggle-icon">-</span>TC003 should successfully retrieve post by ID with complete validation
+          </div>
+          <div id="body_APITests_TC003" class="testcase-body open" style="display:block;">
+            
+            <table>
+              <tr><th>Step #</th><th>Test Steps</th><th>Actual Result</th><th>Status</th><th>Screenshot</th></tr>
+              
+          <tr>
+            <td class="center">1</td>
+            <td>Send GET request to retrieve post by ID</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">2</td>
+            <td>Validate HTTP status code is 200</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">3</td>
+            <td>Validate Content-Type header contains application/json</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">4</td>
+            <td>Parse response JSON body</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">5</td>
+            <td>Validate response id field equals 1</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">6</td>
+            <td>Validate userId field is a number</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">7</td>
+            <td>Validate title field is a non-empty string</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">8</td>
+            <td>Validate body field is a non-empty string</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">9</td>
+            <td>Validate response headers indicate successful delivery</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">10</td>
+            <td>Verify all required fields are present in response</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+            </table>
+            <div class="api-links-section">
+              <strong>API Details:</strong>
+              <a href="javascript:void(0)" onclick="openApiContentInNewTab('request', 'APITests_TC003', event)" class="api-link">📄 Request Body</a>
+              <a href="javascript:void(0)" onclick="openApiContentInNewTab('response', 'APITests_TC003', event)" class="api-link">📄 Response Body</a>
+            </div>
+            <script type="application/json" id="apiData_APITests_TC003_request" style="display:none;">
+              {"method":"GET","url":"https://jsonplaceholder.typicode.com/posts/1","headers":"{}","body":"No Request Body (GET request)"}
+            </script>
+            <script type="application/json" id="apiData_APITests_TC003_response" style="display:none;">
+              {"status":"200","statusText":"OK","headers":"{\n  \"date\": \"Fri, 14 Aug 2026 09:21:37 GMT\",\n  \"content-type\": \"application/json; charset=utf-8\",\n  \"transfer-encoding\": \"chunked\",\n  \"connection\": \"keep-alive\",\n  \"access-control-allow-credentials\": \"true\",\n  \"cache-control\": \"max-age=43200\",\n  \"etag\": \"W/\\\"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU\\\"\",\n  \"expires\": \"-1\",\n  \"nel\": \"{\\\"report_to\\\":\\\"heroku-nel\\\",\\\"response_headers\\\":[\\\"Via\\\"],\\\"max_age\\\":3600,\\\"success_fraction\\\":0.01,\\\"failure_fraction\\\":0.1}\",\n  \"pragma\": \"no-cache\",\n  \"report-to\": \"{\\\"group\\\":\\\"heroku-nel\\\",\\\"endpoints\\\":[{\\\"url\\\":\\\"https://nel.heroku.com/reports?s=vm67FVLNHsCgrFgubRa04ooDeMKdgwXS9H3i2IbjuoY%3D\\\\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\\\\u0026ts=1785194657\\\"}],\\\"max_age\\\":3600}\",\n  \"reporting-endpoints\": \"heroku-nel=\\\"https://nel.heroku.com/reports?s=vm67FVLNHsCgrFgubRa04ooDeMKdgwXS9H3i2IbjuoY%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1785194657\\\"\",\n  \"server\": \"cloudflare\",\n  \"vary\": \"Origin, Accept-Encoding\",\n  \"via\": \"2.0 heroku-router\",\n  \"x-content-type-options\": \"nosniff\",\n  \"x-powered-by\": \"Express\",\n  \"x-ratelimit-limit\": \"1000\",\n  \"x-ratelimit-remaining\": \"999\",\n  \"x-ratelimit-reset\": \"1785194663\",\n  \"age\": \"20648\",\n  \"cf-cache-status\": \"HIT\",\n  \"content-encoding\": \"br\",\n  \"cf-ray\": \"a2aee3f20e3a3b39-BOM\",\n  \"alt-svc\": \"h3=\\\":443\\\"; ma=86400\"\n}","body":"{\n  \"userId\": 1,\n  \"id\": 1,\n  \"title\": \"sunt aut facere repellat provident occaecati excepturi optio reprehenderit\",\n  \"body\": \"quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto\"\n}"}
+            </script>
+          </div>
+        </div>
+        <div class="functionality-header" onclick="toggleFunctionality('AddToCart')">
+          <span id="icon_func_AddToCart" class="toggle-icon">-</span>AddToCart
+        </div>
+        <div id="body_func_AddToCart" class="functionality-body" style="display:block;">
+          
+          <div id="AddToCart_TC004" class="testcase-header" onclick="toggleTestCase('AddToCart_TC004')">
+            <span id="icon_AddToCart_TC004" class="toggle-icon">-</span>TC004 SAUCEDEMO_ADDTOCART_TC001 - Add Sauce Labs Backpack to the cart and remove it from the cart
+          </div>
+          <div id="body_AddToCart_TC004" class="testcase-body open" style="display:block;">
+            
+            <table>
+              <tr><th>Step #</th><th>Test Steps</th><th>Actual Result</th><th>Status</th><th>Screenshot</th></tr>
+              
+          <tr>
+            <td class="center">1</td>
+            <td>Navigate to the Swag Labs login page</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">2</td>
+            <td>Log in as the standard user with valid credentials</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">3</td>
+            <td>Verify the Products page is displayed with an empty shopping cart</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">4</td>
+            <td>Verify the Sauce Labs Backpack product is listed with its price</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">5</td>
+            <td>Add Sauce Labs Backpack to the shopping cart from the Products page</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">6</td>
+            <td>Verify the shopping cart badge shows one item</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">7</td>
+            <td>Open the shopping cart</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">8</td>
+            <td>Verify the cart contains Sauce Labs Backpack with quantity 1</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">9</td>
+            <td>Remove Sauce Labs Backpack from the shopping cart</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">10</td>
+            <td>Verify the shopping cart badge is cleared after removal</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+          <tr>
+            <td class="center">11</td>
+            <td>Return to the Products page and verify the product can be added again</td>
+            <td>Step completed successfully</td>
+            <td class="status-pass">PASS</td>
+            <td class="center">N/A</td>
+          </tr>
+            </table>
+            
+            <script type="application/json" id="apiData_AddToCart_TC004_request" style="display:none;">
+              {"method":"N/A","url":"N/A","headers":"{}","body":"No Request Body"}
+            </script>
+            <script type="application/json" id="apiData_AddToCart_TC004_response" style="display:none;">
+              {"status":"N/A","statusText":"N/A","headers":"{}","body":"No response"}
+            </script>
+          </div>
+        </div>
+</div>
+
+<script>
+  let currentFilter = 'all';
+
+  function toggleTheme() {
+    const h = document.documentElement;
+    h.setAttribute('data-theme', h.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+  }
+
+  function toggleTestCase(id) {
+    const body = document.getElementById('body_' + id);
+    const icon = document.getElementById('icon_' + id);
+    if (!body || !icon) return;
+    if (body.style.display === 'none' || body.style.display === '') {
+      body.style.display = 'block';
+      body.classList.add('open');
+      icon.innerHTML = '-';
+    } else {
+      body.style.display = 'none';
+      body.classList.remove('open');
+      icon.innerHTML = '+';
+    }
+  }
+
+  function toggleFunctionality(id) {
+    const body = document.getElementById('body_func_' + id);
+    const icon = document.getElementById('icon_func_' + id);
+    if (!body || !icon) return;
+    if (body.style.display === 'none' || body.style.display === '') {
+      body.style.display = 'block';
+      icon.innerHTML = '-';
+    } else {
+      body.style.display = 'none';
+      icon.innerHTML = '+';
+    }
+  }
+
+  function openTestCase(func, testcaseId) {
+    const funcBody = document.getElementById('body_func_' + func);
+    const funcIcon = document.getElementById('icon_func_' + func);
+    if (funcBody && (funcBody.style.display === 'none' || funcBody.style.display === '')) {
+      funcBody.style.display = 'block';
+      if (funcIcon) funcIcon.innerHTML = '-';
+    }
+
+    const testBody = document.getElementById('body_' + testcaseId);
+    const testIcon = document.getElementById('icon_' + testcaseId);
+    if (testBody && (testBody.style.display === 'none' || testBody.style.display === '')) {
+      testBody.style.display = 'block';
+      testBody.classList.add('open');
+      if (testIcon) testIcon.innerHTML = '-';
+    }
+  }
+
+  function setStatusFilter(status, btn) {
+    currentFilter = status;
+    const buttons = document.querySelectorAll('.toolbar .filter-btn');
+    for (let i = 0; i < buttons.length; i++) buttons[i].classList.remove('active');
+    if (btn) btn.classList.add('active');
+    applyFilters();
+  }
+
+  function applyFilters() {
+    const q = (document.getElementById('searchInput').value || '').toLowerCase();
+    const rows = document.querySelectorAll('#summaryTable tbody tr');
+    for (let i = 0; i < rows.length; i++) {
+      const row = rows[i];
+      const status = row.getAttribute('data-status');
+      const search = (row.getAttribute('data-search') || '').toLowerCase();
+      const matchesStatus = currentFilter === 'all' || status === currentFilter;
+      const matchesQuery = !q || search.indexOf(q) >= 0 || row.textContent.toLowerCase().indexOf(q) >= 0;
+      row.style.display = (matchesStatus && matchesQuery) ? '' : 'none';
+    }
+  }
+
+  function openApiContentInNewTab(type, testcaseId, event) {
+    event.preventDefault();
+    const dataElement = document.getElementById('apiData_' + testcaseId + '_' + type);
+    if (!dataElement) {
+      alert('No ' + type + ' data found for this test case');
+      return;
+    }
+    
+    try {
+      const data = JSON.parse(dataElement.textContent);
+      let content = '';
+      
+      if (type === 'request') {
+        content = '<h2>Request Details</h2>';
+        content += '<p><strong>Method:</strong> ' + (data.method || 'N/A') + '</p>';
+        content += '<p><strong>URL:</strong> ' + (data.url || 'N/A') + '</p>';
+        
+        // Display headers
+        if (data.headers) {
+          content += '<h3>Headers:</h3>';
+          try {
+            const headers = JSON.parse(data.headers);
+            Object.keys(headers).forEach(function(key) {
+              content += '<p style="margin-left:20px;"><strong>' + key + ':</strong> ' + headers[key] + '</p>';
+            });
+          } catch (e) {
+            content += '<p>' + data.headers + '</p>';
+          }
+        }
+        
+        // Display body
+        if (data.body && data.body !== 'No Request Body (GET request)') {
+          content += '<h3>Request Body:</h3>';
+          let bodyContent = data.body;
+          try {
+            const parsed = JSON.parse(bodyContent);
+            bodyContent = JSON.stringify(parsed, null, 2);
+          } catch (e) {
+            // Keep as-is if not JSON
+          }
+          content += '<pre style="background:#f9f9f9;padding:15px;border:1px solid #ddd;border-radius:4px;overflow:auto;font-family:Consolas,monospace;font-size:14px;line-height:1.5;white-space:pre-wrap;word-wrap:break-word;">' + bodyContent.replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</pre>';
+        } else {
+          content += '<h3>Request Body:</h3>';
+          content += '<pre style="background:#f9f9f9;padding:15px;border:1px solid #ddd;border-radius:4px;overflow:auto;font-family:Consolas,monospace;font-size:14px;line-height:1.5;">' + (data.body || 'No Request Body') + '</pre>';
+        }
+      } else if (type === 'response') {
+        content = '<h2>Response Details</h2>';
+        content += '<p><strong>Status Code:</strong> ' + (data.status || 'N/A') + '</p>';
+        if (data.statusText) {
+          content += '<p><strong>Status Message:</strong> ' + data.statusText + '</p>';
+        }
+        if (data.responseTime) {
+          content += '<p><strong>Response Time:</strong> ' + data.responseTime + '</p>';
+        }
+        
+        // Display headers
+        if (data.headers) {
+          content += '<h3>Response Headers:</h3>';
+          try {
+            const headers = JSON.parse(data.headers);
+            Object.keys(headers).forEach(function(key) {
+              content += '<p style="margin-left:20px;"><strong>' + key + ':</strong> ' + headers[key] + '</p>';
+            });
+          } catch (e) {
+            content += '<p>' + data.headers + '</p>';
+          }
+        }
+        
+        // Display body
+        content += '<h3>Response Body:</h3>';
+        let bodyContent = data.body || 'No body';
+        try {
+          const parsed = JSON.parse(bodyContent);
+          bodyContent = JSON.stringify(parsed, null, 2);
+        } catch (e) {
+          // If not JSON, just use as-is
+        }
+        content += '<pre style="background:#f9f9f9;padding:15px;border:1px solid #ddd;border-radius:4px;overflow:auto;font-family:Consolas,monospace;font-size:14px;line-height:1.5;white-space:pre-wrap;word-wrap:break-word;">' + bodyContent.replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</pre>';
+      }
+      
+      const newWindow = window.open('', 'apiContent_' + testcaseId + '_' + type, 'width=1000,height=800,scrollbars=yes');
+      if (newWindow) {
+        newWindow.document.write('<!DOCTYPE html>');
+        newWindow.document.write('<html>');
+        newWindow.document.write('<head>');
+        newWindow.document.write('<meta charset="UTF-8">');
+        newWindow.document.write('<title>API ' + type.charAt(0).toUpperCase() + type.slice(1) + ' - ' + testcaseId + '</title>');
+        newWindow.document.write('<style>');
+        newWindow.document.write('body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; margin: 20px; background: #f5f5f5; color: #333; }');
+        newWindow.document.write('.container { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }');
+        newWindow.document.write('h2 { color: #0066cc; border-bottom: 2px solid #0066cc; padding-bottom: 10px; margin-bottom: 15px; font-size: 24px; }');
+        newWindow.document.write('h3 { color: #333; margin-top: 20px; margin-bottom: 10px; font-size: 18px; }');
+        newWindow.document.write('p { line-height: 1.8; margin: 10px 0; font-size: 15px; }');
+        newWindow.document.write('strong { color: #0066cc; }');
+        newWindow.document.write('pre { background: #f9f9f9; padding: 15px; border: 1px solid #ddd; border-radius: 4px; overflow: auto; max-height: 600px; font-size: 14px; line-height: 1.5; }');
+        newWindow.document.write('</style>');
+        newWindow.document.write('</head>');
+        newWindow.document.write('<body>');
+        newWindow.document.write('<div class="container">');
+        newWindow.document.write(content);
+        newWindow.document.write('</div>');
+        newWindow.document.write('</body>');
+        newWindow.document.write('</html>');
+        newWindow.document.close();
+      }
+    } catch (e) {
+      alert('Error opening ' + type + ' content: ' + e.message);
+    }
+  }
+</script>
+</body>
+</html>
